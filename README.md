@@ -25,7 +25,7 @@ Alternatively, you can simply open an issue.
 
 ## Changes
 
-When **major changes** are proposed, they undergo the Federal Chancellery’s standard review process and, upon approval, are translated and published on the [Swiss Federal Chancellery website](https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html). The respective documents are then assigned a new version number.
+When **major changes** are proposed, they undergo the Federal Chancellery’s standard review process and, upon approval, are translated and published on the [Swiss Federal Chancellery website](https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html). The respective documents are then assigned a new version number. Mayor changes between versions can be followed using the [release](https://github.com/swiss/opensource-guidelines/releases) notes.
 
 **Minor changes** are incorporated regularly into the official PDF publications on the [Swiss Federal Chancellery website](https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html).
 
