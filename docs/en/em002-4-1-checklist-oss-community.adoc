@@ -1,5 +1,15 @@
 = Em002-4.1 OSS Community Checklist
 :lang: en
+:govpress-style: report
+:govpress-front-block: report
+:classification:
+:title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Office
+:title-logo-line3:
+:title-page:
+:pdf-theme: basic
 :toc:
 :sectnums:
 :toclevels: 3
@@ -7,6 +17,7 @@
 :experimental:
 :revnumber: 1.0
 :revdate: 14.09.2026
+:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
 
 This checklist goes together with _Em002-2 Instructions for Publishing Open Source Software_ and _Em002-4 OSS Community Guidelines_. +
 It must be filled in at the start of a project or at the start of the clarifications for release and subsequently completed. +

@@ -1,5 +1,15 @@
 = Guidelines to open source software (according to Article 9 EMOTA)
 :lang: en
+:govpress-style: report
+:govpress-front-block: report
+:classification:
+:title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Office
+:title-logo-line3:
+:title-page:
+:pdf-theme: basic
 :toc:
 :sectnums:
 :toclevels: 3
@@ -7,6 +17,7 @@
 :experimental:
 :revnumber: 1.0
 :revdate: 14.09.2026
+:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
 
 This repository contains *evolving drafts* of guidelines and tools to support the Federal Administration in publishing open source code. The *official and binding versions* are available in all official languages on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website].
 

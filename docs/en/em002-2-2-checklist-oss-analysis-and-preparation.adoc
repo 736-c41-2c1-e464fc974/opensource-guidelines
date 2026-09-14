@@ -1,5 +1,15 @@
 = Em002-2.2 OSS Analysis and Preparation Checklist
 :lang: en
+:govpress-style: report
+:govpress-front-block: report
+:classification:
+:title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Office
+:title-logo-line3:
+:title-page:
+:pdf-theme: basic
 :toc:
 :sectnums:
 :toclevels: 3
@@ -7,6 +17,7 @@
 :experimental:
 :revnumber: 1.0
 :revdate: 14.09.2026
+:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
 
 This checklist is part of _Em002-2 Instructions for Publishing Open Source Software_ and is intended for ICT professionals. +
 It serves to review the documentation and source code of a project. In doing so, it helps ensure that the quality level of the documentation is sufficient to publish an application as open source. It can also be used to verify that the source code and all third-party components used by the project do not pose any legal risks. These measures minimise security risks. +

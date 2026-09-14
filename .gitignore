@@ -1,0 +1,11 @@
+# devenv / direnv
+.devenv*
+.direnv/
+
+# open-govpress: downloaded from a GitHub Release and extracted on demand,
+# see devenv.nix
+/open-govpress/.cache/
+/open-govpress/.extracted/
+
+# rendered output (build artifacts, not source)
+*.pdf

@@ -1,5 +1,15 @@
 = Tools for Publishing Open Source Software
 :lang: en
+:govpress-style: report
+:govpress-front-block: report
+:classification:
+:title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Office
+:title-logo-line3:
+:title-page:
+:pdf-theme: basic
 :toc:
 :sectnums:
 :toclevels: 3
@@ -7,6 +17,7 @@
 :experimental:
 :revnumber: 1.0
 :revdate: 14.09.2026
+:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
 
 Federal agencies are required to disclose the source code of software they develop or have developed to fulfill their duties. They must allow anyone to use, further develop, and distribute the software without charging licensing fees. This requirement is outlined in Article 9 of the Federal Act on the Use of Electronic Means for Fulfilling Administrative Tasks (EMOTA). Responsibility for implementation lies with the individual agencies. The Federal Chancellery provides suitable tools to assist federal agencies in meeting this requirement.
 
