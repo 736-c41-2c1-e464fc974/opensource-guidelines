@@ -355,7 +355,7 @@ Intranet: link:https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/stan
 
 |[BöB] |Federal Act on Public Procurement (PPA) link:https://www.fedlex.admin.ch/eli/oc/2020/126/de[https://www.fedlex.admin.ch/eli/oc/2020/126/de]
 
-|[DigiV] |Ordinance on Digital Services and the Digital Transformation in the Federal Administration, DigiO) link:https://www.fedlex.admin.ch/eli/cc/2025/235/de[SR 172.019.1 \– Ordinance of 2 April 2025 \| Fedlex]
+|[DigiV] |Ordinance on Digital Services and the Digital Transformation in the Federal Administration, DigiO) link:https://www.fedlex.admin.ch/eli/cc/2025/235/de[SR 172.019.1 – Ordinance of 2 April 2025 \| Fedlex]
 
 |[EY2011] |Open Source Software im geschäftskritischen Einsatz. Ernst & Young. 2011. link:https://www.yumpu.com/de/document/read/23276493/open-source-software-ernst-young[https://www.yumpu.com/de/document/read/23276493/open-source-software-ernst-young].
 

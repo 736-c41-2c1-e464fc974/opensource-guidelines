@@ -103,14 +103,14 @@ Furthermore, the operators of AI systems may reserve the right in their terms an
 It is recommended to examine and approve the use of AI tools individually. Unapproved tools may not be used, but employees can apply for approval of a tool. Often it makes sense to resolve such issues by contract with the supplier, or some suppliers may offer special subscriptions by which they respect third-party rights, e.g. DeepL.
 |===
 
-=== Legal basis in EMOTAfootnote:[SR 172.019]
+=== Legal basis in EMOTA
 
 [cols="1,9",options="header"]
 |===
 |Q |*What is the legal basis for the publication of OSS?*
 
 a|A
-a|According to Art. 9 EMOTA, federal authorities of the central Federal Administration must disclose the source code of software they develop or commission. Any person is allowed to use, further develop or modify the software without being charged fees of any kind.
+a|According to Art. 9 EMOTAfootnote:[SR 172.019], federal authorities of the central Federal Administration must disclose the source code of software they develop or commission. Any person is allowed to use, further develop or modify the software without being charged fees of any kind.
 
 Publication of source code can only be avoided in relation to third-party rights or for security-relevant reasons.
 

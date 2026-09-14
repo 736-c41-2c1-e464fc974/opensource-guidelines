@@ -878,9 +878,9 @@ NB: The commune register GERES is not open source, but many aspects of the organ
 
 The following examples illustrate how collaborations have been structured.
 
-=== Collaboration: ZenDiSfootnote:[https://www.zendis.de/en[ZenDiS home page: Co-creating Digital Sovereignty]] in Germany
+=== Collaboration: ZenDiS in Germany
 
-ZenDiS is an organisation whose aim is to reduce dependency in public administration (primarily in Germany) by promoting open source software.
+ZenDiSfootnote:[https://www.zendis.de/en[ZenDiS home page: Co-creating Digital Sovereignty]] is an organisation whose aim is to reduce dependency in public administration (primarily in Germany) by promoting open source software.
 
 image::assets/em002-4/media/image2.png[Goals and approaches to strengthening digital sovereignty (ZenDiS)]
 
@@ -898,9 +898,9 @@ NB: ZenDiS is subject to EU/German procurement law. There are significant differ
 
 Open Trip Plannerfootnote:[https://www.opentripplanner.org/[OpenTripPlanner]] is an open source travel planning application. It is organised as a project of the Software Freedom Conservancy in New York. Individual developers are employed by transport companies and suppliers. A notable feature is that a public sector actor -- specifically ENTURfootnote:[https://entur.no/] -- has taken on one of the leading roles. ENTUR develops primarily for its own needs but also has a collaborative focus, particularly for the Nordic countries. ENTUR is organised as a company owned by the Norwegian Ministry of Transport and Communications. As the largest actor, ENTUR also absorbs a significant share of the coordination costs. Anyone can submit feature requests; these are discussed in coordination meetings and developed if someone funds them. Funding is provided primarily on a per-feature basis by the interested party or parties. In essence, each party bears its own costs. Support services would also need to be put out to tender separately in Switzerland.
 
-=== New collaboration initiated by the Confederation: Swiss Trust Brokerfootnote:[https://github.com/trustbroker-swiss/trustbroker.swiss[GitHub - trustbroker-swiss/trustbroker.swiss: Documentation of the trustbroker.swiss service]]
+=== New collaboration initiated by the Confederation: Swiss Trust Broker
 
-The Trust Broker is a piece of Confederation software for eIAM, available as open source. Development is carried out by the Confederation. Several cantons have decided to deploy it either directly as SaaS or with their own instances. As it is available under the AGPL licence, any extensions made will benefit the Confederation in turn. Given its security-critical nature, development for the Federal Administration is carried out exclusively by the Confederation. Other organisations may submit requirements, which will be implemented if the project team considers them appropriate.
+The Trust Brokerfootnote:[https://github.com/trustbroker-swiss/trustbroker.swiss[GitHub - trustbroker-swiss/trustbroker.swiss: Documentation of the trustbroker.swiss service]] is a piece of Confederation software for eIAM, available as open source. Development is carried out by the Confederation. Several cantons have decided to deploy it either directly as SaaS or with their own instances. As it is available under the AGPL licence, any extensions made will benefit the Confederation in turn. Given its security-critical nature, development for the Federal Administration is carried out exclusively by the Confederation. Other organisations may submit requirements, which will be implemented if the project team considers them appropriate.
 
 === New collaboration initiated by the cantons: inosca
 
