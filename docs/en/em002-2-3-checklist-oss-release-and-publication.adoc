@@ -69,25 +69,31 @@ The checklist is to be completed before actual publication.
 
 [cols="1,6,1"]
 |===
-|☐
-|'Em002-2.1 OSS Preliminary Assessment Checklist' has been completed and no problematic points were identified.
 |
-
-|☐
-|'Em002-2.2 OSS Analysis and Preparation Checklist' has been completed and no problematic points were identified.
-|
-
-|☐
 a|
-Licence has been selected.
+[%interactive]
+* [ ] 'Em002-2.1 OSS Preliminary Assessment Checklist' has been completed and no problematic points were identified.
+|
+
+|
+a|
+[%interactive]
+* [ ] 'Em002-2.2 OSS Analysis and Preparation Checklist' has been completed and no problematic points were identified.
+|
+
+|
+a|
+[%interactive]
+* [ ] Licence has been selected.
 
 Selected licence and justification
 
 |
 
-|☐
+|
 a|
-ISDS concept has been created.
+[%interactive]
+* [ ] ISDS concept has been created.
 
 The relevant reviews have been carried out. Refer to documents/reviews. It is defined how security-relevant reports by third parties will be handled. +
 If applicable, the software will be subject to a bug bounty programme. +
@@ -96,25 +102,28 @@ The relevant configuration is described and the person responsible is named.
 
 |
 
-|☐
+|
 a|
-Community and support is regulated (via 'Em002-4.1 OSS Community Checklist')
+[%interactive]
+* [ ] Community and support is regulated (via 'Em002-4.1 OSS Community Checklist')
 
 The checklist is attached. The key points are included here.
 
 |
 
-|☐
+|
 a|
-Level and method of support have been clarified.
+[%interactive]
+* [ ] Level and method of support have been clarified.
 
 Indication of how this has been regulated.
 
 |
 
-|☐
+|
 a|
-A *publiccode.yml* was created for the publication.
+[%interactive]
+* [ ] A *publiccode.yml* was created for the publication.
 
 The metadata standard https://yml.publiccode.tools/ describes the software. The defined format makes the publication easier to find and reuse. +
 This must be saved in the main directory of the repository. +
@@ -122,17 +131,19 @@ If a new repository or organisation is created, this can be reported via opensou
 
 |
 
-|☐
+|
 a|
-Transferred responsibilities
+[%interactive]
+* [ ] Transferred responsibilities
 
 Indication of whether responsibility for release was transferred to a third party (supplier, support, association) during procurement or subsequently.
 
 |
 
-|☐
+|
 a|
-Green light for open sourcing from the application and budget managers
+[%interactive]
+* [ ] Green light for open sourcing from the application and budget managers
 
 Names and date
 

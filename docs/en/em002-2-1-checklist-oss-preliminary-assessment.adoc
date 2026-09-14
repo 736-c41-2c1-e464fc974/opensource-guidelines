@@ -71,13 +71,11 @@ a|
 
 Is this new software or an existing project (see [Em002-2] Section 3.1).
 
-☐ Legacy (further development)
-
-☐ New software
-
-☐ Legacyfootnote:[Not required by EMOTA, but it is also possible to release existing software.] or further development of legacy software
-
-☐ Existing third-party project ( Complete _Em002-4.1 OSS Community Checklist_)
+[%interactive]
+* [ ] Legacy (further development)
+* [ ] New software
+* [ ] Legacyfootnote:[Not required by EMOTA, but it is also possible to release existing software.] or further development of legacy software
+* [ ] Existing third-party project ( Complete _Em002-4.1 OSS Community Checklist_)
 
 |
 a|
@@ -85,15 +83,12 @@ Life cycle
 
 In what stage of the life cycle is the software currently (see [Em002-2] Section 3.1).footnote:[Replacement of existing software should be noted here as 'planned'.]
 
-☐ Planned
-
-☐ In development
-
-☐ In operation
-
-☐ End of life
-
-☐ Archive
+[%interactive]
+* [ ] Planned
+* [ ] In development
+* [ ] In operation
+* [ ] End of life
+* [ ] Archive
 
 |
 a|
@@ -101,11 +96,10 @@ Users
 
 Are there potential or known individuals or organisations using the software? Are there potential customers for the software? Possible and known users can be named in the textbox.
 
-☐ None conceivable
-
-☐ Potential users
-
-☐ Known users
+[%interactive]
+* [ ] None conceivable
+* [ ] Potential users
+* [ ] Known users
 
 |
 a|
@@ -115,23 +109,20 @@ What is the basic structure? Is this an in-house development by the Confederatio
 The structure of co-development and third-party project can be listed in the textbox +
 (see [Em002-2] Section 3.1).
 
-☐ In-house development
-
-☐ Joint development (_Em002-4.1 OSS Community Checklist_ to be completed)
-
-☐ Third-party project (_Em002-4.1 OSS Community Checklist_ to be completed)
+[%interactive]
+* [ ] In-house development
+* [ ] Joint development (_Em002-4.1 OSS Community Checklist_ to be completed)
+* [ ] Third-party project (_Em002-4.1 OSS Community Checklist_ to be completed)
 
 |
 a|
 Who is publishing the software?
 
-☐ Federal authority
-
-☐ Service provider
-
-☐ Supplier
-
-☐ Third party
+[%interactive]
+* [ ] Federal authority
+* [ ] Service provider
+* [ ] Supplier
+* [ ] Third party
 
 |
 a|
@@ -139,27 +130,29 @@ Depth of release
 
 Outcome from _Em002-4.1 OSS Community Checklist_.
 
-☐ Minimal publication: Publication of the source code and other artefacts
+[%interactive]
+* [ ] Minimal publication: Publication of the source code and other artefacts
+* [ ] Issue tracking: Errors can be reported and will be handled.
+* [ ] Community
 
-☐ Issue tracking: Errors can be reported and will be handled.
-
-☐ Community
-
-|☐
+|
 a|
-There is no violation of third-party rights (e.g. patent rights, intellectual property, trademark or design protection).
+[%interactive]
+* [ ] There is no violation of third-party rights (e.g. patent rights, intellectual property, trademark or design protection).
 
 Reviews according to [Em002-2] Section 3.2 have been carried out. The ownership of the software lies with the Confederation, or it is being developed by employees of the Confederation (internal or external). Justification must be given, especially if this is not the case. It must also be explained why the rights do not lie with the Confederation and what checks were made regarding proprietary parts, as well as what was done regarding possible obstacles (e.g. patent protection), or how far investigations went.
 
-|☐
+|
 a|
-There are no security-relevant reasons preventing publication.
+[%interactive]
+* [ ] There are no security-relevant reasons preventing publication.
 
 Reviews according to [Em002-2] Section 3.3 have been carried out.
 
-|☐
+|
 a|
-There is agreement in principle and feasibility exists for publishing the application as open source.
+[%interactive]
+* [ ] There is agreement in principle and feasibility exists for publishing the application as open source.
 
 Reference to minutes or decision-making body with date.
 

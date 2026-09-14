@@ -51,12 +51,15 @@ a|
 
 [cols="1,6"]
 |===
-|☐
-|_Em002-2.1 OSS Preliminary Assessment Checklist_ has been completed and no problematic points were identified.
-
-|☐
+|
 a|
-The source code to be published has been analysed.
+[%interactive]
+* [ ] _Em002-2.1 OSS Preliminary Assessment Checklist_ has been completed and no problematic points were identified.
+
+|
+a|
+[%interactive]
+* [ ] The source code to be published has been analysed.
 
 * Review how the existing code quality and guidelines have been implemented.
 * Ensure no sensitive (test) data is included, e.g. data based on real people or cases.
@@ -67,9 +70,10 @@ The source code to be published has been analysed.
 * Review all libraries used to ensure licences are present and corresponding lists (attributions) have been created.
 * Description of the deployment (CI/CD pipelinefootnote:[https://en.wikipedia.org/wiki/CI/CD]) and possibly setup of a demo instance.
 
-|☐
+|
 a|
-Licence selection
+[%interactive]
+* [ ] Licence selection
 
 * Check for any dependencies on existing licences.
 * For third-party code, check terms of use for compatibility with intended licence and replace code if necessary.
@@ -77,56 +81,71 @@ Licence selection
 
 Selected licence and justification
 
-|☐
+|
 a|
-The documentation is stored with the source code (see [Em002-2] Annex D.1.)
+[%interactive]
+* [ ] The documentation is stored with the source code (see [Em002-2] Annex D.1.)
 
 Justification/storage location
 
-|☐
+|
 a|
-The documentation addresses both end users and technical professionals.
+[%interactive]
+* [ ] The documentation addresses both end users and technical professionals.
 
 List of the central documentation
 
-|☐
+|
 a|
-Detailed documentation of the source code (OSS specific)
+[%interactive]
+* [ ] Detailed documentation of the source code (OSS specific)
 
 Important standard documentation (README, LICENSE, CONTRIBUTING, etc.) is available.
 
-|☐
+|
 a|
-The source code, including history, contains no sensitive, protected or confidential personal data. Or the history has been completely deleted. (see [Em002-2] Annex E.2.)
+[%interactive]
+* [ ] The source code, including history, contains no sensitive, protected or confidential personal data. Or the history has been completely deleted. (see [Em002-2] Annex E.2.)
 
 Explanation of review (if not filed as separate document)
 
-|☐
+|
 a|
-It has been clarified with the supplier and all involved developers within the Federal Administration whether author information (names, email addresses) may be published. +
+[%interactive]
+* [ ] It has been clarified with the supplier and all involved developers within the Federal Administration whether author information (names, email addresses) may be published. +
 Alternatively, the source code including history has been cleaned/anonymised.
 
-|☐
+|
 a|
-The libraries used by the project are compatible with the project's licence.
+[%interactive]
+* [ ] The libraries used by the project are compatible with the project's licence.
 
 Explanation of review (if not filed as separate document)
 
-|☐
-|The project uses a package manager to manage its dependencies.
-
-|☐
-|The project declares its licence in the corresponding descriptor of the package manager. Creation of a Software Bill of Materials (SBOM), which lists all open source components used.
-
-|☐
+|
 a|
-The source code contains a _THIRD-PARTY-LICENSES.md_ file listing for each library used: the project name of the library, the homepage of the library, the SPDX identifier of the library's licence, and a link to the library's licence.
+[%interactive]
+* [ ] The project uses a package manager to manage its dependencies.
 
-|☐
-|For applications, an 'About' dialogue is available that references the _THIRD-PARTY-LICENSES.md_ file.
+|
+a|
+[%interactive]
+* [ ] The project declares its licence in the corresponding descriptor of the package manager. Creation of a Software Bill of Materials (SBOM), which lists all open source components used.
 
-|☐
-|As part of the code review process, it is ensured that the _THIRD-PARTY-LICENSES.md_ file is updated with every change to the libraries.
+|
+a|
+[%interactive]
+* [ ] The source code contains a _THIRD-PARTY-LICENSES.md_ file listing for each library used: the project name of the library, the homepage of the library, the SPDX identifier of the library's licence, and a link to the library's licence.
+
+|
+a|
+[%interactive]
+* [ ] For applications, an 'About' dialogue is available that references the _THIRD-PARTY-LICENSES.md_ file.
+
+|
+a|
+[%interactive]
+* [ ] As part of the code review process, it is ensured that the _THIRD-PARTY-LICENSES.md_ file is updated with every change to the libraries.
 
 |===
 
