@@ -1,0 +1,175 @@
+= Em002-2.1 OSS Preliminary Assessment Checklist
+:lang: en
+:toc:
+:sectnums:
+:toclevels: 3
+:sectnumlevels: 3
+:experimental:
+:revnumber: 1.0
+:revdate: 14.09.2026
+
+This checklist is part of the document _Em002-2 Instructions for Publishing Open Source Software_. It should be completed at the start of a project or when clarifying whether software does not need to be published.
+
+The description of the checklist can be found in _[Em002-2]_, Section 3.
+
+This checklist can also be used to define whether development will be as open development directly on a public repository.
+
+For legacy code (developed before EMOTA came into force on 1.1.2024), additional questions are provided.
+
+Important: If software is not to be released as OSS, this checklist also serves as justification for such a decision.
+
+== Subject matter
+
+=== Name and brief description of the software
+
+Enter the name of the software. +
+This name should be identical in all subsequent OSS checklists to ensure correct allocation.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+Describe the goal and purpose of the software as well as the scope. +
+If a URL link exists, please also provide this.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+=== Contact person and review
+
+Name the federal authority (organisational unit), contact person and the persons responsible for the legal review (e.g. ISBO/DSBO) who have verified compliance with the publication requirements.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+== Checklist
+
+[cols="1,6"]
+|===
+|
+a|
+*New software or legacy*
+
+Is this new software or an existing project (see [Em002-2] Section 3.1).
+
+☐ Legacy (further development)
+
+☐ New software
+
+☐ Legacyfootnote:[Not required by EMOTA, but it is also possible to release existing software.] or further development of legacy software
+
+☐ Existing third-party project ( Complete _Em002-4.1 OSS Community Checklist_)
+
+|
+a|
+Life cycle
+
+In what stage of the life cycle is the software currently (see [Em002-2] Section 3.1).footnote:[Replacement of existing software should be noted here as 'planned'.]
+
+☐ Planned
+
+☐ In development
+
+☐ In operation
+
+☐ End of life
+
+☐ Archive
+
+|
+a|
+Users
+
+Are there potential or known individuals or organisations using the software? Are there potential customers for the software? Possible and known users can be named in the textbox.
+
+☐ None conceivable
+
+☐ Potential users
+
+☐ Known users
+
+|
+a|
+*In-house development, joint development or third-party project*
+
+What is the basic structure? Is this an in-house development by the Confederation, a collaboration, or is it based on a third-party project? +
+The structure of co-development and third-party project can be listed in the textbox +
+(see [Em002-2] Section 3.1).
+
+☐ In-house development
+
+☐ Joint development (_Em002-4.1 OSS Community Checklist_ to be completed)
+
+☐ Third-party project (_Em002-4.1 OSS Community Checklist_ to be completed)
+
+|
+a|
+Who is publishing the software?
+
+☐ Federal authority
+
+☐ Service provider
+
+☐ Supplier
+
+☐ Third party
+
+|
+a|
+Depth of release
+
+Outcome from _Em002-4.1 OSS Community Checklist_.
+
+☐ Minimal publication: Publication of the source code and other artefacts
+
+☐ Issue tracking: Errors can be reported and will be handled.
+
+☐ Community
+
+|☐
+a|
+There is no violation of third-party rights (e.g. patent rights, intellectual property, trademark or design protection).
+
+Reviews according to [Em002-2] Section 3.2 have been carried out. The ownership of the software lies with the Confederation, or it is being developed by employees of the Confederation (internal or external). Justification must be given, especially if this is not the case. It must also be explained why the rights do not lie with the Confederation and what checks were made regarding proprietary parts, as well as what was done regarding possible obstacles (e.g. patent protection), or how far investigations went.
+
+|☐
+a|
+There are no security-relevant reasons preventing publication.
+
+Reviews according to [Em002-2] Section 3.3 have been carried out.
+
+|☐
+a|
+There is agreement in principle and feasibility exists for publishing the application as open source.
+
+Reference to minutes or decision-making body with date.
+
+|===
+
+== Concluding remarks
+
+Comments and references to other relevant documents.
+
+If a Contributor Licence Agreement (CLA) is used, this should be noted here (see _Em002-3 OSS Licensing Guidelines_ Section 8.9).
+
+[cols="1"]
+|===
+a|
+
+|===
+
+*Filing of form*
+
+Please file this form with the project documentation and/or in accordance with the specifications of your authority (organisational unit).
+
+*Licence of the checklist template: CC0 1.0 Universal*
+
+This document is published under the CC0 licence. It may be freely used, modified and distributed, including for commercial purposes and in any format.

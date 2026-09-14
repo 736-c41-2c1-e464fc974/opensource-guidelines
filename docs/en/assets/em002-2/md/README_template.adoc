@@ -1,0 +1,72 @@
+= README Template
+:lang: en
+:toc:
+:sectnums:
+:toclevels: 3
+:sectnumlevels: 3
+:experimental:
+:revnumber: 1.0
+:revdate: 14.09.2026
+
+== Project Title
+
+A brief description of what this project does and who it's for
+
+=== Features
+
+* Light/dark mode toggle
+* Live previews
+* Fullscreen mode
+* Cross platform
+
+=== Documentation
+
+https://linktodocumentation[Documentation]
+
+=== Installation
+
+Install my-project with npm
+
+[source,bash]
+----
+  npm install my-project
+  cd my-project
+----
+
+=== Usage/Examples
+
+[source,javascript]
+----
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+----
+
+=== Screenshots or Demo
+
+Insert gif or link to demo
+
+image::https://dummyimage.com/468x300?text=App+Screenshot+Here[App Screenshot]
+
+=== Support
+
+For support, email fake@fake.com or join our Slack channel.
+
+=== Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+=== License
+
+https://choosealicense.com/licenses/mit/[MIT]
+
+=== Roadmap
+
+* Additional browser support
+* Add more integrations

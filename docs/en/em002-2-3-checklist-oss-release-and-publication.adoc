@@ -1,0 +1,147 @@
+= Em002-2.3 OSS Release and Publication Checklist
+:lang: en
+:toc:
+:sectnums:
+:toclevels: 3
+:sectnumlevels: 3
+:experimental:
+:revnumber: 1.0
+:revdate: 14.09.2026
+
+This checklist is part of the document 'Em002-2 Instructions for Publishing Open Source Software'.
+
+It concludes the instructions and results in release of the software under an open source licence. The description of the checklist can be found in [Em002-2] Annex D.
+
+== Subject matter
+
+=== Name and brief description of the software
+
+Enter the name of the software.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+=== Contact person and review
+
+Name the organisation, contact person from the specialist office and the persons responsible (e.g. ISBO/DSBO) who have verified compliance with the publication requirements.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+=== Repository names and developer permissions
+
+State the planned repository names of the software to be published and the chosen publication platform.footnote:[A repository under the GitHub organisation of the Federal Chancellery (http://github.com/swiss) can be requested from opensource@bk.admin.ch.]
+
+[cols="1"]
+|===
+a|
+
+|===
+
+Specify who (GitHub username, name, position, function) is working on the repository. If this is in a repository of an office, it must be stated who authorised the person. That person is then also responsible for the solution if the first person leaves the organisation or changes their position. It should also be specified whether individuals are acting as private persons or as part of the office. Name the GitHub user account that should be assigned the role of Repository Administrator. There can be several administrators.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+== Checklist
+
+The checklist is to be completed before actual publication.
+
+[cols="1,6,1"]
+|===
+|☐
+|'Em002-2.1 OSS Preliminary Assessment Checklist' has been completed and no problematic points were identified.
+|
+
+|☐
+|'Em002-2.2 OSS Analysis and Preparation Checklist' has been completed and no problematic points were identified.
+|
+
+|☐
+a|
+Licence has been selected.
+
+Selected licence and justification
+
+|
+
+|☐
+a|
+ISDS concept has been created.
+
+The relevant reviews have been carried out. Refer to documents/reviews. It is defined how security-relevant reports by third parties will be handled. +
+If applicable, the software will be subject to a bug bounty programme. +
+There may also be OSS checks in the repositories. +
+The relevant configuration is described and the person responsible is named.
+
+|
+
+|☐
+a|
+Community and support is regulated (via 'Em002-4.1 OSS Community Checklist')
+
+The checklist is attached. The key points are included here.
+
+|
+
+|☐
+a|
+Level and method of support have been clarified.
+
+Indication of how this has been regulated.
+
+|
+
+|☐
+a|
+A *publiccode.yml* was created for the publication.
+
+The metadata standard https://yml.publiccode.tools/ describes the software. The defined format makes the publication easier to find and reuse. +
+This must be saved in the main directory of the repository. +
+If a new repository or organisation is created, this can be reported via opensource@bk.admin.ch for inclusion in the OSS Catalogue.
+
+|
+
+|☐
+a|
+Transferred responsibilities
+
+Indication of whether responsibility for release was transferred to a third party (supplier, support, association) during procurement or subsequently.
+
+|
+
+|☐
+a|
+Green light for open sourcing from the application and budget managers
+
+Names and date
+
+|
+|===
+
+== Concluding remarks
+
+Comments and references to other relevant documents
+
+[cols="1"]
+|===
+a|
+
+|===
+
+*Filing of form*
+
+Please file this form with the project documentation and/or in accordance with the specifications of your authority (organisational unit).
+
+*Licence of the checklist template: CC0 1.0 Universal*
+
+This document is published under the https://creativecommons.org/publicdomain/zero/1.0/[_CC0 licence_]. It may be freely used, modified and distributed, including for commercial purposes and in any format.

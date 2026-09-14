@@ -1,0 +1,211 @@
+= Em002-4.1 OSS Community Checklist
+:lang: en
+:toc:
+:sectnums:
+:toclevels: 3
+:sectnumlevels: 3
+:experimental:
+:revnumber: 1.0
+:revdate: 14.09.2026
+
+This checklist goes together with _Em002-2 Instructions for Publishing Open Source Software_ and _Em002-4 OSS Community Guidelines_. +
+It must be filled in at the start of a project or at the start of the clarifications for release and subsequently completed. +
+For OSS support models, please refer to Section 8 of _Em002-1 Practical Guidelines for Open Source Software in the Federal Administration_.
+
+== Subject matter
+
+=== Name and brief description of the software
+
+Enter the name of the software.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+=== Contact person and authorisation
+
+Name the contact person of the specialist department and the persons responsible who have authorised publication of the software.
+
+[cols="1"]
+|===
+a|
+
+|===
+
+== Checklist
+
+[cols="1,6"]
+|===
+|
+a|
+Type of community
+
+The community may already exist, which greatly simplifies the task.
+
+☐ Exists (third party may have the lead)
+
+☐ The Confederation has the lead
+
+☐ Equal partners (Confederation and partners/suppliers)
+
+☐ Other
+
+|
+a|
+Library or entire software?
+
+There is usually no community concept for libraries. An add-on can only be used together with a commercial product.
+
+☐ Entire software
+
+☐ Library
+
+☐ Add-on
+
+☐ Other
+
+|
+a|
+What type of community is planned?
+
+The choice of community type should be justified in two to three sentences.
+
+☐ None, only publication (as-is) (minimum release) +
+Note: email must be available, publicode.yaml must be filled in
+
+☐ Releases/issue tracker (minimum support, allow third-party support if necessary)
+
+☐ Community
+
+|
+a|
+Are there potential or actual co-users of the software?
+
+Are there potential customers for the software? Possible and known users can be listed in the text box (see _Em002-2 Instructions for Publishing Open Source Software,_ Section 3.1.1).
+
+☐ None conceivable
+
+☐ Potential users (are conceivable)
+
+☐ Known users (have already contacted us)
+
+|☐
+a|
+Stakeholders (already defined/known members of the community)
+
+List of relevant jobs/companies. +
+This gives an idea of how relevant the software is for third parties.
+
+|
+a|
+Who takes charge of product management?
+
+Product management is primarily responsible for further development of the product. Especially if this role is assumed by third parties, the companies/organisations should be named if possible.
+
+☐ Federal office
+
+☐ Service provider
+
+☐ Supplier(s) / third parties
+
+☐ Joint organisation
+
+☐ Open
+
+|
+a|
+Integration of suppliers
+
+How are the suppliers involved?
+
+☐ Contractor
+
+☐ Partner
+
+☐ Responsible body
+
+☐ Other
+
+|
+|
+
+|
+a|
+Type of organisation
+
+What organisational form does the community take? This should be explained in detail, especially if 'Other' is selected. On account of the effort this entails, a new association should only be set up if there is a very good reason for doing so.
+
+☐ Public sector only
+
+☐ Simple partnership
+
+☐ New or existing association
+
+☐ Other (e.g. a foundation, existing or not)
+
+|
+a|
+Cost distribution
+
+This should be set out in the community concept. Section 5.5 of _Em002-4 OSS Community Guidelines_ provides information on this.
+
+What means and resources are required? The cost distribution considerations should be briefly stated.
+
+☐ The Confederation pays
+
+☐ Each party covers its own costs
+
+☐ Originator pays principle
+
+☐ The Confederation does not assume any costs from the community
+
+☐ Cost sharing (e.g. by way of an association)
+
+☐ Release, partially assumed by third parties (e.g. because software was created before 1 January 2024 and they absolutely want to use the software)
+
+|☐
+a|
+If additional services are offered in accordance with Art. 9 paras 5 and 6 EMOTA, is this set out in the community concept? +
+The community concept contains the relevant information.
+
+|☐
+a|
+Has the community concept been created?
+
+The community concept has been created or an existing one is being adopted? +
+(please insert link)
+
+a|
+☐ +
+☐ +
+☐
+a|
+Are the necessary contracts in place?
+
+Contributor Licence Agreement (CLA)footnote:[See also _Em002-3 OSS Licensing Guidelines_. Alternatively, Developer Certificates of Origin (DCO) can also be used.] created or adopted
+
+Association founded, if necessary.
+
+|
+|
+|===
+
+== Concluding remarks
+
+Comments and references to other relevant documents
+
+[cols="1"]
+|===
+a|
+
+|===
+
+*Filing of form*
+
+Please file this form with the project documentation and submit it to the appropriate office in your organisational unit.
+
+*Licence of the checklist template: CC0 1.0 Universal*
+
+This document is published under the CC0 licence. It may be freely used, modified and distributed, including for commercial purposes and in any format.

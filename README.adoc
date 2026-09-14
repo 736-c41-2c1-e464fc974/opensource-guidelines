@@ -1,0 +1,45 @@
+= Guidelines to open source software (according to Article 9 EMOTA)
+:lang: en
+:toc:
+:sectnums:
+:toclevels: 3
+:sectnumlevels: 3
+:experimental:
+:revnumber: 1.0
+:revdate: 14.09.2026
+
+This repository contains *evolving drafts* of guidelines and tools to support the Federal Administration in publishing open source code. The *official and binding versions* are available in all official languages on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website].
+
+For a complete list of documents, see: link:docs/index_en.adoc[Tools for Publishing Open Source Software]
+
+== Legal obligations and responsibility
+
+As outlined in https://www.fedlex.admin.ch/eli/cc/2023/682/de#art_9[Article 9 EMOTA], the Federal Administration is *principally obligated to publish its software as open source.* Each federal authority holds independent responsibility for ensuring compliance, including making the source code publicly available.
+
+== Contributing
+
+Contributions from the open source community and other stakeholders to these guidelines are highly valued. Have a suggestion for improvement? You can:
+
+. Fork the repository
+. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+. Push to the branch (`git push origin feature/AmazingFeature`)
+. Open a pull request
+
+Alternatively, you can simply open an issue.
+
+NOTE: You can also write in *German, French, or Italian* and refer to the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[official language documents] where relevant.
+
+== Changes
+
+When *major changes* are proposed, they undergo the Federal Chancellery’s standard review process and, upon approval, are translated and published on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website]. The respective documents are then assigned a new version number. Mayor changes between versions can be followed using the https://github.com/swiss/opensource-guidelines/releases[release] notes.
+
+*Minor changes* are incorporated regularly into the official PDF publications on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website].
+
+== License
+
+These guidelines are licensed under the *CC0 1.0 Universal license*. For details, see the `LICENSE` file.
+
+== Contact
+
+mailto:opensource@bk.admin.ch[opensource@bk.admin.ch]
