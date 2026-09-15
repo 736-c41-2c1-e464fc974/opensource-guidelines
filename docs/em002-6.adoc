@@ -58,7 +58,7 @@ Each section is structured as follows:
 |Q |*What is meant by open source software?*
 
 |A
-|This is defined in link:em002-1.adoc[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]
+|This is defined in link:em002-1.pdf[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]
 |===
 
 === Software and licences
@@ -68,7 +68,7 @@ Each section is structured as follows:
 |Q |*What is meant by software?*
 
 |A
-|This is defined in link:em002-1.adoc[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]. For licences, see link:em002-3.adoc[Em002-3 OSS Licensing Guidelines].
+|This is defined in link:em002-1.pdf[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]. For licences, see link:em002-3.pdf[Em002-3 OSS Licensing Guidelines].
 |===
 
 [cols="1,9",options="header"]
@@ -76,7 +76,7 @@ Each section is structured as follows:
 |Q |*What is meant by licences?*
 
 |A
-|Here we are referring to software licences. Further information can be found in link:em002-3.adoc[Em002-3 OSS Licensing Guidelines].
+|Here we are referring to software licences. Further information can be found in link:em002-3.pdf[Em002-3 OSS Licensing Guidelines].
 |===
 
 [cols="1,9",options="header"]
@@ -114,7 +114,7 @@ a|According to Art. 9 EMOTAfootnote:[SR 172.019], federal authorities of the cen
 
 Publication of source code can only be avoided in relation to third-party rights or for security-relevant reasons.
 
-More information can be found in link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+More information can be found in link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 |===
 
 [cols="1,9",options="header"]
@@ -122,7 +122,7 @@ More information can be found in link:em002-2.adoc[Em002-2 Instructions for Publ
 |Q |*What is meant by security-relevant reasons?*
 
 |A
-|The security-relevant reasons permitted under Art. 9 EMOTA and how to deal with them are defined in Section 3.2 of link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+|The security-relevant reasons permitted under Art. 9 EMOTA and how to deal with them are defined in Section 3.2 of link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 |===
 
 [cols="1,9",options="header"]
@@ -130,7 +130,7 @@ More information can be found in link:em002-2.adoc[Em002-2 Instructions for Publ
 |Q |*What are third-party rights?*
 
 |A
-|Third-party rights under Art. 9 EMOTA and how to deal with them are defined in Section 3.3 of link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+|Third-party rights under Art. 9 EMOTA and how to deal with them are defined in Section 3.3 of link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 |===
 
 [cols="1,9",options="header"]
@@ -181,7 +181,7 @@ a|According to Art. 9 para. 1 EMOTA, software that is or has been developed afte
 
 For software developed before 1 January 2024, release should be considered when major changes are pending.
 
-If there is considerable interest from third parties, existing software may also be released voluntarily (possibly with cost sharing). In this case, a community (see link:em002-4.adoc[Em002-4]) should also be considered.
+If there is considerable interest from third parties, existing software may also be released voluntarily (possibly with cost sharing). In this case, a community (see link:em002-4.pdf[Em002-4]) should also be considered.
 
 For smaller scripts, publication is usually not the best option. There may be repositories for tools that then go through the release process at the same time.
 
@@ -289,7 +289,7 @@ This consent should be obtained from suppliers and employees as part of the proc
 |Q |*Where can I find the documentation for OSS procurement?*
 
 a|A
-a|With Version 2.0, a tool link:em002-7.adoc[Em002-7 Strategic Aspects of Procurement and Open Source Software] was made available.
+a|With Version 2.0, a tool link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software] was made available.
 
 The Competence Centre for Federal Public Procurement (CCPP) has published a new information sheet entitled Software Procurement and Art. 9 EMOTA [KBB-MB] as well as two documents 'Sample criteria – EMOTA procurement and open source.docx' and 'Sample contract texts – software development.docx'.
 
@@ -333,7 +333,7 @@ Publication under an open source licence does not mean waiving copyright: this r
 
 Only on the basis of their copyright can they legally defend against licence violations or grant more extensive licences in parallel to OSS licences.
 
-The [.underline]#original rights# should therefore always lie with the federal government for new or further developments, if possible. [.underline]#Contributor Licence Agreements# (CLA) or Developer Certificate of Origin (DCO) should be used for other participants. Instructions for this can be found in link:em002-3.adoc[Em002-3 OSS Licensing Guidelines], link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software] and link:em002-4.adoc[Em002-4 OSS Community Guidelines].
+The [.underline]#original rights# should therefore always lie with the federal government for new or further developments, if possible. [.underline]#Contributor Licence Agreements# (CLA) or Developer Certificate of Origin (DCO) should be used for other participants. Instructions for this can be found in link:em002-3.pdf[Em002-3 OSS Licensing Guidelines], link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software] and link:em002-4.pdf[Em002-4 OSS Community Guidelines].
 |===
 
 [cols="1,9",options="header"]
@@ -343,7 +343,7 @@ The [.underline]#original rights# should therefore always lie with the federal g
 a|A
 a|According to Art. 9 EMOTA: yes, if they were developed after 1 January 2024.
 
-However, this should be done in a way that also provides benefit. The document link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software] provides information on the process.
+However, this should be done in a way that also provides benefit. The document link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software] provides information on the process.
 |===
 
 [cols="1,9",options="header"]
@@ -355,7 +355,7 @@ a|Art. 9 EMOTA is not specific in this regard and there is a great deal of room 
 
 For example, the requirements of the law are satisfied by simply publishing the source code in a zip file on a website.
 
-In order to achieve a benefit, including through the publication of documentation etc., this should be done on a code repository according to best practices. Information on this can be found in link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+In order to achieve a benefit, including through the publication of documentation etc., this should be done on a code repository according to best practices. Information on this can be found in link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 |===
 
 [cols="1,9",options="header"]
@@ -393,7 +393,7 @@ MIT, on the other hand, is a very liberal licence where almost anything is possi
 
 The two licences cover the entire spectrum. If particular importance is attached to not naming the federal government in the case of permissive licences, BSD-3 is to be preferred over MIT.
 
-For a more detailed selection of licences, please refer to link:em002-3.adoc[Em002-3 OSS Licensing Guidelines].
+For a more detailed selection of licences, please refer to link:em002-3.pdf[Em002-3 OSS Licensing Guidelines].
 |===
 
 === Quality criteria for OSS
@@ -403,7 +403,7 @@ For a more detailed selection of licences, please refer to link:em002-3.adoc[Em0
 |Q |*Does open source software have to meet certain quality criteria?*
 
 |A
-|As a rule, all quality criteria for any other software also applies. Open source primarily makes everything more transparent. To comply with the licence, the criteria for a 'good' release, and any community rules in place, some additional points are necessary. These are outlined in link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2 OSS Analysis and Preparation Checklist] and link:em002-4-1-checklist-oss-community.adoc[Em002-4.1 OSS Community Checklist].
+|As a rule, all quality criteria for any other software also applies. Open source primarily makes everything more transparent. To comply with the licence, the criteria for a 'good' release, and any community rules in place, some additional points are necessary. These are outlined in link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 OSS Analysis and Preparation Checklist] and link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 OSS Community Checklist].
 |===
 
 [cols="1,9",options="header"]
@@ -423,7 +423,7 @@ Publication is the Federal Administration's way of going public. If this is not 
 |Q |*How are development guidelines regulated?*
 
 |A
-|Apart from the general requirements set out in the tools, there are no special requirements regarding the development of open source software. Guidance is provided in link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2 OSS Analysis and Preparation Checklist] and link:em002-4.adoc[Em002-4 OSS Community Guidelines].
+|Apart from the general requirements set out in the tools, there are no special requirements regarding the development of open source software. Guidance is provided in link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 OSS Analysis and Preparation Checklist] and link:em002-4.pdf[Em002-4 OSS Community Guidelines].
 |===
 
 [cols="1,9",options="header"]
@@ -441,7 +441,7 @@ Please contact the responsible unit in the DTI (opensource@bk.admin.ch) to check
 
 Federal authorities should in all cases maintain a local copy of the code. It is also advisable for each federal authority to have a corresponding strategy. It is also advisable for each federal authority to have corresponding internal rules in place.
 
-Further recommendations are given in link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+Further recommendations are given in link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 |===
 
 === Documentation
@@ -466,12 +466,12 @@ a|A
 a|* If the projects are open source, then Art. 9 EMOTA is fulfilled. However, the projects must also remain open source. If they fail to do so, the code must be published again.
 * Upstream contributions have the advantage that maintenance takes place within the upstream project and the benefit for the community is maximised.
 +
-The following disadvantages exist: less control and influence, a CLA may have to be signed or a DCO (see link:em002-4.adoc[Em002-4] Section 3.3). The contributions also do not appear in the publiccode.yml and the federal directories. A completely different advantage is that with such contributions, the developers continue to develop within the ecosystem.
+The following disadvantages exist: less control and influence, a CLA may have to be signed or a DCO (see link:em002-4.pdf[Em002-4] Section 3.3). The contributions also do not appear in the publiccode.yml and the federal directories. A completely different advantage is that with such contributions, the developers continue to develop within the ecosystem.
 * As long as the risks and effort remain manageable (CLA content, collection of the code), upstream contributions are to be welcomed.
-* The licence of the upstream project then applies to the contribution. This corresponds to the procedure in link:em002-3.adoc[Em002-3].
+* The licence of the upstream project then applies to the contribution. This corresponds to the procedure in link:em002-3.pdf[Em002-3].
 * *Forking of upstream projects should be avoided:* The entire maintenance and update burden then falls to the federal authority. Inadequate maintenance of the fork also represents a security risk. There is hardly any benefit for the community.
 * Contributions to upstream projects should generally be viewed positively and actively discussed by the federal authorities' project managers.
-* If the upstream project belongs to the Federal Administration and involves third-party contributions, link:em002-7.adoc[Em002-7] Section 9 will help.
+* If the upstream project belongs to the Federal Administration and involves third-party contributions, link:em002-7.pdf[Em002-7] Section 9 will help.
 |===
 
 === Support
@@ -491,7 +491,7 @@ According to Art. 9 paras 5 and 6 EMOTA, it may also charge fees for support.
 |Q |*How should an authority proceed if it wishes to charge for support?*
 
 |A
-|For resource reasons, this is not part of the current project to provide tools. If required, this could be included in the tools in a subsequent stage. For the time being, each federal authority regulates this itself. (See also link:em002-4.adoc[Em002-4 OSS Community Guidelines])
+|For resource reasons, this is not part of the current project to provide tools. If required, this could be included in the tools in a subsequent stage. For the time being, each federal authority regulates this itself. (See also link:em002-4.pdf[Em002-4 OSS Community Guidelines])
 |===
 
 == Tools
@@ -503,9 +503,9 @@ According to Art. 9 paras 5 and 6 EMOTA, it may also charge fees for support.
 |Q |Is there any central guidance on working with open source software in the Federal Administration?
 
 a|A
-a|Yes, the DTI Sector of the Federal Chancellery provides comprehensive materials for this as part of link:em002.adoc[Em002 Strategic Guidelines for Open Source Software in the Federal Administration].
+a|Yes, the DTI Sector of the Federal Chancellery provides comprehensive materials for this as part of link:em002.pdf[Em002 Strategic Guidelines for Open Source Software in the Federal Administration].
 
-OSS is discussed in general terms in link:em002-1.adoc[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]. Release under Art. 9 EMOTA is addressed in link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+OSS is discussed in general terms in link:em002-1.pdf[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]. Release under Art. 9 EMOTA is addressed in link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 |===
 
 === Checklists
@@ -517,10 +517,10 @@ OSS is discussed in general terms in link:em002-1.adoc[Em002-1 Practical Guideli
 a|A
 a|Yes, the DTI Sector of the Federal Chancellery provides the following checklists for free use:
 
-* link:em002-2-1-checklist-oss-preliminary-assessment.adoc[Em002-2.1 OSS Preliminary Assessment Checklist]
-* link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2 OSS Analysis and Preparation Checklist]
-* link:em002-2-3-checklist-oss-release-and-publication.adoc[Em002-2.3 OSS Release and Publication Checklist]
-* link:em002-4-1-checklist-oss-community.adoc[Em002-4.1 OSS Community Checklist]
+* link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 OSS Preliminary Assessment Checklist]
+* link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 OSS Analysis and Preparation Checklist]
+* link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 OSS Release and Publication Checklist]
+* link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 OSS Community Checklist]
 
 See the *Checklist for Art. 9 EMOTA Blanket Exception* [BBL-CL] from the FOBL.
 |===
@@ -631,7 +631,7 @@ Under Article 11 of the Government Liability Act, the Confederation's liability 
 |Q |*If software is based on a library/program component published under a permissive licence, can the main software (excluding the library) be published under a non-permissive licence?*
 
 |A
-|Yes, this is unproblematic. See the information provided in the guidelines link:em002-3.adoc[Em002-3].
+|Yes, this is unproblematic. See the information provided in the guidelines link:em002-3.pdf[Em002-3].
 |===
 
 === Licence provisions
@@ -687,7 +687,7 @@ Nevertheless, it is advisable to address the provider's responsibility for their
 |Q |*Does it matter whether OSS is used commercially or non-commercially?*
 
 |A
-|Open source licences generally do not distinguish between commercial and non-commercial use. Therefore, OSS can be used for any purpose, including commercial applications. Commercial suppliers often try to integrate OSS components into proprietary products. This is only permissible if the OSS components are not under a licence with copyleft effects (see also link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]).
+|Open source licences generally do not distinguish between commercial and non-commercial use. Therefore, OSS can be used for any purpose, including commercial applications. Commercial suppliers often try to integrate OSS components into proprietary products. This is only permissible if the OSS components are not under a licence with copyleft effects (see also link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]).
 |===
 
 [cols="1,9",options="header"]
@@ -703,7 +703,7 @@ Association memberships are possible, as is informal collaboration.
 
 It is possible to delegate memberships to eOperations or similar organisations.
 
-See also link:em002-4.adoc[Em002-4 OSS Community Guidelines], Section 3.1
+See also link:em002-4.pdf[Em002-4 OSS Community Guidelines], Section 3.1
 |===
 
 [cols="1,9",options="header"]
@@ -715,25 +715,25 @@ a|ISO Standard 5230:2020 was reviewed and taken into account during the drafting
 
 *3.1 Programme foundation*
 
-* The 'link:em002.adoc[Em002 Strategic Guidelines for Open Source Software in the Federal Administration]' and the referenced strategies provide the framework. The respective federal departments and offices are responsible for implementation.
+* The 'link:em002.pdf[Em002 Strategic Guidelines for Open Source Software in the Federal Administration]' and the referenced strategies provide the framework. The respective federal departments and offices are responsible for implementation.
 
 *3.2 Relevant tasks defined and supported*
 
-* The guide 'link:em002-2.adoc[Em002-2 Instructions for Publishing OSS]' and the checklists define specific tasks for publication. There is currently no central body within the Federal Administration.
+* The guide 'link:em002-2.pdf[Em002-2 Instructions for Publishing OSS]' and the checklists define specific tasks for publication. There is currently no central body within the Federal Administration.
 
 *3.3 Open source content review and approval*
 
-* The publication process is described in the resource 'link:em002-2.adoc[Em002-2 Instructions for Publishing OSS]'. This also refers to the existence of a Software Bill of Materials (SBOM).
-* The resource 'link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]' provides comprehensive information on licensing.
+* The publication process is described in the resource 'link:em002-2.pdf[Em002-2 Instructions for Publishing OSS]'. This also refers to the existence of a Software Bill of Materials (SBOM).
+* The resource 'link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]' provides comprehensive information on licensing.
 
 *3.4 Compliance artifact creation and delivery*
 
-* The publication process is described in the resource 'link:em002-2.adoc[Em002-2 Instructions for Publishing OSS]'. This also refers to the existence of a Software Bill of Materials (SBOM).
+* The publication process is described in the resource 'link:em002-2.pdf[Em002-2 Instructions for Publishing OSS]'. This also refers to the existence of a Software Bill of Materials (SBOM).
 * Implementation is not described in further detail and takes place within the federal departments or offices.
 
 *3.5 Understanding open source community engagements*
 
-* The resource 'link:em002-4.adoc[Em002-4 OSS Community Guidelines]' describes how to set up and maintain a community. A concept must be defined and implemented for each project.
+* The resource 'link:em002-4.pdf[Em002-4 OSS Community Guidelines]' describes how to set up and maintain a community. A concept must be defined and implemented for each project.
 
 *3.6 Adherence to the specification requirements*
 
@@ -796,7 +796,7 @@ Core developer::
 Developer of an OSS project who has committer access rights to the repository.
 
 Market analysis::
-A specific market analysis is used to identify and process information on the current and potential procurement market. The purpose of the market analysis is to identify and understand market structures and, in particular, the supplier structure with regard to all relevant characteristics: price situation (high, low, fluctuations); market size; geographical distribution of potential suppliers and key players, etc. (see https://perimap.admin.ch/goto_perimap_file_38221_download.html). Possible sources of OSS software can be found in link:em002-1.adoc[Em002-1 Practical Guidelines for OSS] in Section 7.
+A specific market analysis is used to identify and process information on the current and potential procurement market. The purpose of the market analysis is to identify and understand market structures and, in particular, the supplier structure with regard to all relevant characteristics: price situation (high, low, fluctuations); market size; geographical distribution of potential suppliers and key players, etc. (see https://perimap.admin.ch/goto_perimap_file_38221_download.html). Possible sources of OSS software can be found in link:em002-1.pdf[Em002-1 Practical Guidelines for OSS] in Section 7.
 
 OSS::
 Open source software

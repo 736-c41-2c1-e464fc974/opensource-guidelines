@@ -46,7 +46,7 @@ description:
       - Documentation
       - Open Source Knowledge
     screenshots:
-      - https://github.com/swiss/opensource-guidelines/blob/e173972f2119e46d38e017064544d179e69805eb/docs/en/assets/em002-1/media/image1.png
+      - https://github.com/swiss/opensource-guidelines/blob/main/docs/assets/em002-1/media/image1.png
 legal:
   license: CC0-1.0
 maintenance:
@@ -60,4 +60,5 @@ localisation:
     - de-CH
     - fr-CH
     - it-CH
+    - rm-CH
     - en

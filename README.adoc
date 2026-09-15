@@ -21,7 +21,7 @@
 
 This repository contains *evolving drafts* of guidelines and tools to support the Federal Administration in publishing open source code. The *official and binding versions* are available in all official languages on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website].
 
-For a complete list of documents, see: link:docs/index_en.adoc[Tools for Publishing Open Source Software]
+For a complete list of documents, see: link:docs/index.adoc[Tools for Publishing Open Source Software]
 
 == Legal obligations and responsibility
 

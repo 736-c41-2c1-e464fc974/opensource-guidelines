@@ -47,33 +47,33 @@ If yes, see b)
 === a) Procurement and use of standard software
 
 Where the Confederation purchases software without customisation, Article 9 EMOTA does not apply. Every federal authority is free to decide whether to procure and use open source or other software.
-Assistance with the procurement of software can be found on the website of the https://www.beschaffung.admin.ch/bpl/de/home/fachstellen/kompetenzzentrum-beschaffungswesen-bund-kbb.html[Federal Office for Buildings and Logistics (FOBL)] and the https://perimap.admin.ch/goto_perimap_file_46835_download.html[Information sheet on software procurement and Art. 9 EMOTA] from the CCPP. If necessary, link:em002-7.adoc[Em002-7 Strategic Aspects of Procurement and OSS] can also be consulted.
+Assistance with the procurement of software can be found on the website of the https://www.beschaffung.admin.ch/bpl/de/home/fachstellen/kompetenzzentrum-beschaffungswesen-bund-kbb.html[Federal Office for Buildings and Logistics (FOBL)] and the https://perimap.admin.ch/goto_perimap_file_46835_download.html[Information sheet on software procurement and Art. 9 EMOTA] from the CCPP. If necessary, link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and OSS] can also be consulted.
 
 === b) Creation or further development of software
 
-If a federal authority develops software itself or through third parties, OSS Article 9 EMOTA must be applied. This also includes software that is further developed as part of a contribution in existing OSS projects. Publication of source code can only be avoided in relation to third-party rights or for security-relevant reasons. Please complete the link:em002-2-1-checklist-oss-preliminary-assessment.adoc[Em002-2.1 OSS Preliminary Assessment Checklist].
+If a federal authority develops software itself or through third parties, OSS Article 9 EMOTA must be applied. This also includes software that is further developed as part of a contribution in existing OSS projects. Publication of source code can only be avoided in relation to third-party rights or for security-relevant reasons. Please complete the link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 OSS Preliminary Assessment Checklist].
 
-NOTE: This checklist also serves as a justification for why software [.underline]#does not# have to be published. It should therefore be consulted as early as possible in the project. The guide link:em002-2.adoc[Em002-2] describes the entire process.
+NOTE: This checklist also serves as a justification for why software [.underline]#does not# have to be published. It should therefore be consulted as early as possible in the project. The guide link:em002-2.pdf[Em002-2] describes the entire process.
 
 Further questions to be clarified are:
 
 === Under which open source licence is it published?
 
-The fundamental question of whether the software is published under a [.underline]#copyleft# licence (in which case AGPL V3 is a good choice, for example) or [.underline]#permissively# (in which case under an MIT licence, for example) must be answered. With regard to licence selection, the link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] provides detailed information. Please complete the link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2 OSS Analysis and Preparation Checklist].
+The fundamental question of whether the software is published under a [.underline]#copyleft# licence (in which case AGPL V3 is a good choice, for example) or [.underline]#permissively# (in which case under an MIT licence, for example) must be answered. With regard to licence selection, the link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] provides detailed information. Please complete the link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 OSS Analysis and Preparation Checklist].
 
 NOTE: Ideally, this should be completed by the (technical) project manager or IT architect.
 
 === Where and how should the software and associated artefacts be published?
 
-Please complete the link:em002-2-3-checklist-oss-release-and-publication.adoc[Em002-2.3 OSS Release and Publication Checklist]
+Please complete the link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 OSS Release and Publication Checklist]
 
 NOTE: This is a collective record of where and how software is published. It may be necessary to involve other organisations.
 
 === Should an OSS community be established?
 
-link:em002-4.adoc[Em002-4 OSS Community Guidelines] describe the advantages and tasks involved in setting up an OSS community on the basis of a concept.
+link:em002-4.pdf[Em002-4 OSS Community Guidelines] describe the advantages and tasks involved in setting up an OSS community on the basis of a concept.
 
-[.underline]#If yes#: Fill in the link:em002-4-1-checklist-oss-community.adoc[Em002-4.1 OSS Community Checklist] which provides information about the desired type and platform for the community.
+[.underline]#If yes#: Fill in the link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 OSS Community Checklist] which provides information about the desired type and platform for the community.
 
 NOTE: The project team has a great deal of leeway here as to whether and what type of community should be created. It may be necessary to involve other units.
 

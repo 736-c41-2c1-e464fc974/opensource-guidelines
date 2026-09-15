@@ -36,20 +36,20 @@ General introduction to open source software
 * Section Definitions
 * Section Potential and challenges
 * Section Findability of OSS solutions
-* link:em002-5.adoc[Em002-5 OSS Tools information sheet]
-* link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]
-* link:em002-6.adoc[Em002-6 FAQ about OSS]
+* link:em002-5.pdf[Em002-5 OSS Tools information sheet]
+* link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]
+* link:em002-6.pdf[Em002-6 FAQ about OSS]
 
 General introduction to EMOTA for decision-makers
 
-* link:em002-5.adoc[Em002-5 OSS Tools information sheet]
-* link:em002.adoc[Em002 Strategic Guidelines for Open Source Software in the Federal Administration]
+* link:em002-5.pdf[Em002-5 OSS Tools information sheet]
+* link:em002.pdf[Em002 Strategic Guidelines for Open Source Software in the Federal Administration]
 
 Procurement only of software to be used
 
 * Section Maturity levels for OSS in the Federal Administration
 * Section Use of unmodified open source software
-* link:em002-7.adoc[Em002-7 Strategic Aspects of Procurement and OSS]
+* link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and OSS]
 * Software Procurement and Art. 9 EMOTA information sheet [KBB-MB]
 * OSS in Procurement guidelines [BBL-WL]
 
@@ -57,45 +57,45 @@ New IT development and release
 
 * Section Development with open source components and release of source code
 * Section Collaboration in open projects (contribution)
-* link:em002-2.adoc[Em002-2 Instructions for Publishing OSS]
-* link:em002-2-1-checklist-oss-preliminary-assessment.adoc[Em002-2.1 OSS Preliminary Assessment Checklist]
-* link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2 OSS Analysis and Preparation Checklist]
-* link:em002-2-3-checklist-oss-release-and-publication.adoc[Em002-2.3 OSS Release and Publication Checklist]
-* link:em002-4.adoc[Em002-4 OSS Community Guidelines]
-* link:em002-4-1-checklist-oss-community.adoc[Em002-4.1 OSS Community Checklist]
+* link:em002-2.pdf[Em002-2 Instructions for Publishing OSS]
+* link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 OSS Preliminary Assessment Checklist]
+* link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 OSS Analysis and Preparation Checklist]
+* link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 OSS Release and Publication Checklist]
+* link:em002-4.pdf[Em002-4 OSS Community Guidelines]
+* link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 OSS Community Checklist]
 
 Procurement of created software (service or work)
 
 * Section Maturity levels for OSS in the Federal Administration
 * Section Development with open source components and release of source code
 * Section Collaboration in open projects (contribution)
-* link:em002-7.adoc[Em002-7 Strategic Aspects of Procurement and OSS]
+* link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and OSS]
 * FOBL toolbox, including the Open Source in Procurement guidelines
 * CCPP public administration learning and template platform (www.perimap.admin.ch) including Software Procurement and Art. 9 EMOTA [KBB-MB]
 * OSS in Procurement guidelines [BBL-WL]
-* link:em002-2.adoc[Em002-2 Instructions for Publishing OSS]
-* link:em002-2-1-checklist-oss-preliminary-assessment.adoc[Em002-2.1 OSS Preliminary Assessment Checklist]
-* link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2 OSS Analysis and Preparation Checklist]
-* link:em002-2-3-checklist-oss-release-and-publication.adoc[Em002-2.3 OSS Release and Publication Checklist]
-* link:em002-4.adoc[Em002-4 OSS Community Guidelines]
-* link:em002-4-1-checklist-oss-community.adoc[Em002-4.1 OSS Community Checklist]
+* link:em002-2.pdf[Em002-2 Instructions for Publishing OSS]
+* link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 OSS Preliminary Assessment Checklist]
+* link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 OSS Analysis and Preparation Checklist]
+* link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 OSS Release and Publication Checklist]
+* link:em002-4.pdf[Em002-4 OSS Community Guidelines]
+* link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 OSS Community Checklist]
 
 Legal clarifications for release
 
-* link:em002-6.adoc[Em002-6 Frequently Asked Questions about Publishing OSS (OSS-FAQ)]
-* link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]
+* link:em002-6.pdf[Em002-6 Frequently Asked Questions about Publishing OSS (OSS-FAQ)]
+* link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]
 
 Working principles for project managers
 
 * https://www.hermes.admin.ch/[HERMES documents]
-* link:em002-5.adoc[Em002-5 OSS Tools information sheet]
+* link:em002-5.pdf[Em002-5 OSS Tools information sheet]
 
 Contributions of software to third parties and collaborations
 
-* link:em002-4.adoc[Em002-4 OSS Community Guidelines]
-* link:em002-4-1-checklist-oss-community.adoc[Em002-4.1 OSS Community Checklist]
-* link:em002-7.adoc[Em002-7 Strategic Aspects of Procurement and OSS]
-* link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]
+* link:em002-4.pdf[Em002-4 OSS Community Guidelines]
+* link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 OSS Community Checklist]
+* link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and OSS]
+* link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]
 
 The following diagram gives an overview of the documents relevant to OSS in the Federal Administration.
 
@@ -125,13 +125,13 @@ Figure 1: Overview of OSS tools in relation to Art. 9 EMOTA
 |A licence is a document that contains binding guidelines for the use and distribution of software. In the case of open source, licences that comply with OSI are usually used. footnote:[See: https://opensource.org/]
 
 |Community
-|A community in the context of open source software is broadly defined. It can be a loose ecosystem or a structure with governance that develops the software. The document link:em002-4.adoc[Em002-4 OSS Community Guidelines] covers this topic. Community members can jointly manage the product, develop, test, translate, provide feedback or simply use the software.
+|A community in the context of open source software is broadly defined. It can be a loose ecosystem or a structure with governance that develops the software. The document link:em002-4.pdf[Em002-4 OSS Community Guidelines] covers this topic. Community members can jointly manage the product, develop, test, translate, provide feedback or simply use the software.
 
 |Third-party rights
 |Even with open source software, protective rights may exist (copyright, trademark law, patent law) and can be asserted by third parties, e.g. when using source code created by third parties.
 
 |Exceptions under EMOTA
-|Exceptions according to Art. 9 para. 1 EMOTA include third-party rights and security-related reasons. Both are covered in Section 3 of link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software].
+|Exceptions according to Art. 9 para. 1 EMOTA include third-party rights and security-related reasons. Both are covered in Section 3 of link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 
 |Source code
 |In computing, source code (or source text) is the human-readable text of a computer program written in a programming language. footnote:[See: https://en.wikipedia.org/wiki/Source_code]
@@ -161,7 +161,7 @@ Figure 1: Overview of OSS tools in relation to Art. 9 EMOTA
 |Software Package Data Exchange (SPDX) footnote:[See: https://en.wikipedia.org/wiki/Software_Package_Data_Exchange] describes a standard format for Software Bill of Materials (SBOM) with the aim of facilitating the correct handling of free software or open source software.
 
 |Copyleft effect
-|If software is under a licence with a copyleft provision, any modification or extension of the source code must be released again under the licence of the modified open source software (see also link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]).
+|If software is under a licence with a copyleft provision, any modification or extension of the source code must be released again under the licence of the modified open source software (see also link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]).
 |===
 
 == Potential and challenges
@@ -245,7 +245,7 @@ The following describes the typical challenges encountered in practice with open
 |It is often difficult for outsiders of an open source community to recognise how the project will develop in the future. Therefore, it is important to be able to make a realistic assessment of the future development of an open source solution. In this regard, Section Fehler: Verweis nicht gefunden introduces the Open Hub platform, which allows an assessment of the activity and heterogeneity of the developer community. This makes it possible to better assess the future development of an open source project.
 
 |10. Legal uncertainties
-|The multitudes of different open source licences and small number of court rulings on interpretation issues to date can sometimes lead to legal uncertainties with open source software. These practical guidelines are intended to provide an overview of the most important open source licences and their characteristics and compatibilities. Sources for in-depth answers to legal questions can be found in the documents link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] and in link:em002-6.adoc[Em002-6 FAQ on OSS and Art. 9 EMOTA].
+|The multitudes of different open source licences and small number of court rulings on interpretation issues to date can sometimes lead to legal uncertainties with open source software. These practical guidelines are intended to provide an overview of the most important open source licences and their characteristics and compatibilities. Sources for in-depth answers to legal questions can be found in the documents link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] and in link:em002-6.pdf[Em002-6 FAQ on OSS and Art. 9 EMOTA].
 
 |11. Too extensive offering of open source software
 |The number of open source software products has increased dramatically in recent years. Potential users of open source software therefore complain about the multitude of existing open source solutions on the market. For this reason, the section 'Findability of...' introduces two platforms, alternativeTo and Open Hub, which enable a comparison of Open Source solutions.
@@ -274,25 +274,25 @@ When using and developing OSS in the Federal Administration, there are various c
 |There is *no obligation* to share the source code.
 
 |The *completely new development* of software that is be published under an open source licence.
-|*In this case, there is complete freedom regarding the licence under which the software is published.* The document link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] should be used for the Confederation. The document link:em002-2.adoc[Em002-2 Instructions for Publishing OSS] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] must be observed.
+|*In this case, there is complete freedom regarding the licence under which the software is published.* The document link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] should be used for the Confederation. The document link:em002-2.pdf[Em002-2 Instructions for Publishing OSS] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] must be observed.
 
-|*Further development* (internal or external) with existing open source components (with or without copyleft effect footnote:[Explanation of the term 'copyleft' in link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]]), as long as the software is used *exclusively within the same organisation* and not redistributed.
-|The OSS components can be combined with third-party components as required. There is generally no publication obligation from the licence, as long as the software is used exclusively within the same organisation and not distributed (exception: AGPL). Since it is not legally conclusive how far the concept of 'distribution within the same organisation' extends, this scenario only applies in exceptional cases for OSS components with copyleft effects. In these cases, consult your organisation's legal department. See link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] and link:em002-6.adoc[Em002-6 FAQ about OSS and Art.9 EMOTA]. The document link:em002-2.adoc[Em002-2 Instructions for Publishing OSS] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] must be observed. *As there is a publication obligation under Art. 9 EMOTA, the changes must be re-released. The easiest way is as changes to the existing open source project.*
+|*Further development* (internal or external) with existing open source components (with or without copyleft effect footnote:[Explanation of the term 'copyleft' in link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]]), as long as the software is used *exclusively within the same organisation* and not redistributed.
+|The OSS components can be combined with third-party components as required. There is generally no publication obligation from the licence, as long as the software is used exclusively within the same organisation and not distributed (exception: AGPL). Since it is not legally conclusive how far the concept of 'distribution within the same organisation' extends, this scenario only applies in exceptional cases for OSS components with copyleft effects. In these cases, consult your organisation's legal department. See link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] and link:em002-6.pdf[Em002-6 FAQ about OSS and Art.9 EMOTA]. The document link:em002-2.pdf[Em002-2 Instructions for Publishing OSS] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] must be observed. *As there is a publication obligation under Art. 9 EMOTA, the changes must be re-released. The easiest way is as changes to the existing open source project.*
 
 |*Further development* (internal or external) *exclusively with* existing open source *components without copyleft effect*, if the software is to be distributed externally (e.g. to cantons).
-|The OSS components can be combined with third-party components at will, and there is no publication obligation from the licences (see also link:em002-3.adoc[Em002-3 OSS Licensing Guidelines]). *However, release is mandatory within the framework of Art. 9 EMOTA. Ideally, the release should made be via the existing project (no fork).* The document link:em002-2.adoc[Em002-2 Instructions for Publishing OSS] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] must be observed.
+|The OSS components can be combined with third-party components at will, and there is no publication obligation from the licences (see also link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]). *However, release is mandatory within the framework of Art. 9 EMOTA. Ideally, the release should made be via the existing project (no fork).* The document link:em002-2.pdf[Em002-2 Instructions for Publishing OSS] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] must be observed.
 
 |*Further development* (internally or externally) with existing open source components *with copyleft effect*, if the software is to be distributed externally (e.g. to cantons).
-|*There is an obligation to publish* due to the copyleft licence (see also link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] regarding the copyleft effect). The document link:em002-2.adoc[Em002-2 Instructions for Publishing OSS] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] must be observed.
+|*There is an obligation to publish* due to the copyleft licence (see also link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] regarding the copyleft effect). The document link:em002-2.pdf[Em002-2 Instructions for Publishing OSS] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] must be observed.
 
 |*Contributing* to an existing open source project.
-|*There is generally a publication obligation according to EMOTA. The governance and licence of the project are used.* The document link:em002-2.adoc[Em002-2 Instructions for Publishing OSS] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] must be observed.
+|*There is generally a publication obligation according to EMOTA. The governance and licence of the project are used.* The document link:em002-2.pdf[Em002-2 Instructions for Publishing OSS] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] must be observed.
 
 |*Joint development* of a new or existing project with a community and cost sharing.
-|*There is generally a publication obligation according to EMOTA.* The documents link:em002-2.adoc[Em002-2 Instructions for Publishing OSS], link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] are used *to set up the project and its governance.*
+|*There is generally a publication obligation according to EMOTA.* The documents link:em002-2.pdf[Em002-2 Instructions for Publishing OSS], link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] are used *to set up the project and its governance.*
 
 |*All variants of development or further development* are carried out *via a supplier or commissioned third party.*
-|*There is generally a publication obligation according to EMOTA.* Based on link:em002-2.adoc[Em002-2 Instructions for Publishing OSS], link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] and link:em002-4.adoc[Em002-4 OSS Community Guidelines]. If possible, the prerequisites for publication should be established during the procurement process and, if necessary, the requirements for software approval should be communicated to the supplier/third party.
+|*There is generally a publication obligation according to EMOTA.* Based on link:em002-2.pdf[Em002-2 Instructions for Publishing OSS], link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] and link:em002-4.pdf[Em002-4 OSS Community Guidelines]. If possible, the prerequisites for publication should be established during the procurement process and, if necessary, the requirements for software approval should be communicated to the supplier/third party.
 |===
 
 === Use of unmodified open source software
@@ -307,22 +307,22 @@ If an external service provider is commissioned for maintenance, support and oth
 
 === Development with open source components and release of source code
 
-With the publication obligation according to Art. 9 EMOTA, the procedure described in -2 link:em002-2.adoc[Em002-2 Instructions for Publishing OSS] should be followed here.
-The documents link:em002-3.adoc[Em002-3 OSS Licensing Guidelines] and link:em002-4.adoc[Em002-4 OSS Community Guidelines] must also be consulted if necessary. The goal is to release the project in a controlled manner using the three checklists _link:em002-2-1-checklist-oss-preliminary-assessment.adoc[Em002-2.1], link:em002-2-2-checklist-oss-analysis-and-preparation.adoc[Em002-2.2], link:em002-2-3-checklist-oss-release-and-publication.adoc[Em002-2.3]_.
+With the publication obligation according to Art. 9 EMOTA, the procedure described in -2 link:em002-2.pdf[Em002-2 Instructions for Publishing OSS] should be followed here.
+The documents link:em002-3.pdf[Em002-3 OSS Licensing Guidelines] and link:em002-4.pdf[Em002-4 OSS Community Guidelines] must also be consulted if necessary. The goal is to release the project in a controlled manner using the three checklists _link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1], link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2], link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3]_.
 
 === Collaboration in open projects (contribution)
 
 Possible considerations for the Federal Administration's contribution to open, already existing projects are listed in the BITKOM guide _[BITCOM2024]_ Section 4.2. footnote:[See https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html in, Section 4.2.] Depending on the importance of the project for the Federal Administration, it should be examined how much responsibility the respective office wants to and can assume.
 
-Collaboration in open projects and direct development in open projects can also take place using the documents for release. The focus is on link:em002-4.adoc[Em002-4 OSS Community Guidelines] and the associated checklist _link:em002-4-1-checklist-oss-community.adoc[Em002-4.1]_.
+Collaboration in open projects and direct development in open projects can also take place using the documents for release. The focus is on link:em002-4.pdf[Em002-4 OSS Community Guidelines] and the associated checklist _link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]_.
 
 == Properties and selection of open source licences
 
-The properties and selection of open source licences are described in the document link:em002-3.adoc[Em002-3 OSS Licensing Guidelines].
+The properties and selection of open source licences are described in the document link:em002-3.pdf[Em002-3 OSS Licensing Guidelines].
 
 == OSS procurement
 
-Strategic issues relating to procurement and OSS are dealt with in link:em002-7.adoc[Em002-7 Strategic aspects of procurement and open source software].
+Strategic issues relating to procurement and OSS are dealt with in link:em002-7.pdf[Em002-7 Strategic aspects of procurement and open source software].
 
 The Competence Centre for Federal Public Procurement (CCPP) has published a new information sheet entitled _Software Procurement and Art. 9 EMOTA https://perimap.admin.ch/goto_perimap_file_46835_download.html[[KBB-MB]]_ as well as two documents 'Sample criteria -- EMOTA procurement and open source' and 'Sample contract texts -- software development'.
 
@@ -540,12 +540,12 @@ General enquiries about the OSS tools in the Em002 document set can be directed 
 
 === References
 
-The references to the Em002 document set can be found in the link:em002.adoc[Em002 Strategic Guidelines].
+The references to the Em002 document set can be found in the link:em002.pdf[Em002 Strategic Guidelines].
 
 === Abbreviations
 
 A list of abbreviations can be found in the main document Em002.
-A glossary can be found in the document 'link:em002-6.adoc[Em002-6 Frequently Asked Questions about Publishing OSS (FAQ-OSS)]'.
+A glossary can be found in the document 'link:em002-6.pdf[Em002-6 Frequently Asked Questions about Publishing OSS (FAQ-OSS)]'.
 
 === Business models with OSS
 

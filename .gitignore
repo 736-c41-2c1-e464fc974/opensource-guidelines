@@ -9,3 +9,7 @@
 
 # rendered output (build artifacts, not source)
 *.pdf
+
+# the per-language site built by `render-docs` locally and by CI
+/build/
+/site/

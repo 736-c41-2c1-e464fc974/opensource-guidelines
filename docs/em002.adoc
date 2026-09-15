@@ -45,7 +45,7 @@ On 1 February 2019, these Strategic Guidelines for Open Source Software in the F
 
 === Procedure
 
-The federal offices are responsible for implementing EMOTA themselves. However, given the growing importance of open source, it was decided to revise the practical guidelines _link:em002-1.adoc[Em002-1]_ together with all stakeholders. Furthermore, additional tools for implementing EMOTA were added.
+The federal offices are responsible for implementing EMOTA themselves. However, given the growing importance of open source, it was decided to revise the practical guidelines _link:em002-1.pdf[Em002-1]_ together with all stakeholders. Furthermore, additional tools for implementing EMOTA were added.
 
 The practical guidelines define the necessary concepts, set out the constellations for using open source software, where and how alternatives to existing commercial software can be found, how open source should be procured, what business models exist for open source and what support models are possible when using open source. The other tools provide answers to frequently asked questions and guidance on releasing open source software in accordance with EMOTA. They explore all issues surrounding OSS licences and show how a community can be built around software. Several checklists for guidance and documentation are also made available to federal authorities.
 
@@ -81,7 +81,7 @@ When *consuming* open source software, it should be treated and evaluated as equ
 
 When *developing* software, open source release is generally mandatory, subject to the exceptions set out in Art. 9 EMOTA (third-party rights and security-relevant reasons).
 
-These exceptions are addressed in link:em002-2.adoc[Em002-2 Instructions for Publishing OSS].
+These exceptions are addressed in link:em002-2.pdf[Em002-2 Instructions for Publishing OSS].
 
 The federal authorities, i.e. the administrative units of the Federal Administration, are themselves responsible for correct compliance; there is no centralised responsibility.
 
@@ -91,9 +91,9 @@ In practice, release often consists of not only the source code, but also all ot
 
 In principle, the Federal Administration has no obligation to build communities; the legal mandate only requires it to publish the source code. The Federal Administration should prioritise investing in communities where the benefit for the Confederation and third parties is great and the effort is as low as possible.
 
-Currently, there is no common federal platform for *developing and publishing source code*. Each public authority must therefore select a platform (repository) for publication itself. The practical guidelines in link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software] and the associated checklists define how to work with a platform and which properties it must fulfil.
+Currently, there is no common federal platform for *developing and publishing source code*. Each public authority must therefore select a platform (repository) for publication itself. The practical guidelines in link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software] and the associated checklists define how to work with a platform and which properties it must fulfil.
 
-The *choice of licence* is dealt with in the OSS Licensing Guidelines link:em002-3.adoc[Em002-3]), which presents a selection of standard licences and explains their uses. The Federal Administration should only use its own licence texts in justified cases according to Art. 9 para. 4 EMOTA.
+The *choice of licence* is dealt with in the OSS Licensing Guidelines link:em002-3.pdf[Em002-3]), which presents a selection of standard licences and explains their uses. The Federal Administration should only use its own licence texts in justified cases according to Art. 9 para. 4 EMOTA.
 
 When using and developing OSS, *support*footnote:[At least during the lifecycle by way of contracts or a community.] must always be regulated (even if it is waived). The responsible administrative unit regulates this during the release process or when defining the community. EMOTA does not make any provisions here, and no additional financing or personnel will be made available for support. It may make sense to include support and joint further development where the benefit for Swiss authorities or the Swiss economy is considered sufficiently large (ecosystem costs) and/or cost-sharing or cooperation is sought. If the supplier takes this on, its support costs can be covered by the users.
 
@@ -103,13 +103,13 @@ In addition, a _Software procurement and Art. 9 EMOTA information sheet_ is avai
 
 Legal and practical considerations mean that under certain circumstances the obligation to release OSS may be transferred to a supplier (during the tender or in operation). The procurement tools and the release process determine how this is to be approached with the supplier. Most of this is achieved by supplementing existing processes, contract drafts and tools.
 
-The organisational procedure is regulated in link:em002-2.adoc[Em002-2 Instructions for Publishing Open Source Software] and the associated tools.
+The organisational procedure is regulated in link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software] and the associated tools.
 
 *OSS is treated equally to proprietary software under procurement law.* Since no licence fees are incurred for OSS according to the definition of the Open Source Initiative (OSI), software can be downloaded and used in principle without a tender. Only the services to be provided by companies (e.g. support, engineering) are then subject to procurement law and must be put out to tender.
 
 Where necessary, the relevant aspects from the tools are integrated into the Confederation's project management processes (i.e. HERMES).
 
-Open development (direct open development on an openly accessible repository) and participation in existing projects (contribution) are also covered in the explanations in link:em002-4.adoc[Em002-4 OSS Community Guidelines].
+Open development (direct open development on an openly accessible repository) and participation in existing projects (contribution) are also covered in the explanations in link:em002-4.pdf[Em002-4 OSS Community Guidelines].
 
 === Overview of OSS documents
 
@@ -146,24 +146,24 @@ The following table illustrates how the objectives are linked to the correspondi
 |Objectives |Measures
 
 |*A) Compliance with legal requirements (EMOTA)*
-a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.adoc[Em002-1]_ +
-2) Implement the _Instructions for Publishing Open Source Software link:em002-2.adoc[Em002-2]_ and the tools derived from that. +
+a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.pdf[Em002-1]_ +
+2) Implement the _Instructions for Publishing Open Source Software link:em002-2.pdf[Em002-2]_ and the tools derived from that. +
 3) Procurement authorities build up open source know-how and thus support the Federal Administration.
 
 |*B) Increase innovation and efficiency*
-a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.adoc[Em002-1]_ +
+a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.pdf[Em002-1]_ +
 3) The procurement authorities can deal with open source and optimally support Art. 9 EMOTA. +
 8) Promote community building
 
 |*C) Promote a culture of collaboration*
-a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.adoc[Em002-1]_ +
+a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.pdf[Em002-1]_ +
 4) Promote knowledge and experience exchange +
 8) Promote community building +
 9) Examine the possibility of establishing own publication platform; promote Open Development
 
 |*D) Create clarity and minimise risks*
-a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.adoc[Em002-1]_ +
-2) Implement the _Instructions for Publishing Open Source Software link:em002-2.adoc[Em002-2]_ and the tools derived from that.
+a|1) Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.pdf[Em002-1]_ +
+2) Implement the _Instructions for Publishing Open Source Software link:em002-2.pdf[Em002-2]_ and the tools derived from that.
 
 |*E) Create an overview to utilise synergies*
 a|6) Implement joint procurement of services +
@@ -179,7 +179,7 @@ a|5) Promote and communicate an open source culture +
 
 [cols="20,80"]
 |===
-|*Measure 1:* |*Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.adoc[Em002-1]_.*
+|*Measure 1:* |*Implement the _Practical Guidelines for Open Source Software in the Federal Administration link:em002-1.pdf[Em002-1]_.*
 
 2+a|
 Although the term open source software is already over 20 years old, the steady spread of open source software and the continuous development of application scenarios constantly lead to new practices and questions. New and further developments of open source solutions are also increasingly forming full-fledged alternatives to proprietary software. With EMOTA, the obligation to publish in-house developments is added.
@@ -188,9 +188,9 @@ The _Practical Guidelines for Open Source Software in the Federal Administration
 
 These practical guidelines and the other tools should be used and implemented by the federal authorities when dealing with open source software and releases.
 
-As a brief introduction to the topic, an _information sheet on the application of Art. 9 EMOTA_ and link:em002-6.adoc[EM002-6 FAQ about Publishing OSS (OSS-FAQ)] are available.
+As a brief introduction to the topic, an _information sheet on the application of Art. 9 EMOTA_ and link:em002-6.pdf[EM002-6 FAQ about Publishing OSS (OSS-FAQ)] are available.
 
-|*Measure 2:* |*Implement the Instructions for Publishing Open Source Software link:em002-2.adoc[Em002-2] and the tools derived from that.*
+|*Measure 2:* |*Implement the Instructions for Publishing Open Source Software link:em002-2.pdf[Em002-2] and the tools derived from that.*
 
 2+a|
 The efficient use of OSS in software development often requires contributions in the form of bug fixes and functional enhancements. With EMOTA, there is also an obligation to release self-created software. The necessary guidance is available with various tools.
@@ -206,7 +206,7 @@ To facilitate the application of Art. 9 EMOTA, additions will be made to the Con
 |*Measure 3:* |*Procurement authorities build up open source know-how and thus support the Federal Administration.*
 
 2+a|
-The new link:em002-7.adoc[Em002-7 Strategic Aspects of Procurement and OSS] was created to address procurement aspects.
+The new link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and OSS] was created to address procurement aspects.
 
 To ensure broad competition, procurement requires that open and closed source software be treated equally. The increased requirements in connection with Art. 9 EMOTA regarding the resources to be procured for software publication must be taken into account.
 
@@ -233,7 +233,7 @@ In order to be perceived by the public as an 'open source-friendly' employer, th
 2+a|
 Maintenance and support of open source software is currently provided by internal employees of the Federal Administration, while external suppliers offer services for certain open source solutions. These services are often procured independently by the respective offices, which can lead to duplication and the associated financial losses.
 
-The joint procurement of services for open source software should increase the reliability of maintenance and support in operation and simplify the use of open source solutions. Based on the technology radar (see Measure 5), services for the most widespread open source systems and technologies should be centrally procured. These services can then be obtained by all offices as needed.footnote:[This concerns support for the software in use. Third party support for software released under EMOTA is possible and may be charged for. This is covered in link:em002-4.adoc[Em002-4 OSS Community Guidelines.]]
+The joint procurement of services for open source software should increase the reliability of maintenance and support in operation and simplify the use of open source solutions. Based on the technology radar (see Measure 5), services for the most widespread open source systems and technologies should be centrally procured. These services can then be obtained by all offices as needed.footnote:[This concerns support for the software in use. Third party support for software released under EMOTA is possible and may be charged for. This is covered in link:em002-4.pdf[Em002-4 OSS Community Guidelines.]]
 
 |*Measure 7:* |*Create an overview of open source software used, released and co-developed.*
 
@@ -265,13 +265,13 @@ Federal cooperation across all authorities in Switzerland (similar to opencode.d
 
 * Minor editorial changes and improvements.
 * Factsheet Em002-5 has been replaced by the OSS tools information sheet'.
-* A new addition is the document '`link:em002-7.adoc[Em002-7 Procurement and OSS]`'.
+* A new addition is the document '`link:em002-7.pdf[Em002-7 Procurement and OSS]`'.
 * New diagram depicting the 4 Cs in the context of OSS (addition of 'collaboration').
 * New FOBL and CCPP references.
 
 === References for OSS tools
 
-The following reference table lists the documents relating to the document set for link:em002.adoc[Em002 Tools for Open Source Software] in the Federal Administration.
+The following reference table lists the documents relating to the document set for link:em002.pdf[Em002 Tools for Open Source Software] in the Federal Administration.
 
 [cols="1"]
 |===
@@ -406,7 +406,7 @@ Intranet: link:https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/stan
 
 === Abbreviations
 
-This list of abbreviations contains all the abbreviations used in the OSS Em002 document set. A glossary can be found in link:em002-6.adoc[Em002-6 FAQ about Publishing OSS].
+This list of abbreviations contains all the abbreviations used in the OSS Em002 document set. A glossary can be found in link:em002-6.pdf[Em002-6 FAQ about Publishing OSS].
 
 [options="header",cols="20,80"]
 |===
