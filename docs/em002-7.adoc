@@ -1,23 +1,35 @@
 :lang: en
 ifeval::["{lang}" == "en"]
 = Em002-7 OSS Guideline: Applying Article 9 EMOTA
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Digital Transformation and ICT Steering DTI
 endif::[]
 ifeval::["{lang}" == "de"]
 = Em002-7 Leitfaden OSS: Anwendung von Artikel 9 EMBAG
+:title-logo-line1: Bundeskanzlei BK
+:title-logo-line2: Digitale Transformation und IKT-Lenkung DTI
 endif::[]
 ifeval::["{lang}" == "fr"]
 = Em002-7 Guide OSS : application de l'article 9 LMETA
+:title-logo-line1: Chancellerie fédérale ChF
+:title-logo-line2: Transformation numérique et gouvernance de l'informatique TNI
 endif::[]
 ifeval::["{lang}" == "it"]
 = Em002-7 Guida OSS: applicazione dell'articolo 9 LMeCA
+:title-logo-line1: Cancelleria federale CaF
+:title-logo-line2: Trasformazione digitale e governance delle TIC TDT
 endif::[]
 ifeval::["{lang}" == "rm"]
 = Em002-7 Guida OSS: applicaziun da l'artitgel 9 EMBAG
+:title-logo-line1: Chanzlia federala ChF
+:title-logo-line2: Transfurmaziun digitala e direcziun da las TIC TDT
 endif::[]
 :govpress-style: report
 :govpress-front-block: report
 :classification:
 :title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line3:
 :title-page:
 :pdf-theme: basic
 :toc:
@@ -2916,7 +2928,7 @@ Per l'utilisaziun persistenta da software open source è impurtant che l'OSS na 
 
 La lescha federala davart l'utilisaziun da meds electronics per ademplir incumbensas d'autoritads (EMBAG)footnote:[https://www.fedlex.admin.ch/eli/cc/2023/682/rm] pretenda che reflexiuns supplementaras vegnian resguardadas tar l'acquist da software sviluppà da nov e da prestaziuns da svilup da software.
 
-Per sustegnair l'observaziun da l'art. 9 EMBAG ha il sectur TDI elavurà meds e resursas en il rom da link:em002.pdf[Em002 Directivas strategicas per software open source en l'administraziun federala] e da link:em002-1.pdf[Em002-1 Guida pratica per software open source en l'administraziun federala]
+Per sustegnair l'observaziun da l'art. 9 EMBAG ha il sectur TDT elavurà meds e resursas en il rom da link:em002.pdf[Em002 Directivas strategicas per software open source en l'administraziun federala] e da link:em002-1.pdf[Em002-1 Guida pratica per software open source en l'administraziun federala]
 
 image::./assets/em002-7/media/image1.png[Survista dals meds OSS]
 
@@ -3532,14 +3544,14 @@ Tenor il Gabler Wirtschaftslexikon designescha collaboration era la «collavuraz
 |Contributor Licence Agreement (CLA)
 |In Contributor Licence Agreement (CLA), numnà era Contributor Agreement, è in document che fixescha las cundiziuns, sut las qualas proprietad intellectuala po vegnir contribuida ad in project u ad in'interpresa. Cun quai è per ordinari manegià in project da software sut ina licenza open source (Wikipedia).
 
-|TDI
+|TDT
 |Sectur Transformaziun digitala e direcziun TIC. Part da la Chanzlia federala ChF
 
 |eOperations
 |eOperations Svizra pussibilitescha prestaziuns publicas digitalas cuminaivlas per la Confederaziun, ils chantuns e las vischnancas. https://www.eoperations.ch[www.eoperations.ch]
 
 |ISB
-|Organ da direcziun d'informatica da la Confederaziun. Predecessur da ChF-TDI
+|Organ da direcziun d'informatica da la Confederaziun. Predecessur da ChF-TDT
 
 |UFCL
 |Uffizi federal per edifizis e logistica
@@ -3560,7 +3572,7 @@ Il term deriva da ITIL. En ITIL (Information Technology Infrastructure Library) 
 Products pon esser software, hardware, datas u autras resursas mess a disposiziun da l'organisaziun. (Google AI)
 
 |Standardisaziun dals products
-|En quest document sa referescha la standardisaziun en emprima lingia a SD120, la prestaziun standard TIC per l'automatisaziun da biro, ed ad ulteriuras standardisaziuns dal sectur TDI.
+|En quest document sa referescha la standardisaziun en emprima lingia a SD120, la prestaziun standard TIC per l'automatisaziun da biro, ed ad ulteriuras standardisaziuns dal sectur TDT.
 
 |SBOM
 |Ina Software Bill of Materials (SBOM) è ina glista d'inventari da tuttas cumponentas e dependenzas da software che fan part dal svilup e da la messa a disposiziun d'in software.

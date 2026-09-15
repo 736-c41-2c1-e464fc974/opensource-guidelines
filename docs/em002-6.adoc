@@ -1,23 +1,35 @@
 :lang: en
 ifeval::["{lang}" == "en"]
 = Em002-6 FAQ on OSS and Art. 9 EMOTA
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Digital Transformation and ICT Steering DTI
 endif::[]
 ifeval::["{lang}" == "de"]
 = Em002-6 FAQ zu OSS und Art. 9 EMBAG
+:title-logo-line1: Bundeskanzlei BK
+:title-logo-line2: Digitale Transformation und IKT-Lenkung DTI
 endif::[]
 ifeval::["{lang}" == "fr"]
 = Em002-6 FAQ sur les OSS et l'art. 9 LMETA
+:title-logo-line1: Chancellerie fédérale ChF
+:title-logo-line2: Transformation numérique et gouvernance de l'informatique TNI
 endif::[]
 ifeval::["{lang}" == "it"]
 = Em002-6 FAQ su OSS e art. 9 LMeCA
+:title-logo-line1: Cancelleria federale CaF
+:title-logo-line2: Trasformazione digitale e governance delle TIC TDT
 endif::[]
 ifeval::["{lang}" == "rm"]
 = Em002-6 FAQ davart OSS e l'art. 9 EMBAG
+:title-logo-line1: Chanzlia federala ChF
+:title-logo-line2: Transfurmaziun digitala e direcziun da las TIC TDT
 endif::[]
 :govpress-style: report
 :govpress-front-block: report
 :classification:
 :title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line3:
 :title-page:
 :pdf-theme: basic
 :toc:
@@ -3434,9 +3446,9 @@ Sch'ina nova versiun principala stat avant maun (major tenor Semantic Versioning
 |D |*Tgi metta a disposiziun ils meds fundamentals per la realisaziun?*
 
 a|R
-a|Il sectur TDI da la Chanzlia federala metta a disposiziun da las autoritads federalas meds sco collecziun da documents tar Em002. Da quai fan part las directivas strategicas ed ulteriuras guidas praticas, inclus las FAQ, sco era glistas da controlla per garantir ina realisaziun conforma al dretg.
+a|Il sectur TDT da la Chanzlia federala metta a disposiziun da las autoritads federalas meds sco collecziun da documents tar Em002. Da quai fan part las directivas strategicas ed ulteriuras guidas praticas, inclus las FAQ, sco era glistas da controlla per garantir ina realisaziun conforma al dretg.
 
-Ils meds OSS vegnan actualisads dal sectur TDI.
+Ils meds OSS vegnan actualisads dal sectur TDT.
 |===
 
 [cols="1,9",options="header"]
@@ -3528,7 +3540,7 @@ Colliaziuns: chascha d'utensils da l'UFCL per l'acquist d'informatica
 |D |*Exista ina instrucziun centrala, co ch'i sto vegnir tractà cun OSS en l'administraziun federala?*
 
 a|R
-a|Gea, il sectur TDI da la Chanzlia federala metta a disposiziun documents cumplessivs per quai.
+a|Gea, il sectur TDT da la Chanzlia federala metta a disposiziun documents cumplessivs per quai.
 
 Da resguardar è che quests meds èn ina recumandaziun TIC e betg ina prescripziun lianta.
 
@@ -3654,7 +3666,7 @@ GitHub – swiss/index: ina survista da las organisaziuns da repositoris actuala
 
 Quai vala en spezial, sch'ina autoritad federala n'ha anc nagin conto GitHub («organisaziun») u sch'ella n'utilisescha betg ina autra plattafurma sco GitLab u BitBucket.
 
-S'adressai p.pl. al post cumpetent en il TDI (opensource@bk.admin.ch) per examinar, sch'ina publicaziun via il conto GitHub central (swiss) è sensada e pussaivla.
+S'adressai p.pl. al post cumpetent en il TDT (opensource@bk.admin.ch) per examinar, sch'ina publicaziun via il conto GitHub central (swiss) è sensada e pussaivla.
 
 Autoritads federalas duessan en mintga cas tegnair ina copia locala dal code. I è era recumandabel che mintga autoritad federala dispona d'ina strategia correspundenta e da reglas internas correspundentas.
 
@@ -3668,7 +3680,7 @@ Ulteriuras recumandaziuns sa chattan en link:em002-2.pdf[Em002-2 Instrucziun per
 |D |*Tge pretensiuns da documentaziun existan per la publicaziun da OSS?*
 
 a|R
-a|Ils meds messs a disposiziun dal sectur TDI da la Chanzlia federala infurmeschan davart las pretensiuns giuridicas; vesair ils meds OSS.
+a|Ils meds messs a disposiziun dal sectur TDT da la Chanzlia federala infurmeschan davart las pretensiuns giuridicas; vesair ils meds OSS.
 
 I vegn recumandà d'emplenir las glistas da controlla OSS e da las archivar centralmain en mintga autoritad federala (unitad administrativa).
 |===
@@ -3720,7 +3732,7 @@ Tenor l'art. 9 al. 5 e 6 EMBAG dastga ella era incassar taxas per il support.
 |D |Exista ina instrucziun centrala per il tractament cun software open source en l'administraziun federala?
 
 a|R
-a|Gea, il sectur TDI da la Chanzlia federala metta a disposiziun documents cumplessivs en il rom da link:em002.pdf[Em002 Directivas strategicas per software open source en l'administraziun federala].
+a|Gea, il sectur TDT da la Chanzlia federala metta a disposiziun documents cumplessivs en il rom da link:em002.pdf[Em002 Directivas strategicas per software open source en l'administraziun federala].
 
 OSS vegn tractà en general en link:em002-1.pdf[Em002-1 Guida pratica per software open source en l'administraziun federala]. La relaschada tenor l'art. 9 EMBAG vegn tractada en link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
 |===
@@ -3732,7 +3744,7 @@ OSS vegn tractà en general en link:em002-1.pdf[Em002-1 Guida pratica per softwa
 |D |*Cumpiglian ils meds era glistas da controlla per la relaschada da software open source?*
 
 a|R
-a|Gea, il sectur TDI da la Chanzlia federala metta a disposiziun libra las suandantas glistas da controlla:
+a|Gea, il sectur TDT da la Chanzlia federala metta a disposiziun libra las suandantas glistas da controlla:
 
 * link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 Glista da controlla examinaziun preliminara OSS]
 * link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 Glista da controlla analisa e preparaziun OSS]
@@ -4027,7 +4039,7 @@ La noziun deriva da ITIL. En ITIL (Information Technology Infrastructure Library
 Products pon esser software, hardware, datas u autras resursas messas a disposiziun da l'organisaziun. (Google AI)
 
 Standardisaziun da products::
-En quest document sa referescha la standardisaziun en emprima lingia a SD120, il servetsch standard TIC per l'automatisaziun da biro, sco era ad ulteriuras standardisaziuns dal sectur TDI.
+En quest document sa referescha la standardisaziun en emprima lingia a SD120, il servetsch standard TIC per l'automatisaziun da biro, sco era ad ulteriuras standardisaziuns dal sectur TDT.
 
 Subscription::
 Tar il retratg da software en abunament vegn serrada ina subscription. Quai munta che il software na vegn betg cumprà. +

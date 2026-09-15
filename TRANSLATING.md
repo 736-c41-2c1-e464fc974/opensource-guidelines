@@ -11,9 +11,13 @@ time someone fixes a typo in only one of them.
 :lang: en                                  <1>
 ifeval::["{lang}" == "en"]
 = Em002-5 EMOTA and OSS Factsheet          <2>
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Digital Transformation and ICT Steering DTI
 endif::[]
 ifeval::["{lang}" == "de"]
 = Em002-5 Merkblatt EMBAG und OSS
+:title-logo-line1: Bundeskanzlei BK
+:title-logo-line2: Digitale Transformation und IKT-Lenkung DTI
 endif::[]
 …fr, it, rm…
 :govpress-style: report                    <3>
@@ -35,7 +39,7 @@ endif::[]
    one, which is what GitHub's `.adoc` preview and the open-govpress desktop app
    use. Without it the `ifeval::` guards have no `{lang}` to compare against and
    the document renders empty.
-2. Only the **title** is per-language in the header.
+2. The **title** and the two **Kennzeichnung** lines are per-language.
 3. Every other attribute is shared, written once, after the title chain.
 4. The body is five blocks, always in the order `en, de, fr, it, rm`.
 
@@ -43,14 +47,31 @@ Language codes are the bare subtags `en de fr it rm` — never `de-CH`. The tool
 reduces `de-CH` to `de` when it looks up captions, but `{lang}` would still hold
 the literal `de-CH` and no `ifeval::` would ever match.
 
-### What you must not localise by hand
+### The Kennzeichnung
 
-The **Kennzeichnung** on the title page (`Departement` / `Amt` and its
-equivalents) and every caption, TOC heading and admonition label are localised
-by open-govpress from the active language. Do not add `:title-logo-base:` or
-`:title-logo-line1:`/`line2:`/`line3:` to a document — their mere *presence*
-switches the automatic localisation off and pins whatever language they were
-written in across all five outputs.
+Captions, the TOC heading and admonition labels are localised by open-govpress
+from the active language. Leave them alone.
+
+The **Kennzeichnung** on the title page is stated by the document itself.
+`:title-logo-base: black` and the empty `:title-logo-line3:` are shared; lines 1
+and 2 sit in the per-language blocks and must read exactly:
+
+| lang | line1 | line2 |
+|---|---|---|
+| en | Federal Chancellery FCh | Digital Transformation and ICT Steering DTI |
+| de | Bundeskanzlei BK | Digitale Transformation und IKT-Lenkung DTI |
+| fr | Chancellerie fédérale ChF | Transformation numérique et gouvernance de l'informatique TNI |
+| it | Cancelleria federale CaF | Trasformazione digitale e governance delle TIC TDT |
+| rm | Chanzlia federala ChF | Transfurmaziun digitala e direcziun da las TIC TDT |
+
+Sector names are from the Federal Chancellery's own pages —
+[de](https://www.bk.admin.ch/de/bereich-dti),
+[fr](https://www.bk.admin.ch/fr/transformation-numerique-et-gouvernance-de-linformatique),
+[it](https://www.bk.admin.ch/it/trasformazione-digitale-e-governance-delle-tic),
+[en](https://www.bk.admin.ch/en/dti-sector),
+[rm](https://www.bk.admin.ch/bk/rm/home/digitale-transformation-ikt-lenkung.html).
+Note the sector abbreviation differs per language: **DTI** in German and
+English, **TNI** in French, **TDT** in Italian *and Romansh*.
 
 ## Building
 
@@ -68,8 +89,7 @@ done
 ```
 
 A near-empty PDF means that language's body block is missing or its `endif::[]`
-is malformed. A PDF where all five languages show the same Kennzeichnung means a
-`title-logo-*` attribute crept back in.
+is malformed.
 
 ## Terminology
 

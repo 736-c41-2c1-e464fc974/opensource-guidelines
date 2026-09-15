@@ -1,23 +1,35 @@
 :lang: en
 ifeval::["{lang}" == "en"]
 = Em002-5 EMOTA and OSS Factsheet
+:title-logo-line1: Federal Chancellery FCh
+:title-logo-line2: Digital Transformation and ICT Steering DTI
 endif::[]
 ifeval::["{lang}" == "de"]
 = Em002-5 Merkblatt EMBAG und OSS
+:title-logo-line1: Bundeskanzlei BK
+:title-logo-line2: Digitale Transformation und IKT-Lenkung DTI
 endif::[]
 ifeval::["{lang}" == "fr"]
 = Em002-5 Aide-mémoire LMETA et OSS
+:title-logo-line1: Chancellerie fédérale ChF
+:title-logo-line2: Transformation numérique et gouvernance de l'informatique TNI
 endif::[]
 ifeval::["{lang}" == "it"]
 = Em002-5 Promemoria LMeCA e OSS
+:title-logo-line1: Cancelleria federale CaF
+:title-logo-line2: Trasformazione digitale e governance delle TIC TDT
 endif::[]
 ifeval::["{lang}" == "rm"]
 = Em002-5 Fegl d'infurmaziun EMBAG ed OSS
+:title-logo-line1: Chanzlia federala ChF
+:title-logo-line2: Transfurmaziun digitala e direcziun da las TIC TDT
 endif::[]
 :govpress-style: report
 :govpress-front-block: report
 :classification:
 :title-logo: logo-ch-black.svg
+:title-logo-base: black
+:title-logo-line3:
 :title-page:
 :pdf-theme: basic
 :toc:
@@ -1626,5 +1638,5 @@ Legenda:
 * (e) principalmain per l'infurmaziun e sco ovra da consultaziun
 * Grass = proposta dal post responsabel en in'UO (po vegnir reglà autramain)
 * Cifras e maiusclas: chapitels ed agiuntas relevants. Sche naginas n'èn inditgadas, è l'entir document relevant.
-* Responsabladad per ils documents: ChF/TDI (mellen), CCA ed UFCL (blau)
+* Responsabladad per ils documents: ChF/TDT (mellen), CCA ed UFCL (blau)
 endif::[]
