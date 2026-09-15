@@ -90,7 +90,7 @@ The Federal Act on the Use of Electronic Means to Carry Out Official Tasks (EMOT
 
 To support compliance with Art. 9 EMOTA, DTI has developed tools and resources as part of link:em002.pdf[Em002 Strategic Guidelines for Open Source Software in the Federal Administration] and link:em002-1.pdf[Em002-1 Practical Guidelines for Open Source Software in the Federal Administration]
 
-image::./assets/em002-7/media/image1.png[Overview of OSS tools]
+include::partials/document-map.en.adoc[]
 
 Figure 1: Overview of OSS tools
 
@@ -151,7 +151,18 @@ Federal authorities are generally required to comply with the eCH standards.foot
 
 The Bern University of Applied Sciences set out the relevant considerations in the study _Technological Perspectives of Digital Sovereignty_ [Stü2024], commissioned by the FDFA, using the 'sovereignty house' model, in which software is presented as a key pillar.
 
-image::./assets/em002-7/media/image2.png[Schematic representation of the aspects of digital sovereignty enabling the provision of innovative products and services]
+[mermaid,align="center",alt="Schematic representation of the aspects of digital sovereignty enabling the provision of innovative products and services"]
+....
+block-beta
+  columns 4
+  Roof["Innovative digital products and services<br/>from businesses and public authorities"]:4
+  space:4
+  Collab["Collaboration with research and civil society"]:4
+  Skills["Technology skills (programming, data science, etc.)"]:4
+  SW["Software"] Data["Data and<br/>digital content"] AI["Artificial<br/>intelligence"] Infra["ICT infrastructure<br/>(hardware)"]
+  Reg["Regulation (laws, standards)"]:4
+  Collab -->|"enable"| Roof
+....
 
 _Figure 2: Schematic representation of the aspects of digital sovereignty enabling the provision of innovative products and services [Stü2024]_
 
@@ -319,7 +330,7 @@ The following sections focus increasingly on open source, discussing the relevan
 
 The choice between consumption, contribution, collaboration and creation is made _on a project-specific basis_ according to economic efficiency and the legal situation, with costs distributed as broadly as possible. From this perspective, the four Cs as defined in link:em002.pdf[Em002 OSS Strategic Guidelines], Section 3, are ranked in descending order of importance:
 
-image::./assets/em002-7/media/image5.png[Ranking of the four Cs: Consumption, Contribution, Collaboration, Creation]
+image::./assets/four-cs/four-cs.en.svg[Ranking of the four Cs: Consumption, Contribution, Collaboration, Creation]
 
 . Consumption
 . Contribution
@@ -861,7 +872,7 @@ Das Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Beh�
 
 Zur Unterstützung der Einhaltung von Art. 9 EMBAG hat DTI im Rahmen von link:em002.pdf[Em002 Strategische Leitlinien für Open-Source-Software in der Bundesverwaltung] und link:em002-1.pdf[Em002-1 Praxisleitfaden für Open-Source-Software in der Bundesverwaltung] Hilfsmittel erarbeitet.
 
-image::./assets/em002-7/media/image1.png[Übersicht über die OSS-Hilfsmittel]
+include::partials/document-map.de.adoc[]
 
 Abbildung 1: Übersicht über die OSS-Hilfsmittel
 
@@ -922,7 +933,18 @@ Bundesbehörden sind grundsätzlich verpflichtet, die eCH-Standards einzuhalten.
 
 Die Berner Fachhochschule hat die massgebenden Überlegungen in der im Auftrag des EDA erstellten Studie _Technologische Perspektiven der digitalen Souveränität_ [Stü2024] anhand des Modells «Souveränitätshaus» dargelegt, in dem Software als tragende Säule dargestellt wird.
 
-image::./assets/em002-7/media/image2.png[Schematische Darstellung der Aspekte digitaler Souveränität, welche die Bereitstellung innovativer Produkte und Dienstleistungen ermöglichen]
+[mermaid,align="center",alt="Schematische Darstellung der Aspekte digitaler Souveränität, welche die Bereitstellung innovativer Produkte und Dienstleistungen ermöglichen"]
+....
+block-beta
+  columns 4
+  Roof["Innovative digitale Produkte und Dienstleistungen<br/>von Unternehmen und Behörden"]:4
+  space:4
+  Collab["Zusammenarbeit mit Forschung und Zivilgesellschaft"]:4
+  Skills["Technologie-Skills (Programmieren, Data Science usw.)"]:4
+  SW["Software"] Data["Daten und<br/>digitale Inhalte"] AI["Künstliche<br/>Intelligenz"] Infra["ICT-Infrastruktur<br/>(Hardware)"]
+  Reg["Regulierungen (Gesetze, Standards)"]:4
+  Collab -->|"ermöglichen"| Roof
+....
 
 _Abbildung 2: Schematische Darstellung der Aspekte digitaler Souveränität, welche die Bereitstellung innovativer Produkte und Dienstleistungen ermöglichen [Stü2024]_
 
@@ -1090,7 +1112,7 @@ Die folgenden Kapitel konzentrieren sich zunehmend auf Open Source und behandeln
 
 Die Wahl zwischen Consumption, Contribution, Collaboration und Creation erfolgt _projektspezifisch_ nach Wirtschaftlichkeit und Rechtslage, wobei die Kosten möglichst breit verteilt werden. Aus dieser Sicht sind die vier C gemäss link:em002.pdf[Em002 Strategische Leitlinien OSS], Kapitel 3, in absteigender Bedeutung geordnet:
 
-image::./assets/em002-7/media/image5.png[Rangfolge der vier C: Consumption, Contribution, Collaboration, Creation]
+image::./assets/four-cs/four-cs.de.svg[Rangfolge der vier C: Consumption, Contribution, Collaboration, Creation]
 
 . Consumption
 . Contribution
@@ -1632,7 +1654,7 @@ La loi fédérale sur l'utilisation des moyens électroniques pour l'exécution 
 
 Pour soutenir le respect de l'art. 9 LMETA, le secteur TNI a élaboré des outils et des ressources dans le cadre des link:em002.pdf[Em002 Lignes directrices stratégiques pour les logiciels open source dans l'administration fédérale] et du link:em002-1.pdf[Em002-1 Guide pratique pour les logiciels open source dans l'administration fédérale]
 
-image::./assets/em002-7/media/image1.png[Vue d'ensemble des outils OSS]
+include::partials/document-map.fr.adoc[]
 
 Figure 1 : Vue d'ensemble des outils OSS
 
@@ -1693,7 +1715,18 @@ Les autorités fédérales sont en principe tenues de respecter les normes eCH.f
 
 La Haute école spécialisée bernoise a exposé les considérations déterminantes dans l'étude _Perspectives technologiques de la souveraineté numérique_ [Stü2024], réalisée sur mandat du DFAE, au moyen du modèle de la « maison de la souveraineté », dans lequel le logiciel est présenté comme un pilier essentiel.
 
-image::./assets/em002-7/media/image2.png[Représentation schématique des aspects de la souveraineté numérique permettant la fourniture de produits et services innovants]
+[mermaid,align="center",alt="Représentation schématique des aspects de la souveraineté numérique permettant la fourniture de produits et services innovants"]
+....
+block-beta
+  columns 4
+  Roof["Produits et services numériques innovants<br/>des entreprises et des autorités"]:4
+  space:4
+  Collab["Collaboration avec la recherche et la société civile"]:4
+  Skills["Compétences technologiques (programmation, science des données, etc.)"]:4
+  SW["Logiciels"] Data["Données et<br/>contenus numériques"] AI["Intelligence<br/>artificielle"] Infra["Infrastructure TIC<br/>(matériel)"]
+  Reg["Réglementation (lois, normes)"]:4
+  Collab -->|"permettent"| Roof
+....
 
 _Figure 2 : Représentation schématique des aspects de la souveraineté numérique permettant la fourniture de produits et services innovants [Stü2024]_
 
@@ -1861,7 +1894,7 @@ Les chapitres suivants se concentrent de plus en plus sur l'open source et trait
 
 Le choix entre consumption, contribution, collaboration et creation est effectué _au cas par cas selon le projet_, en fonction de l'efficacité économique et de la situation juridique, les coûts étant répartis aussi largement que possible. Dans cette optique, les quatre C tels que définis dans les link:em002.pdf[Em002 Lignes directrices stratégiques OSS], chapitre 3, sont classés par ordre d'importance décroissante :
 
-image::./assets/em002-7/media/image5.png[Classement des quatre C : Consumption, Contribution, Collaboration, Creation]
+image::./assets/four-cs/four-cs.fr.svg[Classement des quatre C : Consumption, Contribution, Collaboration, Creation]
 
 . Consumption
 . Contribution
@@ -2403,7 +2436,7 @@ La legge federale sull'impiego di mezzi elettronici per l'adempimento dei compit
 
 Per sostenere il rispetto dell'art. 9 LMeCA, il settore TDI ha elaborato strumenti e risorse nell'ambito delle link:em002.pdf[Em002 Linee guida strategiche per il software open source nell'Amministrazione federale] e della link:em002-1.pdf[Em002-1 Guida pratica per il software open source nell'Amministrazione federale]
 
-image::./assets/em002-7/media/image1.png[Panoramica degli strumenti OSS]
+include::partials/document-map.it.adoc[]
 
 Figura 1: Panoramica degli strumenti OSS
 
@@ -2464,7 +2497,18 @@ Le autorità federali sono in linea di principio tenute a rispettare gli standar
 
 La Scuola universitaria professionale di Berna ha esposto le considerazioni determinanti nello studio _Prospettive tecnologiche della sovranità digitale_ [Stü2024], realizzato su mandato del DFAE, mediante il modello della «casa della sovranità», in cui il software è presentato quale pilastro portante.
 
-image::./assets/em002-7/media/image2.png[Rappresentazione schematica degli aspetti della sovranità digitale che consentono la fornitura di prodotti e servizi innovativi]
+[mermaid,align="center",alt="Rappresentazione schematica degli aspetti della sovranità digitale che consentono la fornitura di prodotti e servizi innovativi"]
+....
+block-beta
+  columns 4
+  Roof["Prodotti e servizi digitali innovativi<br/>di imprese e autorità"]:4
+  space:4
+  Collab["Collaborazione con la ricerca e la società civile"]:4
+  Skills["Competenze tecnologiche (programmazione, data science ecc.)"]:4
+  SW["Software"] Data["Dati e<br/>contenuti digitali"] AI["Intelligenza<br/>artificiale"] Infra["Infrastruttura TIC<br/>(hardware)"]
+  Reg["Regolamentazione (leggi, standard)"]:4
+  Collab -->|"consentono"| Roof
+....
 
 _Figura 2: Rappresentazione schematica degli aspetti della sovranità digitale che consentono la fornitura di prodotti e servizi innovativi [Stü2024]_
 
@@ -2632,7 +2676,7 @@ I capitoli seguenti si concentrano in misura crescente sull'open source e tratta
 
 La scelta tra consumption, contribution, collaboration e creation è effettuata _caso per caso secondo il progetto_, in funzione dell'efficienza economica e della situazione giuridica, ripartendo i costi il più ampiamente possibile. In quest'ottica le quattro C definite nelle link:em002.pdf[Em002 Linee guida strategiche OSS], capitolo 3, sono ordinate per importanza decrescente:
 
-image::./assets/em002-7/media/image5.png[Ordine delle quattro C: Consumption, Contribution, Collaboration, Creation]
+image::./assets/four-cs/four-cs.it.svg[Ordine delle quattro C: Consumption, Contribution, Collaboration, Creation]
 
 . Consumption
 . Contribution
@@ -3174,7 +3218,7 @@ La lescha federala davart l'utilisaziun da meds electronics per ademplir incumbe
 
 Per sustegnair l'observaziun da l'art. 9 EMBAG ha il sectur TDT elavurà meds e resursas en il rom da link:em002.pdf[Em002 Directivas strategicas per software open source en l'administraziun federala] e da link:em002-1.pdf[Em002-1 Guida pratica per software open source en l'administraziun federala]
 
-image::./assets/em002-7/media/image1.png[Survista dals meds OSS]
+include::partials/document-map.rm.adoc[]
 
 Illustraziun 1: Survista dals meds OSS
 
@@ -3235,7 +3279,18 @@ Las autoritads federalas èn fundamentalmain obligadas d'observar ils standards 
 
 La Scola auta spezialisada bernaisa ha exponì las reflexiuns relevantas en il studi _Perspectivas tecnologicas da la suveranitad digitala_ [Stü2024], elavurà per incumbensa dal DFAE, cun agid dal model «chasa da la suveranitad», en il qual il software vegn preschentà sco pitgun purtant.
 
-image::./assets/em002-7/media/image2.png[Represchentaziun schematica dals aspects da la suveranitad digitala che pussibiliteschan la purschida da products e servetschs innovativs]
+[mermaid,align="center",alt="Represchentaziun schematica dals aspects da la suveranitad digitala che pussibiliteschan la purschida da products e servetschs innovativs"]
+....
+block-beta
+  columns 4
+  Roof["Products e servetschs digitals innovativs<br/>da interpresas ed autoritads"]:4
+  space:4
+  Collab["Collavuraziun cun la perscrutaziun e la societad civila"]:4
+  Skills["Cumpetenzas tecnologicas (programmaziun, data science etc.)"]:4
+  SW["Software"] Data["Datas e<br/>cuntegns digitals"] AI["Intelligenza<br/>artifiziala"] Infra["Infrastructura TIC<br/>(hardware)"]
+  Reg["Regulaziuns (leschas, standards)"]:4
+  Collab -->|"pussibiliteschan"| Roof
+....
 
 _Illustraziun 2: Represchentaziun schematica dals aspects da la suveranitad digitala che pussibiliteschan la purschida da products e servetschs innovativs [Stü2024]_
 
@@ -3403,7 +3458,7 @@ Ils chapitels suandants sa concentreschan adina dapli sin l'open source e tracta
 
 La tscherna tranter consumption, contribution, collaboration e creation vegn fatga _specificamain per mintga project_ tenor la rentabilitad e la situaziun giuridica, cun repartir ils custs uschè amplamain sco pussaivel. Da questa vista èn ils quatter C tenor link:em002.pdf[Em002 Directivas strategicas OSS], chapitel 3, ordinads en impurtanza decreschenta:
 
-image::./assets/em002-7/media/image5.png[Rang dals quatter C: Consumption, Contribution, Collaboration, Creation]
+image::./assets/four-cs/four-cs.rm.svg[Rang dals quatter C: Consumption, Contribution, Collaboration, Creation]
 
 . Consumption
 . Contribution

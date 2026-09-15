@@ -943,9 +943,20 @@ The following examples illustrate how collaborations have been structured.
 
 ZenDiSfootnote:[https://www.zendis.de/en[ZenDiS home page: Co-creating Digital Sovereignty]] is an organisation whose aim is to reduce dependency in public administration (primarily in Germany) by promoting open source software.
 
-image::assets/em002-4/media/image2.png[Goals and approaches to strengthening digital sovereignty (ZenDiS)]
+[mermaid,align="center",alt="Goals and approaches to strengthening digital sovereignty (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Goals"]:12
+  G1["I. Ability to switch supplier"]:4 G2["II. Ability to shape solutions"]:4 G3["III. Influence on suppliers"]:4
+  H2["Solution approaches"]:12
+  B1["1. Forward-looking analysis<br/>and management of<br/>dependencies"]:3 B3["3. Vendor-independent<br/>modularity, (open) standards<br/>and interfaces in IT"]:3 B5["5. Collaborative co-design<br/>of IT solutions"]:3 B7["7. Legal requirements"]:3
+  B2["2. Procurement or development<br/>of alternative IT solutions<br/>(e.g. OSS)"]:3 B4["4. Building digital skills<br/>and expert knowledge"]:3 B6["6. Shared understanding<br/>and approach"]:3 B8["8. Political governance"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Figure 2: Goals and approaches to strengthening digital sovereignty (ZenDiS)
+Figure 1: Goals and approaches to strengthening digital sovereignty (ZenDiS)
 
 ZenDiS works with strategic partners to this end.
 
@@ -1897,9 +1908,20 @@ Die folgenden Beispiele zeigen, wie Zusammenarbeiten strukturiert wurden.
 
 ZenDiSfootnote:[https://www.zendis.de/en[ZenDiS-Website: Co-creating Digital Sovereignty]] ist eine Organisation, deren Ziel es ist, die Abhängigkeit in der öffentlichen Verwaltung (primär in Deutschland) durch die Förderung von Open-Source-Software zu verringern.
 
-image::assets/em002-4/media/image2.png[Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)]
+[mermaid,align="center",alt="Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Ziele"]:12
+  G1["I. Wechselmöglichkeit"]:4 G2["II. Gestaltungsfähigkeit"]:4 G3["III. Einfluss auf Anbieter"]:4
+  H2["Lösungsansätze"]:12
+  B1["1. Vorausschauende Analyse<br/>und Steuerung von<br/>Abhängigkeiten"]:3 B3["3. Herstellerunabhängige<br/>Modularität, (offene) Standards<br/>und Schnittstellen in der IT"]:3 B5["5. Kooperative Mitgestaltung<br/>von IT-Lösungen"]:3 B7["7. Rechtliche Vorgaben"]:3
+  B2["2. Beschaffung bzw. Entwicklung<br/>alternativer IT-Lösungen<br/>(z. B. OSS)"]:3 B4["4. Aufbau digitaler Kompetenzen<br/>und Expertenwissen"]:3 B6["6. Gemeinsames Verständnis<br/>und Vorgehen"]:3 B8["8. Politische Steuerung"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Abbildung 2: Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)
+Abbildung 1: Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)
 
 ZenDiS arbeitet dazu mit strategischen Partnern zusammen.
 
@@ -2851,9 +2873,20 @@ Les exemples suivants illustrent comment des collaborations ont été structuré
 
 ZenDiSfootnote:[https://www.zendis.de/en[Page d'accueil ZenDiS : Co-creating Digital Sovereignty]] est une organisation dont le but est de réduire la dépendance dans l'administration publique (principalement en Allemagne) en promouvant les logiciels open source.
 
-image::assets/em002-4/media/image2.png[Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)]
+[mermaid,align="center",alt="Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Objectifs"]:12
+  G1["I. Possibilité de changer de fournisseur"]:4 G2["II. Capacité de conception"]:4 G3["III. Influence sur les fournisseurs"]:4
+  H2["Approches de solution"]:12
+  B1["1. Analyse et pilotage<br/>prospectifs des dépendances"]:3 B3["3. Modularité indépendante du<br/>fournisseur, standards (ouverts)<br/>et interfaces informatiques"]:3 B5["5. Co-conception coopérative<br/>des solutions informatiques"]:3 B7["7. Exigences juridiques"]:3
+  B2["2. Acquisition ou développement<br/>de solutions informatiques<br/>alternatives (p. ex. OSS)"]:3 B4["4. Développement des compétences<br/>numériques et de l'expertise"]:3 B6["6. Compréhension et<br/>démarche communes"]:3 B8["8. Pilotage politique"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Figure 2 : Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)
+Figure 1 : Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)
 
 ZenDiS collabore à cette fin avec des partenaires stratégiques.
 
@@ -3805,9 +3838,20 @@ I seguenti esempi illustrano come sono state strutturate le collaborazioni.
 
 ZenDiSfootnote:[https://www.zendis.de/en[Pagina iniziale ZenDiS: Co-creating Digital Sovereignty]] è un'organizzazione il cui obiettivo è ridurre la dipendenza nell'amministrazione pubblica (principalmente in Germania) promuovendo il software open source.
 
-image::assets/em002-4/media/image2.png[Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)]
+[mermaid,align="center",alt="Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Obiettivi"]:12
+  G1["I. Possibilità di cambiare fornitore"]:4 G2["II. Capacità di configurazione"]:4 G3["III. Influenza sui fornitori"]:4
+  H2["Approcci risolutivi"]:12
+  B1["1. Analisi e gestione previdenti<br/>delle dipendenze"]:3 B3["3. Modularità indipendente dal<br/>fornitore, standard (aperti)<br/>e interfacce informatiche"]:3 B5["5. Configurazione cooperativa<br/>delle soluzioni informatiche"]:3 B7["7. Prescrizioni giuridiche"]:3
+  B2["2. Acquisto o sviluppo di<br/>soluzioni informatiche<br/>alternative (p. es. OSS)"]:3 B4["4. Sviluppo di competenze<br/>digitali e conoscenze<br/>specialistiche"]:3 B6["6. Comprensione e<br/>procedura comuni"]:3 B8["8. Pilotaggio politico"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Figura 2: Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)
+Figura 1: Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)
 
 A tal fine ZenDiS collabora con partner strategici.
 
@@ -4759,9 +4803,20 @@ Ils suandants exempels mussan, co che collavuraziuns èn vegnidas structuradas.
 
 ZenDiSfootnote:[https://www.zendis.de/en[Pagina d'internet ZenDiS: Co-creating Digital Sovereignty]] è ina organisaziun che ha per finamira da reducir la dependenza en l'administraziun publica (primarmain en Germania) tras la promoziun da software open source.
 
-image::assets/em002-4/media/image2.png[Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)]
+[mermaid,align="center",alt="Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Finamiras"]:12
+  G1["I. Pussaivladad da midar furnitur"]:4 G2["II. Abilitad da concepir"]:4 G3["III. Influenza sin ils furniturs"]:4
+  H2["Access da schliaziun"]:12
+  B1["1. Analisa e direcziun<br/>prevesentas da las dependenzas"]:3 B3["3. Modularitad independenta<br/>dal furnitur, standards (averts)<br/>ed interfatschas informaticas"]:3 B5["5. Cundefiniziun cooperativa<br/>da soluziuns informaticas"]:3 B7["7. Prescripziuns giuridicas"]:3
+  B2["2. Acquist u svilup da<br/>soluziuns informaticas<br/>alternativas (p.ex. OSS)"]:3 B4["4. Construcziun da cumpetenzas<br/>digitalas e da savida<br/>spezialisada"]:3 B6["6. Chapientscha e<br/>proceder cuminaivels"]:3 B8["8. Direcziun politica"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Illustraziun 2: Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)
+Illustraziun 1: Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)
 
 ZenDiS collavura per quai cun partenaris strategics.
 

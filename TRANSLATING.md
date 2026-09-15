@@ -120,8 +120,10 @@ Romansh text in this repository has not been reviewed by a Romansh speaker.
   `image::` macros, `|===` table delimiters and cell counts, `a|` cell prefixes,
   `* [ ]` checklist items (they render as interactive checkboxes), inline roles
   such as `[.underline]#…#`, `'''` rules, `+` line breaks.
-- **Translate image alt text**, but not image paths — all five languages share
-  `docs/assets/`.
+- **Translate image alt text.** Image *paths* are per-language where the picture
+  contains words: `assets/four-cs/four-cs.de.svg` belongs in the German block
+  and nowhere else. Those SVGs are generated — edit
+  `tools/make-four-cs-svg.sh` and re-run it, never the `.svg` files.
 - **Translate `link:…[display text]`, never the target.** Targets are `.pdf`
   because the links are followed inside the rendered PDFs, where the documents
   sit side by side in one language directory.
@@ -134,6 +136,43 @@ Romansh text in this repository has not been reviewed by a Romansh speaker.
 - Section numbering is generated (`:sectnums:`), so cross-references that name a
   section number stay valid in every language as long as the section structure
   is identical. Keep the same headings in the same order in all five blocks.
+
+## Diagrams
+
+Diagrams are `[mermaid]` blocks in the body, so **their labels are text you
+translate** like any other. Four rules, each of which has bitten:
+
+- **Never add `theme:`, `themeVariables`, a `---` frontmatter block or an
+  `%%{init: …}%%` directive.** open-govpress supplies a 271-variable palette
+  built from the document's own tokens; any inline theme override throws it
+  away and the diagram renders off-brand.
+- **Never set `layout: elk`** — the ELK package is not bundled — **or `look:`**,
+  which is unverified against the Ruby pipeline's older `mmdc`.
+- **`end` is a reserved word** and silently breaks a flowchart. Quote any node
+  label that is just that word: `Fin(["Ende"])`, never `Fin([Ende])`.
+- **Every block needs `alt=`**, translated. Without it the diagram reaches the
+  PDF as an unlabelled figure and a screen reader reads its node labels in
+  layout order, which is word salad.
+
+A block that fails to parse degrades to a listing of its own source rather than
+disappearing, so check the rendered PDF: Mermaid keywords in the text layer mean
+a diagram did not draw.
+
+Colour is used only where it carries meaning that the structure does not — the
+licence-compatibility graph and the document map. Elsewhere the near-monochrome
+house palette is correct, not a bug.
+
+## Shared fragments
+
+`docs/partials/` holds fragments that several documents `include::`, one file per
+language — currently the map of Art. 9 documents, which four documents show and
+`Em002` shows twice. **Translate the partial, not the inclusion**, and keep the
+language of the file matching the `ifeval::` block that includes it.
+
+A fragment is not a document: `render-docs` and `tools/site-index.sh` exclude
+`docs/partials/` so it never becomes a PDF of its own. A missing `include::`
+prints an error but still writes a PDF, so read the render output rather than
+trusting the exit status.
 
 ## Status
 

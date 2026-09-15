@@ -70,6 +70,9 @@ jobs:
           # untranslated document *absent* from that language rather than
           # rendered as a blank PDF -- no ifeval:: branch matches, so the body
           # would be empty.
+          #
+          # `docs/partials/` is excluded: it holds fragments that are
+          # `include::`d into the documents, and a fragment is not a document.
           docs=()
           while IFS= read -r doc; do
             langs=$(sed -n 's/^:l10n-languages:[[:space:]]*//p' "$doc" | head -1)
@@ -78,7 +81,7 @@ jobs:
             else
               echo "skipping $doc (no $LANG_ID translation)"
             fi
-          done < <(git ls-files '*.adoc')
+          done < <(git ls-files '*.adoc' ':!docs/partials/*')
 
           xvfb-run -a "$OGP_BIN" render --no-sandbox \
             --lang "$LANG_ID" -o "out/$LANG_ID" "${docs[@]}"

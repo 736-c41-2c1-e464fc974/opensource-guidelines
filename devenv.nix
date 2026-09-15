@@ -184,13 +184,19 @@ in
         # header; absent means all five. Skipping it here keeps an untranslated
         # document out of that language entirely, rather than rendering a PDF
         # whose body every ifeval:: guard rejected.
+        #
+        # `docs/partials/` is excluded from the listing below: it holds
+        # fragments that are `include::`d into the documents -- the shared
+        # document map, say -- and a fragment is not a document. On its own it
+        # has no title and no ifeval:: block, so it would render as a near-empty
+        # PDF and take a row in the language index.
         docs=()
         while IFS= read -r doc; do
           doc_langs=$(sed -n 's/^:l10n-languages:[[:space:]]*//p' "$doc" | head -1)
           if [ -z "$doc_langs" ] || grep -qw "$lang" <<<"$doc_langs"; then
             docs+=("$doc")
           fi
-        done < <(git ls-files '*.adoc')
+        done < <(git ls-files '*.adoc' ':!docs/partials/*')
 
         echo "Rendering ''${#docs[@]} documents in $lang..."
         mkdir -p "build/$lang"
