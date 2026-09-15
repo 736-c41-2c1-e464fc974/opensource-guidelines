@@ -23,8 +23,19 @@ env:
   GOVPRESS_SHA256: 3766f1da1137208a438abe06b4ad8427734e1de782aac33ff1d47df3e975ecdf
 
 jobs:
+  # One job per language. Every document carries all five languages in one
+  # file, so the same sources are rendered five times, each pinned with
+  # `--lang`, into a directory of its own -- `-o <dir>` names outputs
+  # `<basename>.pdf` with no language in the filename, so the directory is
+  # what keeps them apart.
   render:
     runs-on: ubuntu-latest
+    strategy:
+      # One broken language should report itself rather than cancel the other
+      # four and hide whether they were fine.
+      fail-fast: false
+      matrix:
+        lang: [en, de, fr, it, rm]
     steps:
       - uses: actions/checkout@v4
 
@@ -48,43 +59,74 @@ jobs:
           bin=$(find /tmp/open-govpress -maxdepth 2 -name open-govpress -type f)
           echo "OGP_BIN=$bin" >> "$GITHUB_ENV"
 
-      - name: Render all documents
+      - name: Render all documents in ${{ matrix.lang }}
+        env:
+          LANG_ID: ${{ matrix.lang }}
         run: |
-          mkdir -p pdfs
-          mapfile -t docs < <(git ls-files '*.adoc')
-          xvfb-run -a "$OGP_BIN" render --no-sandbox -o pdfs "${docs[@]}"
+          mkdir -p "out/$LANG_ID"
 
-      - name: Generate index page
-        run: |
-          {
-            echo '<!doctype html>'
-            echo '<meta charset="utf-8">'
-            echo '<title>opensource-guidelines — rendered PDFs</title>'
-            echo '<h1>opensource-guidelines — rendered documents</h1>'
-            echo '<p>Auto-rendered from the .adoc sources in this repository by <a href="https://github.com/'"$GITHUB_REPOSITORY"'/actions">GitHub Actions</a>.</p>'
-            echo '<ul>'
-            for f in pdfs/*.pdf; do
-              name=$(basename "$f")
-              echo "<li><a href=\"$name\">$name</a></li>"
-            done
-            echo '</ul>'
-          } > pdfs/index.html
+          # A document may opt out of a language with `:l10n-languages:` in its
+          # header. Absent means all five. Skipping it here is what makes an
+          # untranslated document *absent* from that language rather than
+          # rendered as a blank PDF -- no ifeval:: branch matches, so the body
+          # would be empty.
+          docs=()
+          while IFS= read -r doc; do
+            langs=$(sed -n 's/^:l10n-languages:[[:space:]]*//p' "$doc" | head -1)
+            if [ -z "$langs" ] || grep -qw "$LANG_ID" <<<"$langs"; then
+              docs+=("$doc")
+            else
+              echo "skipping $doc (no $LANG_ID translation)"
+            fi
+          done < <(git ls-files '*.adoc')
+
+          xvfb-run -a "$OGP_BIN" render --no-sandbox \
+            --lang "$LANG_ID" -o "out/$LANG_ID" "${docs[@]}"
+
+      - name: Generate language index page
+        run: tools/site-index.sh "${{ matrix.lang }}" "out/${{ matrix.lang }}"
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: rendered-pdfs
-          path: pdfs/
+          # `path: out/` so the archive's root is `<lang>/`, which is what lets
+          # the collect job merge all five into one tree.
+          name: pdfs-${{ matrix.lang }}
+          path: out/
+
+  collect:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download every language
+        uses: actions/download-artifact@v4
+        with:
+          pattern: pdfs-*
+          # Without this each archive lands under its own `pdfs-<lang>/`
+          # directory instead of merging into `site/<lang>/`.
+          merge-multiple: true
+          path: site
+
+      - name: Generate language chooser
+        run: tools/site-root.sh site
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site/
 
       - name: Upload Pages artifact
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: pdfs/
+          path: site/
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: render
+    needs: collect
     runs-on: ubuntu-latest
     permissions:
       pages: write

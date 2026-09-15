@@ -150,19 +150,56 @@ in
     '';
   };
 
-  # Renders every tracked .adoc file in the repo to PDF, next to its source
-  # -- a quick way to sanity-check the whole corpus still renders after an
-  # edit, mirroring the check every converting agent ran individually during
-  # the Markdown -> AsciiDoc migration.
+  # Builds the whole published site locally: every tracked .adoc rendered
+  # once per language into build/<lang>/, with the same per-language index
+  # pages and language chooser that CI publishes to GitHub Pages.
+  #
+  # It shares tools/site-index.sh and tools/site-root.sh with the workflow on
+  # purpose -- the point of building locally is to see what will be published,
+  # which a second implementation of the index would quietly stop doing.
   scripts.render-docs = {
-    description = "Render every .adoc document in the repo to PDF";
+    description = "Render every .adoc document in every language into build/ (render-docs [lang...])";
     exec = ''
       set -euo pipefail
       cd '${config.devenv.root}'
 
-      mapfile -t docs < <(git ls-files '*.adoc')
-      echo "Rendering ''${#docs[@]} documents..."
-      open-govpress render "''${docs[@]}"
+      if [ "$#" -gt 0 ]; then
+        langs=("''${@}")
+      else
+        langs=(en de fr it rm)
+      fi
+
+      for lang in "''${langs[@]}"; do
+        case "$lang" in
+          en | de | fr | it | rm) ;;
+          *)
+            echo "render-docs: unknown language '$lang' (expected en, de, fr, it or rm)" >&2
+            exit 1
+            ;;
+        esac
+      done
+
+      for lang in "''${langs[@]}"; do
+        # A document may opt out of a language with `:l10n-languages:` in its
+        # header; absent means all five. Skipping it here keeps an untranslated
+        # document out of that language entirely, rather than rendering a PDF
+        # whose body every ifeval:: guard rejected.
+        docs=()
+        while IFS= read -r doc; do
+          doc_langs=$(sed -n 's/^:l10n-languages:[[:space:]]*//p' "$doc" | head -1)
+          if [ -z "$doc_langs" ] || grep -qw "$lang" <<<"$doc_langs"; then
+            docs+=("$doc")
+          fi
+        done < <(git ls-files '*.adoc')
+
+        echo "Rendering ''${#docs[@]} documents in $lang..."
+        mkdir -p "build/$lang"
+        open-govpress render --lang "$lang" -o "build/$lang" "''${docs[@]}"
+        ./tools/site-index.sh "$lang" "build/$lang"
+      done
+
+      ./tools/site-root.sh build
+      echo "Site built in build/ -- open build/index.html"
     '';
   };
 }
