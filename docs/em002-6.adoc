@@ -12,7 +12,7 @@ ifeval::["{lang}" == "it"]
 = Em002-6 FAQ su OSS e art. 9 LMeCA
 endif::[]
 ifeval::["{lang}" == "rm"]
-= Em002-6 FAQ davart OSS e l'art. 9 LMETA
+= Em002-6 FAQ davart OSS e l'art. 9 EMBAG
 endif::[]
 :govpress-style: report
 :govpress-front-block: report
@@ -3298,14 +3298,14 @@ Mintga secziun è structurada uschia:
 
 [cols="1,9",options="header"]
 |===
-|D |Ston models d'IA sviluppads sezs vegnir considerads sco software ed uschia suttamess a las pretensiuns giuridicas da l'art. 9 LMETA? E tge vala per las datas d'instrucziun?
+|D |Ston models d'IA sviluppads sezs vegnir considerads sco software ed uschia suttamess a las pretensiuns giuridicas da l'art. 9 EMBAG? E tge vala per las datas d'instrucziun?
 
 a|R
 a|Open source designescha software, dal qual il code da funtauna è liberamain accessibel e midabel sut cundiziuns minimalas. Da quai fan era part models d'IA instruids sezs (inclus algoritmus, procedura d'instrucziun e code).
 
-Models d'IA vegnan instruids sin la basa da datas, eventualmain da Open (Government) Data. Sco Open Data vegnan designadas collecziuns da datas che dastgan vegnir duvradas, cundivididas ed elavuradas libramain. Models d'IA, da las quals las datas d'instrucziun sa basan sin Open (Government) Data, valan sco software en il senn da la LMETA e ston perquai era vegnir publitgads.
+Models d'IA vegnan instruids sin la basa da datas, eventualmain da Open (Government) Data. Sco Open Data vegnan designadas collecziuns da datas che dastgan vegnir duvradas, cundivididas ed elavuradas libramain. Models d'IA, da las quals las datas d'instrucziun sa basan sin Open (Government) Data, valan sco software en il senn da la EMBAG e ston perquai era vegnir publitgads.
 
-Sche las datas d'instrucziun cuntegnan dentant datas persunalas (spezialmain degnas da protecziun) u infurmaziuns classifitgadas, po vegnir renunzià a la publicaziun per motivs relevants per la segirezza. Tar la relaschada d'in model d'IA sco open source na ston las datas d'instrucziun betg vegnir publitgadas obligatoriamain; quai correspunda dentant a l'idea open source e vegn recumandà expressivamain da la communitad open source. Per ulteriuras infurmaziuns davart l'IA renviain nus a la rait da cumpetenza per l'intelligenza artifiziala (CNAI).footnote:[Vesair: https://cnai.swiss/ sco era art. 10 LMETA]
+Sche las datas d'instrucziun cuntegnan dentant datas persunalas (spezialmain degnas da protecziun) u infurmaziuns classifitgadas, po vegnir renunzià a la publicaziun per motivs relevants per la segirezza. Tar la relaschada d'in model d'IA sco open source na ston las datas d'instrucziun betg vegnir publitgadas obligatoriamain; quai correspunda dentant a l'idea open source e vegn recumandà expressivamain da la communitad open source. Per ulteriuras infurmaziuns davart l'IA renviain nus a la rait da cumpetenza per l'intelligenza artifiziala (CNAI).footnote:[Vesair: https://cnai.swiss/ sco era art. 10 EMBAG]
 |===
 
 [cols="1,9",options="header"]
@@ -3320,14 +3320,14 @@ Ultra da quai pon ils gestiunaris da sistems d'IA sa resalvar en lur cundiziuns 
 I vegn recumandà d'examinar e d'approvar l'utilisaziun d'utensilis d'IA singularmain. Utensilis betg approvads na dastgan betg vegnir duvrads; ils collaboraturs pon dentant dumandar l'approvaziun d'in utensil. Savens è sensa da reglar talas dumondas contractualmain cun il furnitur; tscherts furniturs porschan era abunaments spezials, cun ils quals els respectan ils dretgs da terzas persunas, p.ex. DeepL.
 |===
 
-=== Basa legala en la LMETA
+=== Basa legala en la EMBAG
 
 [cols="1,9",options="header"]
 |===
 |D |*Tge è la basa legala per la publicaziun da software open source?*
 
 a|R
-a|Tenor l'art. 9 LMETAfootnote:[CS 172.019] ston las autoritads federalas da l'administraziun federala centrala publitgar il code da funtauna dal software ch'ellas sviluppan u fan sviluppar. Mintga persuna dastga duvrar, sviluppar vinavant u midar il software senza pajar taxas.
+a|Tenor l'art. 9 EMBAGfootnote:[CS 172.019] ston las autoritads federalas da l'administraziun federala centrala publitgar il code da funtauna dal software ch'ellas sviluppan u fan sviluppar. Mintga persuna dastga duvrar, sviluppar vinavant u midar il software senza pajar taxas.
 
 Da la publicaziun dal code da funtauna po mo vegnir desistì pervia da dretgs da terzas persunas u per motivs relevants per la segirezza.
 
@@ -3339,7 +3339,7 @@ Ulteriuras infurmaziuns sa chattan en link:em002-2.pdf[Em002-2 Instrucziun per l
 |D |*Tge èn motivs relevants per la segirezza?*
 
 |R
-|Ils motivs relevants per la segirezza permess tenor l'art. 9 LMETA ed il tractament cun quels vegnan definids en il chapitel 3.2 da link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
+|Ils motivs relevants per la segirezza permess tenor l'art. 9 EMBAG ed il tractament cun quels vegnan definids en il chapitel 3.2 da link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
 |===
 
 [cols="1,9",options="header"]
@@ -3347,7 +3347,7 @@ Ulteriuras infurmaziuns sa chattan en link:em002-2.pdf[Em002-2 Instrucziun per l
 |D |*Tge èn dretgs da terzas persunas?*
 
 |R
-|Dretgs da terzas persunas tenor l'art. 9 LMETA ed il tractament cun quels vegnan definids en il chapitel 3.3 da link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
+|Dretgs da terzas persunas tenor l'art. 9 EMBAG ed il tractament cun quels vegnan definids en il chapitel 3.3 da link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
 |===
 
 [cols="1,9",options="header"]
@@ -3355,14 +3355,14 @@ Ulteriuras infurmaziuns sa chattan en link:em002-2.pdf[Em002-2 Instrucziun per l
 |D |*Pon excepziuns vegnir limitadas en il temp?*
 
 a|R
-a|Ils motivs per in'excepziun tenor l'art. 9 LMETA (dretgs da terzas persunas e motivs relevants per la segirezza) pon crudar davent cun il temp.
+a|Ils motivs per in'excepziun tenor l'art. 9 EMBAG (dretgs da terzas persunas e motivs relevants per la segirezza) pon crudar davent cun il temp.
 
 Sch'i è uschia, sto il code da funtauna dal software vegnir relaschà.
 |===
 
 [cols="1,9",options="header"]
 |===
-|D |Tge consequenzas giuridicas ston vegnir resguardadas en cas d'ina violaziun da l'art. 9 LMETA?
+|D |Tge consequenzas giuridicas ston vegnir resguardadas en cas d'ina violaziun da l'art. 9 EMBAG?
 
 a|R
 a|I dat dus geners da violaziuns:
@@ -3394,7 +3394,7 @@ Sch'i exista in grond interess, po esser sensa dad examinar ina publicaziun en l
 |D |*A partir da tge data sto software vegnir publitgà?*
 
 a|R
-a|Tenor l'art. 9 al. 1 LMETA sto vegnir publitgà il software ch'è vegnì sviluppà suenter il 1. da schaner 2024.
+a|Tenor l'art. 9 al. 1 EMBAG sto vegnir publitgà il software ch'è vegnì sviluppà suenter il 1. da schaner 2024.
 
 Tar software sviluppà avant il 1. da schaner 2024 duess ina relaschada vegnir examinada, sche pli grondas midadas stattan avant maun.
 
@@ -3402,7 +3402,7 @@ Sch'i exista in interess considerabel da terzas persunas, po era software existe
 
 Tar scripts pli pitschens n'è la publicaziun per ordinari betg la megldra opziun. I pon exister repositoris per utensilis che passan lura ensemen tras il process da relaschada.
 
-Per unitads administrativas da l'administraziun federala decentralisada che suttastattan a la LMETA vala l'obligaziun da publitgar dapi il 1. da matg 2025. Excepziuns da l'obligaziun da publitgar existan per software sviluppà senza meds da la Confederaziun e per software da retschertga (art. 3 al. 1 OMETA).
+Per unitads administrativas da l'administraziun federala decentralisada che suttastattan a la EMBAG vala l'obligaziun da publitgar dapi il 1. da matg 2025. Excepziuns da l'obligaziun da publitgar existan per software sviluppà senza meds da la Confederaziun e per software da retschertga (art. 3 al. 1 OEMBAG).
 |===
 
 [cols="1,9",options="header"]
@@ -3444,11 +3444,11 @@ Ils meds OSS vegnan actualisads dal sectur TDI.
 |D |È la Chanzlia federala cumpetenta per conceder excepziuns (p.ex. per motivs relevants per la segirezza)?
 
 a|R
-a|I n'exista nagin post central che decida davart excepziuns da l'obligaziun da publitgar tenor l'art. 9 LMETA. Mintga autoritad federala è sezza responsabla per sia realisaziun conforma al dretg.
+a|I n'exista nagin post central che decida davart excepziuns da l'obligaziun da publitgar tenor l'art. 9 EMBAG. Mintga autoritad federala è sezza responsabla per sia realisaziun conforma al dretg.
 
 Ils departaments pon relaschar reglamentaziuns.
 
-La glista da controlla per l'excepziun generala tenor l'art. 9 LMETA [BBL-CL] da l'UFCL duess vegnir emplenida.
+La glista da controlla per l'excepziun generala tenor l'art. 9 EMBAG [BBL-CL] da l'UFCL duess vegnir emplenida.
 |===
 
 === Rol da las unitads administrativas
@@ -3508,11 +3508,11 @@ Quest consentiment duess vegnir retratg tar ils furniturs ed ils collaboraturs e
 a|R
 a|Cun la versiun 2.0 è vegnì mess a disposiziun il med link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source].
 
-Il Center da cumpetenza per l'acquist public da la Confederaziun (CCA) ha publitgà in nov fegl d'infurmaziun cun il titel Acquist da software ed art. 9 LMETA [KBB-MB] sco era dus documents «Criteris model – acquist LMETA ed open source.docx» e «Texts contractuals model – svilup da software.docx».
+Il Center da cumpetenza per l'acquist public da la Confederaziun (CCA) ha publitgà in nov fegl d'infurmaziun cun il titel Acquist da software ed art. 9 EMBAG [KBB-MB] sco era dus documents «Criteris model – acquist EMBAG ed open source.docx» e «Texts contractuals model – svilup da software.docx».
 
 Ulteriurs meds sa chattan sin la plattafurma d'emprender e da models da l'acquist public (www.perimap.admin.ch).
 
-Ulteriur sustegn porscha l'intranet da l'UFCL (accessibel mo en la rait da la Confederaziun) cun la directiva Open source en l'acquist [BBL-WL] e la glista da controlla per l'excepziun generala tenor l'art. 9 LMETA [BBL-CL].
+Ulteriur sustegn porscha l'intranet da l'UFCL (accessibel mo en la rait da la Confederaziun) cun la directiva Open source en l'acquist [BBL-WL] e la glista da controlla per l'excepziun generala tenor l'art. 9 EMBAG [BBL-CL].
 
 Las infurmaziuns correspundentas sa chattan sin las paginas d'intranet da l'UFCL (disponiblas mo entaifer la Confederaziun).
 
@@ -3558,17 +3558,17 @@ Ils [.underline]#dretgs originals# duessan perquai tar novs svilups u svilups vi
 |D |*Ston midadas vegnir publitgadas?*
 
 a|R
-a|Tenor l'art. 9 LMETA: gea, sch'ellas èn vegnidas sviluppadas suenter il 1. da schaner 2024.
+a|Tenor l'art. 9 EMBAG: gea, sch'ellas èn vegnidas sviluppadas suenter il 1. da schaner 2024.
 
 Quai duess dentant capitar uschia ch'i naschia era in profit. Il document link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source] infurmescha davart il process.
 |===
 
 [cols="1,9",options="header"]
 |===
-|D |*Cura è la publicaziun «suffizienta» tenor la LMETA?*
+|D |*Cura è la publicaziun «suffizienta» tenor la EMBAG?*
 
 a|R
-a|L'art. 9 LMETA n'è betg specific en quest reguard, ed i exista in grond spazi da moviment. Il code da funtauna sto esser accessibel publicamain.
+a|L'art. 9 EMBAG n'è betg specific en quest reguard, ed i exista in grond spazi da moviment. Il code da funtauna sto esser accessibel publicamain.
 
 Las pretensiuns da la lescha èn per exempel gia ademplidas, sche il code da funtauna vegn publitgà sco datoteca zip sin ina pagina d'internet.
 
@@ -3630,7 +3630,7 @@ Per ina tscherna pli detagliada da las licenzas renviain nus a link:em002-3.pdf[
 a|R
 a|I n'èn previsas naginas prescripziuns centralas. Decisivas èn las reglas da l'autoritad federala (unitad administrativa) che sviluppa il software.
 
-Ultra da las pretensiuns generalas n'existan naginas pretensiuns spezialas concernent la qualitad da l'OSS. HERMES vegn dentant actualisà en vista a l'art. 9 LMETA.
+Ultra da las pretensiuns generalas n'existan naginas pretensiuns spezialas concernent la qualitad da l'OSS. HERMES vegn dentant actualisà en vista a l'art. 9 EMBAG.
 
 La publicaziun è la cumparsa da l'administraziun federala en il public. Sche quai na capita betg quità e professiunalmain, po la reputaziun publica d'ina autoritad federala spert patir.
 |===
@@ -3677,10 +3677,10 @@ I vegn recumandà d'emplenir las glistas da controlla OSS e da las archivar cent
 
 [cols="1,9",options="header"]
 |===
-|D |*Po e duai ina unitad administrativa contribuir code ad in project «upstream» ed adempla ella uschia las pretensiuns da l'art. 9 LMETA?*
+|D |*Po e duai ina unitad administrativa contribuir code ad in project «upstream» ed adempla ella uschia las pretensiuns da l'art. 9 EMBAG?*
 
 a|R
-a|* Sch'ils projects èn open source, è l'art. 9 LMETA ademplì. Ils projects ston dentant era restar open source. Sche quai n'è betg il cas, sto il code vegnir publitgà danovamain.
+a|* Sch'ils projects èn open source, è l'art. 9 EMBAG ademplì. Ils projects ston dentant era restar open source. Sche quai n'è betg il cas, sto il code vegnir publitgà danovamain.
 * Contribuziuns upstream han l'avantatg che la mantenziun ha lieu en il project upstream e che il profit per la communitad vegn maximà.
 +
 I existan ils suandants dischavantatgs: pli pauca controlla ed influenza; eventualmain sto vegnir suttascrit in CLA u in DCO (vesair link:em002-4.pdf[Em002-4] chapitel 3.3). Las contribuziuns na cumparan ultra da quai betg en il publiccode.yml ed en ils registers da la Confederaziun. In avantatg cumplettamain auter è ch'ils sviluppaders sa sviluppan vinavant cun talas contribuziuns entaifer l'ecosistem.
@@ -3700,7 +3700,7 @@ I existan ils suandants dischavantatgs: pli pauca controlla ed influenza; eventu
 a|R
 a|Na, ella po far quai dentant, sch'ella vul.
 
-Tenor l'art. 9 al. 5 e 6 LMETA dastga ella era incassar taxas per il support.
+Tenor l'art. 9 al. 5 e 6 EMBAG dastga ella era incassar taxas per il support.
 |===
 
 [cols="1,9",options="header"]
@@ -3722,7 +3722,7 @@ Tenor l'art. 9 al. 5 e 6 LMETA dastga ella era incassar taxas per il support.
 a|R
 a|Gea, il sectur TDI da la Chanzlia federala metta a disposiziun documents cumplessivs en il rom da link:em002.pdf[Em002 Directivas strategicas per software open source en l'administraziun federala].
 
-OSS vegn tractà en general en link:em002-1.pdf[Em002-1 Guida pratica per software open source en l'administraziun federala]. La relaschada tenor l'art. 9 LMETA vegn tractada en link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
+OSS vegn tractà en general en link:em002-1.pdf[Em002-1 Guida pratica per software open source en l'administraziun federala]. La relaschada tenor l'art. 9 EMBAG vegn tractada en link:em002-2.pdf[Em002-2 Instrucziun per la publicaziun da software open source].
 |===
 
 === Glistas da controlla
@@ -3739,7 +3739,7 @@ a|Gea, il sectur TDI da la Chanzlia federala metta a disposiziun libra las suand
 * link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 Glista da controlla relaschada e publicaziun OSS]
 * link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 Glista da controlla communitad OSS]
 
-Vesair ultra da quai la *glista da controlla per l'excepziun generala tenor l'art. 9 LMETA* [BBL-CL] da l'UFCL.
+Vesair ultra da quai la *glista da controlla per l'excepziun generala tenor l'art. 9 EMBAG* [BBL-CL] da l'UFCL.
 |===
 
 === Dumondas da segirezza
@@ -3767,7 +3767,7 @@ En general ston tut ils responsabels en il sectur TI enconuscher quests vectors 
 |D |*Augmenta la publicaziun dal code da funtauna il ristg d'ina copia malmalitgusa d'ina app? (p.ex. ina app da phishing u ina app faussa)*
 
 a|R
-a|Na. Il retegnair dal code da funtauna na porscha nagina protecziun efficazia cunter apps faussas ed è ultra da quai betg cumpatibel cun l'artitgel 9 LMETA che fixescha il princip open source per l'administraziun federala.
+a|Na. Il retegnair dal code da funtauna na porscha nagina protecziun efficazia cunter apps faussas ed è ultra da quai betg cumpatibel cun l'artitgel 9 EMBAG che fixescha il princip open source per l'administraziun federala.
 
 Il ristg ch'ina terza persuna construeschia ina app opticamain identica per rimnar datas exista independentamain dal fatg, sche il code da funtauna è publitgà. Perquai ch'ils sistems da design da la Confederaziun èn disponibels publicamain, po l'apparientscha d'ina app vegnir reproducida d'in attatgader senza access al code da funtauna. Apps sa laschan ultra da quai decumpilar per extrair elements sco logos da la versiun publitgada.
 
@@ -3777,7 +3777,7 @@ Segirezza e fidanza vegnan perquai garantidas betg tras la secretezza, mabain tr
 * *Verificaziun en ils app stores:* Ils app stores dad Apple e Google porschan proceduras per verifitgar ch'ils editurs sajan posts statals uffizials. Google designescha per exempel expressivamain las apps da la Chanzlia federala (ChF) sco apps d'autoritads, quai che dat als utilisaders fidanza en lur autenticitad.
 * *Reproducible builds:* Tras builds independents e reproducibels sa lascha mussar tecnicamain che il code da funtauna publitgà correspundia exactamain a la app disponibla en il store.
 
-Ina excepziun generala per motivs relevants per la segirezza tenor l'artitgel 9 LMETA n'è perquai betg applitgabla tar apps.
+Ina excepziun generala per motivs relevants per la segirezza tenor l'artitgel 9 EMBAG n'è perquai betg applitgabla tar apps.
 
 [.underline]#Recumandaziun:# +
 Empè da retegnair il code da funtauna duess il focus sa chattar sin ils process dals app stores e sin la surveglianza. Chanals uffizials ston vegnir tegnids actuals, ed apps faussas ston vegnir annunziadas immediatamain per vegnir allontanadas dals gestiunaris da la plattafurma (Apple e Google).
@@ -3808,15 +3808,15 @@ Manar ina tala glista fiss lura l'incumbensa d'in OSPO, sch'in tal vegn introduc
 |D |*Dastga la Confederaziun utilisar licenzas en la lingua originala englais?*
 
 a|R
-a|Tenor l'art. 9 al. 4 LMETA duessan, nua che quai è pussaivel e sensà, vegnir duvrads texts da licenza stabilids internaziunalmain.
+a|Tenor l'art. 9 al. 4 EMBAG duessan, nua che quai è pussaivel e sensà, vegnir duvrads texts da licenza stabilids internaziunalmain.
 
-D'insister sin licenzas OSS en lingua tudestga schmaledischess amplamain l'intent da l'art. 9 al. 4 LMETA, perquai ch'i dat mo fitg paucs texts da licenza stabilids internaziunalmain, tar ils quals ina versiun en ina da las linguas uffizialas da la Svizra (tudestg, franzos ed talian tenor l'art. 70 al. 1 CF) è renconuschida sco decisiva per l'interpretaziun.
+D'insister sin licenzas OSS en lingua tudestga schmaledischess amplamain l'intent da l'art. 9 al. 4 EMBAG, perquai ch'i dat mo fitg paucs texts da licenza stabilids internaziunalmain, tar ils quals ina versiun en ina da las linguas uffizialas da la Svizra (tudestg, franzos ed talian tenor l'art. 70 al. 1 CF) è renconuschida sco decisiva per l'interpretaziun.
 
 Questa situaziun correspunda a quella dals curs en lingua englaisa a scolas autas sco il PF, nua che l'englais è admess sco lingua d'instrucziun – cun resalva da las trais cundiziuns da l'artitgel 36 da la Constituziun federala (commentari da Son Gagl da la Constituziun federala, 4. ed. 2023, art. 70 N 29; i ston pia exister ina basa legala, in interess public e la proporziunalitad, per che l'englais saja admess).
 
-Sin questa basa sto l'art. 9 al. 4 LMETA vegnir interpretà uschia ch'el furma la basa legala per l'utilisaziun da licenzas en lingua englaisa, perquai che licenzas internaziunalas èn scrittas surtut en englais. La disposiziun sto perquai sa referir a quellas.
+Sin questa basa sto l'art. 9 al. 4 EMBAG vegnir interpretà uschia ch'el furma la basa legala per l'utilisaziun da licenzas en lingua englaisa, perquai che licenzas internaziunalas èn scrittas surtut en englais. La disposiziun sto perquai sa referir a quellas.
 
-L'interess public en l'art. 9 LMETA sa chatta tranter auter en il barat cun las communitads da sviluppaders respectivas.footnote:[FF 2022 804, p. 66] En la branscha d'informatica èn questas communitads tipicamain internaziunalas ed utiliseschan l'englais sco lingua da lavur. Ina limitaziun a licenzas en lingua tudestga rendess la collavuraziun cun communitads internaziunalas almain pli difficila, sche betg nunpussaivla, perquai che software licenzià uschia na vegniss bunamain betg duvrà internaziunalmain. Quai stess era en cuntradicziun cun l'intent da l'artitgel 9 LMETA.
+L'interess public en l'art. 9 EMBAG sa chatta tranter auter en il barat cun las communitads da sviluppaders respectivas.footnote:[FF 2022 804, p. 66] En la branscha d'informatica èn questas communitads tipicamain internaziunalas ed utiliseschan l'englais sco lingua da lavur. Ina limitaziun a licenzas en lingua tudestga rendess la collavuraziun cun communitads internaziunalas almain pli difficila, sche betg nunpussaivla, perquai che software licenzià uschia na vegniss bunamain betg duvrà internaziunalmain. Quai stess era en cuntradicziun cun l'intent da l'artitgel 9 EMBAG.
 
 Ultra da quai valan licenzas OSS stabilidas internaziunalmain per definiziun en tut il mund. Il legislatur ha evidentamain vulì pussibilitar l'utilisaziun internaziunala dal software relaschà. Ina limitaziun da relaschadas OSS a licenzas en lingua tudestga restrenschess fermamain l'utilisabladad internaziunala dal software relaschà.
 
@@ -3836,9 +3836,9 @@ Sche software midà vegn derasà sut ina licenza ch'è incumpatibla cun la licen
 
 Quest ristg sa lascha dentant dominar tras in'examinaziun sistematica tenor las guidas, sco quai ch'è oz standard en la branscha da software. Concretamain pretenda la licenziaziun la creaziun d'ina glista da tut las cumponentas da software preexistentas ch'entran en il nov software; quella sto vegnir observada strictamain tar la licenziaziun.
 
-Sch'i existan dretgs da terzas persunas, na pretenda l'art. 9 al. 1 LMETA tuttina nagina publicaziun dal software (u eventualmain mo da sias parts nov scrittas; quai duess vegnir sclerì en las guidas).
+Sch'i existan dretgs da terzas persunas, na pretenda l'art. 9 al. 1 EMBAG tuttina nagina publicaziun dal software (u eventualmain mo da sias parts nov scrittas; quai duess vegnir sclerì en las guidas).
 
-Tenor l'artitgel 11 da la Lescha davart la responsabladad sa drizza la responsabladad da la Confederaziun tenor il dretg civil, sch'ella agescha sco subject dal dretg civil. Quai è il cas tenor l'art. 9 al. 2 LMETA; ina responsabladad supplementara tenor la Lescha davart la responsabladad è consequentamain excludida.
+Tenor l'artitgel 11 da la Lescha davart la responsabladad sa drizza la responsabladad da la Confederaziun tenor il dretg civil, sch'ella agescha sco subject dal dretg civil. Quai è il cas tenor l'art. 9 al. 2 EMBAG; ina responsabladad supplementara tenor la Lescha davart la responsabladad è consequentamain excludida.
 |===
 
 === Software permissiv
@@ -3864,23 +3864,23 @@ Tar licenzas copyleft sa pona dentant la dumonda, sche la derasaziun entaifer l'
 
 Societads d'in concern èn giuridicamain independentas, ma restan sut la controlla economica da la societad mamma. La litteratura giuridica considerescha la surdada da code licenzià cun copyleft ad ina societad dal concern sco chaschunond obligaziuns da copyleft. Perquai che societads d'in concern retschaivan savens software open source tar il svilup da software, dovran ellas in agen dretg d'utilisaziun; la surdada ad ina societad dal concern chaschuna pia obligaziuns da copyleft.
 
-Percunter na chaschuna la surdada entaifer l'administraziun federala centrala naginas obligaziuns da copyleft. Per l'administraziun federala decentralisada, nua ch'existan persunalitads giuridicas separadas, vala quai survart: La surdada chaschuna obligaziuns da copyleft, ed il software sto vegnir purschì en furma da code da funtauna a las medemas cundiziuns da licenza sco il software original. Ina directiva da betg surdar il software a terzas persunas violass la licenza e pudess era cuntrafar a l'art. 9 LMETA.
+Percunter na chaschuna la surdada entaifer l'administraziun federala centrala naginas obligaziuns da copyleft. Per l'administraziun federala decentralisada, nua ch'existan persunalitads giuridicas separadas, vala quai survart: La surdada chaschuna obligaziuns da copyleft, ed il software sto vegnir purschì en furma da code da funtauna a las medemas cundiziuns da licenza sco il software original. Ina directiva da betg surdar il software a terzas persunas violass la licenza e pudess era cuntrafar a l'art. 9 EMBAG.
 |===
 
-=== Relaziun tranter la LTrans e la LMETA
+=== Relaziun tranter la LTrans e la EMBAG
 
 [cols="1,9",options="header"]
 |===
-|D |*En tge relaziun stattan la Lescha davart la transparenza (LTrans) e la LMETA?*
+|D |*En tge relaziun stattan la Lescha davart la transparenza (LTrans) e la EMBAG?*
 
 a|R
-a|Tenor l'art. 6 LTrans ston documents uffizials vegnir surdads. Sco document uffizial vala tenor l'art. 5 al. 1 LTrans mintga infurmaziun ch'è registrada sin in purtader d'infurmaziun da tge gener ch'i saja, che sa chatta en il possess d'ina autoritad e che pertutga l'adempliment d'ina incumbensa publica. OSS croda fundamentalmain sut la LTrans. La LTrans vegn applitgada, sch'ina persuna pretenda dad in departament u dad in uffizi il code da funtauna per l'agen diever. L'uffizi sto publitgar il code da funtauna a la persuna pertutgada, nun ch'excepziuns tenor l'artitgel 7 LTrans vegnian applitgadas. Sche l'uffizi refusa da publitgar il code da funtauna, vala la procedura da la LTrans. In auter cas è, sche insatgi pretenda che l'uffizi publitgeschia il code da funtauna sin sia pagina d'internet. Lura na sa drizza la procedura betg tenor la LTrans, mabain tenor la LMETA. Perquai che la LMETA sezza na prevesa nagina procedura, sto il dretg administrativ general bastar. Quel porscha u la pussaivladad d'ina disposiziun, d'in act real u d'ina disposiziun da constataziun generala da l'uffizi pertutgà. Questa decisiun po lura vegnir appellada tar il Tribunal administrativ federal.
+a|Tenor l'art. 6 LTrans ston documents uffizials vegnir surdads. Sco document uffizial vala tenor l'art. 5 al. 1 LTrans mintga infurmaziun ch'è registrada sin in purtader d'infurmaziun da tge gener ch'i saja, che sa chatta en il possess d'ina autoritad e che pertutga l'adempliment d'ina incumbensa publica. OSS croda fundamentalmain sut la LTrans. La LTrans vegn applitgada, sch'ina persuna pretenda dad in departament u dad in uffizi il code da funtauna per l'agen diever. L'uffizi sto publitgar il code da funtauna a la persuna pertutgada, nun ch'excepziuns tenor l'artitgel 7 LTrans vegnian applitgadas. Sche l'uffizi refusa da publitgar il code da funtauna, vala la procedura da la LTrans. In auter cas è, sche insatgi pretenda che l'uffizi publitgeschia il code da funtauna sin sia pagina d'internet. Lura na sa drizza la procedura betg tenor la LTrans, mabain tenor la EMBAG. Perquai che la EMBAG sezza na prevesa nagina procedura, sto il dretg administrativ general bastar. Quel porscha u la pussaivladad d'ina disposiziun, d'in act real u d'ina disposiziun da constataziun generala da l'uffizi pertutgà. Questa decisiun po lura vegnir appellada tar il Tribunal administrativ federal.
 
 Schebain ch'obligaziuns da publicaziun per software sviluppà d'ina autoritad federala èn pussaivlas tenor la LTrans (sche las cundiziuns correspundentas èn ademplidas), sto vegnir resguardà che la publicaziun da software tenor la LTrans na concedia betg automaticamain ina licenza OSS. L'utilisaziun da software publitgà tenor la LTrans sa limitescha uschia als intents fixads da la LTrans, sco la consultaziun dal code u sia execuziun per motivs d'observaziun. La publicaziun tenor la LTrans na cumpiglia dentant nagina licenza per l'utilisaziun reglada dal software u sco basa per il svilup vinavant da software (detagls en T. Poledna/S. Schlauri/S. Schweizer, Rechtliche Voraussetzungen der Nutzung von Open-Source-Software in der öffentlichen Verwaltung, insbesondere des Kantons Bern [trad.: Premissas giuridicas da l'utilisaziun da software open source en l'administraziun publica, en spezial en il chantun Berna], Turitg 2017, https://carlgrossmann.com/?ddownload=11748, N 393 sq.).
 
-La decisiun da licenziar software sco OSS sa drizza era lura vinavant tenor la LMETA, sch'el croda sut la LTrans; in dretg a la concessiun d'ina licenza n'exista vinavant betg.
+La decisiun da licenziar software sco OSS sa drizza era lura vinavant tenor la EMBAG, sch'el croda sut la LTrans; in dretg a la concessiun d'ina licenza n'exista vinavant betg.
 
-Impurtant è: Software sviluppà avant il 1. da schaner 2024 na suttastat betg a la LMETA, sto dentant tuttina vegnir surdà tenor la LTrans.
+Impurtant è: Software sviluppà avant il 1. da schaner 2024 na suttastat betg a la EMBAG, sto dentant tuttina vegnir surdà tenor la LTrans.
 |===
 
 === OSS e protecziun da datas
@@ -3976,7 +3976,7 @@ La norma ISO delinescha ulteriurs secturs da responsabladad d'in Open Source Pro
 |HERMES |_Handbuch der Elektronischen Rechenzentren des Bundes_, ina metoda per il svilup da sistems (www.hermes.admin.ch)
 |IA |Intelligenza artifiziala
 |ISB |Organ da direcziun d'informatica da la Confederaziun (fin 2021)
-|LMETA |Lescha federala davart ils meds electronics per ademplir incumbensas d'autoritads
+|EMBAG |Lescha federala davart ils meds electronics per ademplir incumbensas d'autoritads
 |LTrans |Lescha davart la transparenza
 |PP |Purschider da prestaziuns
 |RP |Retratg da prestaziuns
