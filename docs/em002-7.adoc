@@ -198,17 +198,78 @@ Possible perspectives include:
 
 For each of these perspectives, the degree of digital sovereignty can be determined against a scale to be defined:
 
-image::./assets/em002-7/media/image3.png[Degree of digital sovereignty]
+[cols="1,3,6",options="header"]
+|===
+|Level |Short name |Description
 
-Figure 3: Degree of digital sovereignty.
+|0
+|Externally determined / non-sovereign
+|No control over systems, data or infrastructure; no transparency, high dependencies; no exit or alternative options
+
+|1
+|Minimally controlled
+|Initial insight into usage and dependencies; selective control mechanisms; operational, legal or technological gaps remain
+
+|2
+|Regulated and usable
+|Systems reliable and partially controllable; legal and technical framework established; strategic dependencies still present
+
+|3
+|Self-directing and resilient
+|Market position is used; exit strategies and multi-vendor concepts implemented; know-how built up; resilience and crisis scenarios prepared
+
+|4
+|Systemically sovereign
+|Sovereignty across all relevant dimensions (legal, technological, cultural, strategic); active shaping of markets and standards; geopolitical effect possible
+|===
+
+_Degree of digital sovereignty._
 
 These two dimensions produce the following matrix:
 
-image::./assets/em002-7/media/image4.png[Matrix Digital Sovereignty]
+[cols="2,1,1,1,1,1",options="header"]
+|===
+|Perspective |0 |1 |2 |3 |4
 
-Figure 4: Matrix Digital Sovereignty.
+|A -- Technological control
+|
+|
+|
+|
+|
 
-Specific criteria can be described in the individual intersections (grey fields) to make the classification as objective as possible.
+|B -- Data sovereignty
+|
+|
+|
+|
+|
+
+|C -- Legal capacity to act
+|
+|
+|
+|
+|
+
+|D -- Resilience
+|
+|
+|
+|
+|
+
+|E -- Economic control
+|
+|
+|
+|
+|
+|===
+
+_Matrix of digital sovereignty: perspectives against degree of sovereignty._
+
+Specific criteria can be described in the individual intersections (the empty cells) to make the classification as objective as possible.
 
 Such a framework is currently being developed as part of Priority 4, 'Strengthening digital sovereignty', of the 'Digital Federal Administration Strategy'.footnote:[https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch -- Digitale Bundesverwaltung]]
 
@@ -908,17 +969,78 @@ Mögliche Perspektiven sind:
 
 Für jede dieser Perspektiven lässt sich der Grad der digitalen Souveränität anhand einer noch zu definierenden Skala bestimmen:
 
-image::./assets/em002-7/media/image3.png[Grad der digitalen Souveränität]
+[cols="1,3,6",options="header"]
+|===
+|Stufe |Kurzbezeichnung |Beschreibung
 
-Abbildung 3: Grad der digitalen Souveränität.
+|0
+|Fremdbestimmt / nicht souverän
+|Keine Kontrolle über Systeme, Daten oder Infrastruktur; keine Transparenz, hohe Abhängigkeiten; keine Exit- oder Alternativoptionen
+
+|1
+|Minimal kontrolliert
+|Erste Einsichten in Nutzung und Abhängigkeiten; punktuelle Kontrollmechanismen; operative, rechtliche oder technologische Lücken bestehen
+
+|2
+|Geregelt nutzungsfähig
+|Systeme verlässlich und teilweise steuerbar; rechtlicher und technischer Rahmen etabliert; strategische Abhängigkeiten bestehen weiterhin
+
+|3
+|Selbststeuernd und resilient
+|Marktposition wird genutzt; Exit-Strategien und Multivendor-Konzepte implementiert; Know-how aufgebaut; Resilienz und Krisenszenarien vorbereitet
+
+|4
+|Systemisch souverän
+|Souveränität in allen relevanten Dimensionen (rechtlich, technologisch, kulturell, strategisch); aktive Markt- und Standardgestaltung; geopolitische Wirkung möglich
+|===
+
+_Grad der digitalen Souveränität._
 
 Diese beiden Dimensionen ergeben die folgende Matrix:
 
-image::./assets/em002-7/media/image4.png[Matrix digitale Souveränität]
+[cols="2,1,1,1,1,1",options="header"]
+|===
+|Perspektive |0 |1 |2 |3 |4
 
-Abbildung 4: Matrix digitale Souveränität.
+|A -- Technologische Kontrolle
+|
+|
+|
+|
+|
 
-In den einzelnen Schnittfeldern (graue Felder) können konkrete Kriterien beschrieben werden, um die Einstufung möglichst objektiv zu gestalten.
+|B -- Datensouveränität
+|
+|
+|
+|
+|
+
+|C -- Rechtliche Handlungsfähigkeit
+|
+|
+|
+|
+|
+
+|D -- Resilienz
+|
+|
+|
+|
+|
+
+|E -- Wirtschaftliche Kontrolle
+|
+|
+|
+|
+|
+|===
+
+_Matrix digitale Souveränität: Perspektiven gegenüber dem Grad der Souveränität._
+
+In den einzelnen Schnittfeldern (den leeren Zellen) können konkrete Kriterien beschrieben werden, um die Einstufung möglichst objektiv zu gestalten.
 
 Ein solches Framework wird derzeit im Rahmen des Schwerpunkts 4 «Digitale Souveränität stärken» der «Strategie Digitale Bundesverwaltung» entwickelt.footnote:[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch – Digitale Bundesverwaltung]]
 
@@ -1618,17 +1740,78 @@ Les perspectives possibles sont :
 
 Pour chacune de ces perspectives, le degré de souveraineté numérique peut être déterminé au moyen d'une échelle à définir :
 
-image::./assets/em002-7/media/image3.png[Degré de souveraineté numérique]
+[cols="1,3,6",options="header"]
+|===
+|Degré |Désignation abrégée |Description
 
-Figure 3 : Degré de souveraineté numérique.
+|0
+|Hétéronome / non souverain
+|Aucun contrôle sur les systèmes, les données ou l'infrastructure ; aucune transparence, fortes dépendances ; aucune option de sortie ou de remplacement
+
+|1
+|Contrôle minimal
+|Premières informations sur l'utilisation et les dépendances ; mécanismes de contrôle ponctuels ; des lacunes opérationnelles, juridiques ou technologiques subsistent
+
+|2
+|Utilisable de manière réglementée
+|Systèmes fiables et partiellement pilotables ; cadre juridique et technique établi ; des dépendances stratégiques subsistent
+
+|3
+|Autonome et résilient
+|La position sur le marché est exploitée ; stratégies de sortie et concepts multifournisseurs mis en œuvre ; savoir-faire développé ; résilience et scénarios de crise préparés
+
+|4
+|Souverain sur le plan systémique
+|Souveraineté dans toutes les dimensions pertinentes (juridique, technologique, culturelle, stratégique) ; façonnage actif du marché et des normes ; effet géopolitique possible
+|===
+
+_Degré de souveraineté numérique._
 
 Ces deux dimensions produisent la matrice suivante :
 
-image::./assets/em002-7/media/image4.png[Matrice Souveraineté numérique]
+[cols="2,1,1,1,1,1",options="header"]
+|===
+|Perspective |0 |1 |2 |3 |4
 
-Figure 4 : Matrice Souveraineté numérique.
+|A -- Contrôle technologique
+|
+|
+|
+|
+|
 
-Des critères concrets peuvent être décrits dans les différentes intersections (champs gris) afin de rendre le classement aussi objectif que possible.
+|B -- Souveraineté des données
+|
+|
+|
+|
+|
+
+|C -- Capacité juridique d'action
+|
+|
+|
+|
+|
+
+|D -- Résilience
+|
+|
+|
+|
+|
+
+|E -- Contrôle économique
+|
+|
+|
+|
+|
+|===
+
+_Matrice Souveraineté numérique : perspectives et degré de souveraineté._
+
+Des critères concrets peuvent être décrits dans les différentes intersections (les cellules vides) afin de rendre le classement aussi objectif que possible.
 
 Un tel cadre est actuellement élaboré dans le cadre de la priorité 4, « Renforcer la souveraineté numérique », de la « Stratégie Administration fédérale numérique ».footnote:[https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch — Administration fédérale numérique]]
 
@@ -2328,17 +2511,78 @@ Le prospettive possibili sono:
 
 Per ciascuna di queste prospettive il grado di sovranità digitale può essere determinato mediante una scala ancora da definire:
 
-image::./assets/em002-7/media/image3.png[Grado di sovranità digitale]
+[cols="1,3,6",options="header"]
+|===
+|Grado |Denominazione breve |Descrizione
 
-Figura 3: Grado di sovranità digitale.
+|0
+|Eterodiretto / non sovrano
+|Nessun controllo su sistemi, dati o infrastrutture; nessuna trasparenza, forti dipendenze; nessuna opzione di uscita o alternativa
+
+|1
+|Controllo minimo
+|Prime conoscenze sull'utilizzo e sulle dipendenze; meccanismi di controllo puntuali; permangono lacune operative, giuridiche o tecnologiche
+
+|2
+|Utilizzabile in modo regolamentato
+|Sistemi affidabili e parzialmente governabili; quadro giuridico e tecnico consolidato; permangono dipendenze strategiche
+
+|3
+|Autonomo e resiliente
+|La posizione di mercato viene sfruttata; strategie di uscita e concetti multifornitore attuati; know-how sviluppato; resilienza e scenari di crisi preparati
+
+|4
+|Sistemicamente sovrano
+|Sovranità in tutte le dimensioni rilevanti (giuridica, tecnologica, culturale, strategica); definizione attiva del mercato e degli standard; effetto geopolitico possibile
+|===
+
+_Grado di sovranità digitale._
 
 Queste due dimensioni producono la matrice seguente:
 
-image::./assets/em002-7/media/image4.png[Matrice Sovranità digitale]
+[cols="2,1,1,1,1,1",options="header"]
+|===
+|Prospettiva |0 |1 |2 |3 |4
 
-Figura 4: Matrice Sovranità digitale.
+|A -- Controllo tecnologico
+|
+|
+|
+|
+|
 
-Nelle singole intersezioni (campi grigi) possono essere descritti criteri concreti per rendere la classificazione il più oggettiva possibile.
+|B -- Sovranità dei dati
+|
+|
+|
+|
+|
+
+|C -- Capacità giuridica d'azione
+|
+|
+|
+|
+|
+
+|D -- Resilienza
+|
+|
+|
+|
+|
+
+|E -- Controllo economico
+|
+|
+|
+|
+|
+|===
+
+_Matrice Sovranità digitale: prospettive e grado di sovranità._
+
+Nelle singole intersezioni (le celle vuote) possono essere descritti criteri concreti per rendere la classificazione il più oggettiva possibile.
 
 Un simile quadro di riferimento è attualmente in fase di elaborazione nell'ambito della priorità 4 «Rafforzare la sovranità digitale» della «Strategia Amministrazione federale digitale».footnote:[https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch — Amministrazione federale digitale]]
 
@@ -3038,17 +3282,78 @@ Perspectivas pussaivlas èn:
 
 Per mintgina da questas perspectivas sa lascha determinar il grad da suveranitad digitala cun agid d'ina scala anc da definir:
 
-image::./assets/em002-7/media/image3.png[Grad da suveranitad digitala]
+[cols="1,3,6",options="header"]
+|===
+|Grad |Denominaziun curta |Descripziun
 
-Illustraziun 3: Grad da suveranitad digitala.
+|0
+|Determinà da terzs / betg suveran
+|Nagina controlla davart sistems, datas u infrastructura; nagina transparenza, grondas dependenzas; naginas opziuns d'exit u alternativas
+
+|1
+|Controllà minimalmain
+|Emprimas enconuschientschas davart l'utilisaziun e las dependenzas; mecanissems da controlla puntuals; lacunas operativas, giuridicas u tecnologicas persistan
+
+|2
+|Utilisabel en moda reglamentada
+|Sistems fidaivels e per part controllabels; rom giuridic e tecnic stabilì; dependenzas strategicas persistan
+
+|3
+|Autoregulà e resilient
+|La posiziun sin il martgà vegn duvrada; strategias d'exit e concepts multifurnitur implementads; know-how construì; resilienza e scenaris da crisa preparads
+
+|4
+|Suveran sistemicamain
+|Suveranitad en tut las dimensiuns relevantas (giuridica, tecnologica, culturala, strategica); format activ dal martgà e dals standards; effect geopolitic pussaivel
+|===
+
+_Grad da suveranitad digitala._
 
 Questas duas dimensiuns dattan la suandanta matrix:
 
-image::./assets/em002-7/media/image4.png[Matrix suveranitad digitala]
+[cols="2,1,1,1,1,1",options="header"]
+|===
+|Perspectiva |0 |1 |2 |3 |4
 
-Illustraziun 4: Matrix suveranitad digitala.
+|A -- Controlla tecnologica
+|
+|
+|
+|
+|
 
-En ils singuls champs da cruschada (champs grischs) pon vegnir descrits criteris concrets per render la classificaziun uschè objectiva sco pussaivel.
+|B -- Suveranitad da las datas
+|
+|
+|
+|
+|
+
+|C -- Capacitad giuridica d'agir
+|
+|
+|
+|
+|
+
+|D -- Resilienza
+|
+|
+|
+|
+|
+
+|E -- Controlla economica
+|
+|
+|
+|
+|
+|===
+
+_Matrix suveranitad digitala: perspectivas ed il grad da suveranitad._
+
+En ils singuls champs da cruschada (las cellas vidas) pon vegnir descrits criteris concrets per render la classificaziun uschè objectiva sco pussaivel.
 
 In tal framework vegn actualmain sviluppà en il rom da l'accent 4 «Rinforzar la suveranitad digitala» da la «Strategia Administraziun federala digitala».footnote:[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch – Administraziun federala digitala]]
 
