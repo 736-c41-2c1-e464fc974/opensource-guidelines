@@ -61,7 +61,17 @@ HTML
 </ul>
 <footer>The German, French, Italian and Romansh versions are unreviewed
 translations. The binding versions are published in the official languages by
-the Federal Chancellery.</footer>
+the Federal Chancellery.
+HTML
+
+    # Only on the published site, where site-archive.sh has written the listing.
+    # A pull request build has no archive, and a dead link would be worse than
+    # no link at all.
+    [ -f "$dir/archive.html" ] &&
+        printf '<br><a href="archive.html">Earlier builds and releases</a>\n'
+
+    cat <<'HTML'
+</footer>
 </html>
 HTML
 } > "$dir/index.html"
