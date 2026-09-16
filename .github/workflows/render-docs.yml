@@ -165,4 +165,14 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        env:
+          # actions/deploy-pages keys the deployment on GITHUB_SHA alone, and
+          # Pages treats a repeat of an already-published version as a no-op --
+          # reporting success while continuing to serve the earlier build. A
+          # release tag normally points at the commit main has just published,
+          # so the tag's archive would never reach the site. Qualifying the
+          # version with the ref name makes each ref its own deployment.
+          # Undocumented but stable: the runner layers step `env` over the
+          # default variables, and pages_build_version is a free-form string.
+          GITHUB_SHA: ${{ github.sha }}-${{ github.ref_name }}
         uses: actions/deploy-pages@v4
