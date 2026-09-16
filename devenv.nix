@@ -56,10 +56,52 @@ let
         systemd
       ];
   };
+
+  # A deliberately small bundle: the editor counterpart of the git hooks, so
+  # that the things the hooks reject are visible while typing rather than at
+  # commit time. Every entry below pairs with a hook in git-hooks.hooks, except
+  # direnv (which is how the shell gets loaded at all) and AsciiDoc (which is
+  # what this repository is written in).
+  #
+  # nixpkgs carries all of these, so none of them need the
+  # extensionsFromVscodeMarketplace escape hatch and its pinned sha256.
+  vscodeWithExtensions = pkgs.vscode-with-extensions.override {
+    vscodeExtensions = with pkgs.vscode-extensions; [
+      # Syntax highlighting and live preview for the 15 documents in docs/.
+      asciidoctor.asciidoctor-vscode
+
+      # Loads this devenv automatically, instead of requiring `devenv shell`.
+      mkhl.direnv
+
+      # Honours .editorconfig while typing -> editorconfig-checker hook.
+      editorconfig.editorconfig
+
+      # devenv.nix itself. Set nix.formatterPath to nixfmt to match the hook.
+      jnoortheen.nix-ide
+
+      # Inline shellcheck for tools/*.sh. Note the hook runs it as
+      # `-x -o all`, which is stricter than this extension's default, so a
+      # clean editor does not guarantee a clean commit.
+      timonwong.shellcheck
+
+      # The workflows and publiccode.yml -> yamllint hook.
+      redhat.vscode-yaml
+
+      # Schema validation and expression completion for the workflows in
+      # .github/workflows/. CI is the publishing pipeline here, so those two
+      # files carry more weight than their size suggests.
+      github.vscode-github-actions
+    ];
+  };
 in
 {
   env = {
     DO_NOT_TRACK = 1;
+
+    # Interactive devenvs get the editor; CI does not. The lint workflow runs
+    # `devenv shell`, and without this it would pull the whole VS Code closure
+    # on every push just to run the hooks.
+    cicd = lib.mkDefault false;
   };
 
   dotenv = {
@@ -68,22 +110,113 @@ in
   };
 
   # https://devenv.sh/packages/
-  packages = with pkgs; [
-    git
-    gh
-    curl
+  packages =
+    with pkgs;
+    [
+      git
+      gh
+      curl
 
-    # document creation / verification
+      # document creation / verification
+      #
+      # Used ad hoc throughout this repo's Markdown -> AsciiDoc migration to
+      # render and sanity-check every converted .adoc file; kept here so that
+      # workflow doesn't depend on remembering `nix-shell -p asciidoctor`.
+      asciidoctor-with-extensions # asciidoctor-pdf, asciidoctor-reducer, asciidoctor-diagram
+      pandoc
+
+      # headless rendering
+      xvfb-run
+    ]
     #
-    # Used ad hoc throughout this repo's Markdown -> AsciiDoc migration to
-    # render and sanity-check every converted .adoc file; kept here so that
-    # workflow doesn't depend on remembering `nix-shell -p asciidoctor`.
-    asciidoctor-with-extensions # asciidoctor-pdf, asciidoctor-reducer, asciidoctor-diagram
-    pandoc
+    # Interactive devenvs only: these are never needed to render or to lint,
+    # and CI should not pay for them. Enter CI/CD mode with
+    # `devenv --option env.cicd:bool true ...`.
+    #
+    ++ lib.optionals (!config.env.cicd) [
+      vscodeWithExtensions
+    ];
 
-    # headless rendering
-    xvfb-run
-  ];
+  # https://devenv.sh/git-hooks/
+  #
+  # Recommended by git-hooks.nix, and much faster than the Python pre-commit on
+  # a repository this small, where process startup dominates.
+  git-hooks.package = pkgs.prek;
+
+  git-hooks.hooks = {
+    # Line endings and whitespace. The .adoc sources came through a
+    # Word -> Markdown -> AsciiDoc migration, which is exactly the kind of
+    # pipeline that reintroduces CRLF one file at a time.
+    dos2unix = {
+      enable = true;
+      entry = "${lib.getExe pkgs.dos2unix}";
+      args = [ "--info=c" ];
+    };
+
+    trim-trailing-whitespace.enable = true;
+    end-of-file-fixer.enable = true;
+
+    # The workflow invokes tools/*.sh directly (`run: tools/site-index.sh`), so
+    # a dropped exec bit breaks the Pages deploy rather than anything local.
+    check-executables-have-shebangs.enable = true;
+    check-shebang-scripts-are-executable = {
+      enable = true;
+      # .envrc is sourced by direnv, never executed. Its shebang is there to
+      # get shell highlighting and the shellcheck directive on line 2, so
+      # marking it executable would be wrong in the way this hook warns about.
+      excludes = [ "^\\.envrc$" ];
+    };
+
+    check-symlinks.enable = true;
+
+    editorconfig-checker.enable = true;
+
+    nixfmt.enable = true;
+
+    # devenv.lock is JSON, but identify classifies files by extension and does
+    # not know `.lock`, so it has to be named explicitly to be checked at all.
+    check-json = {
+      enable = true;
+      files = "(\\.json|devenv\\.lock)$";
+      types = [ "file" ];
+    };
+
+    # truthy check-keys is off because GitHub Actions' `on:` trigger key is
+    # read as the YAML 1.1 boolean `true`; every workflow file would fail.
+    yamllint = {
+      enable = true;
+      settings = {
+        strict = true;
+        configData = "{ extends: default, rules: { document-start: disable, line-length: {max: 165}, truthy: {check-keys: false} } }";
+      };
+    };
+
+    ripsecrets.enable = true;
+
+    shellcheck = {
+      enable = true;
+      args = [
+        "-x"
+        "-o"
+        "all"
+      ];
+    };
+
+    # git-hooks.nix has no AsciiDoc linter of any kind -- the closest it ships
+    # are the prose linters (vale, proselint), which check style rather than
+    # syntax and would drown in false positives on four non-English languages.
+    # See the script for what this does and does not catch.
+    check-asciidoc = {
+      enable = true;
+      entry = "${config.devenv.root}/tools/check-asciidoc.sh";
+      files = "\\.adoc$";
+      types = [ "file" ];
+    };
+  };
+
+  # Print the output of the git hooks that `devenv test` runs, otherwise a
+  # failing hook only reports that it failed.
+  tasks."devenv:git-hooks:run".showOutput = true;
 
   enterShell = ''
     (
@@ -112,94 +245,42 @@ in
     '';
   };
 
-  # The only way in: `open-govpress render <file.adoc>... -o out.pdf`.
-  #
-  # Always run under xvfb-run: Electron has no headless mode and the packaged
-  # binary refuses to render without a display (exit code 5). xvfb-run makes
-  # this work the same way whether or not the calling shell has a real
-  # display, which keeps local dev and CI identical.
-  #
-  # Downloads and extracts the release tarball on first use rather than at
-  # `enterShell` time, so entering the shell stays fast when nobody needs to
-  # render anything, and caches both under open-govpress/ (gitignored) so
-  # repeat invocations don't re-fetch or re-extract.
-  scripts.open-govpress = {
-    description = "Render .adoc documents (open-govpress render <file>... -o out.pdf)";
+  scripts.lint = {
+    description = "Run all git hooks over every file (lint [prek args...])";
     exec = ''
-      set -euo pipefail
-      cd '${config.devenv.root}'
+      (
+        set -euo pipefail
+        cd '${config.devenv.root}'
 
-      govpress_cache_dir="$(pwd)/open-govpress/.cache"
-      govpress_archive="''${govpress_cache_dir}/open-govpress-${govpressVersion}-linux-x64.tar.gz"
-      govpress_extract_dir="$(pwd)/open-govpress/.extracted"
-      govpress_bin="''${govpress_extract_dir}/open-govpress-${govpressVersion}/open-govpress"
-
-      if [ ! -x "''${govpress_bin}" ]; then
-        mkdir -p "''${govpress_cache_dir}" "''${govpress_extract_dir}"
-
-        if [ ! -f "''${govpress_archive}" ]; then
-          ${lib.getExe pkgs.curl} -fL --retry 3 -o "''${govpress_archive}.part" '${govpressUrl}'
-          mv "''${govpress_archive}.part" "''${govpress_archive}"
-        fi
-
-        echo '${govpressSha256}  '"''${govpress_archive}" | ${pkgs.coreutils}/bin/sha256sum -c -
-        tar xzf "''${govpress_archive}" -C "''${govpress_extract_dir}"
-      fi
-
-      exec ${lib.getExe govpressFHS} ${lib.getExe pkgs.xvfb-run} -a "''${govpress_bin}" --no-sandbox "''${@}"
+        prek run "''${@:---all-files}"
+      )
     '';
   };
 
-  # Builds the whole published site locally: every tracked .adoc rendered
-  # once per language into build/<lang>/, with the same per-language index
-  # pages and language chooser that CI publishes to GitHub Pages.
+  # The only way in: `open-govpress render <file.adoc>... -o out.pdf`.
   #
-  # It shares tools/site-index.sh and tools/site-root.sh with the workflow on
-  # purpose -- the point of building locally is to see what will be published,
-  # which a second implementation of the index would quietly stop doing.
+  # The wrapper only passes down what has to come from Nix -- store paths and
+  # the pinned release -- because shell inside a Nix string is invisible to
+  # shellcheck and editorconfig-checker. The logic lives in the script, where
+  # the hooks can see it.
+  scripts.open-govpress = {
+    description = "Render .adoc documents (open-govpress render <file>... -o out.pdf)";
+    exec = ''
+      GOVPRESS_VERSION='${govpressVersion}' \
+      GOVPRESS_URL='${govpressUrl}' \
+      GOVPRESS_SHA256='${govpressSha256}' \
+      GOVPRESS_FHS='${lib.getExe govpressFHS}' \
+      GOVPRESS_XVFB_RUN='${lib.getExe pkgs.xvfb-run}' \
+      GOVPRESS_CURL='${lib.getExe pkgs.curl}' \
+      GOVPRESS_SHA256SUM='${pkgs.coreutils}/bin/sha256sum' \
+        exec '${config.devenv.root}/tools/open-govpress.sh' "''${@}"
+    '';
+  };
+
   scripts.render-docs = {
     description = "Render every .adoc document in every language into build/ (render-docs [lang...])";
     exec = ''
-      set -euo pipefail
-      cd '${config.devenv.root}'
-
-      if [ "$#" -gt 0 ]; then
-        langs=("''${@}")
-      else
-        langs=(en de fr it rm)
-      fi
-
-      for lang in "''${langs[@]}"; do
-        case "$lang" in
-          en | de | fr | it | rm) ;;
-          *)
-            echo "render-docs: unknown language '$lang' (expected en, de, fr, it or rm)" >&2
-            exit 1
-            ;;
-        esac
-      done
-
-      for lang in "''${langs[@]}"; do
-        # A document may opt out of a language with `:l10n-languages:` in its
-        # header; absent means all five. Skipping it here keeps an untranslated
-        # document out of that language entirely, rather than rendering a PDF
-        # whose body every ifeval:: guard rejected.
-        docs=()
-        while IFS= read -r doc; do
-          doc_langs=$(sed -n 's/^:l10n-languages:[[:space:]]*//p' "$doc" | head -1)
-          if [ -z "$doc_langs" ] || grep -qw "$lang" <<<"$doc_langs"; then
-            docs+=("$doc")
-          fi
-        done < <(git ls-files '*.adoc')
-
-        echo "Rendering ''${#docs[@]} documents in $lang..."
-        mkdir -p "build/$lang"
-        open-govpress render --lang "$lang" -o "build/$lang" "''${docs[@]}"
-        ./tools/site-index.sh "$lang" "build/$lang"
-      done
-
-      ./tools/site-root.sh build
-      echo "Site built in build/ -- open build/index.html"
+      exec '${config.devenv.root}/tools/render-docs.sh' "''${@}"
     '';
   };
 }
