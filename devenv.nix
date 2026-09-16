@@ -6,7 +6,7 @@
 }:
 
 let
-  # open-govpress (https://github.com/swiss-armed-forces/cyber-command/cea/open-govpress)
+  # open-govpress (https://gitlab.com/swiss-armed-forces/cyber-command/cea/open-govpress)
   # is the CLI used to render these .adoc documents to PDF. It ships as a
   # generic dynamically-linked Linux binary (electron-builder's tar.gz
   # target), which cannot execute directly on NixOS -- there is no
