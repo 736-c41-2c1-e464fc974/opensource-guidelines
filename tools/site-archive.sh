@@ -51,12 +51,12 @@ emit_entries() {
         local date subject
         date=$(meta_field "$meta" date)
         subject=$(meta_field "$meta" subject)
-        printf '  <li><a href="%s/%s/"><span class="when">%s</span>%s<span class="subject">%s</span></a></li>\n' \
+        printf '  <li><a href="%s/%s/"><span class="build"><span class="ref">%s</span><span class="subject">%s</span></span><span class="when">%s</span></a></li>\n' \
             "$(printf '%s' "$subdir" | escape)" \
             "$(printf '%s' "$name" | escape)" \
-            "$(printf '%s' "${date%T*}" | escape)" \
             "$(printf '%s' "$name" | escape)" \
-            "$(printf '%s' "$subject" | escape)"
+            "$(printf '%s' "$subject" | escape)" \
+            "$(printf '%s' "${date%T*}" | escape)"
     done < <(printf '%s\n' "${rows[@]}" | sort -rn -t'	' -k1,1)
 }
 
@@ -68,7 +68,11 @@ emit_entries() {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Archived builds &#8212; Open Source Guidelines</title>
 <style>
-  :root { color-scheme: light dark; }
+  :root { color-scheme: light dark;
+          --link: #0b57d0; --rule: rgba(128,128,128,.3); --wash: rgba(11,87,208,.08); }
+  @media (prefers-color-scheme: dark) {
+    :root { --link: #8ab4f8; --wash: rgba(138,180,248,.12); }
+  }
   body { margin: 0 auto; padding: 3rem 1rem 4rem; max-width: 40rem;
          font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
   h1 { font-size: 1.5rem; margin: 0 0 .5rem; }
@@ -77,14 +81,23 @@ emit_entries() {
   p.lead { margin: 0 0 1rem; opacity: .7; font-size: .9rem; }
   p.empty { margin: .5rem 0 0; opacity: .5; font-size: .85rem; }
   ul { list-style: none; margin: 0; padding: 0; }
-  li { border-top: 1px solid rgba(128,128,128,.3); }
-  li:last-child { border-bottom: 1px solid rgba(128,128,128,.3); }
-  a { display: block; padding: .8rem .25rem; text-decoration: none; color: inherit;
-      font-variant-numeric: tabular-nums; }
-  a:hover, a:focus { background: rgba(128,128,128,.12); }
-  a .when { float: right; opacity: .5; font-size: .8rem; }
-  a .subject { display: block; font-size: .75rem; opacity: .6; margin-top: .15rem; }
+  li { border-top: 1px solid var(--rule); }
+  li:last-child { border-bottom: 1px solid var(--rule); }
+  li a { display: flex; align-items: center; gap: .75rem;
+         padding: .8rem .5rem .8rem .25rem; text-decoration: none; color: inherit;
+         font-variant-numeric: tabular-nums; }
+  li a .build { flex: 1; }
+  li a .ref { display: block; color: var(--link); text-decoration: underline;
+              text-underline-offset: .18em; }
+  li a .when { opacity: .55; font-size: .8rem; }
+  li a .subject { display: block; font-size: .75rem; opacity: .6; margin-top: .15rem; }
+  li a::after { content: "\203A"; color: var(--link); font-size: 1.25em;
+                line-height: 1; opacity: .8; }
+  li a:hover, li a:focus-visible { background: var(--wash); }
+  li a:hover .ref { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: -2px; }
   nav { margin-top: 2.5rem; font-size: .85rem; }
+  nav a { color: var(--link); }
 </style>
 <h1>Archived builds</h1>
 <p class="lead">Each entry is the complete set of documents, in all languages, as
@@ -109,7 +122,7 @@ HTML
     fi
 
     cat <<'HTML'
-<nav><a href="./">&#8592;</a></nav>
+<nav><a href="./">&#8592; All languages</a></nav>
 </html>
 HTML
 } > "$dir/archive.html"
