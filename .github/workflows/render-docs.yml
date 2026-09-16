@@ -41,10 +41,10 @@ jobs:
       matrix:
         lang: [en, de, fr, it, rm]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Cache open-govpress download
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: /tmp/open-govpress.tar.gz
           key: open-govpress-${{ env.GOVPRESS_SHA256 }}
@@ -94,7 +94,7 @@ jobs:
         run: tools/site-index.sh "${{ matrix.lang }}" "out/${{ matrix.lang }}"
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           # `path: out/` so the archive's root is `<lang>/`, which is what lets
           # the collect job merge all five into one tree.
@@ -112,10 +112,10 @@ jobs:
       contents: write
       actions: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Download every language
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: pdfs-*
           # Without this each archive lands under its own `pdfs-<lang>/`
@@ -127,7 +127,7 @@ jobs:
         run: tools/site-root.sh site
 
       - name: Upload site artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site
           path: site/
@@ -143,15 +143,17 @@ jobs:
           KEEP_COMMITS: "10"
         run: tools/site-publish.sh site .site-history
 
-      # upload-pages-artifact tars the directory whole, and the clone's object
-      # store would otherwise be published along with the site.
+      # upload-pages-artifact excludes `.git` from its tar since v4, but the
+      # site is re-published from a fresh clone each run and the object store
+      # has no business being in the artifact -- dropping it here keeps that
+      # guarantee ours rather than the action's.
       - name: Strip the git metadata
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
         run: rm -rf .site-history/.git
 
       - name: Upload Pages artifact
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: .site-history/
 
@@ -178,4 +180,4 @@ jobs:
           # Undocumented but stable: the runner layers step `env` over the
           # default variables, and pages_build_version is a free-form string.
           GITHUB_SHA: ${{ github.sha }}-${{ github.ref_name }}
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

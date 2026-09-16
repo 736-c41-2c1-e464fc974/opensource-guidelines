@@ -22,7 +22,7 @@ jobs:
       # The hooks read the index, not just the work tree -- check-asciidoc and
       # site-index.sh both call `git ls-files` -- so this needs a real checkout.
       # Full history is not needed: every hook looks at the tree as it stands.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install Nix
         uses: cachix/install-nix-action@v31
