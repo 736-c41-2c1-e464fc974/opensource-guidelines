@@ -66,8 +66,10 @@ doc_title() {
 }
 
 # basename -> source path, so a rendered PDF can be traced back to its document.
+# `docs/partials/` is excluded: it holds fragments that are `include::`d into
+# the documents, and a fragment has no PDF of its own to trace back to.
 declare -A source_of
-adoc_files=$(git ls-files '*.adoc')
+adoc_files=$(git ls-files '*.adoc' ':!docs/partials/*')
 while IFS= read -r src; do
     [[ -n "${src}" ]] || continue
     stem=$(basename "${src}" .adoc)

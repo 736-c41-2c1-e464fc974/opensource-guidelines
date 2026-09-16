@@ -40,7 +40,11 @@ for lang in "${langs[@]}"; do
     esac
 done
 
-tracked=$(git ls-files '*.adoc')
+# `docs/partials/` is excluded: it holds fragments that are `include::`d into
+# the documents -- the shared document map, say -- and a fragment is not a
+# document. On its own it has no title and no ifeval:: block, so it would render
+# as a near-empty PDF and take a row in the language index.
+tracked=$(git ls-files '*.adoc' ':!docs/partials/*')
 
 for lang in "${langs[@]}"; do
     # A document may opt out of a language with `:l10n-languages:` in its

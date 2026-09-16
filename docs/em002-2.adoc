@@ -52,7 +52,17 @@ These instructions describe the procedure for disclosing source code of software
 
 These instructions are intended for individuals responsible for and implementing the publication of source code.
 
-image::./assets/em002-2/media/image1.png[Overview of the OSS publication process]
+[mermaid,align="center",alt="Overview of the OSS publication process"]
+....
+flowchart TD
+  S(["Start"])
+  A["Preliminary assessment"]
+  B["Analysis and preparation"]
+  C["Publication"]
+  S --> A
+  A --> B
+  B --> C
+....
 
 The subject matter is divided into three main parts:
 
@@ -76,7 +86,40 @@ The release of open source software is more than just a technical measure. It al
 
 The following diagram describes the instructions and different characteristics.
 
-image::./assets/em002-2/media/image2.png[Decision tree for software release]
+[mermaid,align="center",alt="Decision tree for software release"]
+....
+flowchart TD
+  Start(["Start<br/>developed from 1.1.2024"])
+  subgraph B1["1. Preliminary assessment"]
+    T{"Type of software"}
+  end
+  subgraph B2["2. Analysis and preparation"]
+    I{"Are third parties<br/>interested in the software?"}
+    GJ["Clarify governance and<br/>collaboration [Em002-4.1]"]
+    GT["Clarify governance and<br/>collaboration [Em002-4.1]"]
+    O{"Open source software<br/>development?"}
+  end
+  subgraph B3["3. Publication"]
+    M["Perform minimal release"]
+    P["Publication of the software"]
+    D["Open source software<br/>development"]
+    C["Building and maintaining<br/>a community [Em002-4]"]
+  end
+  Start --> T
+  T -->|"In-house development"| I
+  T -->|"Joint development"| GJ
+  T -->|"Third-party project"| GT
+  I -->|"No"| M
+  I -->|"Yes, or conceivable"| O
+  GJ --> O
+  GT --> D
+  O -->|"No"| P
+  O -->|"Yes"| D
+  P --> C
+  D --> C
+  M --> E1(["End"])
+  C --> E2(["End"])
+....
 
 Figure 1 – Decision tree for software release
 
@@ -187,7 +230,30 @@ Here too, ++[++KKB-MB++]++ contains important information.
 
 *Procedure*
 
-image::./assets/em002-2/media/image3.png[Process for handling third-party rights exceptions]
+[mermaid,align="center",alt="Process for handling third-party rights exceptions"]
+....
+flowchart TD
+  S(["Start"])
+  Q1{"Purchase of a licence or of an<br/>existing solution as a central<br/>procurement item?"}
+  Q2{"Further developments<br/>definable?"}
+  Q3{"Do the rights belong<br/>to the Confederation?"}
+  Q4{"Is the acquisition of<br/>third-party rights necessary?"}
+  Q5{"Can a part with rights held by the<br/>Confederation be demarcated<br/>in a targeted manner?"}
+  R1["Reasonable exception:<br/>third-party rights"]
+  R2["Partial release by<br/>the Confederation"]
+  R3["Release by the Confederation"]
+  S --> Q1
+  Q1 -->|"No"| Q3
+  Q1 -->|"Yes"| Q2
+  Q2 -->|"Yes"| Q3
+  Q2 -->|"No"| R1
+  Q3 -->|"Yes"| R3
+  Q3 -->|"No"| Q4
+  Q4 -->|"Yes"| R3
+  Q4 -->|"No"| Q5
+  Q5 -->|"Yes"| R2
+  Q5 -->|"No"| R1
+....
 
 Figure 2 - Exception: Third-party rights (always also take into account ++[++KKB-MB++]++ and link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software])
 
@@ -215,7 +281,32 @@ Software should be deliberately developed so that no additional risk arises even
 
 *Procedure:*
 
-image::./assets/em002-2/media/image4.png[Process for handling security-relevant reasons exceptions]
+[NOTE]
+====
+It is always the software that is relevant and not the purpose of the software. The processing of critical data is not a priori a security-relevant aspect.
+====
+
+[mermaid,align="center",alt="Process for handling security-relevant reasons exceptions"]
+....
+flowchart TD
+  S(["Start"])
+  Q1{"Security-relevant<br/>grounds?"}
+  Q2{"Can the security-relevant<br/>software be decoupled?"}
+  Q3{"Temporary grounds?"}
+  M["Publication measures"]
+  R1["Release part of<br/>the software"]
+  R2["Exception:<br/>security-relevant grounds"]
+  R3["Temporary exception"]
+  R4["Release"]
+  S --> Q1
+  Q1 -->|"One or more points apply"| Q2
+  Q1 -->|"Not applicable"| Q3
+  Q2 -->|"Yes"| R1
+  Q2 -->|"No"| R2
+  Q3 -->|"One or more points apply"| R3
+  Q3 -->|"No temporary grounds"| M
+  M --> R4
+....
 
 Figure 3 - Exception: Security-relevant reasons
 
@@ -671,7 +762,17 @@ Diese Anleitung beschreibt das Vorgehen für die Offenlegung von Quellcode von S
 
 Diese Anleitung richtet sich an Personen, die für die Veröffentlichung von Quellcode verantwortlich sind und diese umsetzen.
 
-image::./assets/em002-2/media/image1.png[Übersicht über den OSS-Veröffentlichungsprozess]
+[mermaid,align="center",alt="Übersicht über den OSS-Veröffentlichungsprozess"]
+....
+flowchart TD
+  S(["Start"])
+  A["Vorabklärung"]
+  B["Analyse und Vorbereitung"]
+  C["Veröffentlichung"]
+  S --> A
+  A --> B
+  B --> C
+....
 
 Der Gegenstand gliedert sich in drei Hauptteile:
 
@@ -695,7 +796,40 @@ Die Freigabe von Open-Source-Software ist mehr als eine rein technische Massnahm
 
 Die folgende Grafik beschreibt die Anleitung und die verschiedenen Ausprägungen.
 
-image::./assets/em002-2/media/image2.png[Entscheidungsbaum für die Softwarefreigabe]
+[mermaid,align="center",alt="Entscheidungsbaum für die Softwarefreigabe"]
+....
+flowchart TD
+  Start(["Start<br/>entwickelt ab 1.1.2024"])
+  subgraph B1["1. Vorabklärung"]
+    T{"Art der Software"}
+  end
+  subgraph B2["2. Analyse und Vorbereitung"]
+    I{"Besteht Interesse<br/>Dritter an der Software?"}
+    GJ["Governance und Zusammenarbeit<br/>klären [Em002-4.1]"]
+    GT["Governance und Zusammenarbeit<br/>klären [Em002-4.1]"]
+    O{"Open-Source-<br/>Softwareentwicklung?"}
+  end
+  subgraph B3["3. Veröffentlichung"]
+    M["Minimale Freigabe durchführen"]
+    P["Veröffentlichung der Software"]
+    D["Open-Source-<br/>Softwareentwicklung"]
+    C["Community aufbauen<br/>und pflegen [Em002-4]"]
+  end
+  Start --> T
+  T -->|"Eigenentwicklung"| I
+  T -->|"Gemeinsame Entwicklung"| GJ
+  T -->|"Drittprojekt"| GT
+  I -->|"Nein"| M
+  I -->|"Ja, oder denkbar"| O
+  GJ --> O
+  GT --> D
+  O -->|"Nein"| P
+  O -->|"Ja"| D
+  P --> C
+  D --> C
+  M --> E1(["Ende"])
+  C --> E2(["Ende"])
+....
 
 Abbildung 1 – Entscheidungsbaum für die Softwarefreigabe
 
@@ -806,7 +940,30 @@ Auch hier enthält ++[++KKB-MB++]++ wichtige Hinweise.
 
 *Vorgehen*
 
-image::./assets/em002-2/media/image3.png[Prozess für den Umgang mit der Ausnahme Rechte Dritter]
+[mermaid,align="center",alt="Prozess für den Umgang mit der Ausnahme Rechte Dritter"]
+....
+flowchart TD
+  S(["Start"])
+  Q1{"Beschaffung einer Lizenz oder<br/>einer bestehenden Lösung als<br/>zentraler Beschaffungsgegenstand?"}
+  Q2{"Weiterentwicklungen<br/>definierbar?"}
+  Q3{"Liegen die Rechte<br/>beim Bund?"}
+  Q4{"Ist der Erwerb von Rechten<br/>Dritter notwendig?"}
+  Q5{"Kann ein Teil mit Rechten beim<br/>Bund gezielt abgegrenzt werden?"}
+  R1["Begründete Ausnahme:<br/>Rechte Dritter"]
+  R2["Teilweise Freigabe<br/>durch den Bund"]
+  R3["Freigabe durch den Bund"]
+  S --> Q1
+  Q1 -->|"Nein"| Q3
+  Q1 -->|"Ja"| Q2
+  Q2 -->|"Ja"| Q3
+  Q2 -->|"Nein"| R1
+  Q3 -->|"Ja"| R3
+  Q3 -->|"Nein"| Q4
+  Q4 -->|"Ja"| R3
+  Q4 -->|"Nein"| Q5
+  Q5 -->|"Ja"| R2
+  Q5 -->|"Nein"| R1
+....
 
 Abbildung 2 – Ausnahme: Rechte Dritter (stets auch ++[++KKB-MB++]++ und link:em002-7.pdf[Em002-7 Strategische Aspekte der Beschaffung und Open-Source-Software] berücksichtigen)
 
@@ -834,7 +991,32 @@ Software sollte bewusst so entwickelt werden, dass auch bei einer Veröffentlich
 
 *Vorgehen:*
 
-image::./assets/em002-2/media/image4.png[Prozess für den Umgang mit der Ausnahme sicherheitsrelevante Gründe]
+[NOTE]
+====
+Massgebend ist stets die Software und nicht der Zweck der Software. Die Bearbeitung kritischer Daten ist nicht a priori ein sicherheitsrelevanter Aspekt.
+====
+
+[mermaid,align="center",alt="Prozess für den Umgang mit der Ausnahme sicherheitsrelevante Gründe"]
+....
+flowchart TD
+  S(["Start"])
+  Q1{"Sicherheitsrelevante<br/>Gründe?"}
+  Q2{"Kann die sicherheitsrelevante<br/>Software entkoppelt werden?"}
+  Q3{"Vorübergehende Gründe?"}
+  M["Massnahmen für<br/>die Veröffentlichung"]
+  R1["Teil der Software<br/>freigeben"]
+  R2["Ausnahme:<br/>sicherheitsrelevante Gründe"]
+  R3["Vorübergehende Ausnahme"]
+  R4["Freigeben"]
+  S --> Q1
+  Q1 -->|"Ein oder mehrere Punkte treffen zu"| Q2
+  Q1 -->|"Nicht zutreffend"| Q3
+  Q2 -->|"Ja"| R1
+  Q2 -->|"Nein"| R2
+  Q3 -->|"Ein oder mehrere Punkte treffen zu"| R3
+  Q3 -->|"Keine vorübergehenden Gründe"| M
+  M --> R4
+....
 
 Abbildung 3 – Ausnahme: Sicherheitsrelevante Gründe
 
@@ -1290,7 +1472,17 @@ Les présentes instructions décrivent la procédure de publication du code sour
 
 Les présentes instructions s'adressent aux personnes responsables de la publication du code source et chargées de sa mise en œuvre.
 
-image::./assets/em002-2/media/image1.png[Vue d'ensemble du processus de publication OSS]
+[mermaid,align="center",alt="Vue d'ensemble du processus de publication OSS"]
+....
+flowchart TD
+  S(["Début"])
+  A["Évaluation préalable"]
+  B["Analyse et préparation"]
+  C["Publication"]
+  S --> A
+  A --> B
+  B --> C
+....
 
 La matière est divisée en trois parties principales :
 
@@ -1314,7 +1506,40 @@ La publication de logiciels open source est plus qu'une simple mesure technique.
 
 Le schéma suivant décrit les instructions et les différentes configurations.
 
-image::./assets/em002-2/media/image2.png[Arbre de décision pour la publication de logiciels]
+[mermaid,align="center",alt="Arbre de décision pour la publication de logiciels"]
+....
+flowchart TD
+  Start(["Début<br/>développé à partir du 1.1.2024"])
+  subgraph B1["1. Évaluation préalable"]
+    T{"Type de logiciel"}
+  end
+  subgraph B2["2. Analyse et préparation"]
+    I{"Des tiers sont-ils<br/>intéressés par le logiciel ?"}
+    GJ["Clarifier la gouvernance et<br/>la collaboration [Em002-4.1]"]
+    GT["Clarifier la gouvernance et<br/>la collaboration [Em002-4.1]"]
+    O{"Développement de logiciels<br/>open source ?"}
+  end
+  subgraph B3["3. Publication"]
+    M["Effectuer une publication minimale"]
+    P["Publication du logiciel"]
+    D["Développement de logiciels<br/>open source"]
+    C["Constituer et entretenir<br/>une communauté [Em002-4]"]
+  end
+  Start --> T
+  T -->|"Développement propre"| I
+  T -->|"Développement commun"| GJ
+  T -->|"Projet de tiers"| GT
+  I -->|"Non"| M
+  I -->|"Oui, ou envisageable"| O
+  GJ --> O
+  GT --> D
+  O -->|"Non"| P
+  O -->|"Oui"| D
+  P --> C
+  D --> C
+  M --> E1(["Fin"])
+  C --> E2(["Fin"])
+....
 
 Figure 1 – Arbre de décision pour la publication de logiciels
 
@@ -1425,7 +1650,30 @@ Ici aussi, ++[++KKB-MB++]++ contient des indications importantes.
 
 *Procédure*
 
-image::./assets/em002-2/media/image3.png[Processus de traitement de l'exception relative aux droits de tiers]
+[mermaid,align="center",alt="Processus de traitement de l'exception relative aux droits de tiers"]
+....
+flowchart TD
+  S(["Début"])
+  Q1{"Acquisition d'une licence ou d'une<br/>solution existante en tant qu'objet<br/>d'acquisition central ?"}
+  Q2{"Les développements ultérieurs<br/>sont-ils définissables ?"}
+  Q3{"Les droits appartiennent-ils<br/>à la Confédération ?"}
+  Q4{"L'acquisition de droits de<br/>tiers est-elle nécessaire ?"}
+  Q5{"Une partie dont les droits appartiennent<br/>à la Confédération peut-elle être<br/>délimitée de manière ciblée ?"}
+  R1["Exception justifiée :<br/>droits de tiers"]
+  R2["Publication partielle par<br/>la Confédération"]
+  R3["Publication par la Confédération"]
+  S --> Q1
+  Q1 -->|"Non"| Q3
+  Q1 -->|"Oui"| Q2
+  Q2 -->|"Oui"| Q3
+  Q2 -->|"Non"| R1
+  Q3 -->|"Oui"| R3
+  Q3 -->|"Non"| Q4
+  Q4 -->|"Oui"| R3
+  Q4 -->|"Non"| Q5
+  Q5 -->|"Oui"| R2
+  Q5 -->|"Non"| R1
+....
 
 Figure 2 – Exception : droits de tiers (toujours tenir compte également de ++[++KKB-MB++]++ et de link:em002-7.pdf[Em002-7 Aspects stratégiques des achats et des logiciels open source])
 
@@ -1453,7 +1701,32 @@ Les logiciels devraient être délibérément développés de manière qu'aucun 
 
 *Procédure :*
 
-image::./assets/em002-2/media/image4.png[Processus de traitement de l'exception relative aux motifs de sécurité]
+[NOTE]
+====
+Ce qui est déterminant est toujours le logiciel et non sa finalité. Le traitement de données critiques ne constitue pas a priori un aspect relevant de la sécurité.
+====
+
+[mermaid,align="center",alt="Processus de traitement de l'exception relative aux motifs de sécurité"]
+....
+flowchart TD
+  S(["Début"])
+  Q1{"Motifs relevant<br/>de la sécurité ?"}
+  Q2{"Le logiciel relevant de la<br/>sécurité peut-il être découplé ?"}
+  Q3{"Motifs temporaires ?"}
+  M["Mesures pour<br/>la publication"]
+  R1["Publier une partie<br/>du logiciel"]
+  R2["Exception :<br/>motifs relevant de la sécurité"]
+  R3["Exception temporaire"]
+  R4["Publier"]
+  S --> Q1
+  Q1 -->|"Un ou plusieurs points s'appliquent"| Q2
+  Q1 -->|"Non applicable"| Q3
+  Q2 -->|"Oui"| R1
+  Q2 -->|"Non"| R2
+  Q3 -->|"Un ou plusieurs points s'appliquent"| R3
+  Q3 -->|"Aucun motif temporaire"| M
+  M --> R4
+....
 
 Figure 3 – Exception : motifs relevant de la sécurité
 
@@ -1909,7 +2182,17 @@ Le presenti istruzioni descrivono la procedura per la pubblicazione del codice s
 
 Le presenti istruzioni si rivolgono alle persone responsabili della pubblicazione del codice sorgente e incaricate della sua attuazione.
 
-image::./assets/em002-2/media/image1.png[Panoramica del processo di pubblicazione OSS]
+[mermaid,align="center",alt="Panoramica del processo di pubblicazione OSS"]
+....
+flowchart TD
+  S(["Inizio"])
+  A["Valutazione preliminare"]
+  B["Analisi e preparazione"]
+  C["Pubblicazione"]
+  S --> A
+  A --> B
+  B --> C
+....
 
 La materia è suddivisa in tre parti principali:
 
@@ -1933,7 +2216,40 @@ La pubblicazione di software open source è più di una semplice misura tecnica.
 
 Il grafico seguente descrive le istruzioni e le diverse configurazioni.
 
-image::./assets/em002-2/media/image2.png[Albero decisionale per la pubblicazione di software]
+[mermaid,align="center",alt="Albero decisionale per la pubblicazione di software"]
+....
+flowchart TD
+  Start(["Inizio<br/>sviluppato dal 1.1.2024"])
+  subgraph B1["1. Valutazione preliminare"]
+    T{"Tipo di software"}
+  end
+  subgraph B2["2. Analisi e preparazione"]
+    I{"I terzi sono<br/>interessati al software?"}
+    GJ["Chiarire la governance e<br/>la collaborazione [Em002-4.1]"]
+    GT["Chiarire la governance e<br/>la collaborazione [Em002-4.1]"]
+    O{"Sviluppo di software<br/>open source?"}
+  end
+  subgraph B3["3. Pubblicazione"]
+    M["Effettuare una pubblicazione minima"]
+    P["Pubblicazione del software"]
+    D["Sviluppo di software<br/>open source"]
+    C["Costituire e curare<br/>una community [Em002-4]"]
+  end
+  Start --> T
+  T -->|"Sviluppo proprio"| I
+  T -->|"Sviluppo congiunto"| GJ
+  T -->|"Progetto di terzi"| GT
+  I -->|"No"| M
+  I -->|"Sì, o ipotizzabile"| O
+  GJ --> O
+  GT --> D
+  O -->|"No"| P
+  O -->|"Sì"| D
+  P --> C
+  D --> C
+  M --> E1(["Fine"])
+  C --> E2(["Fine"])
+....
 
 Figura 1 – Albero decisionale per la pubblicazione di software
 
@@ -2044,7 +2360,30 @@ Anche in questo caso ++[++KKB-MB++]++ contiene indicazioni importanti.
 
 *Procedura*
 
-image::./assets/em002-2/media/image3.png[Processo di gestione dell'eccezione relativa ai diritti di terzi]
+[mermaid,align="center",alt="Processo di gestione dell'eccezione relativa ai diritti di terzi"]
+....
+flowchart TD
+  S(["Inizio"])
+  Q1{"Acquisto di una licenza o di una<br/>soluzione esistente come oggetto<br/>d'acquisto centrale?"}
+  Q2{"Gli sviluppi successivi<br/>sono definibili?"}
+  Q3{"I diritti spettano<br/>alla Confederazione?"}
+  Q4{"È necessaria l'acquisizione<br/>di diritti di terzi?"}
+  Q5{"Una parte con diritti della<br/>Confederazione può essere<br/>delimitata in modo mirato?"}
+  R1["Eccezione giustificata:<br/>diritti di terzi"]
+  R2["Pubblicazione parziale da<br/>parte della Confederazione"]
+  R3["Pubblicazione da parte<br/>della Confederazione"]
+  S --> Q1
+  Q1 -->|"No"| Q3
+  Q1 -->|"Sì"| Q2
+  Q2 -->|"Sì"| Q3
+  Q2 -->|"No"| R1
+  Q3 -->|"Sì"| R3
+  Q3 -->|"No"| Q4
+  Q4 -->|"Sì"| R3
+  Q4 -->|"No"| Q5
+  Q5 -->|"Sì"| R2
+  Q5 -->|"No"| R1
+....
 
 Figura 2 – Eccezione: diritti di terzi (considerare sempre anche ++[++KKB-MB++]++ e link:em002-7.pdf[Em002-7 Aspetti strategici degli acquisti e del software open source])
 
@@ -2072,7 +2411,32 @@ Il software dovrebbe essere sviluppato deliberatamente in modo che non sorga alc
 
 *Procedura:*
 
-image::./assets/em002-2/media/image4.png[Processo di gestione dell'eccezione relativa ai motivi di sicurezza]
+[NOTE]
+====
+Determinante è sempre il software e non la sua finalità. Il trattamento di dati critici non costituisce a priori un aspetto rilevante per la sicurezza.
+====
+
+[mermaid,align="center",alt="Processo di gestione dell'eccezione relativa ai motivi di sicurezza"]
+....
+flowchart TD
+  S(["Inizio"])
+  Q1{"Motivi rilevanti<br/>per la sicurezza?"}
+  Q2{"Il software rilevante per la<br/>sicurezza può essere disaccoppiato?"}
+  Q3{"Motivi temporanei?"}
+  M["Misure per<br/>la pubblicazione"]
+  R1["Pubblicare una parte<br/>del software"]
+  R2["Eccezione:<br/>motivi rilevanti per la sicurezza"]
+  R3["Eccezione temporanea"]
+  R4["Pubblicare"]
+  S --> Q1
+  Q1 -->|"Uno o più punti si applicano"| Q2
+  Q1 -->|"Non applicabile"| Q3
+  Q2 -->|"Sì"| R1
+  Q2 -->|"No"| R2
+  Q3 -->|"Uno o più punti si applicano"| R3
+  Q3 -->|"Nessun motivo temporaneo"| M
+  M --> R4
+....
 
 Figura 3 – Eccezione: motivi rilevanti per la sicurezza
 
@@ -2528,7 +2892,17 @@ Questas instrucziuns descrivan il proceder per la publicaziun dal code da funtau
 
 Questas instrucziuns s'adresseschan a las persunas ch'èn responsablas per la publicaziun dal code da funtauna e che la realiseschan.
 
-image::./assets/em002-2/media/image1.png[Survista dal process da publicaziun OSS]
+[mermaid,align="center",alt="Survista dal process da publicaziun OSS"]
+....
+flowchart TD
+  S(["Cumenzament"])
+  A["Sclerida preliminara"]
+  B["Analisa e preparaziun"]
+  C["Publicaziun"]
+  S --> A
+  A --> B
+  B --> C
+....
 
 La materia è repartida en trais parts principalas:
 
@@ -2552,7 +2926,40 @@ La relaschada da software open source è dapli ch'ina pura mesira tecnica. Ella 
 
 La grafica suandanta descriva las instrucziuns e las differentas caracteristicas.
 
-image::./assets/em002-2/media/image2.png[Planta da decisiun per la relaschada da software]
+[mermaid,align="center",alt="Planta da decisiun per la relaschada da software"]
+....
+flowchart TD
+  Start(["Cumenzament<br/>sviluppà a partir dals 1.1.2024"])
+  subgraph B1["1. Sclerida preliminara"]
+    T{"Gener dal software"}
+  end
+  subgraph B2["2. Analisa e preparaziun"]
+    I{"Han terzas persunas<br/>in interess al software?"}
+    GJ["Sclerir la governanza e<br/>la collavuraziun [Em002-4.1]"]
+    GT["Sclerir la governanza e<br/>la collavuraziun [Em002-4.1]"]
+    O{"Svilup da software<br/>open source?"}
+  end
+  subgraph B3["3. Publicaziun"]
+    M["Realisar ina relaschada minimala"]
+    P["Publicaziun dal software"]
+    D["Svilup da software<br/>open source"]
+    C["Construir e tgirar<br/>ina communitad [Em002-4]"]
+  end
+  Start --> T
+  T -->|"Svilup agen"| I
+  T -->|"Svilup cuminaivel"| GJ
+  T -->|"Project da terzas persunas"| GT
+  I -->|"Na"| M
+  I -->|"Gea, u imaginabel"| O
+  GJ --> O
+  GT --> D
+  O -->|"Na"| P
+  O -->|"Gea"| D
+  P --> C
+  D --> C
+  M --> E1(["Fin"])
+  C --> E2(["Fin"])
+....
 
 Illustraziun 1 – Planta da decisiun per la relaschada da software
 
@@ -2663,7 +3070,30 @@ Era qua cuntegna ++[++KKB-MB++]++ indicaziuns impurtantas.
 
 *Proceder*
 
-image::./assets/em002-2/media/image3.png[Process per il tractament da l'excepziun dretgs da terzas persunas]
+[mermaid,align="center",alt="Process per il tractament da l'excepziun dretgs da terzas persunas"]
+....
+flowchart TD
+  S(["Cumenzament"])
+  Q1{"Acquist d'ina licenza u d'ina<br/>schliaziun existenta sco object<br/>d'acquist central?"}
+  Q2{"Èn ils svilups vinavant<br/>definibels?"}
+  Q3{"Appartegnan ils dretgs<br/>a la Confederaziun?"}
+  Q4{"È l'acquist da dretgs da<br/>terzas persunas necessari?"}
+  Q5{"Po ina part cun dretgs tar la<br/>Confederaziun vegnir delimitada<br/>en moda mirada?"}
+  R1["Excepziun motivada:<br/>dretgs da terzas persunas"]
+  R2["Relaschada parziala da<br/>la Confederaziun"]
+  R3["Relaschada da la Confederaziun"]
+  S --> Q1
+  Q1 -->|"Na"| Q3
+  Q1 -->|"Gea"| Q2
+  Q2 -->|"Gea"| Q3
+  Q2 -->|"Na"| R1
+  Q3 -->|"Gea"| R3
+  Q3 -->|"Na"| Q4
+  Q4 -->|"Gea"| R3
+  Q4 -->|"Na"| Q5
+  Q5 -->|"Gea"| R2
+  Q5 -->|"Na"| R1
+....
 
 Illustraziun 2 – Excepziun: Dretgs da terzas persunas (adina era resguardar ++[++KKB-MB++]++ e link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source])
 
@@ -2691,7 +3121,32 @@ Software duess vegnir sviluppà conscientamain uschia, che nagin ristg supplemen
 
 *Proceder:*
 
-image::./assets/em002-2/media/image4.png[Process per il tractament da l'excepziun motivs relevants per la segirezza]
+[NOTE]
+====
+Determinant è adina il software e betg l'intent dal software. L'elavuraziun da datas criticas n'è betg a priori in aspect relevant per la segirezza.
+====
+
+[mermaid,align="center",alt="Process per il tractament da l'excepziun motivs relevants per la segirezza"]
+....
+flowchart TD
+  S(["Cumenzament"])
+  Q1{"Motivs relevants<br/>per la segirezza?"}
+  Q2{"Po il software relevant per la<br/>segirezza vegnir deculià?"}
+  Q3{"Motivs temporars?"}
+  M["Mesiras per<br/>la publicaziun"]
+  R1["Relaschar ina part<br/>dal software"]
+  R2["Excepziun:<br/>motivs relevants per la segirezza"]
+  R3["Excepziun temporara"]
+  R4["Relaschar"]
+  S --> Q1
+  Q1 -->|"In u plirs puncts èn applitgabels"| Q2
+  Q1 -->|"Betg applitgabel"| Q3
+  Q2 -->|"Gea"| R1
+  Q2 -->|"Na"| R2
+  Q3 -->|"In u plirs puncts èn applitgabels"| R3
+  Q3 -->|"Nagins motivs temporars"| M
+  M --> R4
+....
 
 Illustraziun 3 – Excepziun: Motivs relevants per la segirezza
 

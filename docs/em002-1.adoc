@@ -122,7 +122,7 @@ Contributions of software to third parties and collaborations
 
 The following diagram gives an overview of the documents relevant to OSS in the Federal Administration.
 
-image::./assets/em002/media/image2.png[Overview of OSS tools in relation to Art. 9 EMOTA]
+include::partials/document-map.en.adoc[]
 
 Figure 1: Overview of OSS tools in relation to Art. 9 EMOTA
 
@@ -672,7 +672,7 @@ Beiträge von Software an Dritte und Zusammenarbeit
 
 Die folgende Grafik gibt einen Überblick über die für OSS relevanten Dokumente in der Bundesverwaltung.
 
-image::./assets/em002/media/image2.png[Übersicht über die OSS-Hilfsmittel im Zusammenhang mit Art. 9 EMBAG]
+include::partials/document-map.de.adoc[]
 
 Abbildung 1: Übersicht über die OSS-Hilfsmittel im Zusammenhang mit Art. 9 EMBAG
 
@@ -1222,7 +1222,7 @@ Contributions logicielles à des tiers et collaborations
 
 Le schéma suivant donne une vue d'ensemble des documents pertinents pour l'OSS au sein de l'administration fédérale.
 
-image::./assets/em002/media/image2.png[Vue d'ensemble des outils OSS en lien avec l'art. 9 LMETA]
+include::partials/document-map.fr.adoc[]
 
 Figure 1 : Vue d'ensemble des outils OSS en lien avec l'art. 9 LMETA
 
@@ -1772,7 +1772,7 @@ Contributi di software a terzi e collaborazioni
 
 Il grafico seguente offre una panoramica dei documenti rilevanti per l'OSS nell'Amministrazione federale.
 
-image::./assets/em002/media/image2.png[Panoramica degli strumenti OSS in relazione all'art. 9 LMeCA]
+include::partials/document-map.it.adoc[]
 
 Figura 1: Panoramica degli strumenti OSS in relazione all'art. 9 LMeCA
 
@@ -2322,7 +2322,7 @@ Contribuziuns da software a terzas persunas e collavuraziuns
 
 La grafica suandanta dat ina survista dals documents relevants per l'OSS en l'administraziun federala.
 
-image::./assets/em002/media/image2.png[Survista dals meds OSS en connex cun l'art. 9 EMBAG]
+include::partials/document-map.rm.adoc[]
 
 Illustraziun 1: Survista dals meds OSS en connex cun l'art. 9 EMBAG
 

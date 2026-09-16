@@ -94,7 +94,7 @@ The Open Government Data Master Plan 2024–2027footnote:[https://www.bfs.admin.
 
 When talking about open source software, a distinction has to be made between *consuming* (using), *contributing* (adding to existing code) and *creating* (i.e. new projects).
 
-image::./assets/em002/media/image1.png[The 4 Cs in the context of OSS]
+image::./assets/four-cs/four-cs.en.svg[The 4 Cs in the context of OSS]
 
 Figure 1: The 4 Cs in the context of OSS
 
@@ -138,7 +138,7 @@ Open development (direct open development on an openly accessible repository) an
 
 The following diagram gives an overview of the documents relevant to OSS in the Federal Administration.
 
-image::./assets/em002/media/image2.png[Documents related to Art. 9 EMOTA]
+include::partials/document-map.en.adoc[]
 
 Figure 2: Documents related to Art. 9 EMOTA
 
@@ -360,7 +360,7 @@ link:https://perimap.admin.ch/goto_perimap_file_47059_download.html[https://peri
 
 Visual overview of OSS tools:
 
-image::./assets/em002/media/image2.png[Documents in connection with Art. 9 EMOTA]
+include::partials/document-map.en.adoc[]
 
 Figure 3: Documents in connection with Art. 9 EMOTA
 
@@ -510,7 +510,7 @@ Der Masterplan Open Government Data 2024–2027footnote:[https://www.bfs.admin.c
 
 Wenn von Open-Source-Software die Rede ist, muss zwischen *Consuming* (Nutzen), *Contributing* (Beitragen zu bestehendem Code) und *Creating* (also neuen Projekten) unterschieden werden.
 
-image::./assets/em002/media/image1.png[Die 4 C im Kontext von OSS]
+image::./assets/four-cs/four-cs.de.svg[Die 4 C im Kontext von OSS]
 
 Abbildung 1: Die 4 C im Kontext von OSS
 
@@ -554,7 +554,7 @@ Open Development (direkte offene Entwicklung auf einem öffentlich zugänglichen
 
 Die folgende Grafik gibt einen Überblick über die für OSS relevanten Dokumente in der Bundesverwaltung.
 
-image::./assets/em002/media/image2.png[Dokumente im Zusammenhang mit Art. 9 EMBAG]
+include::partials/document-map.de.adoc[]
 
 Abbildung 2: Dokumente im Zusammenhang mit Art. 9 EMBAG
 
@@ -776,7 +776,7 @@ link:https://perimap.admin.ch/goto_perimap_file_47059_download.html[https://peri
 
 Visuelle Übersicht über die OSS-Hilfsmittel:
 
-image::./assets/em002/media/image2.png[Dokumente im Zusammenhang mit Art. 9 EMBAG]
+include::partials/document-map.de.adoc[]
 
 Abbildung 3: Dokumente im Zusammenhang mit Art. 9 EMBAG
 
@@ -927,7 +927,7 @@ Le plan directeur Open Government Data 2024–2027footnote:[https://www.bfs.admi
 
 Lorsqu'il est question de logiciels open source, il convient de distinguer entre *consuming* (utiliser), *contributing* (contribuer à du code existant) et *creating* (c'est-à-dire de nouveaux projets).
 
-image::./assets/em002/media/image1.png[Les 4 C dans le contexte de l'OSS]
+image::./assets/four-cs/four-cs.fr.svg[Les 4 C dans le contexte de l'OSS]
 
 Figure 1 : Les 4 C dans le contexte de l'OSS
 
@@ -971,7 +971,7 @@ L'open development (développement ouvert directement sur un dépôt librement a
 
 Le schéma suivant donne une vue d'ensemble des documents pertinents pour l'OSS au sein de l'administration fédérale.
 
-image::./assets/em002/media/image2.png[Documents en lien avec l'art. 9 LMETA]
+include::partials/document-map.fr.adoc[]
 
 Figure 2 : Documents en lien avec l'art. 9 LMETA
 
@@ -1193,7 +1193,7 @@ link:https://perimap.admin.ch/goto_perimap_file_47059_download.html[https://peri
 
 Vue d'ensemble visuelle des outils OSS :
 
-image::./assets/em002/media/image2.png[Documents en lien avec l'art. 9 LMETA]
+include::partials/document-map.fr.adoc[]
 
 Figure 3 : Documents en lien avec l'art. 9 LMETA
 
@@ -1342,7 +1342,7 @@ Il piano direttore Open Government Data 2024–2027footnote:[https://www.bfs.adm
 
 Quando si parla di software open source occorre distinguere tra *consuming* (utilizzare), *contributing* (contribuire a codice esistente) e *creating* (ossia nuovi progetti).
 
-image::./assets/em002/media/image1.png[Le 4 C nel contesto dell'OSS]
+image::./assets/four-cs/four-cs.it.svg[Le 4 C nel contesto dell'OSS]
 
 Figura 1: Le 4 C nel contesto dell'OSS
 
@@ -1386,7 +1386,7 @@ L'open development (sviluppo aperto direttamente su un repository liberamente ac
 
 Il grafico seguente offre una panoramica dei documenti rilevanti per l'OSS nell'Amministrazione federale.
 
-image::./assets/em002/media/image2.png[Documenti in relazione all'art. 9 LMeCA]
+include::partials/document-map.it.adoc[]
 
 Figura 2: Documenti in relazione all'art. 9 LMeCA
 
@@ -1608,7 +1608,7 @@ link:https://perimap.admin.ch/goto_perimap_file_47059_download.html[https://peri
 
 Panoramica visiva degli strumenti OSS:
 
-image::./assets/em002/media/image2.png[Documenti in relazione all'art. 9 LMeCA]
+include::partials/document-map.it.adoc[]
 
 Figura 3: Documenti in relazione all'art. 9 LMeCA
 
@@ -1757,7 +1757,7 @@ Il plan directiv Open Government Data 2024–2027footnote:[https://www.bfs.admin
 
 Sch'ins discurra da software open source, sto vegnir distinguì tranter *consuming* (utilisar), *contributing* (contribuir a code existent) e *creating* (pia novs projects).
 
-image::./assets/em002/media/image1.png[Ils 4 C en il context da l'OSS]
+image::./assets/four-cs/four-cs.rm.svg[Ils 4 C en il context da l'OSS]
 
 Illustraziun 1: Ils 4 C en il context da l'OSS
 
@@ -1801,7 +1801,7 @@ L'open development (svilup avert directamain sin in repositori accessibel public
 
 La grafica suandanta dat ina survista dals documents relevants per l'OSS en l'administraziun federala.
 
-image::./assets/em002/media/image2.png[Documents en connex cun l'art. 9 EMBAG]
+include::partials/document-map.rm.adoc[]
 
 Illustraziun 2: Documents en connex cun l'art. 9 EMBAG
 
@@ -2023,7 +2023,7 @@ link:https://perimap.admin.ch/goto_perimap_file_47059_download.html[https://peri
 
 Survista visuala dals meds OSS:
 
-image::./assets/em002/media/image2.png[Documents en connex cun l'art. 9 EMBAG]
+include::partials/document-map.rm.adoc[]
 
 Illustraziun 3: Documents en connex cun l'art. 9 EMBAG
 

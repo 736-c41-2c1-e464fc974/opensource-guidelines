@@ -232,11 +232,49 @@ A possible source for parts is also the documentation of the Eclipse Foundation,
 
 == Fundamental decisions when building a community
 
-The principles of the community, or lack thereof, are determined using link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. The relevant fundamental questions can be found in the morphological box in Figure 1.
+The principles of the community, or lack thereof, are determined using link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. The relevant fundamental questions are set out in the morphological box below; each dimension is discussed in the sections that follow.
 
-image::assets/em002-4/media/image1.png[Morphological box OSS community]
+[cols="3,2,2,2,2,2",options="header"]
+|===
+|Dimension |(a) |(b) |(c) |(d) |(e)
 
-Figure 1 Morphological box OSS community
+|A -- Product management
+|Confederation
+|Joint organisation
+|Open organisation
+|Third parties
+|
+
+|B -- Integration of suppliers
+|Contractor
+|Partner
+|Independent
+|Lead
+|
+
+|C -- Cost distribution
+|Confederation
+|Each their own
+|Originator pays
+|Distribution key
+|Contribution
+
+|D -- Support
+|Minimum release
+|Support by the Confederation
+|Support by third parties
+|
+|
+
+|E -- Development
+|Internal
+|Third parties
+|Open
+|
+|
+|===
+
+_Morphological box OSS community._
 
 It is advisable to *focus primarily on the near future* when designing the community; for example, if there are not yet any concrete interested parties for the application, it usually makes little sense to define a community with a simple company, its own association and complex processes for developing the roadmap.footnote:[With an association (or foundation), a separate legal entity is created to look after the software and the product. This only pays off from a certain level of importance, complexity and the existence of several (equal) partners. A roadmap is used to show the wider public and potential additional users of the software what is planned.]footnote:[It may also be possible, especially for projects that involve several state actors from the outset, to approach existing foundations and see whether the projects and governance can be managed under their umbrella, analogous to https://finos.org or https://osr.finos.org or https://www.eclipse.org/collaborations/ or https://iot.eclipse.org or https://outreach.eclipse.foundation/open-regulatory-compliance.]
 
@@ -905,9 +943,20 @@ The following examples illustrate how collaborations have been structured.
 
 ZenDiSfootnote:[https://www.zendis.de/en[ZenDiS home page: Co-creating Digital Sovereignty]] is an organisation whose aim is to reduce dependency in public administration (primarily in Germany) by promoting open source software.
 
-image::assets/em002-4/media/image2.png[Goals and approaches to strengthening digital sovereignty (ZenDiS)]
+[mermaid,align="center",alt="Goals and approaches to strengthening digital sovereignty (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Goals"]:12
+  G1["I. Ability to switch supplier"]:4 G2["II. Ability to shape solutions"]:4 G3["III. Influence on suppliers"]:4
+  H2["Solution approaches"]:12
+  B1["1. Forward-looking analysis<br/>and management of<br/>dependencies"]:3 B3["3. Vendor-independent<br/>modularity, (open) standards<br/>and interfaces in IT"]:3 B5["5. Collaborative co-design<br/>of IT solutions"]:3 B7["7. Legal requirements"]:3
+  B2["2. Procurement or development<br/>of alternative IT solutions<br/>(e.g. OSS)"]:3 B4["4. Building digital skills<br/>and expert knowledge"]:3 B6["6. Shared understanding<br/>and approach"]:3 B8["8. Political governance"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Figure 2: Goals and approaches to strengthening digital sovereignty (ZenDiS)
+Figure 1: Goals and approaches to strengthening digital sovereignty (ZenDiS)
 
 ZenDiS works with strategic partners to this end.
 
@@ -1148,11 +1197,49 @@ Eine mögliche Quelle für Teile ist auch die Dokumentation der Eclipse Foundati
 
 == Grundsatzentscheide beim Aufbau einer Community
 
-Die Grundsätze der Community – oder deren Verzicht – werden anhand von link:em002-4-1-checklist-oss-community.pdf[Em002-4.1] festgelegt. Die massgebenden Grundsatzfragen finden sich im morphologischen Kasten in Abbildung 1.
+Die Grundsätze der Community – oder deren Verzicht – werden anhand von link:em002-4-1-checklist-oss-community.pdf[Em002-4.1] festgelegt. Die massgebenden Grundsatzfragen finden sich im nachstehenden morphologischen Kasten; jede Dimension wird in den folgenden Kapiteln erläutert.
 
-image::assets/em002-4/media/image1.png[Morphologischer Kasten OSS-Community]
+[cols="3,2,2,2,2,2",options="header"]
+|===
+|Dimension |(a) |(b) |(c) |(d) |(e)
 
-Abbildung 1 Morphologischer Kasten OSS-Community
+|A -- Produktmanagement
+|Bund
+|Gemeinsame Organisation
+|Offene Organisation
+|Dritte
+|
+
+|B -- Einbindung der Lieferanten
+|Auftragnehmer
+|Partner
+|Unabhängig
+|Führung
+|
+
+|C -- Kostenverteilung
+|Bund
+|Jede und jeder für sich
+|Verursacherprinzip
+|Verteilschlüssel
+|Beitrag
+
+|D -- Support
+|Minimale Freigabe
+|Support durch den Bund
+|Support durch Dritte
+|
+|
+
+|E -- Entwicklung
+|Intern
+|Dritte
+|Offen
+|
+|
+|===
+
+_Morphologischer Kasten OSS-Community._
 
 Es empfiehlt sich, bei der Gestaltung der Community *primär auf die nahe Zukunft zu fokussieren*; gibt es beispielsweise noch keine konkreten Interessierten für die Anwendung, so ist es meist wenig sinnvoll, eine Community mit einer einfachen Gesellschaft, einem eigenen Verein und komplexen Prozessen für die Entwicklung der Roadmap zu definieren.footnote:[Mit einem Verein (oder einer Stiftung) wird eine eigene juristische Person geschaffen, die sich um die Software und das Produkt kümmert. Dies lohnt sich erst ab einer gewissen Bedeutung, Komplexität und dem Bestehen mehrerer (gleichberechtigter) Partner. Eine Roadmap dient dazu, der breiteren Öffentlichkeit und potenziellen weiteren Nutzenden der Software aufzuzeigen, was geplant ist.]footnote:[Insbesondere bei Projekten, an denen von Anfang an mehrere staatliche Akteure beteiligt sind, kann es auch möglich sein, auf bestehende Stiftungen zuzugehen und zu prüfen, ob die Projekte und die Governance unter deren Dach geführt werden können, analog zu https://finos.org oder https://osr.finos.org oder https://www.eclipse.org/collaborations/ oder https://iot.eclipse.org oder https://outreach.eclipse.foundation/open-regulatory-compliance.]
 
@@ -1821,9 +1908,20 @@ Die folgenden Beispiele zeigen, wie Zusammenarbeiten strukturiert wurden.
 
 ZenDiSfootnote:[https://www.zendis.de/en[ZenDiS-Website: Co-creating Digital Sovereignty]] ist eine Organisation, deren Ziel es ist, die Abhängigkeit in der öffentlichen Verwaltung (primär in Deutschland) durch die Förderung von Open-Source-Software zu verringern.
 
-image::assets/em002-4/media/image2.png[Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)]
+[mermaid,align="center",alt="Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Ziele"]:12
+  G1["I. Wechselmöglichkeit"]:4 G2["II. Gestaltungsfähigkeit"]:4 G3["III. Einfluss auf Anbieter"]:4
+  H2["Lösungsansätze"]:12
+  B1["1. Vorausschauende Analyse<br/>und Steuerung von<br/>Abhängigkeiten"]:3 B3["3. Herstellerunabhängige<br/>Modularität, (offene) Standards<br/>und Schnittstellen in der IT"]:3 B5["5. Kooperative Mitgestaltung<br/>von IT-Lösungen"]:3 B7["7. Rechtliche Vorgaben"]:3
+  B2["2. Beschaffung bzw. Entwicklung<br/>alternativer IT-Lösungen<br/>(z. B. OSS)"]:3 B4["4. Aufbau digitaler Kompetenzen<br/>und Expertenwissen"]:3 B6["6. Gemeinsames Verständnis<br/>und Vorgehen"]:3 B8["8. Politische Steuerung"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Abbildung 2: Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)
+Abbildung 1: Ziele und Ansätze zur Stärkung der digitalen Souveränität (ZenDiS)
 
 ZenDiS arbeitet dazu mit strategischen Partnern zusammen.
 
@@ -2064,11 +2162,49 @@ Une source possible pour certaines parties est également la documentation de l'
 
 == Décisions de principe lors de la constitution d'une communauté
 
-Les principes de la communauté, ou la renonciation à celle-ci, sont déterminés à l'aide de link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Les questions de principe déterminantes figurent dans la boîte morphologique de la figure 1.
+Les principes de la communauté, ou la renonciation à celle-ci, sont déterminés à l'aide de link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Les questions de principe déterminantes figurent dans la boîte morphologique ci-dessous ; chaque dimension est présentée dans les sections qui suivent.
 
-image::assets/em002-4/media/image1.png[Boîte morphologique communauté OSS]
+[cols="3,2,2,2,2,2",options="header"]
+|===
+|Dimension |(a) |(b) |(c) |(d) |(e)
 
-Figure 1 Boîte morphologique communauté OSS
+|A -- Gestion du produit
+|Confédération
+|Organisation commune
+|Organisation ouverte
+|Tiers
+|
+
+|B -- Intégration des fournisseurs
+|Mandataire
+|Partenaire
+|Indépendant
+|Direction
+|
+
+|C -- Répartition des coûts
+|Confédération
+|Chacun pour soi
+|Principe de causalité
+|Clé de répartition
+|Contribution
+
+|D -- Support
+|Publication minimale
+|Support par la Confédération
+|Support par des tiers
+|
+|
+
+|E -- Développement
+|Interne
+|Tiers
+|Ouvert
+|
+|
+|===
+
+_Boîte morphologique communauté OSS._
 
 Il est recommandé, lors de la conception de la communauté, de *se concentrer avant tout sur le proche avenir* ; s'il n'existe par exemple pas encore de parties intéressées concrètes pour l'application, il n'est généralement guère judicieux de définir une communauté dotée d'une société simple, de sa propre association et de processus complexes pour l'élaboration de la feuille de route.footnote:[Avec une association (ou une fondation), une personne morale distincte est créée pour s'occuper du logiciel et du produit. Cela ne se justifie qu'à partir d'un certain niveau d'importance, de complexité et de l'existence de plusieurs partenaires (sur un pied d'égalité). Une feuille de route sert à montrer au public élargi et aux utilisateurs potentiels supplémentaires du logiciel ce qui est prévu.]footnote:[Il peut aussi être possible, en particulier pour des projets impliquant dès le départ plusieurs acteurs étatiques, de s'adresser à des fondations existantes et d'examiner si les projets et la gouvernance peuvent être conduits sous leur égide, à l'instar de https://finos.org ou https://osr.finos.org ou https://www.eclipse.org/collaborations/ ou https://iot.eclipse.org ou https://outreach.eclipse.foundation/open-regulatory-compliance.]
 
@@ -2737,9 +2873,20 @@ Les exemples suivants illustrent comment des collaborations ont été structuré
 
 ZenDiSfootnote:[https://www.zendis.de/en[Page d'accueil ZenDiS : Co-creating Digital Sovereignty]] est une organisation dont le but est de réduire la dépendance dans l'administration publique (principalement en Allemagne) en promouvant les logiciels open source.
 
-image::assets/em002-4/media/image2.png[Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)]
+[mermaid,align="center",alt="Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Objectifs"]:12
+  G1["I. Possibilité de changer de fournisseur"]:4 G2["II. Capacité de conception"]:4 G3["III. Influence sur les fournisseurs"]:4
+  H2["Approches de solution"]:12
+  B1["1. Analyse et pilotage<br/>prospectifs des dépendances"]:3 B3["3. Modularité indépendante du<br/>fournisseur, standards (ouverts)<br/>et interfaces informatiques"]:3 B5["5. Co-conception coopérative<br/>des solutions informatiques"]:3 B7["7. Exigences juridiques"]:3
+  B2["2. Acquisition ou développement<br/>de solutions informatiques<br/>alternatives (p. ex. OSS)"]:3 B4["4. Développement des compétences<br/>numériques et de l'expertise"]:3 B6["6. Compréhension et<br/>démarche communes"]:3 B8["8. Pilotage politique"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Figure 2 : Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)
+Figure 1 : Objectifs et approches pour renforcer la souveraineté numérique (ZenDiS)
 
 ZenDiS collabore à cette fin avec des partenaires stratégiques.
 
@@ -2980,11 +3127,49 @@ Una possibile fonte per alcune parti è anche la documentazione della Eclipse Fo
 
 == Decisioni di principio nella costituzione di una community
 
-I principi della community, o la rinuncia a essa, sono stabiliti mediante link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Le questioni di principio determinanti figurano nella scatola morfologica della figura 1.
+I principi della community, o la rinuncia a essa, sono stabiliti mediante link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Le questioni di principio determinanti figurano nella scatola morfologica seguente; ogni dimensione è illustrata nelle sezioni successive.
 
-image::assets/em002-4/media/image1.png[Scatola morfologica community OSS]
+[cols="3,2,2,2,2,2",options="header"]
+|===
+|Dimensione |(a) |(b) |(c) |(d) |(e)
 
-Figura 1 Scatola morfologica community OSS
+|A -- Gestione del prodotto
+|Confederazione
+|Organizzazione comune
+|Organizzazione aperta
+|Terzi
+|
+
+|B -- Coinvolgimento dei fornitori
+|Mandatario
+|Partner
+|Indipendente
+|Direzione
+|
+
+|C -- Ripartizione dei costi
+|Confederazione
+|Ciascuno per sé
+|Principio di causalità
+|Chiave di ripartizione
+|Contributo
+
+|D -- Supporto
+|Pubblicazione minima
+|Supporto da parte della Confederazione
+|Supporto da parte di terzi
+|
+|
+
+|E -- Sviluppo
+|Interno
+|Terzi
+|Aperto
+|
+|
+|===
+
+_Scatola morfologica community OSS._
 
 È consigliabile, nel configurare la community, *concentrarsi in primo luogo sul prossimo futuro*; se per esempio non vi sono ancora interessati concreti all'applicazione, di regola ha poco senso definire una community con una società semplice, una propria associazione e processi complessi per l'elaborazione della roadmap.footnote:[Con un'associazione (o una fondazione) si crea una persona giuridica distinta che si occupa del software e del prodotto. Ciò si giustifica soltanto a partire da un certo livello di importanza, complessità e in presenza di più partner (con pari diritti). Una roadmap serve a mostrare al pubblico più ampio e ai potenziali ulteriori utenti del software che cosa è previsto.]footnote:[Può anche essere possibile, in particolare per progetti che coinvolgono sin dall'inizio più attori statali, rivolgersi a fondazioni esistenti e verificare se i progetti e la governance possano essere condotti sotto la loro egida, analogamente a https://finos.org o https://osr.finos.org o https://www.eclipse.org/collaborations/ o https://iot.eclipse.org o https://outreach.eclipse.foundation/open-regulatory-compliance.]
 
@@ -3653,9 +3838,20 @@ I seguenti esempi illustrano come sono state strutturate le collaborazioni.
 
 ZenDiSfootnote:[https://www.zendis.de/en[Pagina iniziale ZenDiS: Co-creating Digital Sovereignty]] è un'organizzazione il cui obiettivo è ridurre la dipendenza nell'amministrazione pubblica (principalmente in Germania) promuovendo il software open source.
 
-image::assets/em002-4/media/image2.png[Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)]
+[mermaid,align="center",alt="Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Obiettivi"]:12
+  G1["I. Possibilità di cambiare fornitore"]:4 G2["II. Capacità di configurazione"]:4 G3["III. Influenza sui fornitori"]:4
+  H2["Approcci risolutivi"]:12
+  B1["1. Analisi e gestione previdenti<br/>delle dipendenze"]:3 B3["3. Modularità indipendente dal<br/>fornitore, standard (aperti)<br/>e interfacce informatiche"]:3 B5["5. Configurazione cooperativa<br/>delle soluzioni informatiche"]:3 B7["7. Prescrizioni giuridiche"]:3
+  B2["2. Acquisto o sviluppo di<br/>soluzioni informatiche<br/>alternative (p. es. OSS)"]:3 B4["4. Sviluppo di competenze<br/>digitali e conoscenze<br/>specialistiche"]:3 B6["6. Comprensione e<br/>procedura comuni"]:3 B8["8. Pilotaggio politico"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Figura 2: Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)
+Figura 1: Obiettivi e approcci per rafforzare la sovranità digitale (ZenDiS)
 
 A tal fine ZenDiS collabora con partner strategici.
 
@@ -3896,11 +4092,49 @@ Ina funtauna pussaivla per parts è era la documentaziun da la Eclipse Foundatio
 
 == Decisiuns fundamentalas tar la construcziun d'ina communitad
 
-Ils princips da la communitad – u la renunzia ad ella – vegnan fixads cun agid da link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Las dumondas fundamentalas relevantas sa chattan en la chascha morfologica en l'illustraziun 1.
+Ils princips da la communitad – u la renunzia ad ella – vegnan fixads cun agid da link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Las dumondas fundamentalas relevantas sa chattan en la chascha morfologica qua sutvart; mintga dimensiun vegn explitgada en ils chapitels suandants.
 
-image::assets/em002-4/media/image1.png[Chascha morfologica communitad OSS]
+[cols="3,2,2,2,2,2",options="header"]
+|===
+|Dimensiun |(a) |(b) |(c) |(d) |(e)
 
-Illustraziun 1 Chascha morfologica communitad OSS
+|A -- Management dal product
+|Confederaziun
+|Organisaziun cuminaivla
+|Organisaziun averta
+|Terzas persunas
+|
+
+|B -- Integraziun dals furniturs
+|Incumbensà
+|Partenari
+|Independent
+|Direcziun
+|
+
+|C -- Repartiziun dals custs
+|Confederaziun
+|Mintgin per sasez
+|Princip dal chaschunader
+|Clav da repartiziun
+|Contribuziun
+
+|D -- Support
+|Relaschada minimala
+|Support tras la Confederaziun
+|Support tras terzas persunas
+|
+|
+
+|E -- Svilup
+|Intern
+|Terzas persunas
+|Avert
+|
+|
+|===
+
+_Chascha morfologica communitad OSS._
 
 I è recumandabel da *sa concentrar en emprima lingia sin il futur proxim* tar la concepziun da la communitad; sch'i n'existan per exempel anc nagins interessads concrets per l'applicaziun, è quai per ordinari pauc sensa da definir ina communitad cun ina societad simpla, ina atgna associaziun e process cumplexs per il svilup da la roadmap.footnote:[Cun ina associaziun (u ina fundaziun) vegn creada ina atgna persuna giuridica che sa premura per il software e per il product. Quai paja pir a partir d'ina tscherta impurtanza, cumplexitad e da l'existenza da plirs partenaris (cun ils medems dretgs). Ina roadmap serva a mussar al public pli vast ed als potenzials ulteriurs utilisaders dal software quai ch'è planisà.]footnote:[En spezial tar projects, als quals plirs acturs statals èn participads da l'entschatta, po era esser pussaivel da s'adressar a fundaziuns existentas e d'examinar, sche ils projects e la governanza pon vegnir manads sut lur tetg, analog a https://finos.org u https://osr.finos.org u https://www.eclipse.org/collaborations/ u https://iot.eclipse.org u https://outreach.eclipse.foundation/open-regulatory-compliance.]
 
@@ -4569,9 +4803,20 @@ Ils suandants exempels mussan, co che collavuraziuns èn vegnidas structuradas.
 
 ZenDiSfootnote:[https://www.zendis.de/en[Pagina d'internet ZenDiS: Co-creating Digital Sovereignty]] è ina organisaziun che ha per finamira da reducir la dependenza en l'administraziun publica (primarmain en Germania) tras la promoziun da software open source.
 
-image::assets/em002-4/media/image2.png[Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)]
+[mermaid,align="center",alt="Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)"]
+....
+block-beta
+  columns 12
+  H1["Finamiras"]:12
+  G1["I. Pussaivladad da midar furnitur"]:4 G2["II. Abilitad da concepir"]:4 G3["III. Influenza sin ils furniturs"]:4
+  H2["Access da schliaziun"]:12
+  B1["1. Analisa e direcziun<br/>prevesentas da las dependenzas"]:3 B3["3. Modularitad independenta<br/>dal furnitur, standards (averts)<br/>ed interfatschas informaticas"]:3 B5["5. Cundefiniziun cooperativa<br/>da soluziuns informaticas"]:3 B7["7. Prescripziuns giuridicas"]:3
+  B2["2. Acquist u svilup da<br/>soluziuns informaticas<br/>alternativas (p.ex. OSS)"]:3 B4["4. Construcziun da cumpetenzas<br/>digitalas e da savida<br/>spezialisada"]:3 B6["6. Chapientscha e<br/>proceder cuminaivels"]:3 B8["8. Direcziun politica"]:3
+  classDef highlight fill:#dae8fc,stroke:#000000,color:#000000
+  class B2 highlight
+....
 
-Illustraziun 2: Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)
+Illustraziun 1: Finamiras ed access per rinforzar la suveranitad digitala (ZenDiS)
 
 ZenDiS collavura per quai cun partenaris strategics.
 

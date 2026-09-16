@@ -55,7 +55,21 @@ It is recommended that one of the following two licences be strategically define
 
 The following decision aid can be used to select the licence:
 
-image::./assets/em002-3/media/image1.png[Simplified licence selection guide]
+[mermaid,align="center",alt="Simplified licence selection guide"]
+....
+flowchart TD
+    S(["Start"])
+    Q1{"The 'environment'<br/>enforces the licence"}
+    A["Select the<br/>forced licence"]
+    Q2{"Library, reference implementation<br/>or liberal requirements"}
+    B["MIT"]
+    C["AGPL"]
+    S --> Q1
+    Q1 -->|"Yes"| A
+    Q1 -->|"No"| Q2
+    Q2 -->|"Yes"| B
+    Q2 -->|"No"| C
+....
 
 Figure 1: Simplified licence selection guide
 
@@ -199,7 +213,59 @@ The following diagram depicts the dependencies of the most important open source
 
 The diagram should be read as follows: code according to a licence listed earlier in the chain can be incorporated into software that is published under a licence listed later in the chain. For example, code licensed under the modified BSD can be placed under an LGPL or GPL licence variant, but not vice versa. Public domain means that the work is not subject to any copyright restrictions.
 
-image::./assets/em002-3/media/image2.png[Compatibility of open source licences]
+[mermaid,align="center",alt="Compatibility of open source licences"]
+....
+flowchart TB
+    subgraph P["Permissive licence"]
+        PD["Public Domain"]
+        MIT["MIT/X11"]
+        BSD["Modified BSD"]
+        AP["Apache 2.0"]
+    end
+    subgraph W["Weak copyleft"]
+        EUPL["EUPL"]
+        LGPL21["LGPLv2.1"]
+        LGPL21P["LGPLv2.1+"]
+        LGPL3["LGPLv3 / LGPLv3.1"]
+        MPL["MPL 1.1"]
+    end
+    subgraph SC["Strong copyleft"]
+        GPL2["GPLv2"]
+        GPL2P["GPLv2+"]
+        GPL3["GPLv3 / GPLv3+"]
+        AGPL["Affero GPLv3"]
+    end
+    PD --> MIT
+    MIT --> BSD
+    BSD --> AP
+    BSD --> LGPL21
+    BSD --> LGPL21P
+    BSD --> LGPL3
+    BSD --> MPL
+    AP --> EUPL
+    AP --> LGPL3
+    EUPL --> LGPL21
+    EUPL --> LGPL21P
+    EUPL --> LGPL3
+    EUPL --> MPL
+    LGPL21P --> LGPL21
+    LGPL21P --> LGPL3
+    LGPL21 --> GPL2
+    LGPL21 --> GPL2P
+    LGPL21P --> GPL2P
+    LGPL3 --> GPL3
+    GPL2P --> GPL2
+    GPL2P --> GPL3
+    GPL3 -->|"+ Network protection"| AGPL
+    classDef pd fill:#f5f5f5,stroke:#000000,color:#000000
+    classDef perm fill:#dae8fc,stroke:#000000,color:#000000
+    classDef weak fill:#d5e8d4,stroke:#000000,color:#000000
+    classDef strong fill:#5ea226,stroke:#000000,color:#ffffff
+    class PD pd
+    class MIT,BSD,AP perm
+    class EUPL,LGPL21,LGPL21P,LGPL3,MPL weak
+    class GPL2,GPL2P,GPL3,AGPL strong
+....
 
 Figure 2: Compatibility of open source licences (based on diagram by David A. Wheeler, 2007 and https://www.gnu.org/licenses/license-list.en.html)
 
@@ -402,7 +468,35 @@ GNU GPLv3
 
 Table 2: Licence to be used depending on the use case for the release of new software in accordance with Art. 9 EMOTA *(bold = recommended where no grounds exist to the contrary)*
 
-image::./assets/em002-3/media/image3.png[Extended decision tree for licence selection in the Federal Administration]
+[mermaid,align="center",alt="Extended decision tree for licence selection in the Federal Administration"]
+....
+flowchart TD
+    S(["Start"])
+    Q1{"Does the bill of materials<br/>enforce the licence?"}
+    R1["Select the forced /<br/>preferred licence"]
+    Q2{"Are there preferred licences<br/>in this environment?"}
+    Q3{"In the list of suitable<br/>licences in Em002-3?"}
+    R2["Select the next best licence from the list<br/>according to Em002-3 after consulting<br/>the legal service"]
+    Q4{"Reference implementation<br/>as a suggestion<br/>for third parties?"}
+    R3["GPL or permissive licence:<br/>MIT, BSD, Apache"]
+    Q5{"Must improvements<br/>flow back?"}
+    Q6{"Also with SaaS use?"}
+    R4["GPL, EUPL"]
+    R5["AGPL"]
+    S --> Q1
+    Q1 -->|"Yes"| R1
+    Q1 -->|"No"| Q2
+    Q2 -->|"Yes"| Q3
+    Q2 -->|"No"| Q4
+    Q3 -->|"Yes"| R1
+    Q3 -->|"No"| R2
+    Q4 -->|"Yes"| R3
+    Q4 -->|"No"| Q5
+    Q5 -->|"No"| R3
+    Q5 -->|"Yes"| Q6
+    Q6 -->|"No"| R4
+    Q6 -->|"Yes"| R5
+....
 
 Figure 3: Extended decision tree for licence selection in the Federal Administration (if not AGPL or MIT)
 
@@ -512,9 +606,36 @@ The main instrument of CLAs is either the assignment of copyrights from the cont
 
 CLAs are controversial in the OSS communityfootnote:[For example: https://ben.balter.com/2018/01/02/why-you-probably-shouldnt-add-a-cla-to-your-open-source-project/] because, among other reasons, they can open gaps in copyleft. Therefore, there are now also CLAs that restrict the main developer in terms of granting a new licence for the project's code.
 
-image::./assets/em002-3/media/image4.png[Transfer source code and rights in different constellations]
+[mermaid,align="center",alt="Transfer source code and rights in different constellations"]
+....
+flowchart LR
+    subgraph TP["Third parties"]
+        TP1["no documents of their own"]
+        TP2["CLA<br/>DCO<br/>OSS licence"]
+        TP3["CLA<br/>DCO<br/>OSS licence<br/>Contract"]
+        TP4["no documents of their own"]
+    end
+    subgraph FA["Federal Administration"]
+        FA1["General Terms and Conditions<br/>of the Confederation<br/>Contract"]
+        FA2["no documents of its own"]
+        FA3["OSS licence<br/>Contract<br/>(DCO)<br/>(CLA)"]
+        FA4["OSS licence<br/>(DCO)<br/>(CLA)"]
+    end
+    TP1 -- "creation" --> FA1
+    TP2 -- "contribution by the Federal Administration" --- FA2
+    TP3 <-- "collaboration" --> FA3
+    TP4 -- "contribution by third parties" --> FA4
+....
 
 Figure 4: Transfer source code and rights in different constellations
+
+Legend:
+
+* The boxes show *where the rights are defined* in each constellation.
+* *Creation* and *contribution by third parties*: the Federal Administration has the power to shape the situation.
+* *Collaboration*: the documents are agreed between the parties.
+* *Contribution by the Federal Administration*: the Federal Administration has no power to shape the situation, so a review is necessary.
+* The legal documents are listed in order of priority, from top to bottom; documents in brackets should rather be avoided.
 
 There are no problems for *own developments* (creation): According to Art. 17 CopA, the federal authority is the holder of the usage rights to software created by its own employees. For *third-party developers*, the federal authorities should secure the rights (for example, by using the corresponding GTCs of the Confederation). This means that no CLA or DCO is necessary here.
 
@@ -745,7 +866,21 @@ Es wird empfohlen, bei einem Projektstart in der Bundesverwaltung strategisch ei
 
 Zur Lizenzwahl kann die folgende Entscheidungshilfe verwendet werden:
 
-image::./assets/em002-3/media/image1.png[Vereinfachte Entscheidungshilfe zur Lizenzwahl]
+[mermaid,align="center",alt="Vereinfachte Entscheidungshilfe zur Lizenzwahl"]
+....
+flowchart TD
+    S(["Start"])
+    Q1{"Die «Umgebung»<br/>gibt die Lizenz vor"}
+    A["Vorgegebene<br/>Lizenz wählen"]
+    Q2{"Bibliothek, Referenzimplementierung<br/>oder liberale Vorgaben"}
+    B["MIT"]
+    C["AGPL"]
+    S --> Q1
+    Q1 -->|"Ja"| A
+    Q1 -->|"Nein"| Q2
+    Q2 -->|"Ja"| B
+    Q2 -->|"Nein"| C
+....
 
 Abbildung 1: Vereinfachte Entscheidungshilfe zur Lizenzwahl
 
@@ -889,7 +1024,59 @@ Die folgende Grafik bildet die Abhängigkeiten der wichtigsten Open-Source-Lizen
 
 Die Grafik ist wie folgt zu lesen: Code nach einer früher in der Kette aufgeführten Lizenz kann in Software übernommen werden, die unter einer später in der Kette aufgeführten Lizenz veröffentlicht wird. So kann etwa Code unter der modifizierten BSD unter eine LGPL- oder GPL-Lizenzvariante gestellt werden, aber nicht umgekehrt. Public Domain bedeutet, dass das Werk keinen urheberrechtlichen Beschränkungen unterliegt.
 
-image::./assets/em002-3/media/image2.png[Kompatibilität von Open-Source-Lizenzen]
+[mermaid,align="center",alt="Kompatibilität von Open-Source-Lizenzen"]
+....
+flowchart TB
+    subgraph P["Permissive Lizenz"]
+        PD["Public Domain"]
+        MIT["MIT/X11"]
+        BSD["Modifizierte BSD"]
+        AP["Apache 2.0"]
+    end
+    subgraph W["Schwaches Copyleft"]
+        EUPL["EUPL"]
+        LGPL21["LGPLv2.1"]
+        LGPL21P["LGPLv2.1+"]
+        LGPL3["LGPLv3 / LGPLv3.1"]
+        MPL["MPL 1.1"]
+    end
+    subgraph SC["Starkes Copyleft"]
+        GPL2["GPLv2"]
+        GPL2P["GPLv2+"]
+        GPL3["GPLv3 / GPLv3+"]
+        AGPL["Affero GPLv3"]
+    end
+    PD --> MIT
+    MIT --> BSD
+    BSD --> AP
+    BSD --> LGPL21
+    BSD --> LGPL21P
+    BSD --> LGPL3
+    BSD --> MPL
+    AP --> EUPL
+    AP --> LGPL3
+    EUPL --> LGPL21
+    EUPL --> LGPL21P
+    EUPL --> LGPL3
+    EUPL --> MPL
+    LGPL21P --> LGPL21
+    LGPL21P --> LGPL3
+    LGPL21 --> GPL2
+    LGPL21 --> GPL2P
+    LGPL21P --> GPL2P
+    LGPL3 --> GPL3
+    GPL2P --> GPL2
+    GPL2P --> GPL3
+    GPL3 -->|"+ Netzwerkschutz"| AGPL
+    classDef pd fill:#f5f5f5,stroke:#000000,color:#000000
+    classDef perm fill:#dae8fc,stroke:#000000,color:#000000
+    classDef weak fill:#d5e8d4,stroke:#000000,color:#000000
+    classDef strong fill:#5ea226,stroke:#000000,color:#ffffff
+    class PD pd
+    class MIT,BSD,AP perm
+    class EUPL,LGPL21,LGPL21P,LGPL3,MPL weak
+    class GPL2,GPL2P,GPL3,AGPL strong
+....
 
 Abbildung 2: Kompatibilität von Open-Source-Lizenzen (in Anlehnung an die Grafik von David A. Wheeler, 2007 und https://www.gnu.org/licenses/license-list.de.html)
 
@@ -1092,7 +1279,35 @@ GNU GPLv3
 
 Tabelle 2: Je nach Anwendungsfall zu verwendende Lizenz für die Freigabe neuer Software nach Art. 9 EMBAG *(fett = empfohlen, sofern keine Gründe dagegensprechen)*
 
-image::./assets/em002-3/media/image3.png[Erweiterter Entscheidungsbaum zur Lizenzwahl in der Bundesverwaltung]
+[mermaid,align="center",alt="Erweiterter Entscheidungsbaum zur Lizenzwahl in der Bundesverwaltung"]
+....
+flowchart TD
+    S(["Start"])
+    Q1{"Gibt die Stückliste<br/>die Lizenz vor?"}
+    R1["Vorgegebene /<br/>bevorzugte Lizenz wählen"]
+    Q2{"Gibt es in dieser Umgebung<br/>bevorzugte Lizenzen?"}
+    Q3{"In der Liste geeigneter<br/>Lizenzen in Em002-3?"}
+    R2["Nächstbeste Lizenz aus der Liste<br/>gemäss Em002-3 nach Rücksprache<br/>mit dem Rechtsdienst wählen"]
+    Q4{"Referenzimplementierung<br/>als Vorschlag<br/>für Dritte?"}
+    R3["GPL oder permissive Lizenz:<br/>MIT, BSD, Apache"]
+    Q5{"Müssen Verbesserungen<br/>zurückfliessen?"}
+    Q6{"Auch bei SaaS-Nutzung?"}
+    R4["GPL, EUPL"]
+    R5["AGPL"]
+    S --> Q1
+    Q1 -->|"Ja"| R1
+    Q1 -->|"Nein"| Q2
+    Q2 -->|"Ja"| Q3
+    Q2 -->|"Nein"| Q4
+    Q3 -->|"Ja"| R1
+    Q3 -->|"Nein"| R2
+    Q4 -->|"Ja"| R3
+    Q4 -->|"Nein"| Q5
+    Q5 -->|"Nein"| R3
+    Q5 -->|"Ja"| Q6
+    Q6 -->|"Nein"| R4
+    Q6 -->|"Ja"| R5
+....
 
 Abbildung 3: Erweiterter Entscheidungsbaum zur Lizenzwahl in der Bundesverwaltung (falls nicht AGPL oder MIT)
 
@@ -1202,9 +1417,36 @@ Das Hauptinstrument von CLA ist entweder die Abtretung der Urheberrechte von den
 
 CLA sind in der OSS-Community umstrittenfootnote:[Beispielsweise: https://ben.balter.com/2018/01/02/why-you-probably-shouldnt-add-a-cla-to-your-open-source-project/], unter anderem weil sie Lücken im Copyleft öffnen können. Daher gibt es inzwischen auch CLA, welche die Hauptentwicklung bei der Erteilung einer neuen Lizenz für den Code des Projekts einschränken.
 
-image::./assets/em002-3/media/image4.png[Übertragung von Quellcode und Rechten in verschiedenen Konstellationen]
+[mermaid,align="center",alt="Übertragung von Quellcode und Rechten in verschiedenen Konstellationen"]
+....
+flowchart LR
+    subgraph TP["Dritte"]
+        TP1["keine eigenen Dokumente"]
+        TP2["CLA<br/>DCO<br/>OSS-Lizenz"]
+        TP3["CLA<br/>DCO<br/>OSS-Lizenz<br/>Vertrag"]
+        TP4["keine eigenen Dokumente"]
+    end
+    subgraph FA["Bundesverwaltung"]
+        FA1["AGB des Bundes<br/>Vertrag"]
+        FA2["keine eigenen Dokumente"]
+        FA3["OSS-Lizenz<br/>Vertrag<br/>(DCO)<br/>(CLA)"]
+        FA4["OSS-Lizenz<br/>(DCO)<br/>(CLA)"]
+    end
+    TP1 -- "Erstellung" --> FA1
+    TP2 -- "Beitrag der Bundesverwaltung" --- FA2
+    TP3 <-- "Zusammenarbeit" --> FA3
+    TP4 -- "Beitrag Dritter" --> FA4
+....
 
 Abbildung 4: Übertragung von Quellcode und Rechten in verschiedenen Konstellationen
+
+Legende:
+
+* Die Kästchen zeigen, *wo die Rechte definiert sind*.
+* *Erstellung* und *Beitrag Dritter*: Die Bundesverwaltung hat die Gestaltungsmacht.
+* *Zusammenarbeit*: Die Dokumente werden zwischen den Parteien vereinbart.
+* *Beitrag der Bundesverwaltung*: Die Bundesverwaltung hat keine Gestaltungsmacht, eine Prüfung ist nötig.
+* Die Rechtsdokumente sind von oben nach unten nach Priorität geordnet; Dokumente in Klammern sind eher zu vermeiden.
 
 Für *Eigenentwicklungen* (Creation) bestehen keine Probleme: Nach Art. 17 URG ist die Bundesbehörde Inhaberin der Nutzungsrechte an Software, die von ihren eigenen Mitarbeitenden geschaffen wurde. Bei *Drittentwickelnden* sollten sich die Bundesbehörden die Rechte sichern (beispielsweise durch Verwendung der entsprechenden AGB des Bundes). Damit ist hier kein CLA oder DCO nötig.
 
@@ -1435,7 +1677,21 @@ Il est recommandé de définir stratégiquement au sein de l'administration féd
 
 L'aide à la décision suivante peut être utilisée pour choisir la licence :
 
-image::./assets/em002-3/media/image1.png[Aide à la décision simplifiée pour le choix de la licence]
+[mermaid,align="center",alt="Aide à la décision simplifiée pour le choix de la licence"]
+....
+flowchart TD
+    S(["Début"])
+    Q1{"L'« environnement »<br/>impose la licence"}
+    A["Choisir la licence<br/>imposée"]
+    Q2{"Bibliothèque, implémentation de référence<br/>ou exigences libérales"}
+    B["MIT"]
+    C["AGPL"]
+    S --> Q1
+    Q1 -->|"Oui"| A
+    Q1 -->|"Non"| Q2
+    Q2 -->|"Oui"| B
+    Q2 -->|"Non"| C
+....
 
 Figure 1 : Aide à la décision simplifiée pour le choix de la licence
 
@@ -1579,7 +1835,59 @@ Le schéma suivant représente les dépendances des principales licences open so
 
 Le schéma doit être lu comme suit : du code sous une licence figurant plus tôt dans la chaîne peut être intégré dans un logiciel publié sous une licence figurant plus tard dans la chaîne. Ainsi, du code sous BSD modifiée peut être placé sous une variante de licence LGPL ou GPL, mais non l'inverse. Public domain signifie que l'œuvre n'est soumise à aucune restriction de droit d'auteur.
 
-image::./assets/em002-3/media/image2.png[Compatibilité des licences open source]
+[mermaid,align="center",alt="Compatibilité des licences open source"]
+....
+flowchart TB
+    subgraph P["Licence permissive"]
+        PD["Public domain"]
+        MIT["MIT/X11"]
+        BSD["BSD modifiée"]
+        AP["Apache 2.0"]
+    end
+    subgraph W["Copyleft faible"]
+        EUPL["EUPL"]
+        LGPL21["LGPLv2.1"]
+        LGPL21P["LGPLv2.1+"]
+        LGPL3["LGPLv3 / LGPLv3.1"]
+        MPL["MPL 1.1"]
+    end
+    subgraph SC["Copyleft fort"]
+        GPL2["GPLv2"]
+        GPL2P["GPLv2+"]
+        GPL3["GPLv3 / GPLv3+"]
+        AGPL["Affero GPLv3"]
+    end
+    PD --> MIT
+    MIT --> BSD
+    BSD --> AP
+    BSD --> LGPL21
+    BSD --> LGPL21P
+    BSD --> LGPL3
+    BSD --> MPL
+    AP --> EUPL
+    AP --> LGPL3
+    EUPL --> LGPL21
+    EUPL --> LGPL21P
+    EUPL --> LGPL3
+    EUPL --> MPL
+    LGPL21P --> LGPL21
+    LGPL21P --> LGPL3
+    LGPL21 --> GPL2
+    LGPL21 --> GPL2P
+    LGPL21P --> GPL2P
+    LGPL3 --> GPL3
+    GPL2P --> GPL2
+    GPL2P --> GPL3
+    GPL3 -->|"+ protection du réseau"| AGPL
+    classDef pd fill:#f5f5f5,stroke:#000000,color:#000000
+    classDef perm fill:#dae8fc,stroke:#000000,color:#000000
+    classDef weak fill:#d5e8d4,stroke:#000000,color:#000000
+    classDef strong fill:#5ea226,stroke:#000000,color:#ffffff
+    class PD pd
+    class MIT,BSD,AP perm
+    class EUPL,LGPL21,LGPL21P,LGPL3,MPL weak
+    class GPL2,GPL2P,GPL3,AGPL strong
+....
 
 Figure 2 : Compatibilité des licences open source (d'après le schéma de David A. Wheeler, 2007 et https://www.gnu.org/licenses/license-list.fr.html)
 
@@ -1782,7 +2090,35 @@ GNU GPLv3
 
 Tableau 2 : Licence à utiliser selon le cas d'application pour la publication d'un nouveau logiciel conformément à l'art. 9 LMETA *(gras = recommandé lorsque rien ne s'y oppose)*
 
-image::./assets/em002-3/media/image3.png[Arbre de décision étendu pour le choix de la licence dans l'administration fédérale]
+[mermaid,align="center",alt="Arbre de décision étendu pour le choix de la licence dans l'administration fédérale"]
+....
+flowchart TD
+    S(["Début"])
+    Q1{"La nomenclature<br/>impose-t-elle la licence ?"}
+    R1["Choisir la licence<br/>imposée / préférée"]
+    Q2{"Existe-t-il des licences préférées<br/>dans cet environnement ?"}
+    Q3{"Figure-t-elle dans la liste des<br/>licences appropriées de l'Em002-3 ?"}
+    R2["Choisir dans la liste la licence appropriée<br/>suivante selon l'Em002-3, après consultation<br/>du service juridique"]
+    Q4{"Implémentation de référence<br/>comme proposition<br/>pour des tiers ?"}
+    R3["GPL ou licence permissive :<br/>MIT, BSD, Apache"]
+    Q5{"Les améliorations<br/>doivent-elles refluer ?"}
+    Q6{"Également en cas<br/>d'utilisation SaaS ?"}
+    R4["GPL, EUPL"]
+    R5["AGPL"]
+    S --> Q1
+    Q1 -->|"Oui"| R1
+    Q1 -->|"Non"| Q2
+    Q2 -->|"Oui"| Q3
+    Q2 -->|"Non"| Q4
+    Q3 -->|"Oui"| R1
+    Q3 -->|"Non"| R2
+    Q4 -->|"Oui"| R3
+    Q4 -->|"Non"| Q5
+    Q5 -->|"Non"| R3
+    Q5 -->|"Oui"| Q6
+    Q6 -->|"Non"| R4
+    Q6 -->|"Oui"| R5
+....
 
 Figure 3 : Arbre de décision étendu pour le choix de la licence dans l'administration fédérale (si ni AGPL ni MIT)
 
@@ -1892,9 +2228,36 @@ L'instrument principal des CLA est soit la cession des droits d'auteur des contr
 
 Les CLA sont controversés dans la communauté OSSfootnote:[Par exemple : https://ben.balter.com/2018/01/02/why-you-probably-shouldnt-add-a-cla-to-your-open-source-project/], notamment parce qu'ils peuvent ouvrir des brèches dans le copyleft. C'est pourquoi il existe désormais aussi des CLA qui limitent le développeur principal quant à l'octroi d'une nouvelle licence pour le code du projet.
 
-image::./assets/em002-3/media/image4.png[Transfert du code source et des droits dans différentes constellations]
+[mermaid,align="center",alt="Transfert du code source et des droits dans différentes constellations"]
+....
+flowchart LR
+    subgraph TP["Tiers"]
+        TP1["aucun document propre"]
+        TP2["CLA<br/>DCO<br/>licence OSS"]
+        TP3["CLA<br/>DCO<br/>licence OSS<br/>contrat"]
+        TP4["aucun document propre"]
+    end
+    subgraph FA["Administration fédérale"]
+        FA1["CG de la Confédération<br/>contrat"]
+        FA2["aucun document propre"]
+        FA3["licence OSS<br/>contrat<br/>(DCO)<br/>(CLA)"]
+        FA4["licence OSS<br/>(DCO)<br/>(CLA)"]
+    end
+    TP1 -- "création" --> FA1
+    TP2 -- "contribution de l'administration fédérale" --- FA2
+    TP3 <-- "collaboration" --> FA3
+    TP4 -- "contribution de tiers" --> FA4
+....
 
 Figure 4 : Transfert du code source et des droits dans différentes constellations
+
+Légende :
+
+* Les cadres indiquent *où les droits sont définis* dans chaque constellation.
+* *Création* et *contribution de tiers* : l'administration fédérale dispose du pouvoir de façonner la situation.
+* *Collaboration* : les documents sont convenus entre les parties.
+* *Contribution de l'administration fédérale* : l'administration fédérale ne dispose d'aucun pouvoir de façonner la situation, un examen est nécessaire.
+* Les documents juridiques sont classés par ordre de priorité, de haut en bas ; les documents entre parenthèses sont plutôt à éviter.
 
 Pour les *développements propres* (creation), il n'y a pas de problème : selon l'art. 17 LDA, l'autorité fédérale est titulaire des droits d'utilisation sur les logiciels créés par ses propres employés. Pour les *développeurs tiers*, les autorités fédérales devraient s'assurer les droits (par exemple en utilisant les CG correspondantes de la Confédération). Aucun CLA ni DCO n'est donc nécessaire ici.
 
@@ -2125,7 +2488,21 @@ Si raccomanda di stabilire strategicamente nell'Amministrazione federale, all'av
 
 Per la scelta della licenza può essere utilizzato il seguente ausilio decisionale:
 
-image::./assets/em002-3/media/image1.png[Ausilio decisionale semplificato per la scelta della licenza]
+[mermaid,align="center",alt="Ausilio decisionale semplificato per la scelta della licenza"]
+....
+flowchart TD
+    S(["Inizio"])
+    Q1{"L'«ambiente»<br/>impone la licenza"}
+    A["Scegliere la licenza<br/>imposta"]
+    Q2{"Libreria, implementazione di riferimento<br/>o requisiti liberali"}
+    B["MIT"]
+    C["AGPL"]
+    S --> Q1
+    Q1 -->|"Sì"| A
+    Q1 -->|"No"| Q2
+    Q2 -->|"Sì"| B
+    Q2 -->|"No"| C
+....
 
 Figura 1: Ausilio decisionale semplificato per la scelta della licenza
 
@@ -2269,7 +2646,59 @@ Il grafico seguente rappresenta le dipendenze delle principali licenze open sour
 
 Il grafico va letto come segue: il codice soggetto a una licenza indicata prima nella catena può essere integrato in software pubblicato sotto una licenza indicata successivamente nella catena. Così il codice sotto la BSD modificata può essere posto sotto una variante di licenza LGPL o GPL, ma non viceversa. Public domain significa che l'opera non è soggetta ad alcuna restrizione di diritto d'autore.
 
-image::./assets/em002-3/media/image2.png[Compatibilità delle licenze open source]
+[mermaid,align="center",alt="Compatibilità delle licenze open source"]
+....
+flowchart TB
+    subgraph P["Licenza permissiva"]
+        PD["Public domain"]
+        MIT["MIT/X11"]
+        BSD["BSD modificata"]
+        AP["Apache 2.0"]
+    end
+    subgraph W["Copyleft debole"]
+        EUPL["EUPL"]
+        LGPL21["LGPLv2.1"]
+        LGPL21P["LGPLv2.1+"]
+        LGPL3["LGPLv3 / LGPLv3.1"]
+        MPL["MPL 1.1"]
+    end
+    subgraph SC["Copyleft forte"]
+        GPL2["GPLv2"]
+        GPL2P["GPLv2+"]
+        GPL3["GPLv3 / GPLv3+"]
+        AGPL["Affero GPLv3"]
+    end
+    PD --> MIT
+    MIT --> BSD
+    BSD --> AP
+    BSD --> LGPL21
+    BSD --> LGPL21P
+    BSD --> LGPL3
+    BSD --> MPL
+    AP --> EUPL
+    AP --> LGPL3
+    EUPL --> LGPL21
+    EUPL --> LGPL21P
+    EUPL --> LGPL3
+    EUPL --> MPL
+    LGPL21P --> LGPL21
+    LGPL21P --> LGPL3
+    LGPL21 --> GPL2
+    LGPL21 --> GPL2P
+    LGPL21P --> GPL2P
+    LGPL3 --> GPL3
+    GPL2P --> GPL2
+    GPL2P --> GPL3
+    GPL3 -->|"+ protezione della rete"| AGPL
+    classDef pd fill:#f5f5f5,stroke:#000000,color:#000000
+    classDef perm fill:#dae8fc,stroke:#000000,color:#000000
+    classDef weak fill:#d5e8d4,stroke:#000000,color:#000000
+    classDef strong fill:#5ea226,stroke:#000000,color:#ffffff
+    class PD pd
+    class MIT,BSD,AP perm
+    class EUPL,LGPL21,LGPL21P,LGPL3,MPL weak
+    class GPL2,GPL2P,GPL3,AGPL strong
+....
 
 Figura 2: Compatibilità delle licenze open source (sulla base del grafico di David A. Wheeler, 2007 e di https://www.gnu.org/licenses/license-list.it.html)
 
@@ -2472,7 +2901,35 @@ GNU GPLv3
 
 Tabella 2: Licenza da utilizzare a seconda del caso d'applicazione per la pubblicazione di nuovo software conformemente all'art. 9 LMeCA *(grassetto = raccomandato se nulla vi si oppone)*
 
-image::./assets/em002-3/media/image3.png[Albero decisionale ampliato per la scelta della licenza nell'Amministrazione federale]
+[mermaid,align="center",alt="Albero decisionale ampliato per la scelta della licenza nell'Amministrazione federale"]
+....
+flowchart TD
+    S(["Inizio"])
+    Q1{"La distinta base<br/>impone la licenza?"}
+    R1["Scegliere la licenza<br/>imposta / preferita"]
+    Q2{"In questo ambiente vi sono<br/>licenze preferite?"}
+    Q3{"Figura nell'elenco delle licenze<br/>idonee dell'Em002-3?"}
+    R2["Scegliere dall'elenco la licenza idonea<br/>successiva secondo l'Em002-3, dopo aver<br/>consultato il servizio giuridico"]
+    Q4{"Implementazione di riferimento<br/>come proposta<br/>per terzi?"}
+    R3["GPL o licenza permissiva:<br/>MIT, BSD, Apache"]
+    Q5{"I miglioramenti<br/>devono rifluire?"}
+    Q6{"Anche in caso<br/>di utilizzo SaaS?"}
+    R4["GPL, EUPL"]
+    R5["AGPL"]
+    S --> Q1
+    Q1 -->|"Sì"| R1
+    Q1 -->|"No"| Q2
+    Q2 -->|"Sì"| Q3
+    Q2 -->|"No"| Q4
+    Q3 -->|"Sì"| R1
+    Q3 -->|"No"| R2
+    Q4 -->|"Sì"| R3
+    Q4 -->|"No"| Q5
+    Q5 -->|"No"| R3
+    Q5 -->|"Sì"| Q6
+    Q6 -->|"No"| R4
+    Q6 -->|"Sì"| R5
+....
 
 Figura 3: Albero decisionale ampliato per la scelta della licenza nell'Amministrazione federale (se non AGPL o MIT)
 
@@ -2582,9 +3039,36 @@ Lo strumento principale dei CLA è o la cessione dei diritti d'autore dai contri
 
 I CLA sono controversi nella community OSSfootnote:[Per esempio: https://ben.balter.com/2018/01/02/why-you-probably-shouldnt-add-a-cla-to-your-open-source-project/], tra l'altro perché possono aprire falle nel copyleft. Esistono quindi ormai anche CLA che limitano lo sviluppatore principale quanto alla concessione di una nuova licenza per il codice del progetto.
 
-image::./assets/em002-3/media/image4.png[Trasferimento del codice sorgente e dei diritti in diverse costellazioni]
+[mermaid,align="center",alt="Trasferimento del codice sorgente e dei diritti in diverse costellazioni"]
+....
+flowchart LR
+    subgraph TP["Terzi"]
+        TP1["nessun documento proprio"]
+        TP2["CLA<br/>DCO<br/>licenza OSS"]
+        TP3["CLA<br/>DCO<br/>licenza OSS<br/>contratto"]
+        TP4["nessun documento proprio"]
+    end
+    subgraph FA["Amministrazione federale"]
+        FA1["CG della Confederazione<br/>contratto"]
+        FA2["nessun documento proprio"]
+        FA3["licenza OSS<br/>contratto<br/>(DCO)<br/>(CLA)"]
+        FA4["licenza OSS<br/>(DCO)<br/>(CLA)"]
+    end
+    TP1 -- "creazione" --> FA1
+    TP2 -- "contributo dell'Amministrazione federale" --- FA2
+    TP3 <-- "collaborazione" --> FA3
+    TP4 -- "contributo di terzi" --> FA4
+....
 
 Figura 4: Trasferimento del codice sorgente e dei diritti in diverse costellazioni
+
+Legenda:
+
+* I riquadri indicano *dove sono definiti i diritti* in ciascuna costellazione.
+* *Creazione* e *contributo di terzi*: l'Amministrazione federale dispone del potere di configurazione.
+* *Collaborazione*: i documenti sono concordati tra le parti.
+* *Contributo dell'Amministrazione federale*: l'Amministrazione federale non dispone di alcun potere di configurazione, è necessario un esame.
+* I documenti giuridici sono elencati in ordine di priorità, dall'alto verso il basso; i documenti tra parentesi sono piuttosto da evitare.
 
 Per gli *sviluppi propri* (creation) non vi sono problemi: secondo l'art. 17 LDA l'autorità federale è titolare dei diritti d'utilizzazione sul software creato dai propri collaboratori. Per gli *sviluppatori terzi* le autorità federali dovrebbero assicurarsi i diritti (per esempio utilizzando le corrispondenti CG della Confederazione). Nessun CLA o DCO è quindi qui necessario.
 
@@ -2815,7 +3299,21 @@ I vegn recumandà da fixar strategicamain en l'administraziun federala tar il cu
 
 Per la tscherna da la licenza po vegnir duvrà il suandant agid da decisiun:
 
-image::./assets/em002-3/media/image1.png[Agid da decisiun simplifitgà per la tscherna da la licenza]
+[mermaid,align="center",alt="Agid da decisiun simplifitgà per la tscherna da la licenza"]
+....
+flowchart TD
+    S(["Entschatta"])
+    Q1{"L'«ambient»<br/>preschriva la licenza"}
+    A["Tscherner la licenza<br/>preschritta"]
+    Q2{"Biblioteca, implementaziun da referenza<br/>u pretensiuns liberalas"}
+    B["MIT"]
+    C["AGPL"]
+    S --> Q1
+    Q1 -->|"Gea"| A
+    Q1 -->|"Na"| Q2
+    Q2 -->|"Gea"| B
+    Q2 -->|"Na"| C
+....
 
 Illustraziun 1: Agid da decisiun simplifitgà per la tscherna da la licenza
 
@@ -2959,7 +3457,59 @@ La grafica suandanta represchenta las dependenzas da las licenzas open source la
 
 La grafica sto vegnir legida uschia: Code tenor ina licenza inditgada pli baud en la chadaina po vegnir surpiglià en software che vegn publitgà sut ina licenza inditgada pli tard en la chadaina. Uschia po per exempel code sut la BSD modifitgada vegnir mess sut ina varianta da licenza LGPL u GPL, ma betg il cuntrari. Public domain munta che l'ovra na suttastat a naginas restricziuns dal dretg d'autur.
 
-image::./assets/em002-3/media/image2.png[Cumpatibilitad da licenzas open source]
+[mermaid,align="center",alt="Cumpatibilitad da licenzas open source"]
+....
+flowchart TB
+    subgraph P["Licenza permissiva"]
+        PD["Public domain"]
+        MIT["MIT/X11"]
+        BSD["BSD modifitgada"]
+        AP["Apache 2.0"]
+    end
+    subgraph W["Copyleft flaivel"]
+        EUPL["EUPL"]
+        LGPL21["LGPLv2.1"]
+        LGPL21P["LGPLv2.1+"]
+        LGPL3["LGPLv3 / LGPLv3.1"]
+        MPL["MPL 1.1"]
+    end
+    subgraph SC["Copyleft ferm"]
+        GPL2["GPLv2"]
+        GPL2P["GPLv2+"]
+        GPL3["GPLv3 / GPLv3+"]
+        AGPL["Affero GPLv3"]
+    end
+    PD --> MIT
+    MIT --> BSD
+    BSD --> AP
+    BSD --> LGPL21
+    BSD --> LGPL21P
+    BSD --> LGPL3
+    BSD --> MPL
+    AP --> EUPL
+    AP --> LGPL3
+    EUPL --> LGPL21
+    EUPL --> LGPL21P
+    EUPL --> LGPL3
+    EUPL --> MPL
+    LGPL21P --> LGPL21
+    LGPL21P --> LGPL3
+    LGPL21 --> GPL2
+    LGPL21 --> GPL2P
+    LGPL21P --> GPL2P
+    LGPL3 --> GPL3
+    GPL2P --> GPL2
+    GPL2P --> GPL3
+    GPL3 -->|"+ protecziun da la rait"| AGPL
+    classDef pd fill:#f5f5f5,stroke:#000000,color:#000000
+    classDef perm fill:#dae8fc,stroke:#000000,color:#000000
+    classDef weak fill:#d5e8d4,stroke:#000000,color:#000000
+    classDef strong fill:#5ea226,stroke:#000000,color:#ffffff
+    class PD pd
+    class MIT,BSD,AP perm
+    class EUPL,LGPL21,LGPL21P,LGPL3,MPL weak
+    class GPL2,GPL2P,GPL3,AGPL strong
+....
 
 Illustraziun 2: Cumpatibilitad da licenzas open source (en adherenza a la grafica da David A. Wheeler, 2007 ed a https://www.gnu.org/licenses/license-list.de.html)
 
@@ -3162,7 +3712,35 @@ GNU GPLv3
 
 Tabella 2: Licenza da duvrar tut tenor il cas d'applicaziun per la relaschada da nov software tenor l'art. 9 EMBAG *(grass = recumandà, sche nagins motivs na s'opponan)*
 
-image::./assets/em002-3/media/image3.png[Planta da decisiun ampliada per la tscherna da la licenza en l'administraziun federala]
+[mermaid,align="center",alt="Planta da decisiun ampliada per la tscherna da la licenza en l'administraziun federala"]
+....
+flowchart TD
+    S(["Entschatta"])
+    Q1{"Preschriva la glista da parts<br/>la licenza?"}
+    R1["Tscherner la licenza<br/>preschritta / preferida"]
+    Q2{"Dat i licenzas preferidas<br/>en quest ambient?"}
+    Q3{"En la glista da licenzas<br/>adattadas en l'Em002-3?"}
+    R2["Tscherner da la glista la proxima licenza<br/>adattada tenor l'Em002-3, suenter<br/>consultaziun dal servetsch giuridic"]
+    Q4{"Implementaziun da referenza<br/>sco proposta<br/>per terzas persunas?"}
+    R3["GPL u licenza permissiva:<br/>MIT, BSD, Apache"]
+    Q5{"Ston meglieraziuns<br/>turnar enavos?"}
+    Q6{"Era tar l'utilisaziun SaaS?"}
+    R4["GPL, EUPL"]
+    R5["AGPL"]
+    S --> Q1
+    Q1 -->|"Gea"| R1
+    Q1 -->|"Na"| Q2
+    Q2 -->|"Gea"| Q3
+    Q2 -->|"Na"| Q4
+    Q3 -->|"Gea"| R1
+    Q3 -->|"Na"| R2
+    Q4 -->|"Gea"| R3
+    Q4 -->|"Na"| Q5
+    Q5 -->|"Na"| R3
+    Q5 -->|"Gea"| Q6
+    Q6 -->|"Na"| R4
+    Q6 -->|"Gea"| R5
+....
 
 Illustraziun 3: Planta da decisiun ampliada per la tscherna da la licenza en l'administraziun federala (sche betg AGPL u MIT)
 
@@ -3272,9 +3850,36 @@ L'instrument principal dals CLA è u la cessiun dals dretgs d'autur dals contrib
 
 CLA èn contestads en la communitad OSSfootnote:[Per exempel: https://ben.balter.com/2018/01/02/why-you-probably-shouldnt-add-a-cla-to-your-open-source-project/], tranter auter perquai ch'els pon avrir largias en il copyleft. Perquai datti danedadad era CLA che restrenschan la sviluppadra principala tar la concessiun d'ina nova licenza per il code dal project.
 
-image::./assets/em002-3/media/image4.png[Transferiment da code da funtauna e da dretgs en differentas constellaziuns]
+[mermaid,align="center",alt="Transferiment da code da funtauna e da dretgs en differentas constellaziuns"]
+....
+flowchart LR
+    subgraph TP["Terzas persunas"]
+        TP1["nagins documents agens"]
+        TP2["CLA<br/>DCO<br/>licenza OSS"]
+        TP3["CLA<br/>DCO<br/>licenza OSS<br/>contract"]
+        TP4["nagins documents agens"]
+    end
+    subgraph FA["Administraziun federala"]
+        FA1["CGC da la Confederaziun<br/>contract"]
+        FA2["nagins documents agens"]
+        FA3["licenza OSS<br/>contract<br/>(DCO)<br/>(CLA)"]
+        FA4["licenza OSS<br/>(DCO)<br/>(CLA)"]
+    end
+    TP1 -- "creaziun" --> FA1
+    TP2 -- "contribuziun da l'administraziun federala" --- FA2
+    TP3 <-- "collavuraziun" --> FA3
+    TP4 -- "contribuziun da terzas persunas" --> FA4
+....
 
 Illustraziun 4: Transferiment da code da funtauna e da dretgs en differentas constellaziuns
+
+Legenda:
+
+* Ils quaders mussan *nua ch'ils dretgs èn definids* en mintga constellaziun.
+* *Creaziun* e *contribuziun da terzas persunas*: L'administraziun federala ha la pussanza da concepir.
+* *Collavuraziun*: Ils documents vegnan concordads tranter las partidas.
+* *Contribuziun da l'administraziun federala*: L'administraziun federala n'ha nagina pussanza da concepir, ina examinaziun è necessaria.
+* Ils documents giuridics èn ordinads tenor prioritad da survart engiu; documents en parentesas èn pli gugent da evitar.
 
 Per *svilups agens* (creation) n'existan nagins problems: Tenor l'art. 17 LDAu è l'autoritad federala possessura dals dretgs d'utilisaziun sin software creà da ses agens collaboraturs. Tar *sviluppaders terzs* duessan las autoritads federalas s'assicurar ils dretgs (per exempel cun utilisar las CGC correspundentas da la Confederaziun). Uschia n'è qua nagin CLA u DCO necessari.
 
