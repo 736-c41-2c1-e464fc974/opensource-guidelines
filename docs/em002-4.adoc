@@ -37,7 +37,7 @@ endif::[]
 :toclevels: 3
 :sectnumlevels: 3
 :experimental:
-:revnumber: 1.0
+:revnumber: 2.0
 :revdate: 14.09.2026
 :url-repo: https://github.com/swiss/opensource-guidelines/tree/main
 
