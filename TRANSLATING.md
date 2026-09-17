@@ -125,8 +125,15 @@ Romansh text in this repository has not been reviewed by a Romansh speaker.
   and nowhere else. Those SVGs are generated — edit
   `tools/make-four-cs-svg.sh` and re-run it, never the `.svg` files.
 - **Translate `link:…[display text]`, never the target.** Targets are `.pdf`
-  because the links are followed inside the rendered PDFs, where the documents
-  sit side by side in one language directory.
+  because the links are meant to be followed inside the rendered PDFs, where the
+  documents of one language sit side by side in one directory. They are not
+  followable yet: open-govpress 0.0.13 resolves a relative target against the
+  Electron app's own origin, so `link:em002-2.pdf[…]` arrives in the PDF as
+  `app://govpress/em002-2.pdf` and leads nowhere. The upstream fix (`2271c81`)
+  lets a relative target through verbatim, and is not in a release yet. That is
+  why none of the 1,100-odd `.pdf` targets here have been rewritten into
+  something that works around the bug: the day that fix ships they are already
+  right, whereas anything rewritten now would have to be undone by hand.
 - **Switch the language segment of admin.ch and fedlex.admin.ch URLs** to match
   (`…/2023/682/en#art_9` → `…/2023/682/de#art_9`). Leave a URL alone when only
   one language of it exists — several `beschaffung.admin.ch` links are
@@ -165,14 +172,57 @@ house palette is correct, not a bug.
 ## Shared fragments
 
 `docs/partials/` holds fragments that several documents `include::`, one file per
-language — currently the map of Art. 9 documents, which four documents show and
-`Em002` shows twice. **Translate the partial, not the inclusion**, and keep the
-language of the file matching the `ifeval::` block that includes it.
+language — the map of Art. 9 documents, which four documents show and `Em002`
+shows twice, and the shared `abbreviations.<lang>.adoc`, `glossary.<lang>.adoc`
+and `references.<lang>.adoc` lists. **Translate the partial, not the
+inclusion**, and keep the language of the file matching the `ifeval::` block
+that includes it. They are per-language in exactly the way
+`document-map.<lang>.adoc` is: five files, one per language, never one file with
+five blocks inside it.
 
 A fragment is not a document: `render-docs` and `tools/site-index.sh` exclude
 `docs/partials/` so it never becomes a PDF of its own. A missing `include::`
 prints an error but still writes a PDF, so read the render output rather than
 trusting the exit status.
+
+### Tagged partials
+
+Several documents share one abbreviation list, one glossary and one set of
+reference entries, but no document wants all of any of them, so each takes the
+slice it needs by tag:
+
+```asciidoc
+include::partials/glossary.en.adoc[tags=gloss-em002-7]
+```
+
+and the partial marks its slices out:
+
+```asciidoc
+// tag::gloss-em002-7[]
+[St2024]::
+Report on digital sovereignty …
+// end::gloss-em002-7[]
+```
+
+- **`// tag::name[]` and `// end::name[]` are structure, not comments.** They
+  render as nothing at all, which is exactly why they get tidied away. Copy them
+  across verbatim, never translate a tag name, and close nested regions
+  innermost first — a region opened inside another has to end before it. Crossing
+  them or leaving one open is a `WARNING`, so `tools/check-asciidoc.sh` stops
+  the commit.
+- **The tag separator is `;`, and only `;`.** `tags=a,b` is neither an error nor
+  a warning: the comma ends the attribute, so it means `tags=a` and everything
+  under `b` silently disappears from the document. The same fragment renders as
+  seven pages with `tags=a;b` and two with `tags=a,b`, with nothing said either
+  way — not by asciidoctor, not by open-govpress, at any log level. `tags="a,b"`
+  works too, because the quotes keep the comma inside the value, but one
+  spelling is enough to remember.
+- **An entry keeps its `[Key]::` shape.** The prose cites it as `[St2024]`, and
+  AsciiDoc knows of no connection between the two, so a citation whose entry a
+  tag did not select renders as an ordinary bracketed label with nothing behind
+  it. Translate the description, never the key and never its brackets.
+  `tools/check-asciidoc.sh` compares cited keys against defined ones, per
+  document and per language, and is the only thing that will notice.
 
 ## Status
 
