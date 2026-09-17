@@ -728,128 +728,156 @@ In future, this list will be replaced by a collection of metadata via publiccode
 
 === D.1 Loom
 
-[cols="1,4"]
-|===
-|URL |https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
-|Federal authority |Cyber Command
-|Description |Loom is a powerful, easy-to-use document search engine. It automates the indexing of configured data sources, performs OCR, extracts content and metadata, enables tagging and offers powerful search and operating options.
-|Year |2025
-|Licence |MIT
-|Justification |-
-|===
+URL::
+https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
+Federal authority::
+Cyber Command
+Description::
+Loom is a powerful, easy-to-use document search engine. It automates the indexing of configured data sources, performs OCR, extracts content and metadata, enables tagging and offers powerful search and operating options.
+Year::
+2025
+Licence::
+MIT
+Justification::
+-
 
 === D.2 trustbroker.swiss
 
-[cols="1,4"]
-|===
-|URL |https://github.com/trustbroker-swiss/trustbroker.swiss
-|Federal authority |FCh, FOITT
-|Description
-a|Trust Broker Swiss provides federation services between relying parties (applications, service providers, other IAM systems or policy enforcement points) and identity providers (IdP, also called claims providers) using trusted attribute stores to enrich authenticated users. +
+URL::
+https://github.com/trustbroker-swiss/trustbroker.swiss
+Federal authority::
+FCh, FOITT
+Description::
+Trust Broker Swiss provides federation services between relying parties (applications, service providers, other IAM systems or policy enforcement points) and identity providers (IdP, also called claims providers) using trusted attribute stores to enrich authenticated users. +
 It enables Identity/Claims Providers and Relying Parties to exchange information via a third party that hides the IdP specifics and provides a unified or at least additionally verified identity.
-|Year |2024
-|Licence |AGPL
-|Justification
-a|Code changes should always remain open and be returned.
-
+Year::
+2024
+Licence::
+AGPL
+Justification::
+Code changes should always remain open and be returned.
++
 A very detailed examination of the licence issue was carried out for the Trust Broker. For very large projects, it can be carried out at this level of detail. All compatible licences that are compatible with the Software Bill of Materials were listed in a licence pool.
-|===
 
 === D.3 Geocat.ch
 
-[cols="1,4"]
-|===
-|URL |https://github.com/geonetwork/core-geonetwork
-|Federal authority |Swisstopo
-|Description |GeoNetwork is a catalogue application for managing spatially referenced resources. It offers powerful metadata editing and search functions as well as an interactive web map viewer. It is currently being used in numerous spatial data infrastructure initiatives around the world.
-|Year |2012
-|Licence |GPL 2.0
-|Justification |-
-|===
+URL::
+https://github.com/geonetwork/core-geonetwork
+Federal authority::
+Swisstopo
+Description::
+GeoNetwork is a catalogue application for managing spatially referenced resources. It offers powerful metadata editing and search functions as well as an interactive web map viewer. It is currently being used in numerous spatial data infrastructure initiatives around the world.
+Year::
+2012
+Licence::
+GPL 2.0
+Justification::
+-
 
 === D.4 GWEN / ampycloud / c4dl-multi / dvas /…
 
-[cols="1,4"]
-|===
-|URL |https://meteoswiss.github.io/ampycloud/
-|Federal authority |MeteoSwiss
-|Description |Python package for determining the proportion of sky coverage and the base height of cloud layers using ceilometer data.
-|Year |2023
-|Licence |Various licences, FSS
-|Justification |-
-|===
+URL::
+https://meteoswiss.github.io/ampycloud/
+Federal authority::
+MeteoSwiss
+Description::
+Python package for determining the proportion of sky coverage and the base height of cloud layers using ceilometer data.
+Year::
+2023
+Licence::
+Various licences, FSS
+Justification::
+-
 
 === D.5 EMSG application (asset management in settlement areas)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/astra-emsg/ASTRA.EMSG
-|Federal authority |MeteoSwiss
-|Description |EMSG is a C# GIS web application developed by the Swiss government to manage the asset management of urban road systems.
-|Year |2017
-|Licence |BSD
-|Justification |-
-|===
+URL::
+https://github.com/astra-emsg/ASTRA.EMSG
+Federal authority::
+MeteoSwiss
+Description::
+EMSG is a C# GIS web application developed by the Swiss government to manage the asset management of urban road systems.
+Year::
+2017
+Licence::
+BSD
+Justification::
+-
 
 === D.6 Covid certificate application
 
-[cols="1,4"]
-|===
-|URL |https://github.com/admin-ch/CovidCertificate-Documents
-|Federal authority |FOITT
-|Description |Swiss application for COVID certificates
-|Year |2020
-|Licence |MIT
-|Justification |As permissive as possible so that anyone can use the code.
-|===
+URL::
+https://github.com/admin-ch/CovidCertificate-Documents
+Federal authority::
+FOITT
+Description::
+Swiss application for COVID certificates
+Year::
+2020
+Licence::
+MIT
+Justification::
+As permissive as possible so that anyone can use the code.
 
 === D.7 GovCert website
 
-[cols="1,4"]
-|===
-|URL |https://github.com/govcert-ch/website
-|Federal authority |NCSC
-|Description |Source code of the website for the Computer Emergency Response Team (GovCERT) of the Swiss government
-|Year |2023
-|Licence |MIT
-|Justification |-
-|===
+URL::
+https://github.com/govcert-ch/website
+Federal authority::
+NCSC
+Description::
+Source code of the website for the Computer Emergency Response Team (GovCERT) of the Swiss government
+Year::
+2023
+Licence::
+MIT
+Justification::
+-
 
 === D.8 Various libraries on open data (e.g. linked data)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/SwissFederalArchives
-|Federal authority |SFA
-|Description |The Swiss Federal Archives repository on GitHub provides access to the source codes of our applications. It allows you to create your own forks and report errors or suggest extended functionalities at the 'Issues' interface.
-|Year |2023
-|Licence |AGPL, Apache, MIT
-|Justification |Opendata and open source software are heading in the same direction. AGPL allows maximum openness.
-|===
+URL::
+https://github.com/SwissFederalArchives
+Federal authority::
+SFA
+Description::
+The Swiss Federal Archives repository on GitHub provides access to the source codes of our applications. It allows you to create your own forks and report errors or suggest extended functionalities at the 'Issues' interface.
+Year::
+2023
+Licence::
+AGPL, Apache, MIT
+Justification::
+Opendata and open source software are heading in the same direction. AGPL allows maximum openness.
 
 === D.9 Apache FOP customised for archivable PDF
 
-[cols="1,4"]
-|===
-|URL |https://xmlgraphics.apache.org/fop/
-|Federal authority |IPI
-|Description |The IPI wanted a version of Apache FOP that could generate archivable PDFs. To this end, an extension was commissioned by one of the core developers (Jeremias Märki). The adjustments were incorporated directly into the project.
-|Year |2007
-|Licence |Apache
-|Justification |Extensions were made to an existing open source project.
-|===
+URL::
+https://xmlgraphics.apache.org/fop/
+Federal authority::
+IPI
+Description::
+The IPI wanted a version of Apache FOP that could generate archivable PDFs. To this end, an extension was commissioned by one of the core developers (Jeremias Märki). The adjustments were incorporated directly into the project.
+Year::
+2007
+Licence::
+Apache
+Justification::
+Extensions were made to an existing open source project.
 
 === D.10 Legally compliant electronic input with eKomm
 
-[cols="1,4"]
-|===
-|URL |https://launchpad.net/ekomm
-|Federal authority |IPI
-|Description |The IPI wanted software for electronic input.
-|Year |2009
-|Licence |Apache
-|Justification |The IPI wanted to have the vendor (Glue) perform the release and authorise this as permissive (integration in its own applications).
-|===
+URL::
+https://launchpad.net/ekomm
+Federal authority::
+IPI
+Description::
+The IPI wanted software for electronic input.
+Year::
+2009
+Licence::
+Apache
+Justification::
+The IPI wanted to have the vendor (Glue) perform the release and authorise this as permissive (integration in its own applications).
 endif::[]
 
 ifeval::["{lang}" == "de"]
@@ -1539,128 +1567,156 @@ Künftig wird diese Liste durch eine Sammlung von Metadaten über publiccode.yml
 
 === D.1 Loom
 
-[cols="1,4"]
-|===
-|URL |https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
-|Bundesbehörde |Cyber Command
-|Beschreibung |Loom ist eine leistungsfähige, einfach zu bedienende Dokumentensuchmaschine. Sie automatisiert die Indexierung konfigurierter Datenquellen, führt OCR durch, extrahiert Inhalte und Metadaten, ermöglicht Tagging und bietet leistungsfähige Such- und Bedienmöglichkeiten.
-|Jahr |2025
-|Lizenz |MIT
-|Begründung |-
-|===
+URL::
+https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
+Bundesbehörde::
+Cyber Command
+Beschreibung::
+Loom ist eine leistungsfähige, einfach zu bedienende Dokumentensuchmaschine. Sie automatisiert die Indexierung konfigurierter Datenquellen, führt OCR durch, extrahiert Inhalte und Metadaten, ermöglicht Tagging und bietet leistungsfähige Such- und Bedienmöglichkeiten.
+Jahr::
+2025
+Lizenz::
+MIT
+Begründung::
+-
 
 === D.2 trustbroker.swiss
 
-[cols="1,4"]
-|===
-|URL |https://github.com/trustbroker-swiss/trustbroker.swiss
-|Bundesbehörde |BK, BIT
-|Beschreibung
-a|Trust Broker Swiss stellt Föderationsdienste zwischen Relying Parties (Anwendungen, Service Provider, andere IAM-Systeme oder Policy Enforcement Points) und Identity Providern (IdP, auch Claims Provider genannt) bereit und nutzt vertrauenswürdige Attributspeicher, um authentifizierte Nutzende anzureichern. +
+URL::
+https://github.com/trustbroker-swiss/trustbroker.swiss
+Bundesbehörde::
+BK, BIT
+Beschreibung::
+Trust Broker Swiss stellt Föderationsdienste zwischen Relying Parties (Anwendungen, Service Provider, andere IAM-Systeme oder Policy Enforcement Points) und Identity Providern (IdP, auch Claims Provider genannt) bereit und nutzt vertrauenswürdige Attributspeicher, um authentifizierte Nutzende anzureichern. +
 Es ermöglicht Identity-/Claims-Providern und Relying Parties, Informationen über eine dritte Partei auszutauschen, welche die IdP-Spezifika verbirgt und eine einheitliche oder zumindest zusätzlich verifizierte Identität bereitstellt.
-|Jahr |2024
-|Lizenz |AGPL
-|Begründung
-a|Codeänderungen sollen stets offen bleiben und zurückfliessen.
-
+Jahr::
+2024
+Lizenz::
+AGPL
+Begründung::
+Codeänderungen sollen stets offen bleiben und zurückfliessen.
++
 Für den Trust Broker wurde eine sehr detaillierte Prüfung der Lizenzfrage durchgeführt. Bei sehr grossen Projekten kann sie in dieser Detailtiefe erfolgen. Alle kompatiblen Lizenzen, die mit der Software Bill of Materials vereinbar sind, wurden in einem Lizenzpool aufgeführt.
-|===
 
 === D.3 Geocat.ch
 
-[cols="1,4"]
-|===
-|URL |https://github.com/geonetwork/core-geonetwork
-|Bundesbehörde |Swisstopo
-|Beschreibung |GeoNetwork ist eine Kataloganwendung zur Verwaltung raumbezogener Ressourcen. Sie bietet leistungsfähige Funktionen zur Metadatenbearbeitung und -suche sowie einen interaktiven Webkartenbetrachter. Sie wird derzeit in zahlreichen Initiativen für Geodateninfrastrukturen weltweit eingesetzt.
-|Jahr |2012
-|Lizenz |GPL 2.0
-|Begründung |-
-|===
+URL::
+https://github.com/geonetwork/core-geonetwork
+Bundesbehörde::
+Swisstopo
+Beschreibung::
+GeoNetwork ist eine Kataloganwendung zur Verwaltung raumbezogener Ressourcen. Sie bietet leistungsfähige Funktionen zur Metadatenbearbeitung und -suche sowie einen interaktiven Webkartenbetrachter. Sie wird derzeit in zahlreichen Initiativen für Geodateninfrastrukturen weltweit eingesetzt.
+Jahr::
+2012
+Lizenz::
+GPL 2.0
+Begründung::
+-
 
 === D.4 GWEN / ampycloud / c4dl-multi / dvas /…
 
-[cols="1,4"]
-|===
-|URL |https://meteoswiss.github.io/ampycloud/
-|Bundesbehörde |MeteoSchweiz
-|Beschreibung |Python-Paket zur Bestimmung des Bedeckungsgrads und der Basishöhe von Wolkenschichten anhand von Ceilometer-Daten.
-|Jahr |2023
-|Lizenz |Verschiedene Lizenzen, FSS
-|Begründung |-
-|===
+URL::
+https://meteoswiss.github.io/ampycloud/
+Bundesbehörde::
+MeteoSchweiz
+Beschreibung::
+Python-Paket zur Bestimmung des Bedeckungsgrads und der Basishöhe von Wolkenschichten anhand von Ceilometer-Daten.
+Jahr::
+2023
+Lizenz::
+Verschiedene Lizenzen, FSS
+Begründung::
+-
 
 === D.5 Anwendung EMSG (Erhaltungsmanagement in Siedlungsgebieten)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/astra-emsg/ASTRA.EMSG
-|Bundesbehörde |MeteoSchweiz
-|Beschreibung |EMSG ist eine C#-GIS-Webanwendung, die von der Schweizer Bundesverwaltung entwickelt wurde, um das Erhaltungsmanagement städtischer Strassensysteme zu verwalten.
-|Jahr |2017
-|Lizenz |BSD
-|Begründung |-
-|===
+URL::
+https://github.com/astra-emsg/ASTRA.EMSG
+Bundesbehörde::
+MeteoSchweiz
+Beschreibung::
+EMSG ist eine C#-GIS-Webanwendung, die von der Schweizer Bundesverwaltung entwickelt wurde, um das Erhaltungsmanagement städtischer Strassensysteme zu verwalten.
+Jahr::
+2017
+Lizenz::
+BSD
+Begründung::
+-
 
 === D.6 Anwendung Covid-Zertifikat
 
-[cols="1,4"]
-|===
-|URL |https://github.com/admin-ch/CovidCertificate-Documents
-|Bundesbehörde |BIT
-|Beschreibung |Schweizer Anwendung für COVID-Zertifikate
-|Jahr |2020
-|Lizenz |MIT
-|Begründung |So permissiv wie möglich, damit alle den Code nutzen können.
-|===
+URL::
+https://github.com/admin-ch/CovidCertificate-Documents
+Bundesbehörde::
+BIT
+Beschreibung::
+Schweizer Anwendung für COVID-Zertifikate
+Jahr::
+2020
+Lizenz::
+MIT
+Begründung::
+So permissiv wie möglich, damit alle den Code nutzen können.
 
 === D.7 GovCert-Website
 
-[cols="1,4"]
-|===
-|URL |https://github.com/govcert-ch/website
-|Bundesbehörde |NCSC
-|Beschreibung |Quellcode der Website für das Computer Emergency Response Team (GovCERT) der Schweizer Bundesverwaltung
-|Jahr |2023
-|Lizenz |MIT
-|Begründung |-
-|===
+URL::
+https://github.com/govcert-ch/website
+Bundesbehörde::
+NCSC
+Beschreibung::
+Quellcode der Website für das Computer Emergency Response Team (GovCERT) der Schweizer Bundesverwaltung
+Jahr::
+2023
+Lizenz::
+MIT
+Begründung::
+-
 
 === D.8 Verschiedene Bibliotheken zu Open Data (z. B. Linked Data)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/SwissFederalArchives
-|Bundesbehörde |BAR
-|Beschreibung |Das Repository des Schweizerischen Bundesarchivs auf GitHub bietet Zugang zu den Quellcodes unserer Anwendungen. Es erlaubt Ihnen, eigene Forks zu erstellen und über die Schnittstelle «Issues» Fehler zu melden oder erweiterte Funktionalitäten vorzuschlagen.
-|Jahr |2023
-|Lizenz |AGPL, Apache, MIT
-|Begründung |Opendata und Open-Source-Software gehen in dieselbe Richtung. Die AGPL erlaubt maximale Offenheit.
-|===
+URL::
+https://github.com/SwissFederalArchives
+Bundesbehörde::
+BAR
+Beschreibung::
+Das Repository des Schweizerischen Bundesarchivs auf GitHub bietet Zugang zu den Quellcodes unserer Anwendungen. Es erlaubt Ihnen, eigene Forks zu erstellen und über die Schnittstelle «Issues» Fehler zu melden oder erweiterte Funktionalitäten vorzuschlagen.
+Jahr::
+2023
+Lizenz::
+AGPL, Apache, MIT
+Begründung::
+Opendata und Open-Source-Software gehen in dieselbe Richtung. Die AGPL erlaubt maximale Offenheit.
 
 === D.9 Apache FOP angepasst für archivierbares PDF
 
-[cols="1,4"]
-|===
-|URL |https://xmlgraphics.apache.org/fop/
-|Bundesbehörde |IGE
-|Beschreibung |Das IGE wollte eine Version von Apache FOP, die archivierbare PDF erzeugen kann. Dazu wurde bei einem der Kernentwickler (Jeremias Märki) eine Erweiterung in Auftrag gegeben. Die Anpassungen flossen direkt in das Projekt ein.
-|Jahr |2007
-|Lizenz |Apache
-|Begründung |Erweiterungen wurden an einem bestehenden Open-Source-Projekt vorgenommen.
-|===
+URL::
+https://xmlgraphics.apache.org/fop/
+Bundesbehörde::
+IGE
+Beschreibung::
+Das IGE wollte eine Version von Apache FOP, die archivierbare PDF erzeugen kann. Dazu wurde bei einem der Kernentwickler (Jeremias Märki) eine Erweiterung in Auftrag gegeben. Die Anpassungen flossen direkt in das Projekt ein.
+Jahr::
+2007
+Lizenz::
+Apache
+Begründung::
+Erweiterungen wurden an einem bestehenden Open-Source-Projekt vorgenommen.
 
 === D.10 Rechtskonforme elektronische Eingabe mit eKomm
 
-[cols="1,4"]
-|===
-|URL |https://launchpad.net/ekomm
-|Bundesbehörde |IGE
-|Beschreibung |Das IGE wollte Software für die elektronische Eingabe.
-|Jahr |2009
-|Lizenz |Apache
-|Begründung |Das IGE wollte, dass der Anbieter (Glue) die Freigabe vornimmt, und hat diese als permissiv bewilligt (Integration in eigene Anwendungen).
-|===
+URL::
+https://launchpad.net/ekomm
+Bundesbehörde::
+IGE
+Beschreibung::
+Das IGE wollte Software für die elektronische Eingabe.
+Jahr::
+2009
+Lizenz::
+Apache
+Begründung::
+Das IGE wollte, dass der Anbieter (Glue) die Freigabe vornimmt, und hat diese als permissiv bewilligt (Integration in eigene Anwendungen).
 endif::[]
 
 ifeval::["{lang}" == "fr"]
@@ -2350,128 +2406,156 @@ Voir link:em002.pdf[Em002 Lignes directrices stratégiques pour les logiciels op
 
 === D.1 Loom
 
-[cols="1,4"]
-|===
-|URL |https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
-|Autorité fédérale |Cyber Command
-|Description |Loom est un moteur de recherche documentaire puissant et facile à utiliser. Il automatise l'indexation des sources de données configurées, effectue l'OCR, extrait le contenu et les métadonnées, permet le marquage et offre de puissantes fonctions de recherche et d'utilisation.
-|Année |2025
-|Licence |MIT
-|Justification |-
-|===
+URL::
+https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
+Autorité fédérale::
+Cyber Command
+Description::
+Loom est un moteur de recherche documentaire puissant et facile à utiliser. Il automatise l'indexation des sources de données configurées, effectue l'OCR, extrait le contenu et les métadonnées, permet le marquage et offre de puissantes fonctions de recherche et d'utilisation.
+Année::
+2025
+Licence::
+MIT
+Justification::
+-
 
 === D.2 trustbroker.swiss
 
-[cols="1,4"]
-|===
-|URL |https://github.com/trustbroker-swiss/trustbroker.swiss
-|Autorité fédérale |ChF, OFIT
-|Description
-a|Trust Broker Swiss fournit des services de fédération entre relying parties (applications, fournisseurs de services, autres systèmes IAM ou policy enforcement points) et fournisseurs d'identité (IdP, également appelés claims providers), en recourant à des magasins d'attributs de confiance pour enrichir les utilisateurs authentifiés. +
+URL::
+https://github.com/trustbroker-swiss/trustbroker.swiss
+Autorité fédérale::
+ChF, OFIT
+Description::
+Trust Broker Swiss fournit des services de fédération entre relying parties (applications, fournisseurs de services, autres systèmes IAM ou policy enforcement points) et fournisseurs d'identité (IdP, également appelés claims providers), en recourant à des magasins d'attributs de confiance pour enrichir les utilisateurs authentifiés. +
 Il permet aux fournisseurs d'identité/de claims et aux relying parties d'échanger des informations via un tiers qui masque les spécificités de l'IdP et fournit une identité unifiée ou du moins vérifiée en sus.
-|Année |2024
-|Licence |AGPL
-|Justification
-a|Les modifications du code doivent toujours rester ouvertes et revenir au projet.
-
+Année::
+2024
+Licence::
+AGPL
+Justification::
+Les modifications du code doivent toujours rester ouvertes et revenir au projet.
++
 Un examen très détaillé de la question de la licence a été réalisé pour le Trust Broker. Pour de très grands projets, il peut être mené à ce niveau de détail. Toutes les licences compatibles avec la software bill of materials ont été recensées dans un pool de licences.
-|===
 
 === D.3 Geocat.ch
 
-[cols="1,4"]
-|===
-|URL |https://github.com/geonetwork/core-geonetwork
-|Autorité fédérale |Swisstopo
-|Description |GeoNetwork est une application de catalogue pour la gestion de ressources géoréférencées. Elle offre de puissantes fonctions d'édition et de recherche de métadonnées ainsi qu'un visualiseur de cartes web interactif. Elle est actuellement utilisée dans de nombreuses initiatives d'infrastructures de données spatiales à travers le monde.
-|Année |2012
-|Licence |GPL 2.0
-|Justification |-
-|===
+URL::
+https://github.com/geonetwork/core-geonetwork
+Autorité fédérale::
+Swisstopo
+Description::
+GeoNetwork est une application de catalogue pour la gestion de ressources géoréférencées. Elle offre de puissantes fonctions d'édition et de recherche de métadonnées ainsi qu'un visualiseur de cartes web interactif. Elle est actuellement utilisée dans de nombreuses initiatives d'infrastructures de données spatiales à travers le monde.
+Année::
+2012
+Licence::
+GPL 2.0
+Justification::
+-
 
 === D.4 GWEN / ampycloud / c4dl-multi / dvas /…
 
-[cols="1,4"]
-|===
-|URL |https://meteoswiss.github.io/ampycloud/
-|Autorité fédérale |MétéoSuisse
-|Description |Paquet Python permettant de déterminer la proportion de couverture du ciel et la hauteur de base des couches nuageuses à partir de données de célomètre.
-|Année |2023
-|Licence |Diverses licences, FSS
-|Justification |-
-|===
+URL::
+https://meteoswiss.github.io/ampycloud/
+Autorité fédérale::
+MétéoSuisse
+Description::
+Paquet Python permettant de déterminer la proportion de couverture du ciel et la hauteur de base des couches nuageuses à partir de données de célomètre.
+Année::
+2023
+Licence::
+Diverses licences, FSS
+Justification::
+-
 
 === D.5 Application EMSG (gestion du patrimoine en milieu urbain)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/astra-emsg/ASTRA.EMSG
-|Autorité fédérale |MétéoSuisse
-|Description |EMSG est une application web SIG en C# développée par l'administration fédérale suisse pour gérer la gestion du patrimoine des systèmes routiers urbains.
-|Année |2017
-|Licence |BSD
-|Justification |-
-|===
+URL::
+https://github.com/astra-emsg/ASTRA.EMSG
+Autorité fédérale::
+MétéoSuisse
+Description::
+EMSG est une application web SIG en C# développée par l'administration fédérale suisse pour gérer la gestion du patrimoine des systèmes routiers urbains.
+Année::
+2017
+Licence::
+BSD
+Justification::
+-
 
 === D.6 Application certificat Covid
 
-[cols="1,4"]
-|===
-|URL |https://github.com/admin-ch/CovidCertificate-Documents
-|Autorité fédérale |OFIT
-|Description |Application suisse pour les certificats COVID
-|Année |2020
-|Licence |MIT
-|Justification |Aussi permissive que possible afin que chacun puisse utiliser le code.
-|===
+URL::
+https://github.com/admin-ch/CovidCertificate-Documents
+Autorité fédérale::
+OFIT
+Description::
+Application suisse pour les certificats COVID
+Année::
+2020
+Licence::
+MIT
+Justification::
+Aussi permissive que possible afin que chacun puisse utiliser le code.
 
 === D.7 Site web GovCert
 
-[cols="1,4"]
-|===
-|URL |https://github.com/govcert-ch/website
-|Autorité fédérale |NCSC
-|Description |Code source du site web de l'équipe d'intervention en cas d'urgence informatique (GovCERT) de l'administration fédérale suisse
-|Année |2023
-|Licence |MIT
-|Justification |-
-|===
+URL::
+https://github.com/govcert-ch/website
+Autorité fédérale::
+NCSC
+Description::
+Code source du site web de l'équipe d'intervention en cas d'urgence informatique (GovCERT) de l'administration fédérale suisse
+Année::
+2023
+Licence::
+MIT
+Justification::
+-
 
 === D.8 Diverses bibliothèques sur les données ouvertes (p. ex. linked data)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/SwissFederalArchives
-|Autorité fédérale |AFS
-|Description |Le dépôt des Archives fédérales suisses sur GitHub donne accès aux codes sources de nos applications. Il vous permet de créer vos propres forks et de signaler des erreurs ou de proposer des fonctionnalités étendues via l'interface « Issues ».
-|Année |2023
-|Licence |AGPL, Apache, MIT
-|Justification |Les données ouvertes et les logiciels open source vont dans la même direction. L'AGPL permet une ouverture maximale.
-|===
+URL::
+https://github.com/SwissFederalArchives
+Autorité fédérale::
+AFS
+Description::
+Le dépôt des Archives fédérales suisses sur GitHub donne accès aux codes sources de nos applications. Il vous permet de créer vos propres forks et de signaler des erreurs ou de proposer des fonctionnalités étendues via l'interface « Issues ».
+Année::
+2023
+Licence::
+AGPL, Apache, MIT
+Justification::
+Les données ouvertes et les logiciels open source vont dans la même direction. L'AGPL permet une ouverture maximale.
 
 === D.9 Apache FOP adapté pour des PDF archivables
 
-[cols="1,4"]
-|===
-|URL |https://xmlgraphics.apache.org/fop/
-|Autorité fédérale |IPI
-|Description |L'IPI souhaitait une version d'Apache FOP capable de générer des PDF archivables. À cette fin, une extension a été commandée auprès de l'un des développeurs principaux (Jeremias Märki). Les adaptations ont été intégrées directement dans le projet.
-|Année |2007
-|Licence |Apache
-|Justification |Des extensions ont été apportées à un projet open source existant.
-|===
+URL::
+https://xmlgraphics.apache.org/fop/
+Autorité fédérale::
+IPI
+Description::
+L'IPI souhaitait une version d'Apache FOP capable de générer des PDF archivables. À cette fin, une extension a été commandée auprès de l'un des développeurs principaux (Jeremias Märki). Les adaptations ont été intégrées directement dans le projet.
+Année::
+2007
+Licence::
+Apache
+Justification::
+Des extensions ont été apportées à un projet open source existant.
 
 === D.10 Dépôt électronique conforme au droit avec eKomm
 
-[cols="1,4"]
-|===
-|URL |https://launchpad.net/ekomm
-|Autorité fédérale |IPI
-|Description |L'IPI souhaitait un logiciel pour le dépôt électronique.
-|Année |2009
-|Licence |Apache
-|Justification |L'IPI souhaitait que le fournisseur (Glue) procède à la publication et l'a autorisée en mode permissif (intégration dans ses propres applications).
-|===
+URL::
+https://launchpad.net/ekomm
+Autorité fédérale::
+IPI
+Description::
+L'IPI souhaitait un logiciel pour le dépôt électronique.
+Année::
+2009
+Licence::
+Apache
+Justification::
+L'IPI souhaitait que le fournisseur (Glue) procède à la publication et l'a autorisée en mode permissif (intégration dans ses propres applications).
 endif::[]
 
 ifeval::["{lang}" == "it"]
@@ -3161,128 +3245,156 @@ In futuro questo elenco sarà sostituito da una raccolta di metadati mediante pu
 
 === D.1 Loom
 
-[cols="1,4"]
-|===
-|URL |https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
-|Autorità federale |Cyber Command
-|Descrizione |Loom è un motore di ricerca documentale potente e di facile utilizzo. Automatizza l'indicizzazione delle fonti di dati configurate, esegue l'OCR, estrae contenuti e metadati, consente il tagging e offre potenti funzioni di ricerca e di utilizzo.
-|Anno |2025
-|Licenza |MIT
-|Motivazione |-
-|===
+URL::
+https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
+Autorità federale::
+Cyber Command
+Descrizione::
+Loom è un motore di ricerca documentale potente e di facile utilizzo. Automatizza l'indicizzazione delle fonti di dati configurate, esegue l'OCR, estrae contenuti e metadati, consente il tagging e offre potenti funzioni di ricerca e di utilizzo.
+Anno::
+2025
+Licenza::
+MIT
+Motivazione::
+-
 
 === D.2 trustbroker.swiss
 
-[cols="1,4"]
-|===
-|URL |https://github.com/trustbroker-swiss/trustbroker.swiss
-|Autorità federale |CaF, UFIT
-|Descrizione
-a|Trust Broker Swiss fornisce servizi di federazione tra relying party (applicazioni, fornitori di servizi, altri sistemi IAM o policy enforcement point) e fornitori di identità (IdP, detti anche claims provider), ricorrendo ad archivi di attributi affidabili per arricchire gli utenti autenticati. +
+URL::
+https://github.com/trustbroker-swiss/trustbroker.swiss
+Autorità federale::
+CaF, UFIT
+Descrizione::
+Trust Broker Swiss fornisce servizi di federazione tra relying party (applicazioni, fornitori di servizi, altri sistemi IAM o policy enforcement point) e fornitori di identità (IdP, detti anche claims provider), ricorrendo ad archivi di attributi affidabili per arricchire gli utenti autenticati. +
 Consente a fornitori di identità/claims e a relying party di scambiare informazioni tramite un terzo che nasconde le specificità dell'IdP e fornisce un'identità unificata o quantomeno ulteriormente verificata.
-|Anno |2024
-|Licenza |AGPL
-|Motivazione
-a|Le modifiche del codice devono sempre restare aperte e ritornare al progetto.
-
+Anno::
+2024
+Licenza::
+AGPL
+Motivazione::
+Le modifiche del codice devono sempre restare aperte e ritornare al progetto.
++
 Per il Trust Broker è stato svolto un esame molto dettagliato della questione della licenza. Per progetti molto grandi esso può essere condotto a questo livello di dettaglio. Tutte le licenze compatibili con la software bill of materials sono state elencate in un pool di licenze.
-|===
 
 === D.3 Geocat.ch
 
-[cols="1,4"]
-|===
-|URL |https://github.com/geonetwork/core-geonetwork
-|Autorità federale |Swisstopo
-|Descrizione |GeoNetwork è un'applicazione di catalogo per la gestione di risorse georeferenziate. Offre potenti funzioni di editing e ricerca di metadati nonché un visualizzatore di mappe web interattivo. È attualmente impiegata in numerose iniziative di infrastrutture di dati territoriali in tutto il mondo.
-|Anno |2012
-|Licenza |GPL 2.0
-|Motivazione |-
-|===
+URL::
+https://github.com/geonetwork/core-geonetwork
+Autorità federale::
+Swisstopo
+Descrizione::
+GeoNetwork è un'applicazione di catalogo per la gestione di risorse georeferenziate. Offre potenti funzioni di editing e ricerca di metadati nonché un visualizzatore di mappe web interattivo. È attualmente impiegata in numerose iniziative di infrastrutture di dati territoriali in tutto il mondo.
+Anno::
+2012
+Licenza::
+GPL 2.0
+Motivazione::
+-
 
 === D.4 GWEN / ampycloud / c4dl-multi / dvas /…
 
-[cols="1,4"]
-|===
-|URL |https://meteoswiss.github.io/ampycloud/
-|Autorità federale |MeteoSvizzera
-|Descrizione |Pacchetto Python per determinare la percentuale di copertura del cielo e l'altezza di base degli strati nuvolosi a partire da dati di ceilometro.
-|Anno |2023
-|Licenza |Diverse licenze, FSS
-|Motivazione |-
-|===
+URL::
+https://meteoswiss.github.io/ampycloud/
+Autorità federale::
+MeteoSvizzera
+Descrizione::
+Pacchetto Python per determinare la percentuale di copertura del cielo e l'altezza di base degli strati nuvolosi a partire da dati di ceilometro.
+Anno::
+2023
+Licenza::
+Diverse licenze, FSS
+Motivazione::
+-
 
 === D.5 Applicazione EMSG (gestione del patrimonio nelle aree insediative)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/astra-emsg/ASTRA.EMSG
-|Autorità federale |MeteoSvizzera
-|Descrizione |EMSG è un'applicazione web GIS in C# sviluppata dall'Amministrazione federale svizzera per gestire la gestione del patrimonio dei sistemi stradali urbani.
-|Anno |2017
-|Licenza |BSD
-|Motivazione |-
-|===
+URL::
+https://github.com/astra-emsg/ASTRA.EMSG
+Autorità federale::
+MeteoSvizzera
+Descrizione::
+EMSG è un'applicazione web GIS in C# sviluppata dall'Amministrazione federale svizzera per gestire la gestione del patrimonio dei sistemi stradali urbani.
+Anno::
+2017
+Licenza::
+BSD
+Motivazione::
+-
 
 === D.6 Applicazione certificato Covid
 
-[cols="1,4"]
-|===
-|URL |https://github.com/admin-ch/CovidCertificate-Documents
-|Autorità federale |UFIT
-|Descrizione |Applicazione svizzera per i certificati COVID
-|Anno |2020
-|Licenza |MIT
-|Motivazione |Il più permissiva possibile, affinché chiunque possa utilizzare il codice.
-|===
+URL::
+https://github.com/admin-ch/CovidCertificate-Documents
+Autorità federale::
+UFIT
+Descrizione::
+Applicazione svizzera per i certificati COVID
+Anno::
+2020
+Licenza::
+MIT
+Motivazione::
+Il più permissiva possibile, affinché chiunque possa utilizzare il codice.
 
 === D.7 Sito web GovCert
 
-[cols="1,4"]
-|===
-|URL |https://github.com/govcert-ch/website
-|Autorità federale |NCSC
-|Descrizione |Codice sorgente del sito web del Computer Emergency Response Team (GovCERT) dell'Amministrazione federale svizzera
-|Anno |2023
-|Licenza |MIT
-|Motivazione |-
-|===
+URL::
+https://github.com/govcert-ch/website
+Autorità federale::
+NCSC
+Descrizione::
+Codice sorgente del sito web del Computer Emergency Response Team (GovCERT) dell'Amministrazione federale svizzera
+Anno::
+2023
+Licenza::
+MIT
+Motivazione::
+-
 
 === D.8 Diverse librerie sugli open data (p. es. linked data)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/SwissFederalArchives
-|Autorità federale |AFS
-|Descrizione |Il repository dell'Archivio federale svizzero su GitHub offre accesso ai codici sorgente delle nostre applicazioni. Consente di creare fork propri e di segnalare errori o proporre funzionalità ampliate tramite l'interfaccia «Issues».
-|Anno |2023
-|Licenza |AGPL, Apache, MIT
-|Motivazione |Open data e software open source vanno nella stessa direzione. La AGPL consente la massima apertura.
-|===
+URL::
+https://github.com/SwissFederalArchives
+Autorità federale::
+AFS
+Descrizione::
+Il repository dell'Archivio federale svizzero su GitHub offre accesso ai codici sorgente delle nostre applicazioni. Consente di creare fork propri e di segnalare errori o proporre funzionalità ampliate tramite l'interfaccia «Issues».
+Anno::
+2023
+Licenza::
+AGPL, Apache, MIT
+Motivazione::
+Open data e software open source vanno nella stessa direzione. La AGPL consente la massima apertura.
 
 === D.9 Apache FOP adattato per PDF archiviabili
 
-[cols="1,4"]
-|===
-|URL |https://xmlgraphics.apache.org/fop/
-|Autorità federale |IPI
-|Descrizione |L'IPI desiderava una versione di Apache FOP in grado di generare PDF archiviabili. A tal fine è stata commissionata un'estensione a uno degli sviluppatori principali (Jeremias Märki). Gli adattamenti sono confluiti direttamente nel progetto.
-|Anno |2007
-|Licenza |Apache
-|Motivazione |Sono state apportate estensioni a un progetto open source esistente.
-|===
+URL::
+https://xmlgraphics.apache.org/fop/
+Autorità federale::
+IPI
+Descrizione::
+L'IPI desiderava una versione di Apache FOP in grado di generare PDF archiviabili. A tal fine è stata commissionata un'estensione a uno degli sviluppatori principali (Jeremias Märki). Gli adattamenti sono confluiti direttamente nel progetto.
+Anno::
+2007
+Licenza::
+Apache
+Motivazione::
+Sono state apportate estensioni a un progetto open source esistente.
 
 === D.10 Deposito elettronico conforme al diritto con eKomm
 
-[cols="1,4"]
-|===
-|URL |https://launchpad.net/ekomm
-|Autorità federale |IPI
-|Descrizione |L'IPI desiderava un software per il deposito elettronico.
-|Anno |2009
-|Licenza |Apache
-|Motivazione |L'IPI desiderava che il fornitore (Glue) effettuasse la pubblicazione e l'ha autorizzata in modo permissivo (integrazione nelle proprie applicazioni).
-|===
+URL::
+https://launchpad.net/ekomm
+Autorità federale::
+IPI
+Descrizione::
+L'IPI desiderava un software per il deposito elettronico.
+Anno::
+2009
+Licenza::
+Apache
+Motivazione::
+L'IPI desiderava che il fornitore (Glue) effettuasse la pubblicazione e l'ha autorizzata in modo permissivo (integrazione nelle proprie applicazioni).
 endif::[]
 
 ifeval::["{lang}" == "rm"]
@@ -3972,126 +4084,154 @@ En l'avegnir vegn questa glista remplazzada tras ina collecziun da metadatas via
 
 === D.1 Loom
 
-[cols="1,4"]
-|===
-|URL |https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
-|Autoritad federala |Cyber Command
-|Descripziun |Loom è ina maschina da tschertgar documents efficienta e simpla da manar. Ella automatisescha l'indexaziun da funtaunas da datas configuradas, fa OCR, extrahescha cuntegns e metadatas, pussibilitescha il tagging e porscha pussaivladads da tschertgar e da manar efficientas.
-|Onn |2025
-|Licenza |MIT
-|Motivaziun |-
-|===
+URL::
+https://gitlab.com/swiss-armed-forces/cyber-command/cea/loom
+Autoritad federala::
+Cyber Command
+Descripziun::
+Loom è ina maschina da tschertgar documents efficienta e simpla da manar. Ella automatisescha l'indexaziun da funtaunas da datas configuradas, fa OCR, extrahescha cuntegns e metadatas, pussibilitescha il tagging e porscha pussaivladads da tschertgar e da manar efficientas.
+Onn::
+2025
+Licenza::
+MIT
+Motivaziun::
+-
 
 === D.2 trustbroker.swiss
 
-[cols="1,4"]
-|===
-|URL |https://github.com/trustbroker-swiss/trustbroker.swiss
-|Autoritad federala |ChF, UFIT
-|Descripziun
-a|Trust Broker Swiss metta a disposiziun servetschs da federaziun tranter relying parties (applicaziuns, purschiders da servetschs, auters sistems IAM u policy enforcement points) e purschiders d'identitad (IdP, numnads era claims providers) ed utilisescha memorisaders d'attributs fidads per arricchir utilisaders autentifitgads. +
+URL::
+https://github.com/trustbroker-swiss/trustbroker.swiss
+Autoritad federala::
+ChF, UFIT
+Descripziun::
+Trust Broker Swiss metta a disposiziun servetschs da federaziun tranter relying parties (applicaziuns, purschiders da servetschs, auters sistems IAM u policy enforcement points) e purschiders d'identitad (IdP, numnads era claims providers) ed utilisescha memorisaders d'attributs fidads per arricchir utilisaders autentifitgads. +
 El pussibilitescha a purschiders d'identitad/claims ed a relying parties da barattar infurmaziuns via ina terza partida che zuppenta las specificitads dal IdP e metta a disposiziun ina identitad unifitgada u almain verifitgada supplementarmain.
-|Onn |2024
-|Licenza |AGPL
-|Motivaziun
-a|Midadas dal code duain adina restar avertas e returnar.
-
+Onn::
+2024
+Licenza::
+AGPL
+Motivaziun::
+Midadas dal code duain adina restar avertas e returnar.
++
 Per il Trust Broker è vegnida fatga ina examinaziun fitg detagliada da la dumonda da la licenza. Tar projects fitg gronds po ella vegnir fatga en questa profunditad da detagl. Tuttas licenzas cumpatiblas cun la software bill of materials èn vegnidas inditgadas en in pool da licenzas.
-|===
 
 === D.3 Geocat.ch
 
-[cols="1,4"]
-|===
-|URL |https://github.com/geonetwork/core-geonetwork
-|Autoritad federala |Swisstopo
-|Descripziun |GeoNetwork è ina applicaziun da catalog per administrar resursas cun referenza spaziala. Ella porscha funcziuns efficientas per elavurar e tschertgar metadatas sco er in visualisatur da chartas web interactiv. Ella vegn actualmain duvrada en numerusas iniziativas per infrastructuras da geodatas en tut il mund.
-|Onn |2012
-|Licenza |GPL 2.0
-|Motivaziun |-
-|===
+URL::
+https://github.com/geonetwork/core-geonetwork
+Autoritad federala::
+Swisstopo
+Descripziun::
+GeoNetwork è ina applicaziun da catalog per administrar resursas cun referenza spaziala. Ella porscha funcziuns efficientas per elavurar e tschertgar metadatas sco er in visualisatur da chartas web interactiv. Ella vegn actualmain duvrada en numerusas iniziativas per infrastructuras da geodatas en tut il mund.
+Onn::
+2012
+Licenza::
+GPL 2.0
+Motivaziun::
+-
 
 === D.4 GWEN / ampycloud / c4dl-multi / dvas /…
 
-[cols="1,4"]
-|===
-|URL |https://meteoswiss.github.io/ampycloud/
-|Autoritad federala |MeteoSvizra
-|Descripziun |Pachet Python per determinar la proporziun da cuvrida dal tschiel e l'autezza da basa da stresas da nivels sin la basa da datas da ceilometer.
-|Onn |2023
-|Licenza |Differentas licenzas, FSS
-|Motivaziun |-
-|===
+URL::
+https://meteoswiss.github.io/ampycloud/
+Autoritad federala::
+MeteoSvizra
+Descripziun::
+Pachet Python per determinar la proporziun da cuvrida dal tschiel e l'autezza da basa da stresas da nivels sin la basa da datas da ceilometer.
+Onn::
+2023
+Licenza::
+Differentas licenzas, FSS
+Motivaziun::
+-
 
 === D.5 Applicaziun EMSG (management da mantegniment en zonas d'abitadi)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/astra-emsg/ASTRA.EMSG
-|Autoritad federala |MeteoSvizra
-|Descripziun |EMSG è ina applicaziun web GIS en C# sviluppada da l'administraziun federala svizra per administrar il management da mantegniment da sistems da vias urbans.
-|Onn |2017
-|Licenza |BSD
-|Motivaziun |-
-|===
+URL::
+https://github.com/astra-emsg/ASTRA.EMSG
+Autoritad federala::
+MeteoSvizra
+Descripziun::
+EMSG è ina applicaziun web GIS en C# sviluppada da l'administraziun federala svizra per administrar il management da mantegniment da sistems da vias urbans.
+Onn::
+2017
+Licenza::
+BSD
+Motivaziun::
+-
 
 === D.6 Applicaziun certificat Covid
 
-[cols="1,4"]
-|===
-|URL |https://github.com/admin-ch/CovidCertificate-Documents
-|Autoritad federala |UFIT
-|Descripziun |Applicaziun svizra per certificats COVID
-|Onn |2020
-|Licenza |MIT
-|Motivaziun |Uschè permissiv sco pussaivel, per che mintgin possia utilisar il code.
-|===
+URL::
+https://github.com/admin-ch/CovidCertificate-Documents
+Autoritad federala::
+UFIT
+Descripziun::
+Applicaziun svizra per certificats COVID
+Onn::
+2020
+Licenza::
+MIT
+Motivaziun::
+Uschè permissiv sco pussaivel, per che mintgin possia utilisar il code.
 
 === D.7 Pagina d'internet GovCert
 
-[cols="1,4"]
-|===
-|URL |https://github.com/govcert-ch/website
-|Autoritad federala |NCSC
-|Descripziun |Code da funtauna da la pagina d'internet per il Computer Emergency Response Team (GovCERT) da l'administraziun federala svizra
-|Onn |2023
-|Licenza |MIT
-|Motivaziun |-
-|===
+URL::
+https://github.com/govcert-ch/website
+Autoritad federala::
+NCSC
+Descripziun::
+Code da funtauna da la pagina d'internet per il Computer Emergency Response Team (GovCERT) da l'administraziun federala svizra
+Onn::
+2023
+Licenza::
+MIT
+Motivaziun::
+-
 
 === D.8 Differentas bibliotecas davart open data (p.ex. linked data)
 
-[cols="1,4"]
-|===
-|URL |https://github.com/SwissFederalArchives
-|Autoritad federala |AFS
-|Descripziun |Il repositori da l'Archiv federal svizzer sin GitHub porscha access als codes da funtauna da nossas applicaziuns. El As permetta da crear agens forks e d'annunziar sbagls u da proponer funcziunalitads ampliadas via l'interfatscha «Issues».
-|Onn |2023
-|Licenza |AGPL, Apache, MIT
-|Motivaziun |Opendata e software open source van en la medema direcziun. L'AGPL permetta ina avertadad maximala.
-|===
+URL::
+https://github.com/SwissFederalArchives
+Autoritad federala::
+AFS
+Descripziun::
+Il repositori da l'Archiv federal svizzer sin GitHub porscha access als codes da funtauna da nossas applicaziuns. El As permetta da crear agens forks e d'annunziar sbagls u da proponer funcziunalitads ampliadas via l'interfatscha «Issues».
+Onn::
+2023
+Licenza::
+AGPL, Apache, MIT
+Motivaziun::
+Opendata e software open source van en la medema direcziun. L'AGPL permetta ina avertadad maximala.
 
 === D.9 Apache FOP adattà per PDF archivabels
 
-[cols="1,4"]
-|===
-|URL |https://xmlgraphics.apache.org/fop/
-|Autoritad federala |IPI
-|Descripziun |L'IPI vuleva ina versiun dad Apache FOP che po generar PDF archivabels. Per quai è vegnida dada en incumbensa ad in dals sviluppaders centrals (Jeremias Märki) ina extensiun. Ils adattaments èn fluids directamain en il project.
-|Onn |2007
-|Licenza |Apache
-|Motivaziun |Extensiuns èn vegnidas fatgas ad in project open source existent.
-|===
+URL::
+https://xmlgraphics.apache.org/fop/
+Autoritad federala::
+IPI
+Descripziun::
+L'IPI vuleva ina versiun dad Apache FOP che po generar PDF archivabels. Per quai è vegnida dada en incumbensa ad in dals sviluppaders centrals (Jeremias Märki) ina extensiun. Ils adattaments èn fluids directamain en il project.
+Onn::
+2007
+Licenza::
+Apache
+Motivaziun::
+Extensiuns èn vegnidas fatgas ad in project open source existent.
 
 === D.10 Endataziun electronica conforma al dretg cun eKomm
 
-[cols="1,4"]
-|===
-|URL |https://launchpad.net/ekomm
-|Autoritad federala |IPI
-|Descripziun |L'IPI vuleva software per l'endataziun electronica.
-|Onn |2009
-|Licenza |Apache
-|Motivaziun |L'IPI vuleva che il purschider (Glue) fetschia la relaschada ed ha permess quella sco permissiva (integraziun en agnas applicaziuns).
-|===
+URL::
+https://launchpad.net/ekomm
+Autoritad federala::
+IPI
+Descripziun::
+L'IPI vuleva software per l'endataziun electronica.
+Onn::
+2009
+Licenza::
+Apache
+Motivaziun::
+L'IPI vuleva che il purschider (Glue) fetschia la relaschada ed ha permess quella sco permissiva (integraziun en agnas applicaziuns).
 endif::[]
