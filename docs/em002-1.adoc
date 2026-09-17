@@ -31,7 +31,10 @@ endif::[]
 :classification:
 :revnumber: 2.0
 :revdate: 14.09.2026
-:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
+// The repository, written as `{url-repo}` throughout the body. open-govpress
+// reads nothing here; this is its own documented idiom for an author-defined
+// attribute that saves repetition (see the `showcase.adoc` it ships).
+:url-repo: https://github.com/swiss/opensource-guidelines
 // Contents and numbering for the *web* view of this source. open-govpress sets
 // all four itself for `:govpress-style: report` (styles/common.adoc and
 // styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab
@@ -43,7 +46,7 @@ endif::[]
 :sectnumlevels: 3
 
 ifeval::["{lang}" == "en"]
-NOTE: This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main https://github.com/swiss/opensource-guidelines/tree/main[README].
+NOTE: This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main {url-repo}/tree/main[README].
 
 == 1. Use of these guidelines
 
@@ -566,7 +569,7 @@ If a company owns the intellectual property of a software solution and all integ
 endif::[]
 
 ifeval::["{lang}" == "de"]
-NOTE: Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im https://github.com/swiss/opensource-guidelines/tree/main[README].
+NOTE: Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im {url-repo}/tree/main[README].
 
 == 1. Verwendung dieses Leitfadens
 
@@ -1089,7 +1092,7 @@ Besitzt ein Unternehmen das geistige Eigentum an einer Softwarelösung und stehe
 endif::[]
 
 ifeval::["{lang}" == "fr"]
-NOTE: Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+NOTE: Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le {url-repo}/tree/main[README] principal.
 
 == 1. Utilisation du présent guide
 
@@ -1612,7 +1615,7 @@ Si une entreprise détient la propriété intellectuelle d'une solution logiciel
 endif::[]
 
 ifeval::["{lang}" == "it"]
-NOTE: Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il https://github.com/swiss/opensource-guidelines/tree/main[README] principale.
+NOTE: Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il {url-repo}/tree/main[README] principale.
 
 == 1. Utilizzo della presente guida
 
@@ -2135,7 +2138,7 @@ Se un'impresa detiene la proprietà intellettuale di una soluzione software e tu
 endif::[]
 
 ifeval::["{lang}" == "rm"]
-NOTE: Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+NOTE: Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il {url-repo}/tree/main[README] principal.
 
 == 1. Utilisaziun da questa guida
 

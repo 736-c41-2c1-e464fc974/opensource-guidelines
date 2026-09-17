@@ -31,7 +31,6 @@ endif::[]
 :classification:
 :revnumber: 2.0
 :revdate: 14.09.2026
-:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
 // Contents and numbering for the *web* view of this source. open-govpress sets
 // all four itself for `:govpress-style: report` (styles/common.adoc and
 // styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab

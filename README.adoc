@@ -31,7 +31,10 @@ endif::[]
 :classification:
 :revnumber: 2.0
 :revdate: 14.09.2026
-:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
+// The repository, written as `{url-repo}` throughout the body. open-govpress
+// reads nothing here; this is its own documented idiom for an author-defined
+// attribute that saves repetition (see the `showcase.adoc` it ships).
+:url-repo: https://github.com/swiss/opensource-guidelines
 // Contents and numbering for the *web* view of this source. open-govpress sets
 // all four itself for `:govpress-style: report` (styles/common.adoc and
 // styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab
@@ -69,7 +72,7 @@ NOTE: You can also write in *German, French, or Italian* and refer to the https:
 
 == Changes
 
-When *major changes* are proposed, they undergo the Federal Chancellery's standard review process and, upon approval, are translated and published on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website]. The respective documents are then assigned a new version number. Major changes between versions can be followed using the https://github.com/swiss/opensource-guidelines/releases[release] notes.
+When *major changes* are proposed, they undergo the Federal Chancellery's standard review process and, upon approval, are translated and published on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website]. The respective documents are then assigned a new version number. Major changes between versions can be followed using the {url-repo}/releases[release] notes.
 
 *Minor changes* are incorporated regularly into the official PDF publications on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website].
 
@@ -109,7 +112,7 @@ NOTE: Sie können auch auf *Deutsch, Französisch oder Italienisch* schreiben un
 
 == Änderungen
 
-Werden *wesentliche Änderungen* vorgeschlagen, so durchlaufen sie das übliche Prüfverfahren der Bundeskanzlei und werden nach der Genehmigung übersetzt und auf der https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Website der Schweizerischen Bundeskanzlei] veröffentlicht. Die betreffenden Dokumente erhalten anschliessend eine neue Versionsnummer. Wesentliche Änderungen zwischen den Versionen lassen sich anhand der https://github.com/swiss/opensource-guidelines/releases[Release]-Notizen nachvollziehen.
+Werden *wesentliche Änderungen* vorgeschlagen, so durchlaufen sie das übliche Prüfverfahren der Bundeskanzlei und werden nach der Genehmigung übersetzt und auf der https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Website der Schweizerischen Bundeskanzlei] veröffentlicht. Die betreffenden Dokumente erhalten anschliessend eine neue Versionsnummer. Wesentliche Änderungen zwischen den Versionen lassen sich anhand der {url-repo}/releases[Release]-Notizen nachvollziehen.
 
 *Geringfügige Änderungen* fliessen regelmässig in die offiziellen PDF-Publikationen auf der https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Website der Schweizerischen Bundeskanzlei] ein.
 
@@ -149,7 +152,7 @@ NOTE: Vous pouvez aussi écrire en *allemand, français ou italien* et renvoyer,
 
 == Modifications
 
-Lorsque des *modifications importantes* sont proposées, elles suivent la procédure d'examen habituelle de la Chancellerie fédérale et sont, après approbation, traduites et publiées sur le https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[site de la Chancellerie fédérale suisse]. Les documents concernés reçoivent ensuite un nouveau numéro de version. Les modifications importantes entre les versions peuvent être suivies au moyen des notes de https://github.com/swiss/opensource-guidelines/releases[publication].
+Lorsque des *modifications importantes* sont proposées, elles suivent la procédure d'examen habituelle de la Chancellerie fédérale et sont, après approbation, traduites et publiées sur le https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[site de la Chancellerie fédérale suisse]. Les documents concernés reçoivent ensuite un nouveau numéro de version. Les modifications importantes entre les versions peuvent être suivies au moyen des notes de {url-repo}/releases[publication].
 
 Les *modifications mineures* sont régulièrement intégrées aux publications PDF officielles sur le https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[site de la Chancellerie fédérale suisse].
 
@@ -189,7 +192,7 @@ NOTE: Potete scrivere anche in *tedesco, francese o italiano* e rinviare, ove op
 
 == Modifiche
 
-Quando vengono proposte *modifiche sostanziali*, esse seguono la consueta procedura di esame della Cancelleria federale e, una volta approvate, vengono tradotte e pubblicate sul https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[sito della Cancelleria federale svizzera]. I documenti interessati ricevono poi un nuovo numero di versione. Le modifiche sostanziali tra le versioni possono essere seguite mediante le note di https://github.com/swiss/opensource-guidelines/releases[release].
+Quando vengono proposte *modifiche sostanziali*, esse seguono la consueta procedura di esame della Cancelleria federale e, una volta approvate, vengono tradotte e pubblicate sul https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[sito della Cancelleria federale svizzera]. I documenti interessati ricevono poi un nuovo numero di versione. Le modifiche sostanziali tra le versioni possono essere seguite mediante le note di {url-repo}/releases[release].
 
 Le *modifiche minori* confluiscono regolarmente nelle pubblicazioni PDF ufficiali sul https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[sito della Cancelleria federale svizzera].
 
@@ -229,7 +232,7 @@ NOTE: Vus pudais era scriver per *tudestg, franzos u talian* e renviar, nua ch'i
 
 == Midadas
 
-Sche *midadas essenzialas* vegnan proponidas, passan ellas il process da controlla usità da la Chanzlia federala e vegnan, suenter l'approvaziun, translatadas e publitgadas sin la https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[pagina d'internet da la Chanzlia federala svizra]. Ils documents pertutgads survegnan lura in nov numer da versiun. Midadas essenzialas tranter las versiuns pon vegnir suandadas cun agid da las notizias da https://github.com/swiss/opensource-guidelines/releases[release].
+Sche *midadas essenzialas* vegnan proponidas, passan ellas il process da controlla usità da la Chanzlia federala e vegnan, suenter l'approvaziun, translatadas e publitgadas sin la https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[pagina d'internet da la Chanzlia federala svizra]. Ils documents pertutgads survegnan lura in nov numer da versiun. Midadas essenzialas tranter las versiuns pon vegnir suandadas cun agid da las notizias da {url-repo}/releases[release].
 
 *Midadas pitschnas* fluescha regularmain en las publicaziuns PDF ufficialas sin la https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[pagina d'internet da la Chanzlia federala svizra].
 

@@ -31,7 +31,10 @@ endif::[]
 :classification:
 :revnumber: 2.0
 :revdate: 14.09.2026
-:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
+// The repository, written as `{url-repo}` throughout the body. open-govpress
+// reads nothing here; this is its own documented idiom for an author-defined
+// attribute that saves repetition (see the `showcase.adoc` it ships).
+:url-repo: https://github.com/swiss/opensource-guidelines
 // Contents and numbering for the *web* view of this source. open-govpress sets
 // all four itself for `:govpress-style: report` (styles/common.adoc and
 // styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab
@@ -43,7 +46,7 @@ endif::[]
 :sectnumlevels: 3
 
 ifeval::["{lang}" == "en"]
-*Disclaimer:* This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main https://github.com/swiss/opensource-guidelines/tree/main[README].
+*Disclaimer:* This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main {url-repo}/tree/main[README].
 
 '''''
 
@@ -882,7 +885,7 @@ The IPI wanted to have the vendor (Glue) perform the release and authorise this 
 endif::[]
 
 ifeval::["{lang}" == "de"]
-*Haftungsausschluss:* Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im https://github.com/swiss/opensource-guidelines/tree/main[README].
+*Haftungsausschluss:* Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im {url-repo}/tree/main[README].
 
 '''''
 
@@ -1721,7 +1724,7 @@ Das IGE wollte, dass der Anbieter (Glue) die Freigabe vornimmt, und hat diese al
 endif::[]
 
 ifeval::["{lang}" == "fr"]
-*Clause de non-responsabilité :* Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+*Clause de non-responsabilité :* Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le {url-repo}/tree/main[README] principal.
 
 '''''
 
@@ -2560,7 +2563,7 @@ L'IPI souhaitait que le fournisseur (Glue) procède à la publication et l'a aut
 endif::[]
 
 ifeval::["{lang}" == "it"]
-*Avvertenza:* Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il https://github.com/swiss/opensource-guidelines/tree/main[README] principale.
+*Avvertenza:* Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il {url-repo}/tree/main[README] principale.
 
 '''''
 
@@ -3399,7 +3402,7 @@ L'IPI desiderava che il fornitore (Glue) effettuasse la pubblicazione e l'ha aut
 endif::[]
 
 ifeval::["{lang}" == "rm"]
-*Exclusiun da responsabladad:* Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il https://github.com/swiss/opensource-guidelines/tree/main[README].
+*Exclusiun da responsabladad:* Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il {url-repo}/tree/main[README].
 
 '''''
 

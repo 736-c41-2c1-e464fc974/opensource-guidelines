@@ -31,7 +31,10 @@ endif::[]
 :classification:
 :revnumber: 2.0
 :revdate: 14.09.2026
-:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
+// The repository, written as `{url-repo}` throughout the body. open-govpress
+// reads nothing here; this is its own documented idiom for an author-defined
+// attribute that saves repetition (see the `showcase.adoc` it ships).
+:url-repo: https://github.com/swiss/opensource-guidelines
 // Contents and numbering for the *web* view of this source. open-govpress sets
 // all four itself for `:govpress-style: report` (styles/common.adoc and
 // styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab
@@ -45,7 +48,7 @@ endif::[]
 ifeval::["{lang}" == "en"]
 [IMPORTANT]
 ====
-This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main https://github.com/swiss/opensource-guidelines/tree/main[README].
+This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main {url-repo}/tree/main[README].
 ====
 
 '''
@@ -110,7 +113,7 @@ Each federal authority (e.g. office, administrative unit) that develops or commi
 include::partials/document-map.en.adoc[]
 
 The tools and resources are available on the Federal Chancellery website
-under https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[OSS tools]. They are also https://github.com/swiss/opensource-guidelines/tree/main/docs[published on GitHub] where you can give feedback directly. The OSS Catalogue (opensource.admin.ch) provides an overview of software published by the federal authorities. For enquiries please contact: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
+under https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[OSS tools]. They are also {url-repo}/tree/main/docs[published on GitHub] where you can give feedback directly. The OSS Catalogue (opensource.admin.ch) provides an overview of software published by the federal authorities. For enquiries please contact: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
 
 == Target groups of the various OSS tools
 
@@ -372,7 +375,7 @@ endif::[]
 ifeval::["{lang}" == "de"]
 [IMPORTANT]
 ====
-Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im https://github.com/swiss/opensource-guidelines/tree/main[README].
+Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im {url-repo}/tree/main[README].
 ====
 
 '''
@@ -437,7 +440,7 @@ Jede Bundesbehörde (z. B. Amt, Verwaltungseinheit), die Software entwickelt ode
 include::partials/document-map.de.adoc[]
 
 Die Hilfsmittel stehen auf der Website der Bundeskanzlei
-unter https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[OSS-Hilfsmittel] zur Verfügung. Sie sind zudem https://github.com/swiss/opensource-guidelines/tree/main/docs[auf GitHub veröffentlicht], wo Sie direkt Rückmeldungen geben können. Der OSS-Katalog (opensource.admin.ch) gibt einen Überblick über die von den Bundesbehörden veröffentlichte Software. Für Anfragen wenden Sie sich an: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
+unter https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[OSS-Hilfsmittel] zur Verfügung. Sie sind zudem {url-repo}/tree/main/docs[auf GitHub veröffentlicht], wo Sie direkt Rückmeldungen geben können. Der OSS-Katalog (opensource.admin.ch) gibt einen Überblick über die von den Bundesbehörden veröffentlichte Software. Für Anfragen wenden Sie sich an: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
 
 == Zielgruppen der verschiedenen OSS-Hilfsmittel
 
@@ -693,7 +696,7 @@ endif::[]
 ifeval::["{lang}" == "fr"]
 [IMPORTANT]
 ====
-Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le {url-repo}/tree/main[README] principal.
 ====
 
 '''
@@ -758,7 +761,7 @@ Chaque autorité fédérale (p. ex. office, unité administrative) qui développ
 include::partials/document-map.fr.adoc[]
 
 Les outils et ressources sont disponibles sur le site de la Chancellerie fédérale
-sous https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[outils OSS]. Ils sont également https://github.com/swiss/opensource-guidelines/tree/main/docs[publiés sur GitHub], où vous pouvez donner directement votre avis. Le catalogue OSS (opensource.admin.ch) donne une vue d'ensemble des logiciels publiés par les autorités fédérales. Pour toute question, veuillez vous adresser à : mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
+sous https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[outils OSS]. Ils sont également {url-repo}/tree/main/docs[publiés sur GitHub], où vous pouvez donner directement votre avis. Le catalogue OSS (opensource.admin.ch) donne une vue d'ensemble des logiciels publiés par les autorités fédérales. Pour toute question, veuillez vous adresser à : mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
 
 == Groupes cibles des différents outils OSS
 
@@ -1014,7 +1017,7 @@ endif::[]
 ifeval::["{lang}" == "it"]
 [IMPORTANT]
 ====
-Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il https://github.com/swiss/opensource-guidelines/tree/main[README] principale.
+Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il {url-repo}/tree/main[README] principale.
 ====
 
 '''
@@ -1079,7 +1082,7 @@ Ogni autorità federale (p. es. ufficio, unità amministrativa) che sviluppa o f
 include::partials/document-map.it.adoc[]
 
 Gli strumenti e le risorse sono disponibili sul sito della Cancelleria federale
-alla pagina https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[strumenti OSS]. Sono inoltre https://github.com/swiss/opensource-guidelines/tree/main/docs[pubblicati su GitHub], dove potete fornire direttamente un riscontro. Il catalogo OSS (opensource.admin.ch) offre una panoramica del software pubblicato dalle autorità federali. Per domande rivolgetevi a: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
+alla pagina https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[strumenti OSS]. Sono inoltre {url-repo}/tree/main/docs[pubblicati su GitHub], dove potete fornire direttamente un riscontro. Il catalogo OSS (opensource.admin.ch) offre una panoramica del software pubblicato dalle autorità federali. Per domande rivolgetevi a: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
 
 == Gruppi target dei diversi strumenti OSS
 
@@ -1335,7 +1338,7 @@ endif::[]
 ifeval::["{lang}" == "rm"]
 [IMPORTANT]
 ====
-Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il {url-repo}/tree/main[README] principal.
 ====
 
 '''
@@ -1400,7 +1403,7 @@ Mintga autoritad federala (p.ex. uffizi, unitad administrativa) che sviluppa u f
 include::partials/document-map.rm.adoc[]
 
 Ils meds e las resursas stattan a disposiziun sin la pagina d'internet da la Chanzlia federala
-sut https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[meds OSS]. Els èn ultra da quai https://github.com/swiss/opensource-guidelines/tree/main/docs[publitgads sin GitHub], nua che Vus pudais dar directamain in resun. Il catalog OSS (opensource.admin.ch) dat ina survista dal software publitgà da las autoritads federalas. Per dumondas As drizzai a: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
+sut https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[meds OSS]. Els èn ultra da quai {url-repo}/tree/main/docs[publitgads sin GitHub], nua che Vus pudais dar directamain in resun. Il catalog OSS (opensource.admin.ch) dat ina survista dal software publitgà da las autoritads federalas. Per dumondas As drizzai a: mailto:opensource@bk.admin.ch[opensource@bk.admin.ch].
 
 == Gruppas da destinaziun dals differents meds OSS
 

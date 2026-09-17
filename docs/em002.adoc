@@ -31,7 +31,10 @@ endif::[]
 :classification:
 :revnumber: 2.0
 :revdate: 14.09.2026
-:url-repo: https://github.com/swiss/opensource-guidelines/tree/main
+// The repository, written as `{url-repo}` throughout the body. open-govpress
+// reads nothing here; this is its own documented idiom for an author-defined
+// attribute that saves repetition (see the `showcase.adoc` it ships).
+:url-repo: https://github.com/swiss/opensource-guidelines
 // Contents and numbering for the *web* view of this source. open-govpress sets
 // all four itself for `:govpress-style: report` (styles/common.adoc and
 // styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab
@@ -43,7 +46,7 @@ endif::[]
 :sectnumlevels: 3
 
 ifeval::["{lang}" == "en"]
-NOTE: This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main link:https://github.com/swiss/opensource-guidelines/tree/main[README].
+NOTE: This document is an evolving draft and part of the guidelines and tools designed to support the Federal Administration in publishing open source code. For more information, see the main link:{url-repo}/tree/main[README].
 
 '''
 
@@ -275,7 +278,7 @@ NOTE: The tools and especially the checklists are partly based on the *OSS docum
 
 The current Em002 documents are published on the OSS resources page of the Federal Chancellery. https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software.html.
 
-The English version is also published as markdown on GitHub. Feedback can also be given there. https://github.com/swiss/opensource-guidelines
+The English version is also published as markdown on GitHub. Feedback can also be given there. {url-repo}
 
 include::partials/references.en.adoc[tags=ref-em002-tools]
 
@@ -300,7 +303,7 @@ include::partials/abbreviations.en.adoc[tags=abbr-em002]
 endif::[]
 
 ifeval::["{lang}" == "de"]
-NOTE: Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im link:https://github.com/swiss/opensource-guidelines/tree/main[README].
+NOTE: Dieses Dokument ist ein laufend weiterentwickelter Entwurf und Teil der Hilfsmittel, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Weitere Informationen finden Sie im link:{url-repo}/tree/main[README].
 
 '''
 
@@ -532,7 +535,7 @@ NOTE: Die Hilfsmittel und insbesondere die Checklisten beruhen teilweise auf den
 
 Die aktuellen Em002-Dokumente werden auf der Seite OSS-Hilfsmittel der Bundeskanzlei veröffentlicht. https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software.html.
 
-Die Dokumente werden zudem auf GitHub veröffentlicht. Dort kann auch Rückmeldung gegeben werden. https://github.com/swiss/opensource-guidelines
+Die Dokumente werden zudem auf GitHub veröffentlicht. Dort kann auch Rückmeldung gegeben werden. {url-repo}
 
 include::partials/references.de.adoc[tags=ref-em002-tools]
 
@@ -557,7 +560,7 @@ include::partials/abbreviations.de.adoc[tags=abbr-em002]
 endif::[]
 
 ifeval::["{lang}" == "fr"]
-NOTE: Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le link:https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+NOTE: Le présent document est un projet en cours d'élaboration et fait partie des outils destinés à soutenir l'administration fédérale dans la publication de code open source. Pour de plus amples informations, voir le link:{url-repo}/tree/main[README] principal.
 
 '''
 
@@ -789,7 +792,7 @@ NOTE: Les outils et en particulier les listes de contrôle s'appuient en partie 
 
 Les documents Em002 actuels sont publiés sur la page Outils OSS de la Chancellerie fédérale. https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software.html.
 
-Les documents sont en outre publiés sur GitHub. Il est également possible d'y donner son avis. https://github.com/swiss/opensource-guidelines
+Les documents sont en outre publiés sur GitHub. Il est également possible d'y donner son avis. {url-repo}
 
 include::partials/references.fr.adoc[tags=ref-em002-tools]
 
@@ -814,7 +817,7 @@ include::partials/abbreviations.fr.adoc[tags=abbr-em002]
 endif::[]
 
 ifeval::["{lang}" == "it"]
-NOTE: Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il link:https://github.com/swiss/opensource-guidelines/tree/main[README] principale.
+NOTE: Il presente documento è una bozza in continua evoluzione e fa parte degli strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Per maggiori informazioni si veda il link:{url-repo}/tree/main[README] principale.
 
 '''
 
@@ -1046,7 +1049,7 @@ NOTE: Gli strumenti e in particolare le liste di controllo si basano in parte su
 
 Gli attuali documenti Em002 sono pubblicati sulla pagina Strumenti OSS della Cancelleria federale. https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software.html.
 
-I documenti sono inoltre pubblicati su GitHub, dove è possibile fornire riscontri. https://github.com/swiss/opensource-guidelines
+I documenti sono inoltre pubblicati su GitHub, dove è possibile fornire riscontri. {url-repo}
 
 include::partials/references.it.adoc[tags=ref-em002-tools]
 
@@ -1071,7 +1074,7 @@ include::partials/abbreviations.it.adoc[tags=abbr-em002]
 endif::[]
 
 ifeval::["{lang}" == "rm"]
-NOTE: Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il link:https://github.com/swiss/opensource-guidelines/tree/main[README] principal.
+NOTE: Quest document è ina sbozza ch'è vegn sviluppada vinavant e fa part dals meds che sustegnan l'administraziun federala en la publicaziun da code open source. Ulteriuras infurmaziuns chattais Vus en il link:{url-repo}/tree/main[README] principal.
 
 '''
 
@@ -1303,7 +1306,7 @@ NOTE: Ils meds ed en spezial las glistas da controlla sa basan per part sin ils 
 
 Ils documents Em002 actuals vegnan publitgads sin la pagina Meds OSS da la Chanzlia federala. https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software.html.
 
-Ils documents vegnan ultra da quai publitgads sin GitHub. Là po era vegnir dà in resun. https://github.com/swiss/opensource-guidelines
+Ils documents vegnan ultra da quai publitgads sin GitHub. Là po era vegnir dà in resun. {url-repo}
 
 include::partials/references.rm.adoc[tags=ref-em002-tools]
 
