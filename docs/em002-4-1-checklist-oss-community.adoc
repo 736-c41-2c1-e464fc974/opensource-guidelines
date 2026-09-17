@@ -25,21 +25,22 @@ ifeval::["{lang}" == "rm"]
 :title-logo-line2: Transfurmaziun digitala e direcziun da las TIC TDT
 endif::[]
 :govpress-style: report
-:govpress-front-block: report
+// Deliberately empty: the document carries no classification mark. Omitting the
+// line renders identically -- it is kept so the question is answered rather than
+// left unasked.
 :classification:
-:title-logo: logo-ch-black.svg
-:title-logo-base: black
-:title-logo-line3:
-:title-page:
-:pdf-theme: basic
-:toc:
-:sectnums:
-:toclevels: 3
-:sectnumlevels: 3
-:experimental:
 :revnumber: 2.0
 :revdate: 14.09.2026
 :url-repo: https://github.com/swiss/opensource-guidelines/tree/main
+// Contents and numbering for the *web* view of this source. open-govpress sets
+// all four itself for `:govpress-style: report` (styles/common.adoc and
+// styles/report.adoc), so they change nothing in the PDF -- GitHub and GitLab
+// render this file with plain Asciidoctor, which does not, and without them the
+// web view loses its contents list and its section numbers.
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
 
 ifeval::["{lang}" == "en"]
 This checklist goes together with _Em002-2 Instructions for Publishing Open Source Software_ and _Em002-4 OSS Community Guidelines_. +
