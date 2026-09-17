@@ -22,9 +22,9 @@ env:
   # ~112MiB it clears GitHub's 100MB hard limit on regular git objects, and
   # this repo is a fork, which GitHub's LFS policy blocks from uploading
   # *new* LFS objects at all -- release assets hit neither limit.
-  GOVPRESS_VERSION: "0.0.13"
-  GOVPRESS_URL: https://github.com/736-c41-2c1-e464fc974/opensource-guidelines/releases/download/open-govpress-v0.0.13/open-govpress-0.0.13-linux-x64.tar.gz
-  GOVPRESS_SHA256: 11827aa269c6aa4187ea68b5374f9f44d0c2feddbfa1f72b0cb6142cc25bcdf4
+  GOVPRESS_VERSION: "0.0.14"
+  GOVPRESS_URL: https://github.com/736-c41-2c1-e464fc974/opensource-guidelines/releases/download/open-govpress-v0.0.14/open-govpress-0.0.14-linux-x64.tar.gz
+  GOVPRESS_SHA256: 8aea2a42532e228029879b3e9054e9da617601a6bb3d97557f16e42986a5105a
 
 jobs:
   # One job per language. Every document carries all five languages in one
