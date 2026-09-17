@@ -133,7 +133,7 @@ According to Art. 9 of the Federal Act of 17 March 2023 ++[++EMOTA2023++]++ on t
 
 For custom software created on behalf of the Confederation, the General Terms and Conditions of the Confederation ++[++BBL-AGB++]++ generally apply. Under clause 25.1, these stipulate that ownership of source code and documentation transfers to the service procurer (the Confederation). If the software was procured jointly by several organisations or other institutions, it must be checked who has the rights to the code. For example, ownership may lie with an association founded for this purpose.
 
-The mere use of standard software is not covered by Art. 9 EMOTA, and release would generally not be possible anyway, as the rights to standard software often remain with the vendor (GTC Confederation for Standard Software Procurement). However, custom extensions to standard software are certainly suitable for publication. Normally, these are owned by the Confederation. Mere configuration adjustments are less suitable for publication. The topic is dealt with in link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software] and the documents ++[++KKB-MB++]++ and ++[++BBL-WL++]++. In principle, extensions are always subject to Art. 9 EMOTA.
+The mere use of standard software is not covered by Art. 9 EMOTA, and release would generally not be possible anyway, as the rights to standard software often remain with the vendor (GTC Confederation for Standard Software Procurement). However, custom extensions to standard software are certainly suitable for publication. Normally, these are owned by the Confederation. Mere configuration adjustments are less suitable for publication. The topic is dealt with in link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software] and the documents ++[++KBB-MB++]++ and ++[++BBL-WL++]++. In principle, extensions are always subject to Art. 9 EMOTA.
 
 ==== Software in relation to EMOTA
 
@@ -226,7 +226,7 @@ To fulfil the legal requirements of EMOTA, the federal authority has the option 
 
 If the federal authority does not want to publish the software itself, it can delegate this task to the contractor, for example, or transfer the publication rights accordingly. In this case, it will transfer the necessary rights (and obligations) to the supplier and/or third parties and commission them with publication. This means that the right is effectively transferred to a third party under the condition of release/support of the corresponding software.
 
-Here too, ++[++KKB-MB++]++ contains important information.
+Here too, ++[++KBB-MB++]++ contains important information.
 
 *Procedure*
 
@@ -255,7 +255,7 @@ flowchart TD
   Q5 -->|"No"| R1
 ....
 
-Figure 2 - Exception: Third-party rights (always also take into account ++[++KKB-MB++]++ and link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software])
+Figure 2 - Exception: Third-party rights (always also take into account ++[++KBB-MB++]++ and link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software])
 
 *Tasks:*
 
@@ -843,7 +843,7 @@ Nach Art. 9 des Bundesgesetzes vom 17. März 2023 ++[++EMOTA2023++]++ über den 
 
 Für im Auftrag des Bundes erstellte Individualsoftware gelten grundsätzlich die Allgemeinen Geschäftsbedingungen des Bundes ++[++BBL-AGB++]++. Nach Ziffer 25.1 sehen diese vor, dass das Eigentum an Quellcode und Dokumentation an den Leistungsbezüger (den Bund) übergeht. Wurde die Software gemeinsam von mehreren Organisationen oder anderen Institutionen beschafft, so ist zu prüfen, wer die Rechte am Code hat. Beispielsweise kann das Eigentum bei einem zu diesem Zweck gegründeten Verein liegen.
 
-Die blosse Nutzung von Standardsoftware fällt nicht unter Art. 9 EMBAG, und eine Freigabe wäre in der Regel ohnehin nicht möglich, da die Rechte an Standardsoftware häufig beim Anbieter verbleiben (AGB Bund für die Beschaffung von Standardsoftware). Individuelle Erweiterungen von Standardsoftware eignen sich hingegen durchaus für eine Veröffentlichung. Normalerweise stehen diese im Eigentum des Bundes. Reine Konfigurationsanpassungen eignen sich weniger für eine Veröffentlichung. Das Thema wird in link:em002-7.pdf[Em002-7 Strategische Aspekte der Beschaffung und Open-Source-Software] sowie in den Dokumenten ++[++KKB-MB++]++ und ++[++BBL-WL++]++ behandelt. Grundsätzlich unterstehen Erweiterungen stets Art. 9 EMBAG.
+Die blosse Nutzung von Standardsoftware fällt nicht unter Art. 9 EMBAG, und eine Freigabe wäre in der Regel ohnehin nicht möglich, da die Rechte an Standardsoftware häufig beim Anbieter verbleiben (AGB Bund für die Beschaffung von Standardsoftware). Individuelle Erweiterungen von Standardsoftware eignen sich hingegen durchaus für eine Veröffentlichung. Normalerweise stehen diese im Eigentum des Bundes. Reine Konfigurationsanpassungen eignen sich weniger für eine Veröffentlichung. Das Thema wird in link:em002-7.pdf[Em002-7 Strategische Aspekte der Beschaffung und Open-Source-Software] sowie in den Dokumenten ++[++KBB-MB++]++ und ++[++BBL-WL++]++ behandelt. Grundsätzlich unterstehen Erweiterungen stets Art. 9 EMBAG.
 
 ==== Software im Verhältnis zum EMBAG
 
@@ -936,7 +936,7 @@ Um die gesetzlichen Vorgaben des EMBAG zu erfüllen, hat die Bundesbehörde als 
 
 Will die Bundesbehörde die Software nicht selbst veröffentlichen, so kann sie diese Aufgabe beispielsweise an den Auftragnehmer delegieren oder die Veröffentlichungsrechte entsprechend übertragen. In diesem Fall überträgt sie die notwendigen Rechte (und Pflichten) an den Lieferanten und/oder Dritte und beauftragt sie mit der Veröffentlichung. Damit wird das Recht faktisch unter der Bedingung der Freigabe bzw. des Supports der entsprechenden Software an Dritte übertragen.
 
-Auch hier enthält ++[++KKB-MB++]++ wichtige Hinweise.
+Auch hier enthält ++[++KBB-MB++]++ wichtige Hinweise.
 
 *Vorgehen*
 
@@ -965,7 +965,7 @@ flowchart TD
   Q5 -->|"Nein"| R1
 ....
 
-Abbildung 2 – Ausnahme: Rechte Dritter (stets auch ++[++KKB-MB++]++ und link:em002-7.pdf[Em002-7 Strategische Aspekte der Beschaffung und Open-Source-Software] berücksichtigen)
+Abbildung 2 – Ausnahme: Rechte Dritter (stets auch ++[++KBB-MB++]++ und link:em002-7.pdf[Em002-7 Strategische Aspekte der Beschaffung und Open-Source-Software] berücksichtigen)
 
 *Aufgaben:*
 
@@ -1553,7 +1553,7 @@ Conformément à l'art. 9 de la loi fédérale du 17 mars 2023 ++[++EMOTA2023++]
 
 Pour les logiciels sur mesure créés sur mandat de la Confédération, les conditions générales de la Confédération ++[++BBL-AGB++]++ s'appliquent en principe. Selon leur chiffre 25.1, la propriété du code source et de la documentation passe au service acquéreur (la Confédération). Si le logiciel a été acquis conjointement par plusieurs organisations ou d'autres institutions, il faut vérifier qui détient les droits sur le code. La propriété peut par exemple appartenir à une association fondée à cet effet.
 
-La simple utilisation de logiciels standard n'entre pas dans le champ de l'art. 9 LMETA et une publication ne serait de toute façon généralement pas possible, les droits sur les logiciels standard restant souvent chez le fournisseur (CG de la Confédération pour l'acquisition de logiciels standard). Les extensions sur mesure de logiciels standard se prêtent en revanche tout à fait à une publication. Elles appartiennent normalement à la Confédération. De simples adaptations de configuration se prêtent moins à une publication. Le sujet est traité dans link:em002-7.pdf[Em002-7 Aspects stratégiques des achats et des logiciels open source] ainsi que dans les documents ++[++KKB-MB++]++ et ++[++BBL-WL++]++. En principe, les extensions relèvent toujours de l'art. 9 LMETA.
+La simple utilisation de logiciels standard n'entre pas dans le champ de l'art. 9 LMETA et une publication ne serait de toute façon généralement pas possible, les droits sur les logiciels standard restant souvent chez le fournisseur (CG de la Confédération pour l'acquisition de logiciels standard). Les extensions sur mesure de logiciels standard se prêtent en revanche tout à fait à une publication. Elles appartiennent normalement à la Confédération. De simples adaptations de configuration se prêtent moins à une publication. Le sujet est traité dans link:em002-7.pdf[Em002-7 Aspects stratégiques des achats et des logiciels open source] ainsi que dans les documents ++[++KBB-MB++]++ et ++[++BBL-WL++]++. En principe, les extensions relèvent toujours de l'art. 9 LMETA.
 
 ==== Le logiciel au regard de la LMETA
 
@@ -1646,7 +1646,7 @@ Pour satisfaire aux exigences légales de la LMETA, l'autorité fédérale a, en
 
 Si l'autorité fédérale ne souhaite pas publier elle-même le logiciel, elle peut par exemple déléguer cette tâche au mandataire ou transférer les droits de publication en conséquence. Dans ce cas, elle transfère les droits (et obligations) nécessaires au fournisseur ou à des tiers et les charge de la publication. Le droit est ainsi effectivement transféré à un tiers sous condition de publication ou de support du logiciel correspondant.
 
-Ici aussi, ++[++KKB-MB++]++ contient des indications importantes.
+Ici aussi, ++[++KBB-MB++]++ contient des indications importantes.
 
 *Procédure*
 
@@ -1675,7 +1675,7 @@ flowchart TD
   Q5 -->|"Non"| R1
 ....
 
-Figure 2 – Exception : droits de tiers (toujours tenir compte également de ++[++KKB-MB++]++ et de link:em002-7.pdf[Em002-7 Aspects stratégiques des achats et des logiciels open source])
+Figure 2 – Exception : droits de tiers (toujours tenir compte également de ++[++KBB-MB++]++ et de link:em002-7.pdf[Em002-7 Aspects stratégiques des achats et des logiciels open source])
 
 *Tâches :*
 
@@ -2263,7 +2263,7 @@ Secondo l'art. 9 della legge federale del 17 marzo 2023 ++[++EMOTA2023++]++ sull
 
 Per il software su misura realizzato su mandato della Confederazione si applicano in linea di principio le condizioni generali della Confederazione ++[++BBL-AGB++]++. Secondo il loro numero 25.1, la proprietà del codice sorgente e della documentazione passa al servizio acquirente (la Confederazione). Se il software è stato acquistato congiuntamente da più organizzazioni o altre istituzioni, occorre verificare chi detiene i diritti sul codice. La proprietà può per esempio spettare a un'associazione costituita a tale scopo.
 
-Il semplice utilizzo di software standard non rientra nell'art. 9 LMeCA e una pubblicazione non sarebbe comunque di regola possibile, poiché i diritti sul software standard restano spesso al fornitore (CG della Confederazione per l'acquisto di software standard). Le estensioni su misura di software standard si prestano invece pienamente a una pubblicazione. Esse appartengono normalmente alla Confederazione. Meri adattamenti di configurazione si prestano meno a una pubblicazione. Il tema è trattato in link:em002-7.pdf[Em002-7 Aspetti strategici degli acquisti e del software open source] nonché nei documenti ++[++KKB-MB++]++ e ++[++BBL-WL++]++. In linea di principio le estensioni sottostanno sempre all'art. 9 LMeCA.
+Il semplice utilizzo di software standard non rientra nell'art. 9 LMeCA e una pubblicazione non sarebbe comunque di regola possibile, poiché i diritti sul software standard restano spesso al fornitore (CG della Confederazione per l'acquisto di software standard). Le estensioni su misura di software standard si prestano invece pienamente a una pubblicazione. Esse appartengono normalmente alla Confederazione. Meri adattamenti di configurazione si prestano meno a una pubblicazione. Il tema è trattato in link:em002-7.pdf[Em002-7 Aspetti strategici degli acquisti e del software open source] nonché nei documenti ++[++KBB-MB++]++ e ++[++BBL-WL++]++. In linea di principio le estensioni sottostanno sempre all'art. 9 LMeCA.
 
 ==== Il software in rapporto alla LMeCA
 
@@ -2356,7 +2356,7 @@ Per soddisfare le prescrizioni legali della LMeCA, l'autorità federale ha, in q
 
 Se l'autorità federale non intende pubblicare essa stessa il software, può per esempio delegare tale compito al mandatario o trasferire di conseguenza i diritti di pubblicazione. In tal caso essa trasferisce i diritti (e gli obblighi) necessari al fornitore e/o a terzi e li incarica della pubblicazione. Il diritto viene così di fatto trasferito a terzi a condizione della pubblicazione o del supporto del software corrispondente.
 
-Anche in questo caso ++[++KKB-MB++]++ contiene indicazioni importanti.
+Anche in questo caso ++[++KBB-MB++]++ contiene indicazioni importanti.
 
 *Procedura*
 
@@ -2385,7 +2385,7 @@ flowchart TD
   Q5 -->|"No"| R1
 ....
 
-Figura 2 – Eccezione: diritti di terzi (considerare sempre anche ++[++KKB-MB++]++ e link:em002-7.pdf[Em002-7 Aspetti strategici degli acquisti e del software open source])
+Figura 2 – Eccezione: diritti di terzi (considerare sempre anche ++[++KBB-MB++]++ e link:em002-7.pdf[Em002-7 Aspetti strategici degli acquisti e del software open source])
 
 *Compiti:*
 
@@ -2973,7 +2973,7 @@ Tenor l'art. 9 da la lescha federala dals 17 da mars 2023 ++[++EMOTA2023++]++ da
 
 Per software individual creà per incumbensa da la Confederaziun valan fundamentalmain las cundiziuns generalas da contract da la Confederaziun ++[++BBL-AGB++]++. Tenor la cifra 25.1 prevesan quellas che la proprietad dal code da funtauna e da la documentaziun passia al recepient da prestaziuns (la Confederaziun). Sche il software è vegnì acquistà cuminaivlamain da pliras organisaziuns u autras instituziuns, sto vegnir examinà, tgi ch'ha ils dretgs sin il code. Per exempel po la proprietad sa chattar tar in'associaziun fundada per quest intent.
 
-La pura utilisaziun da software standard na croda betg sut l'art. 9 EMBAG, ed ina relaschada na fiss per ordinari tuttina betg pussaivla, perquai ch'ils dretgs sin software standard restan savens tar il purschider (CGC da la Confederaziun per l'acquist da software standard). Extensiuns individualas da software standard s'adattan percunter fitg bain per ina publicaziun. Normalmain èn quellas en la proprietad da la Confederaziun. Puras adattaziuns da configuraziun s'adattan pli pauc per ina publicaziun. Il tema vegn tractà en link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source] sco er en ils documents ++[++KKB-MB++]++ e ++[++BBL-WL++]++. Fundamentalmain suttastattan extensiuns adina a l'art. 9 EMBAG.
+La pura utilisaziun da software standard na croda betg sut l'art. 9 EMBAG, ed ina relaschada na fiss per ordinari tuttina betg pussaivla, perquai ch'ils dretgs sin software standard restan savens tar il purschider (CGC da la Confederaziun per l'acquist da software standard). Extensiuns individualas da software standard s'adattan percunter fitg bain per ina publicaziun. Normalmain èn quellas en la proprietad da la Confederaziun. Puras adattaziuns da configuraziun s'adattan pli pauc per ina publicaziun. Il tema vegn tractà en link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source] sco er en ils documents ++[++KBB-MB++]++ e ++[++BBL-WL++]++. Fundamentalmain suttastattan extensiuns adina a l'art. 9 EMBAG.
 
 ==== Il software en relaziun cun l'EMBAG
 
@@ -3066,7 +3066,7 @@ Per ademplir las prescripziuns legalas da l'EMBAG ha l'autoritad federala sco ma
 
 Sche l'autoritad federala na vul betg publitgar sezza il software, po ella per exempel delegar questa incumbensa a l'incumbensà u transferir correspundentamain ils dretgs da publicaziun. En quest cas transferescha ella ils dretgs (e las obligaziuns) necessaris al furnitur e/u a terzas persunas ed ils incumbensescha cun la publicaziun. Uschia vegn il dretg transferì factic a terzas persunas sut la cundiziun da la relaschada resp. dal support dal software correspundent.
 
-Era qua cuntegna ++[++KKB-MB++]++ indicaziuns impurtantas.
+Era qua cuntegna ++[++KBB-MB++]++ indicaziuns impurtantas.
 
 *Proceder*
 
@@ -3095,7 +3095,7 @@ flowchart TD
   Q5 -->|"Na"| R1
 ....
 
-Illustraziun 2 – Excepziun: Dretgs da terzas persunas (adina era resguardar ++[++KKB-MB++]++ e link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source])
+Illustraziun 2 – Excepziun: Dretgs da terzas persunas (adina era resguardar ++[++KBB-MB++]++ e link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source])
 
 *Incumbensas:*
 
