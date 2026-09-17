@@ -112,10 +112,9 @@ Through Art. 9 EMOTA, the Federal Administration is making an important contribu
 
 Digital sovereignty is not an end in itself, but a prerequisite for an effective, democratic and future-oriented administration. It is a multi-faceted concept encompassing technological, organisational and political dimensions.
 
-[cols="1"]
-|===
-| *Digital sovereignty means the state having the necessary control and capacity to act in the digital space in order to ensure that government tasks are fulfilled.*
-|===
+****
+*Digital sovereignty means the state having the necessary control and capacity to act in the digital space in order to ensure that government tasks are fulfilled.*
+****
 
 When procuring software in particular, consideration should be given to the implications for the digital sovereignty of the Federal Administration.
 
@@ -689,58 +688,55 @@ Note: Since the federal authority is obliged to publish software it develops, it
 
 A significant portion of the references are _already mentioned in Em002 Strategic Guidelines for Open Source Software in the Federal Administration_.
 
-[cols="1,4"]
-|===
-|[A029]
-a|Product standard for office automation (OA) client software +
+[A029]::
+Product standard for office automation (OA) client software +
 Intranet: +https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/standards/a029-bab_client_software.html+
 
-|[BBL2015]
-|Information sheet: Software tenders: Ensuring broad competition; 2015; no longer in force
+[BBL2015]::
+Information sheet: Software tenders: Ensuring broad competition; 2015; no longer in force
 
-|[BITKOM2024]
-|Open Source Software 2.0 Guidelines. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
+[BITKOM2024]::
+Open Source Software 2.0 Guidelines. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
 
-|[BöB]
-|Federal Act on Public Procurement (PPA) https://www.fedlex.admin.ch/eli/oc/2020/126/de
+[BöB]::
+Federal Act on Public Procurement (PPA) https://www.fedlex.admin.ch/eli/oc/2020/126/de
 
-|[DigiV]
-|Ordinance on Digital Services and the Digital Transformation in the Federal Administration, DigiO) SR 172.019.1 -- Ordinance of 2 April 2025 \| Fedlex
+[DigiV]::
+Ordinance on Digital Services and the Digital Transformation in the Federal Administration, DigiO) SR 172.019.1 -- Ordinance of 2 April 2025 | Fedlex
 
-|[BBL-WL]
-a|Open Source in Procurement Guidelines: Software purchasing in accordance with Art. 9 EMOTA; FOBL; on the intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-WL]::
+Open Source in Procurement Guidelines: Software purchasing in accordance with Art. 9 EMOTA; FOBL; on the intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[BBL-CL]
-a|for Art. 9 EMOTA Blanket Exception, FOBL, on the intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-CL]::
+for Art. 9 EMOTA Blanket Exception, FOBL, on the intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[KKB-MB]
-a|Information sheet: Procurement of software and Art. 9 EMOTA of the Competence Centre for Federal Public Procurement: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
+[KKB-MB]::
+Information sheet: Procurement of software and Art. 9 EMOTA of the Competence Centre for Federal Public Procurement: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
 
-|[KBB-KV]
-a|Sample criteria -- Procurement and EMOTA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
+[KBB-KV]::
+Sample criteria -- Procurement and EMOTA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
 Sample contractual texts -- Software development +https://perimap.admin.ch/goto_perimap_file_47059_download.html+
 
-|[KBB-Perimap]
-|CCPP learning and template platform
+[KBB-Perimap]::
+CCPP learning and template platform
 
-|[OSBA-VK]
-|Award criteria for sustainable procurement of open source software \| OSBA -- Open Source Business Alliance
+[OSBA-VK]::
+Award criteria for sustainable procurement of open source software | OSBA -- Open Source Business Alliance
 
-|[Sto2024]
-|Certificate of competency 3 on Procurement-related criteria in relation to the new _Federal Act on the Use of Electronic Means to Carry Out Official Tasks (EMOTA) based on Art. 9 (open source software)_ by Reto Stoll, 2024
+[Sto2024]::
+Certificate of competency 3 on Procurement-related criteria in relation to the new _Federal Act on the Use of Electronic Means to Carry Out Official Tasks (EMOTA) based on Art. 9 (open source software)_ by Reto Stoll, 2024
 
-|[Stü2015]
-|Open source business model: Added value of the subscription offer, Matthias Stürmer, 2015
+[Stü2015]::
+Open source business model: Added value of the subscription offer, Matthias Stürmer, 2015
 
-|[Stü2024]
-|Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
+[Stü2024]::
+Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
 
-|[SIK]
-a|SIK for procuring open source software: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
+[SIK]::
+SIK for procuring open source software: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
 
-|[W012]
-|W012 -- Directives for Digital Sovereignty in the Federal Administration, V1.0 2025
-|===
+[W012]::
+W012 -- Directives for Digital Sovereignty in the Federal Administration, V1.0 2025
 
 == Annex B: Glossary
 
@@ -750,77 +746,74 @@ The general glossary for the Em002 document set can be found in Em002-6 OSS-FAQ.
 
 Further terms can be found in the terminology database TERMDAT https://www.bk.admin.ch/bk/en/home/dokumentation/languages/termdat.html[terminology database of the Federal Administration].
 
-[cols="1,4"]
-|===
-|Application area
-|This refers to the office automation (OA) software categories according to [A029] and other classifications.
+Application area::
+This refers to the office automation (OA) software categories according to [A029] and other classifications.
 
-|Branch
-|A development branch of an OSS.
+Branch::
+A development branch of an OSS.
 
-|CCPP
-|Competence Centre for Federal Public Procurement
+CCPP::
+Competence Centre for Federal Public Procurement
 
-|Collaboration
-a|The term collaboration derives from the Latin word 'collaborare' and means 'to work together'.
+Collaboration::
+The term collaboration derives from the Latin word 'collaborare' and means 'to work together'.
 It describes a way of working in which several people or teams work together towards a common goal, contributing their skills and resources. The focus is on mutual exchange, transparency and the sharing of knowledge. +
 According to the Gabler Business Dictionary, collaboration also refers to 'cooperation between a company and its customers and suppliers, using modern information technologies to integrate internal and cross-company business processes.'
 
-|Committer
-|A committer is a person who enters a change to data in a version control system.
+Committer::
+A committer is a person who enters a change to data in a version control system.
 
-|Contribution
-|OSS contribution refers to the contribution to the development and improvement of open source software (OSS). This can take the form of providing code, documentation, tests, feedback or other types of contributions. (Google AI)
+Contribution::
+OSS contribution refers to the contribution to the development and improvement of open source software (OSS). This can take the form of providing code, documentation, tests, feedback or other types of contributions. (Google AI)
 
-|Contributor Licence Agreement (CLA)
-|A Contributor Licence Agreement (CLA), also known as a Contributor Agreement, is a document that sets out the terms under which intellectual property may be contributed to a project or initiative. This usually refers to a software project under an open-source licence (Wikipedia).
+Contributor Licence Agreement (CLA)::
+A Contributor Licence Agreement (CLA), also known as a Contributor Agreement, is a document that sets out the terms under which intellectual property may be contributed to a project or initiative. This usually refers to a software project under an open-source licence (Wikipedia).
 
-|DTI
-|Digital Transformation and ICT Steering Sector. Part of the Federal Chancellery FCh
+DTI::
+Digital Transformation and ICT Steering Sector. Part of the Federal Chancellery FCh
 
-|eOperations
-|eOperations Switzerland enables joint digital public services for the federal government, cantons and communes. https://www.eoperations.ch[www.eoperations.ch]
+eOperations::
+eOperations Switzerland enables joint digital public services for the federal government, cantons and communes. https://www.eoperations.ch[www.eoperations.ch]
 
-|FITSU
-|Federal IT Steering Unit. Predecessor of FCh-DTI
+FITSU::
+Federal IT Steering Unit. Predecessor of FCh-DTI
 
-|FOBL
-|Federal Office for Buildings and Logistics
+FOBL::
+Federal Office for Buildings and Logistics
 
-|Life cycle
-|A software life cycle describes the process of software development with the aim of providing software to the customer. As a rule, the cycle begins with a problem identified by the customer and its analysis, and ends on the customer side with the replacement of the software by a successor.
+Life cycle::
+A software life cycle describes the process of software development with the aim of providing software to the customer. As a rule, the cycle begins with a problem identified by the customer and its analysis, and ends on the customer side with the replacement of the software by a successor.
 
-|Lock-in
-|The lock-in effect refers to close customer loyalty to products/services or a provider or vendor, which makes it difficult for the customer to switch products or providers due to the costs and other barriers involved in switching.
+Lock-in::
+The lock-in effect refers to close customer loyalty to products/services or a provider or vendor, which makes it difficult for the customer to switch products or providers due to the costs and other barriers involved in switching.
 
-|Market analysis
-a|A specific market analysis is used to identify and process information on the current and potential procurement market. The purpose of the market analysis is to identify and understand market structures and, in particular, the supplier structure with regard to all relevant characteristics: price situation (high, low, fluctuations); market size; geographical distribution of potential suppliers and key players, etc. (see https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
+Market analysis::
+A specific market analysis is used to identify and process information on the current and potential procurement market. The purpose of the market analysis is to identify and understand market structures and, in particular, the supplier structure with regard to all relevant characteristics: price situation (high, low, fluctuations); market size; geographical distribution of potential suppliers and key players, etc. (see https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
 Possible sources of OSS software can be found in link:em002-1.pdf[Em002-1 Practical Guidelines for OSS] in Section 7.
 
-|Product
-a|Used here as a synonym for 'application'. +
+Product::
+Used here as a synonym for 'application'. +
 The term originates from ITIL. In ITIL (Information Technology Infrastructure Library), a product is a configuration of resources designed to deliver value to a customer or organisation. Unlike a service, which is typically an ongoing, interactive process, a product is a static entity. +
 Products can be software, hardware, data or other resources provided by the organisation. (Google AI)
 
-|Product standardisation
-|In this document, standardisation primarily refers to SD120, the ICT standard service for office automation, and other standardisations by DTI.
+Product standardisation::
+In this document, standardisation primarily refers to SD120, the ICT standard service for office automation, and other standardisations by DTI.
 
-|SBOM
-|A Software Bill of Materials (SBOM) is an inventory list of all components and software dependencies that are part of the development and deployment of a piece of software.
+SBOM::
+A Software Bill of Materials (SBOM) is an inventory list of all components and software dependencies that are part of the development and deployment of a piece of software.
 
-|Subscription
-|When subscribing to software, a subscription is taken out. This means that the software is not purchased. +
+Subscription::
+When subscribing to software, a subscription is taken out. This means that the software is not purchased. +
 In most cases, this involves not only permission to use the software, but also includes all relevant services and support.
 
-|Upstream project
-|Upstream is a term used in distributed software development (often open source) and refers to the direction of a patch to its origin (upstream), i.e. to the original developers or maintainers of the software, or to the original project. These can also be software libraries.
+Upstream project::
+Upstream is a term used in distributed software development (often open source) and refers to the direction of a patch to its origin (upstream), i.e. to the original developers or maintainers of the software, or to the original project. These can also be software libraries.
 
-|ZenDiS
-|ZenDiS is a publicly owned limited liability company (GmbH) in Germany. It supports the federal government, states, and municipalities in implementing digital sovereignty. With opencode.de and container.gov.de, it offers a platform for secure open-source development. (https://www.zendis.de[www.zendis.de])
+ZenDiS::
+ZenDiS is a publicly owned limited liability company (GmbH) in Germany. It supports the federal government, states, and municipalities in implementing digital sovereignty. With opencode.de and container.gov.de, it offers a platform for secure open-source development. (https://www.zendis.de[www.zendis.de])
 
-|Zero-day exploit
-|A zero-day exploit refers to the exploitation of a security vulnerability for which no patch is yet available from the component manufacturer.
-|===
+Zero-day exploit::
+A zero-day exploit refers to the exploitation of a security vulnerability for which no patch is yet available from the component manufacturer.
 endif::[]
 
 ifeval::["{lang}" == "de"]
@@ -894,10 +887,9 @@ Mit Art. 9 EMBAG leistet die Bundesverwaltung durch die Veröffentlichung ihrer 
 
 Digitale Souveränität ist kein Selbstzweck, sondern eine Voraussetzung für eine wirksame, demokratische und zukunftsorientierte Verwaltung. Sie ist ein vielschichtiges Konzept mit technologischen, organisatorischen und politischen Dimensionen.
 
-[cols="1"]
-|===
-| *Digitale Souveränität bedeutet, dass der Staat über die nötige Kontrolle und Handlungsfähigkeit im digitalen Raum verfügt, um die Erfüllung staatlicher Aufgaben sicherzustellen.*
-|===
+****
+*Digitale Souveränität bedeutet, dass der Staat über die nötige Kontrolle und Handlungsfähigkeit im digitalen Raum verfügt, um die Erfüllung staatlicher Aufgaben sicherzustellen.*
+****
 
 Insbesondere bei der Beschaffung von Software sind die Auswirkungen auf die digitale Souveränität der Bundesverwaltung zu berücksichtigen.
 
@@ -1471,58 +1463,55 @@ Hinweis: Da die Bundesbehörde verpflichtet ist, von ihr entwickelte Software zu
 
 Ein erheblicher Teil der Referenzen ist _bereits in Em002 Strategische Leitlinien für Open-Source-Software in der Bundesverwaltung aufgeführt_.
 
-[cols="1,4"]
-|===
-|[A029]
-a|Produktstandard für Büroautomations-Clientsoftware +
+[A029]::
+Produktstandard für Büroautomations-Clientsoftware +
 Intranet: +https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/standards/a029-bab_client_software.html+
 
-|[BBL2015]
-|Merkblatt: Softwareausschreibungen: Sicherstellung eines breiten Wettbewerbs; 2015; nicht mehr in Kraft
+[BBL2015]::
+Merkblatt: Softwareausschreibungen: Sicherstellung eines breiten Wettbewerbs; 2015; nicht mehr in Kraft
 
-|[BITKOM2024]
-|Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundesverband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
+[BITKOM2024]::
+Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundesverband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
 
-|[BöB]
-|Bundesgesetz über das öffentliche Beschaffungswesen (BöB) https://www.fedlex.admin.ch/eli/oc/2020/126/de
+[BöB]::
+Bundesgesetz über das öffentliche Beschaffungswesen (BöB) https://www.fedlex.admin.ch/eli/oc/2020/126/de
 
-|[DigiV]
-|Verordnung über digitale Dienstleistungen und die digitale Transformation in der Bundesverwaltung (DigiV) SR 172.019.1 – Verordnung vom 2. April 2025 \| Fedlex
+[DigiV]::
+Verordnung über digitale Dienstleistungen und die digitale Transformation in der Bundesverwaltung (DigiV) SR 172.019.1 – Verordnung vom 2. April 2025 | Fedlex
 
-|[BBL-WL]
-a|Wegleitung Open Source in der Beschaffung: Softwareeinkauf nach Art. 9 EMBAG; BBL; im Intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-WL]::
+Wegleitung Open Source in der Beschaffung: Softwareeinkauf nach Art. 9 EMBAG; BBL; im Intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[BBL-CL]
-a|für die Integral-Ausnahme Art. 9 EMBAG, BBL, im Intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-CL]::
+für die Integral-Ausnahme Art. 9 EMBAG, BBL, im Intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[KKB-MB]
-a|Merkblatt: Beschaffung von Software und Art. 9 EMBAG des Kompetenzzentrums Beschaffungswesen Bund: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
+[KKB-MB]::
+Merkblatt: Beschaffung von Software und Art. 9 EMBAG des Kompetenzzentrums Beschaffungswesen Bund: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
 
-|[KBB-KV]
-a|Musterkriterien – Beschaffung und EMBAG. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
+[KBB-KV]::
+Musterkriterien – Beschaffung und EMBAG. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
 Mustervertragstexte – Softwareentwicklung +https://perimap.admin.ch/goto_perimap_file_47059_download.html+
 
-|[KBB-Perimap]
-|Lern- und Vorlagenplattform KBB
+[KBB-Perimap]::
+Lern- und Vorlagenplattform KBB
 
-|[OSBA-VK]
-|Vergabekriterien für die nachhaltige Beschaffung von Open-Source-Software \| OSBA – Open Source Business Alliance
+[OSBA-VK]::
+Vergabekriterien für die nachhaltige Beschaffung von Open-Source-Software | OSBA – Open Source Business Alliance
 
-|[Sto2024]
-|Fachausweis 3 zu beschaffungsrelevanten Kriterien im Zusammenhang mit dem neuen _Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) gestützt auf Art. 9 (Open-Source-Software)_ von Reto Stoll, 2024
+[Sto2024]::
+Fachausweis 3 zu beschaffungsrelevanten Kriterien im Zusammenhang mit dem neuen _Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG) gestützt auf Art. 9 (Open-Source-Software)_ von Reto Stoll, 2024
 
-|[Stü2015]
-|Open-Source-Geschäftsmodell: Mehrwert des Subskriptionsangebots, Matthias Stürmer, 2015
+[Stü2015]::
+Open-Source-Geschäftsmodell: Mehrwert des Subskriptionsangebots, Matthias Stürmer, 2015
 
-|[Stü2024]
-|Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
+[Stü2024]::
+Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
 
-|[SIK]
-a|SIK für die Beschaffung von Open-Source-Software: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
+[SIK]::
+SIK für die Beschaffung von Open-Source-Software: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
 
-|[W012]
-|W012 – Weisungen für die digitale Souveränität in der Bundesverwaltung, V1.0 2025
-|===
+[W012]::
+W012 – Weisungen für die digitale Souveränität in der Bundesverwaltung, V1.0 2025
 
 == Anhang B: Glossar
 
@@ -1532,77 +1521,74 @@ Das allgemeine Glossar zum Dokumentensatz Em002 findet sich in Em002-6 OSS-FAQ.
 
 Weitere Begriffe finden sich in der https://www.bk.admin.ch/bk/de/home/dokumentation/sprachen/termdat.html[Terminologiedatenbank TERMDAT der Bundesverwaltung].
 
-[cols="1,4"]
-|===
-|Anwendungsbereich
-|Damit sind die Softwarekategorien der Büroautomation (BA) gemäss [A029] und weitere Einteilungen gemeint.
+Anwendungsbereich::
+Damit sind die Softwarekategorien der Büroautomation (BA) gemäss [A029] und weitere Einteilungen gemeint.
 
-|Branch
-|Ein Entwicklungszweig einer OSS.
+Branch::
+Ein Entwicklungszweig einer OSS.
 
-|KBB
-|Kompetenzzentrum Beschaffungswesen Bund
+KBB::
+Kompetenzzentrum Beschaffungswesen Bund
 
-|Collaboration
-a|Der Begriff Collaboration stammt vom lateinischen Wort «collaborare» und bedeutet «zusammenarbeiten».
+Collaboration::
+Der Begriff Collaboration stammt vom lateinischen Wort «collaborare» und bedeutet «zusammenarbeiten».
 Er beschreibt eine Arbeitsweise, bei der mehrere Personen oder Teams gemeinsam auf ein Ziel hinarbeiten und ihre Fähigkeiten und Ressourcen einbringen. Im Zentrum stehen gegenseitiger Austausch, Transparenz und das Teilen von Wissen. +
 Gemäss dem Gabler Wirtschaftslexikon bezeichnet Collaboration auch die «Zusammenarbeit zwischen einem Unternehmen und seinen Kunden und Lieferanten unter Einsatz moderner Informationstechnologien zur Integration inner- und überbetrieblicher Geschäftsprozesse».
 
-|Committer
-|Ein Committer ist eine Person, die eine Änderung an Daten in einem Versionsverwaltungssystem einträgt.
+Committer::
+Ein Committer ist eine Person, die eine Änderung an Daten in einem Versionsverwaltungssystem einträgt.
 
-|Contribution
-|OSS-Contribution bezeichnet den Beitrag zur Entwicklung und Verbesserung von Open-Source-Software (OSS). Dies kann in Form von Code, Dokumentation, Tests, Rückmeldungen oder anderen Arten von Beiträgen erfolgen. (Google AI)
+Contribution::
+OSS-Contribution bezeichnet den Beitrag zur Entwicklung und Verbesserung von Open-Source-Software (OSS). Dies kann in Form von Code, Dokumentation, Tests, Rückmeldungen oder anderen Arten von Beiträgen erfolgen. (Google AI)
 
-|Contributor Licence Agreement (CLA)
-|Ein Contributor Licence Agreement (CLA), auch Contributor Agreement genannt, ist ein Dokument, das die Bedingungen festlegt, unter denen geistiges Eigentum zu einem Projekt oder Vorhaben beigetragen werden kann. Damit ist üblicherweise ein Softwareprojekt unter einer Open-Source-Lizenz gemeint (Wikipedia).
+Contributor Licence Agreement (CLA)::
+Ein Contributor Licence Agreement (CLA), auch Contributor Agreement genannt, ist ein Dokument, das die Bedingungen festlegt, unter denen geistiges Eigentum zu einem Projekt oder Vorhaben beigetragen werden kann. Damit ist üblicherweise ein Softwareprojekt unter einer Open-Source-Lizenz gemeint (Wikipedia).
 
-|DTI
-|Sektor Digitale Transformation und IKT-Lenkung. Teil der Bundeskanzlei BK
+DTI::
+Sektor Digitale Transformation und IKT-Lenkung. Teil der Bundeskanzlei BK
 
-|eOperations
-|eOperations Schweiz ermöglicht gemeinsame digitale öffentliche Dienstleistungen für Bund, Kantone und Gemeinden. https://www.eoperations.ch[www.eoperations.ch]
+eOperations::
+eOperations Schweiz ermöglicht gemeinsame digitale öffentliche Dienstleistungen für Bund, Kantone und Gemeinden. https://www.eoperations.ch[www.eoperations.ch]
 
-|ISB
-|Informatiksteuerungsorgan des Bundes. Vorgänger von BK-DTI
+ISB::
+Informatiksteuerungsorgan des Bundes. Vorgänger von BK-DTI
 
-|BBL
-|Bundesamt für Bauten und Logistik
+BBL::
+Bundesamt für Bauten und Logistik
 
-|Lebenszyklus
-|Ein Softwarelebenszyklus beschreibt den Prozess der Softwareentwicklung mit dem Ziel, dem Kunden Software bereitzustellen. In der Regel beginnt der Zyklus mit einem vom Kunden erkannten Problem und dessen Analyse und endet auf Kundenseite mit der Ablösung der Software durch eine Nachfolgelösung.
+Lebenszyklus::
+Ein Softwarelebenszyklus beschreibt den Prozess der Softwareentwicklung mit dem Ziel, dem Kunden Software bereitzustellen. In der Regel beginnt der Zyklus mit einem vom Kunden erkannten Problem und dessen Analyse und endet auf Kundenseite mit der Ablösung der Software durch eine Nachfolgelösung.
 
-|Lock-in
-|Der Lock-in-Effekt bezeichnet eine enge Kundenbindung an Produkte/Dienstleistungen oder an einen Anbieter, die einen Produkt- oder Anbieterwechsel für die Kundschaft aufgrund der damit verbundenen Kosten und weiterer Hürden erschwert.
+Lock-in::
+Der Lock-in-Effekt bezeichnet eine enge Kundenbindung an Produkte/Dienstleistungen oder an einen Anbieter, die einen Produkt- oder Anbieterwechsel für die Kundschaft aufgrund der damit verbundenen Kosten und weiterer Hürden erschwert.
 
-|Marktanalyse
-a|Eine spezifische Marktanalyse dient dazu, Informationen zum aktuellen und potenziellen Beschaffungsmarkt zu ermitteln und aufzubereiten. Zweck der Marktanalyse ist es, Marktstrukturen und insbesondere die Anbieterstruktur hinsichtlich aller massgebenden Merkmale zu ermitteln und zu verstehen: Preissituation (hoch, tief, Schwankungen); Marktgrösse; geografische Verteilung potenzieller Anbieter und Hauptakteure usw. (siehe https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
+Marktanalyse::
+Eine spezifische Marktanalyse dient dazu, Informationen zum aktuellen und potenziellen Beschaffungsmarkt zu ermitteln und aufzubereiten. Zweck der Marktanalyse ist es, Marktstrukturen und insbesondere die Anbieterstruktur hinsichtlich aller massgebenden Merkmale zu ermitteln und zu verstehen: Preissituation (hoch, tief, Schwankungen); Marktgrösse; geografische Verteilung potenzieller Anbieter und Hauptakteure usw. (siehe https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
 Mögliche Quellen für OSS-Software finden sich in link:em002-1.pdf[Em002-1 Praxisleitfaden OSS] in Kapitel 7.
 
-|Produkt
-a|Hier als Synonym für «Anwendung» verwendet. +
+Produkt::
+Hier als Synonym für «Anwendung» verwendet. +
 Der Begriff stammt aus ITIL. In ITIL (Information Technology Infrastructure Library) ist ein Produkt eine Konfiguration von Ressourcen, die darauf ausgelegt ist, einem Kunden oder einer Organisation Wert zu liefern. Anders als eine Dienstleistung, die typischerweise ein laufender, interaktiver Prozess ist, ist ein Produkt eine statische Einheit. +
 Produkte können Software, Hardware, Daten oder andere von der Organisation bereitgestellte Ressourcen sein. (Google AI)
 
-|Produktstandardisierung
-|In diesem Dokument bezieht sich Standardisierung in erster Linie auf SD120, die IKT-Standarddienstleistung für Büroautomation, und weitere Standardisierungen von DTI.
+Produktstandardisierung::
+In diesem Dokument bezieht sich Standardisierung in erster Linie auf SD120, die IKT-Standarddienstleistung für Büroautomation, und weitere Standardisierungen von DTI.
 
-|SBOM
-|Eine Software Bill of Materials (SBOM) ist eine Inventarliste aller Komponenten und Softwareabhängigkeiten, die Teil der Entwicklung und Bereitstellung einer Software sind.
+SBOM::
+Eine Software Bill of Materials (SBOM) ist eine Inventarliste aller Komponenten und Softwareabhängigkeiten, die Teil der Entwicklung und Bereitstellung einer Software sind.
 
-|Subskription
-|Beim Abonnieren von Software wird eine Subskription abgeschlossen. Das bedeutet, dass die Software nicht gekauft wird. +
+Subskription::
+Beim Abonnieren von Software wird eine Subskription abgeschlossen. Das bedeutet, dass die Software nicht gekauft wird. +
 In den meisten Fällen umfasst dies nicht nur die Erlaubnis zur Nutzung der Software, sondern auch alle massgebenden Leistungen und den Support.
 
-|Upstream-Projekt
-|Upstream ist ein Begriff aus der verteilten Softwareentwicklung (oft Open Source) und bezeichnet die Richtung eines Patches zu seinem Ursprung (upstream), also zu den ursprünglichen Entwickelnden oder Betreuenden der Software bzw. zum ursprünglichen Projekt. Dies können auch Softwarebibliotheken sein.
+Upstream-Projekt::
+Upstream ist ein Begriff aus der verteilten Softwareentwicklung (oft Open Source) und bezeichnet die Richtung eines Patches zu seinem Ursprung (upstream), also zu den ursprünglichen Entwickelnden oder Betreuenden der Software bzw. zum ursprünglichen Projekt. Dies können auch Softwarebibliotheken sein.
 
-|ZenDiS
-|ZenDiS ist eine Gesellschaft mit beschränkter Haftung (GmbH) in öffentlicher Hand in Deutschland. Sie unterstützt Bund, Länder und Kommunen bei der Umsetzung der digitalen Souveränität. Mit opencode.de und container.gov.de bietet sie eine Plattform für sichere Open-Source-Entwicklung. (https://www.zendis.de[www.zendis.de])
+ZenDiS::
+ZenDiS ist eine Gesellschaft mit beschränkter Haftung (GmbH) in öffentlicher Hand in Deutschland. Sie unterstützt Bund, Länder und Kommunen bei der Umsetzung der digitalen Souveränität. Mit opencode.de und container.gov.de bietet sie eine Plattform für sichere Open-Source-Entwicklung. (https://www.zendis.de[www.zendis.de])
 
-|Zero-Day-Exploit
-|Ein Zero-Day-Exploit bezeichnet die Ausnutzung einer Sicherheitslücke, für die noch kein Patch des Komponentenherstellers verfügbar ist.
-|===
+Zero-Day-Exploit::
+Ein Zero-Day-Exploit bezeichnet die Ausnutzung einer Sicherheitslücke, für die noch kein Patch des Komponentenherstellers verfügbar ist.
 endif::[]
 
 ifeval::["{lang}" == "fr"]
@@ -1676,10 +1662,9 @@ Par l'art. 9 LMETA, l'administration fédérale apporte une contribution importa
 
 La souveraineté numérique n'est pas une fin en soi, mais une condition préalable à une administration efficace, démocratique et tournée vers l'avenir. Il s'agit d'un concept à multiples facettes comportant des dimensions technologiques, organisationnelles et politiques.
 
-[cols="1"]
-|===
-| *La souveraineté numérique signifie que l'État dispose du contrôle et de la capacité d'action nécessaires dans l'espace numérique afin de garantir l'accomplissement des tâches publiques.*
-|===
+****
+*La souveraineté numérique signifie que l'État dispose du contrôle et de la capacité d'action nécessaires dans l'espace numérique afin de garantir l'accomplissement des tâches publiques.*
+****
 
 Lors de l'acquisition de logiciels en particulier, il convient de tenir compte des implications pour la souveraineté numérique de l'administration fédérale.
 
@@ -2253,58 +2238,55 @@ Remarque : l'autorité fédérale étant tenue de publier les logiciels qu'elle 
 
 Une part importante des références est _déjà mentionnée dans les Em002 Lignes directrices stratégiques pour les logiciels open source dans l'administration fédérale_.
 
-[cols="1,4"]
-|===
-|[A029]
-a|Standard de produit pour les logiciels clients de bureautique +
+[A029]::
+Standard de produit pour les logiciels clients de bureautique +
 Intranet : +https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/standards/a029-bab_client_software.html+
 
-|[BBL2015]
-|Aide-mémoire : appels d'offres de logiciels : garantir une large concurrence ; 2015 ; n'est plus en vigueur
+[BBL2015]::
+Aide-mémoire : appels d'offres de logiciels : garantir une large concurrence ; 2015 ; n'est plus en vigueur
 
-|[BITKOM2024]
-|Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
+[BITKOM2024]::
+Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
 
-|[BöB]
-|Loi fédérale sur les marchés publics (LMP) https://www.fedlex.admin.ch/eli/oc/2020/126/fr
+[BöB]::
+Loi fédérale sur les marchés publics (LMP) https://www.fedlex.admin.ch/eli/oc/2020/126/fr
 
-|[DigiV]
-|Ordonnance sur les prestations numériques et la transformation numérique au sein de l'administration fédérale (ONum) RS 172.019.1 — Ordonnance du 2 avril 2025 \| Fedlex
+[DigiV]::
+Ordonnance sur les prestations numériques et la transformation numérique au sein de l'administration fédérale (ONum) RS 172.019.1 — Ordonnance du 2 avril 2025 | Fedlex
 
-|[BBL-WL]
-a|Directives Open Source dans les acquisitions : achat de logiciels conformément à l'art. 9 LMETA ; OFCL ; sur l'intranet : +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-WL]::
+Directives Open Source dans les acquisitions : achat de logiciels conformément à l'art. 9 LMETA ; OFCL ; sur l'intranet : +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[BBL-CL]
-a|pour l'exception forfaitaire selon l'art. 9 LMETA, OFCL, sur l'intranet : +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-CL]::
+pour l'exception forfaitaire selon l'art. 9 LMETA, OFCL, sur l'intranet : +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[KKB-MB]
-a|Aide-mémoire : acquisition de logiciels et art. 9 LMETA du Centre de compétence des marchés publics de la Confédération : +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
+[KKB-MB]::
+Aide-mémoire : acquisition de logiciels et art. 9 LMETA du Centre de compétence des marchés publics de la Confédération : +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
 
-|[KBB-KV]
-a|Critères types — Acquisition et LMETA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
+[KBB-KV]::
+Critères types — Acquisition et LMETA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
 Textes contractuels types — Développement logiciel +https://perimap.admin.ch/goto_perimap_file_47059_download.html+
 
-|[KBB-Perimap]
-|Plateforme d'apprentissage et de modèles du CCMP
+[KBB-Perimap]::
+Plateforme d'apprentissage et de modèles du CCMP
 
-|[OSBA-VK]
-|Critères d'adjudication pour l'acquisition durable de logiciels open source \| OSBA — Open Source Business Alliance
+[OSBA-VK]::
+Critères d'adjudication pour l'acquisition durable de logiciels open source | OSBA — Open Source Business Alliance
 
-|[Sto2024]
-|Brevet de compétence 3 relatif aux critères pertinents pour les acquisitions en lien avec la nouvelle _loi fédérale sur l'utilisation des moyens électroniques pour l'exécution des tâches des autorités (LMETA), fondée sur l'art. 9 (logiciels open source)_ de Reto Stoll, 2024
+[Sto2024]::
+Brevet de compétence 3 relatif aux critères pertinents pour les acquisitions en lien avec la nouvelle _loi fédérale sur l'utilisation des moyens électroniques pour l'exécution des tâches des autorités (LMETA), fondée sur l'art. 9 (logiciels open source)_ de Reto Stoll, 2024
 
-|[Stü2015]
-|Modèle d'affaires open source : valeur ajoutée de l'offre d'abonnement, Matthias Stürmer, 2015
+[Stü2015]::
+Modèle d'affaires open source : valeur ajoutée de l'offre d'abonnement, Matthias Stürmer, 2015
 
-|[Stü2024]
-|Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
+[Stü2024]::
+Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
 
-|[SIK]
-a|SIK pour l'acquisition de logiciels open source : +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
+[SIK]::
+SIK pour l'acquisition de logiciels open source : +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
 
-|[W012]
-|W012 — Directives pour la souveraineté numérique au sein de l'administration fédérale, V1.0 2025
-|===
+[W012]::
+W012 — Directives pour la souveraineté numérique au sein de l'administration fédérale, V1.0 2025
 
 == Annexe B : Glossaire
 
@@ -2314,77 +2296,74 @@ Le glossaire général du jeu de documents Em002 figure dans Em002-6 FAQ-OSS.
 
 D'autres termes figurent dans la https://www.bk.admin.ch/bk/fr/home/dokumentation/sprachen/termdat.html[banque de données terminologiques TERMDAT de l'administration fédérale].
 
-[cols="1,4"]
-|===
-|Domaine d'application
-|Il s'agit des catégories de logiciels de bureautique selon [A029] et d'autres classifications.
+Domaine d'application::
+Il s'agit des catégories de logiciels de bureautique selon [A029] et d'autres classifications.
 
-|Branch
-|Une branche de développement d'un OSS.
+Branch::
+Une branche de développement d'un OSS.
 
-|CCMP
-|Centre de compétence des marchés publics de la Confédération
+CCMP::
+Centre de compétence des marchés publics de la Confédération
 
-|Collaboration
-a|Le terme collaboration vient du latin « collaborare » et signifie « travailler ensemble ».
+Collaboration::
+Le terme collaboration vient du latin « collaborare » et signifie « travailler ensemble ».
 Il décrit une manière de travailler dans laquelle plusieurs personnes ou équipes œuvrent ensemble vers un objectif commun, en apportant leurs compétences et leurs ressources. L'accent est mis sur l'échange mutuel, la transparence et le partage des connaissances. +
 Selon le Gabler Wirtschaftslexikon, la collaboration désigne aussi la « coopération entre une entreprise et ses clients et fournisseurs, recourant aux technologies de l'information modernes pour intégrer les processus d'affaires internes et interentreprises ».
 
-|Committer
-|Un committer est une personne qui inscrit une modification de données dans un système de gestion de versions.
+Committer::
+Un committer est une personne qui inscrit une modification de données dans un système de gestion de versions.
 
-|Contribution
-|La contribution OSS désigne l'apport au développement et à l'amélioration de logiciels open source (OSS). Cela peut prendre la forme de code, de documentation, de tests, de retours ou d'autres types de contributions. (Google AI)
+Contribution::
+La contribution OSS désigne l'apport au développement et à l'amélioration de logiciels open source (OSS). Cela peut prendre la forme de code, de documentation, de tests, de retours ou d'autres types de contributions. (Google AI)
 
-|Contributor Licence Agreement (CLA)
-|Un Contributor Licence Agreement (CLA), également appelé Contributor Agreement, est un document qui fixe les conditions auxquelles de la propriété intellectuelle peut être apportée à un projet ou à une initiative. Il s'agit généralement d'un projet logiciel placé sous licence open source (Wikipédia).
+Contributor Licence Agreement (CLA)::
+Un Contributor Licence Agreement (CLA), également appelé Contributor Agreement, est un document qui fixe les conditions auxquelles de la propriété intellectuelle peut être apportée à un projet ou à une initiative. Il s'agit généralement d'un projet logiciel placé sous licence open source (Wikipédia).
 
-|TNI
-|Secteur Transformation numérique et gouvernance de l'informatique. Fait partie de la Chancellerie fédérale ChF
+TNI::
+Secteur Transformation numérique et gouvernance de l'informatique. Fait partie de la Chancellerie fédérale ChF
 
-|eOperations
-|eOperations Suisse permet des prestations publiques numériques communes pour la Confédération, les cantons et les communes. https://www.eoperations.ch[www.eoperations.ch]
+eOperations::
+eOperations Suisse permet des prestations publiques numériques communes pour la Confédération, les cantons et les communes. https://www.eoperations.ch[www.eoperations.ch]
 
-|USIC
-|Unité de pilotage informatique de la Confédération. Prédécesseur de ChF-TNI
+USIC::
+Unité de pilotage informatique de la Confédération. Prédécesseur de ChF-TNI
 
-|OFCL
-|Office fédéral des constructions et de la logistique
+OFCL::
+Office fédéral des constructions et de la logistique
 
-|Cycle de vie
-|Un cycle de vie logiciel décrit le processus de développement logiciel visant à mettre un logiciel à disposition du client. En règle générale, le cycle commence par un problème identifié par le client et son analyse, et se termine du côté du client par le remplacement du logiciel par un successeur.
+Cycle de vie::
+Un cycle de vie logiciel décrit le processus de développement logiciel visant à mettre un logiciel à disposition du client. En règle générale, le cycle commence par un problème identifié par le client et son analyse, et se termine du côté du client par le remplacement du logiciel par un successeur.
 
-|Lock-in
-|L'effet de lock-in désigne une fidélisation étroite de la clientèle à des produits/services ou à un fournisseur, qui rend difficile pour le client un changement de produit ou de fournisseur en raison des coûts et des autres obstacles liés au changement.
+Lock-in::
+L'effet de lock-in désigne une fidélisation étroite de la clientèle à des produits/services ou à un fournisseur, qui rend difficile pour le client un changement de produit ou de fournisseur en raison des coûts et des autres obstacles liés au changement.
 
-|Analyse de marché
-a|Une analyse de marché spécifique sert à identifier et à traiter les informations relatives au marché d'acquisition actuel et potentiel. L'analyse de marché a pour but d'identifier et de comprendre les structures du marché et, en particulier, la structure des fournisseurs au regard de toutes les caractéristiques déterminantes : situation des prix (élevés, bas, fluctuations) ; taille du marché ; répartition géographique des fournisseurs potentiels et des acteurs principaux, etc. (voir https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
+Analyse de marché::
+Une analyse de marché spécifique sert à identifier et à traiter les informations relatives au marché d'acquisition actuel et potentiel. L'analyse de marché a pour but d'identifier et de comprendre les structures du marché et, en particulier, la structure des fournisseurs au regard de toutes les caractéristiques déterminantes : situation des prix (élevés, bas, fluctuations) ; taille du marché ; répartition géographique des fournisseurs potentiels et des acteurs principaux, etc. (voir https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
 Les sources possibles de logiciels OSS figurent dans link:em002-1.pdf[Em002-1 Guide pratique OSS], chapitre 7.
 
-|Produit
-a|Utilisé ici comme synonyme d'« application ». +
+Produit::
+Utilisé ici comme synonyme d'« application ». +
 Le terme provient d'ITIL. Dans ITIL (Information Technology Infrastructure Library), un produit est une configuration de ressources conçue pour apporter de la valeur à un client ou à une organisation. Contrairement à un service, qui est typiquement un processus continu et interactif, un produit est une entité statique. +
 Les produits peuvent être des logiciels, du matériel, des données ou d'autres ressources fournies par l'organisation. (Google AI)
 
-|Standardisation des produits
-|Dans le présent document, la standardisation se réfère principalement à SD120, la prestation TIC standard pour la bureautique, ainsi qu'à d'autres standardisations du secteur TNI.
+Standardisation des produits::
+Dans le présent document, la standardisation se réfère principalement à SD120, la prestation TIC standard pour la bureautique, ainsi qu'à d'autres standardisations du secteur TNI.
 
-|SBOM
-|Une Software Bill of Materials (SBOM) est une liste d'inventaire de tous les composants et dépendances logicielles qui font partie du développement et du déploiement d'un logiciel.
+SBOM::
+Une Software Bill of Materials (SBOM) est une liste d'inventaire de tous les composants et dépendances logicielles qui font partie du développement et du déploiement d'un logiciel.
 
-|Abonnement
-|Lors de l'abonnement à un logiciel, une souscription est conclue. Cela signifie que le logiciel n'est pas acheté. +
+Abonnement::
+Lors de l'abonnement à un logiciel, une souscription est conclue. Cela signifie que le logiciel n'est pas acheté. +
 Dans la plupart des cas, cela comprend non seulement l'autorisation d'utiliser le logiciel, mais aussi toutes les prestations déterminantes et le support.
 
-|Projet upstream
-|Upstream est un terme utilisé dans le développement logiciel distribué (souvent open source) et désigne la direction d'un correctif vers son origine (upstream), c'est-à-dire vers les développeurs ou mainteneurs d'origine du logiciel, ou vers le projet d'origine. Il peut aussi s'agir de bibliothèques logicielles.
+Projet upstream::
+Upstream est un terme utilisé dans le développement logiciel distribué (souvent open source) et désigne la direction d'un correctif vers son origine (upstream), c'est-à-dire vers les développeurs ou mainteneurs d'origine du logiciel, ou vers le projet d'origine. Il peut aussi s'agir de bibliothèques logicielles.
 
-|ZenDiS
-|ZenDiS est une société à responsabilité limitée (GmbH) en mains publiques en Allemagne. Elle soutient la Fédération, les Länder et les communes dans la mise en œuvre de la souveraineté numérique. Avec opencode.de et container.gov.de, elle offre une plateforme pour un développement open source sécurisé. (https://www.zendis.de[www.zendis.de])
+ZenDiS::
+ZenDiS est une société à responsabilité limitée (GmbH) en mains publiques en Allemagne. Elle soutient la Fédération, les Länder et les communes dans la mise en œuvre de la souveraineté numérique. Avec opencode.de et container.gov.de, elle offre une plateforme pour un développement open source sécurisé. (https://www.zendis.de[www.zendis.de])
 
-|Exploit zero-day
-|Un exploit zero-day désigne l'exploitation d'une faille de sécurité pour laquelle aucun correctif n'est encore disponible auprès du fabricant du composant.
-|===
+Exploit zero-day::
+Un exploit zero-day désigne l'exploitation d'une faille de sécurité pour laquelle aucun correctif n'est encore disponible auprès du fabricant du composant.
 endif::[]
 
 ifeval::["{lang}" == "it"]
@@ -2458,10 +2437,9 @@ Con l'art. 9 LMeCA l'Amministrazione federale fornisce, pubblicando il proprio s
 
 La sovranità digitale non è fine a sé stessa, bensì un presupposto per un'amministrazione efficace, democratica e orientata al futuro. È un concetto sfaccettato con dimensioni tecnologiche, organizzative e politiche.
 
-[cols="1"]
-|===
-| *Sovranità digitale significa che lo Stato dispone del controllo e della capacità d'azione necessari nello spazio digitale per garantire l'adempimento dei compiti pubblici.*
-|===
+****
+*Sovranità digitale significa che lo Stato dispone del controllo e della capacità d'azione necessari nello spazio digitale per garantire l'adempimento dei compiti pubblici.*
+****
 
 In particolare nell'acquisto di software occorre considerare le ripercussioni sulla sovranità digitale dell'Amministrazione federale.
 
@@ -3035,58 +3013,55 @@ Nota: poiché l'autorità federale è tenuta a pubblicare il software che svilup
 
 Una parte considerevole dei riferimenti è _già menzionata nelle Em002 Linee guida strategiche per il software open source nell'Amministrazione federale_.
 
-[cols="1,4"]
-|===
-|[A029]
-a|Standard di prodotto per il software client di automazione d'ufficio +
+[A029]::
+Standard di prodotto per il software client di automazione d'ufficio +
 Intranet: +https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/standards/a029-bab_client_software.html+
 
-|[BBL2015]
-|Promemoria: bandi di software: garantire un'ampia concorrenza; 2015; non più in vigore
+[BBL2015]::
+Promemoria: bandi di software: garantire un'ampia concorrenza; 2015; non più in vigore
 
-|[BITKOM2024]
-|Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
+[BITKOM2024]::
+Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
 
-|[BöB]
-|Legge federale sugli appalti pubblici (LAPub) https://www.fedlex.admin.ch/eli/oc/2020/126/it
+[BöB]::
+Legge federale sugli appalti pubblici (LAPub) https://www.fedlex.admin.ch/eli/oc/2020/126/it
 
-|[DigiV]
-|Ordinanza sulle prestazioni digitali e sulla trasformazione digitale nell'Amministrazione federale (ODigit) RS 172.019.1 — Ordinanza del 2 aprile 2025 \| Fedlex
+[DigiV]::
+Ordinanza sulle prestazioni digitali e sulla trasformazione digitale nell'Amministrazione federale (ODigit) RS 172.019.1 — Ordinanza del 2 aprile 2025 | Fedlex
 
-|[BBL-WL]
-a|Direttive Open Source negli acquisti: acquisto di software conformemente all'art. 9 LMeCA; UFCL; sull'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-WL]::
+Direttive Open Source negli acquisti: acquisto di software conformemente all'art. 9 LMeCA; UFCL; sull'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[BBL-CL]
-a|per l'eccezione forfettaria secondo l'art. 9 LMeCA, UFCL, sull'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-CL]::
+per l'eccezione forfettaria secondo l'art. 9 LMeCA, UFCL, sull'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[KKB-MB]
-a|Promemoria: acquisto di software e art. 9 LMeCA del Centro di competenza per gli acquisti pubblici della Confederazione: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
+[KKB-MB]::
+Promemoria: acquisto di software e art. 9 LMeCA del Centro di competenza per gli acquisti pubblici della Confederazione: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
 
-|[KBB-KV]
-a|Criteri tipo — Acquisto e LMeCA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
+[KBB-KV]::
+Criteri tipo — Acquisto e LMeCA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
 Testi contrattuali tipo — Sviluppo software +https://perimap.admin.ch/goto_perimap_file_47059_download.html+
 
-|[KBB-Perimap]
-|Piattaforma di apprendimento e modelli del CCAP
+[KBB-Perimap]::
+Piattaforma di apprendimento e modelli del CCAP
 
-|[OSBA-VK]
-|Criteri di aggiudicazione per l'acquisto sostenibile di software open source \| OSBA — Open Source Business Alliance
+[OSBA-VK]::
+Criteri di aggiudicazione per l'acquisto sostenibile di software open source | OSBA — Open Source Business Alliance
 
-|[Sto2024]
-|Attestato di competenza 3 sui criteri rilevanti per gli acquisti in relazione alla nuova _legge federale sull'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA), fondata sull'art. 9 (software open source)_ di Reto Stoll, 2024
+[Sto2024]::
+Attestato di competenza 3 sui criteri rilevanti per gli acquisti in relazione alla nuova _legge federale sull'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA), fondata sull'art. 9 (software open source)_ di Reto Stoll, 2024
 
-|[Stü2015]
-|Modello di business open source: valore aggiunto dell'offerta di abbonamento, Matthias Stürmer, 2015
+[Stü2015]::
+Modello di business open source: valore aggiunto dell'offerta di abbonamento, Matthias Stürmer, 2015
 
-|[Stü2024]
-|Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
+[Stü2024]::
+Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
 
-|[SIK]
-a|SIK per l'acquisto di software open source: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
+[SIK]::
+SIK per l'acquisto di software open source: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
 
-|[W012]
-|W012 — Direttive per la sovranità digitale nell'Amministrazione federale, V1.0 2025
-|===
+[W012]::
+W012 — Direttive per la sovranità digitale nell'Amministrazione federale, V1.0 2025
 
 == Allegato B: Glossario
 
@@ -3096,77 +3071,74 @@ Il glossario generale della serie di documenti Em002 figura in Em002-6 FAQ-OSS.
 
 Ulteriori termini figurano nella https://www.bk.admin.ch/bk/it/home/dokumentation/sprachen/termdat.html[banca dati terminologica TERMDAT dell'Amministrazione federale].
 
-[cols="1,4"]
-|===
-|Ambito d'applicazione
-|Si intendono le categorie di software di automazione d'ufficio secondo [A029] e altre classificazioni.
+Ambito d'applicazione::
+Si intendono le categorie di software di automazione d'ufficio secondo [A029] e altre classificazioni.
 
-|Branch
-|Un ramo di sviluppo di un OSS.
+Branch::
+Un ramo di sviluppo di un OSS.
 
-|CCAP
-|Centro di competenza per gli acquisti pubblici della Confederazione
+CCAP::
+Centro di competenza per gli acquisti pubblici della Confederazione
 
-|Collaboration
-a|Il termine collaboration deriva dal latino «collaborare» e significa «lavorare insieme».
+Collaboration::
+Il termine collaboration deriva dal latino «collaborare» e significa «lavorare insieme».
 Descrive un modo di lavorare in cui più persone o team operano insieme verso un obiettivo comune, apportando le proprie capacità e risorse. Al centro figurano lo scambio reciproco, la trasparenza e la condivisione delle conoscenze. +
 Secondo il Gabler Wirtschaftslexikon, collaboration designa anche la «cooperazione tra un'impresa e i suoi clienti e fornitori, ricorrendo alle moderne tecnologie dell'informazione per integrare i processi aziendali interni e interaziendali».
 
-|Committer
-|Un committer è una persona che inserisce una modifica dei dati in un sistema di gestione delle versioni.
+Committer::
+Un committer è una persona che inserisce una modifica dei dati in un sistema di gestione delle versioni.
 
-|Contribution
-|La contribution OSS designa il contributo allo sviluppo e al miglioramento di software open source (OSS). Ciò può avvenire sotto forma di codice, documentazione, test, riscontri o altri tipi di contributi. (Google AI)
+Contribution::
+La contribution OSS designa il contributo allo sviluppo e al miglioramento di software open source (OSS). Ciò può avvenire sotto forma di codice, documentazione, test, riscontri o altri tipi di contributi. (Google AI)
 
-|Contributor Licence Agreement (CLA)
-|Un Contributor Licence Agreement (CLA), detto anche Contributor Agreement, è un documento che stabilisce le condizioni alle quali è possibile apportare proprietà intellettuale a un progetto o a un'iniziativa. Di regola si tratta di un progetto software soggetto a una licenza open source (Wikipedia).
+Contributor Licence Agreement (CLA)::
+Un Contributor Licence Agreement (CLA), detto anche Contributor Agreement, è un documento che stabilisce le condizioni alle quali è possibile apportare proprietà intellettuale a un progetto o a un'iniziativa. Di regola si tratta di un progetto software soggetto a una licenza open source (Wikipedia).
 
-|TDI
-|Settore Trasformazione digitale e governance delle TIC. Parte della Cancelleria federale CaF
+TDI::
+Settore Trasformazione digitale e governance delle TIC. Parte della Cancelleria federale CaF
 
-|eOperations
-|eOperations Svizzera consente prestazioni pubbliche digitali comuni per Confederazione, Cantoni e Comuni. https://www.eoperations.ch[www.eoperations.ch]
+eOperations::
+eOperations Svizzera consente prestazioni pubbliche digitali comuni per Confederazione, Cantoni e Comuni. https://www.eoperations.ch[www.eoperations.ch]
 
-|ODIC
-|Organo direzione informatica della Confederazione. Predecessore di CaF-TDI
+ODIC::
+Organo direzione informatica della Confederazione. Predecessore di CaF-TDI
 
-|UFCL
-|Ufficio federale delle costruzioni e della logistica
+UFCL::
+Ufficio federale delle costruzioni e della logistica
 
-|Ciclo di vita
-|Un ciclo di vita del software descrive il processo di sviluppo software volto a mettere un software a disposizione del cliente. Di regola il ciclo inizia con un problema individuato dal cliente e la sua analisi e termina, dal lato del cliente, con la sostituzione del software con uno successivo.
+Ciclo di vita::
+Un ciclo di vita del software descrive il processo di sviluppo software volto a mettere un software a disposizione del cliente. Di regola il ciclo inizia con un problema individuato dal cliente e la sua analisi e termina, dal lato del cliente, con la sostituzione del software con uno successivo.
 
-|Lock-in
-|L'effetto lock-in designa uno stretto legame della clientela a prodotti/servizi o a un fornitore, che rende difficile al cliente cambiare prodotto o fornitore a causa dei costi e di altri ostacoli connessi al cambiamento.
+Lock-in::
+L'effetto lock-in designa uno stretto legame della clientela a prodotti/servizi o a un fornitore, che rende difficile al cliente cambiare prodotto o fornitore a causa dei costi e di altri ostacoli connessi al cambiamento.
 
-|Analisi di mercato
-a|Un'analisi di mercato specifica serve a individuare ed elaborare informazioni sul mercato d'acquisto attuale e potenziale. Scopo dell'analisi di mercato è individuare e comprendere le strutture di mercato e in particolare la struttura dei fornitori riguardo a tutte le caratteristiche determinanti: situazione dei prezzi (alti, bassi, oscillazioni); dimensione del mercato; distribuzione geografica dei potenziali fornitori e degli attori principali ecc. (cfr. https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
+Analisi di mercato::
+Un'analisi di mercato specifica serve a individuare ed elaborare informazioni sul mercato d'acquisto attuale e potenziale. Scopo dell'analisi di mercato è individuare e comprendere le strutture di mercato e in particolare la struttura dei fornitori riguardo a tutte le caratteristiche determinanti: situazione dei prezzi (alti, bassi, oscillazioni); dimensione del mercato; distribuzione geografica dei potenziali fornitori e degli attori principali ecc. (cfr. https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
 Possibili fonti di software OSS figurano in link:em002-1.pdf[Em002-1 Guida pratica OSS], capitolo 7.
 
-|Prodotto
-a|Qui utilizzato come sinonimo di «applicazione». +
+Prodotto::
+Qui utilizzato come sinonimo di «applicazione». +
 Il termine proviene da ITIL. In ITIL (Information Technology Infrastructure Library) un prodotto è una configurazione di risorse concepita per fornire valore a un cliente o a un'organizzazione. Diversamente da un servizio, che è tipicamente un processo continuo e interattivo, un prodotto è un'entità statica. +
 I prodotti possono essere software, hardware, dati o altre risorse messe a disposizione dall'organizzazione. (Google AI)
 
-|Standardizzazione dei prodotti
-|Nel presente documento la standardizzazione si riferisce in primo luogo a SD120, la prestazione TIC standard per l'automazione d'ufficio, e ad altre standardizzazioni del settore TDI.
+Standardizzazione dei prodotti::
+Nel presente documento la standardizzazione si riferisce in primo luogo a SD120, la prestazione TIC standard per l'automazione d'ufficio, e ad altre standardizzazioni del settore TDI.
 
-|SBOM
-|Una Software Bill of Materials (SBOM) è un elenco d'inventario di tutti i componenti e le dipendenze software che fanno parte dello sviluppo e della distribuzione di un software.
+SBOM::
+Una Software Bill of Materials (SBOM) è un elenco d'inventario di tutti i componenti e le dipendenze software che fanno parte dello sviluppo e della distribuzione di un software.
 
-|Abbonamento
-|Abbonandosi a un software si sottoscrive una subscription. Ciò significa che il software non viene acquistato. +
+Abbonamento::
+Abbonandosi a un software si sottoscrive una subscription. Ciò significa che il software non viene acquistato. +
 Nella maggior parte dei casi ciò comprende non soltanto l'autorizzazione a utilizzare il software, ma anche tutte le prestazioni determinanti e il supporto.
 
-|Progetto upstream
-|Upstream è un termine usato nello sviluppo software distribuito (spesso open source) e designa la direzione di una patch verso la sua origine (upstream), ossia verso gli sviluppatori o i manutentori originari del software, o verso il progetto originario. Può trattarsi anche di librerie software.
+Progetto upstream::
+Upstream è un termine usato nello sviluppo software distribuito (spesso open source) e designa la direzione di una patch verso la sua origine (upstream), ossia verso gli sviluppatori o i manutentori originari del software, o verso il progetto originario. Può trattarsi anche di librerie software.
 
-|ZenDiS
-|ZenDiS è una società a garanzia limitata (GmbH) in mano pubblica in Germania. Sostiene la Federazione, i Länder e i Comuni nell'attuazione della sovranità digitale. Con opencode.de e container.gov.de offre una piattaforma per uno sviluppo open source sicuro. (https://www.zendis.de[www.zendis.de])
+ZenDiS::
+ZenDiS è una società a garanzia limitata (GmbH) in mano pubblica in Germania. Sostiene la Federazione, i Länder e i Comuni nell'attuazione della sovranità digitale. Con opencode.de e container.gov.de offre una piattaforma per uno sviluppo open source sicuro. (https://www.zendis.de[www.zendis.de])
 
-|Exploit zero-day
-|Un exploit zero-day designa lo sfruttamento di una falla di sicurezza per la quale non è ancora disponibile alcuna patch del fabbricante del componente.
-|===
+Exploit zero-day::
+Un exploit zero-day designa lo sfruttamento di una falla di sicurezza per la quale non è ancora disponibile alcuna patch del fabbricante del componente.
 endif::[]
 
 ifeval::["{lang}" == "rm"]
@@ -3240,10 +3212,9 @@ Cun l'art. 9 EMBAG dat l'administraziun federala, cun publitgar ses software sco
 
 La suveranitad digitala n'è betg in intent per sasez, mabain ina premissa per in'administraziun effizienta, democratica ed orientada al futur. Ella è in concept cun bleras fatschas cun dimensiuns tecnologicas, organisatoricas e politicas.
 
-[cols="1"]
-|===
-| *Suveranitad digitala munta che il stadi dispona da la controlla e da la capacitad d'agir necessarias en il spazi digital per garantir l'adempliment da las incumbensas statalas.*
-|===
+****
+*Suveranitad digitala munta che il stadi dispona da la controlla e da la capacitad d'agir necessarias en il spazi digital per garantir l'adempliment da las incumbensas statalas.*
+****
 
 En spezial tar l'acquist da software ston vegnir resguardads ils effects sin la suveranitad digitala da l'administraziun federala.
 
@@ -3818,58 +3789,55 @@ Indicaziun: Perquai che l'autoritad federala è obligada da publitgar il softwar
 
 Ina part considerabla da las referenzas è _gia inditgada en Em002 Directivas strategicas per software open source en l'administraziun federala_.
 
-[cols="1,4"]
-|===
-|[A029]
-a|Standard da product per software da client d'automatisaziun da biro +
+[A029]::
+Standard da product per software da client d'automatisaziun da biro +
 Intranet: +https://intranet.dti.bk.admin.ch/isb_kp/de/home/ikt-vorgaben/standards/a029-bab_client_software.html+
 
-|[BBL2015]
-|Fegl d'infurmaziun: Concurs da software: garantir ina vasta concurrenza; 2015; betg pli en vigur
+[BBL2015]::
+Fegl d'infurmaziun: Concurs da software: garantir ina vasta concurrenza; 2015; betg pli en vigur
 
-|[BITKOM2024]
-|Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
+[BITKOM2024]::
+Leitfaden Open-Source-Software 2.0. Berlin: Bitkom e. V. Bundes-verband Informationswirtschaft, Telekommunikation und neue Medien e. V. BIT-KOM. 2024. https://www.bitkom.org/Bitkom/Publikationen/Bitkom-Leitfaden-zu-Open-Source-Software-20.html
 
-|[BöB]
-|Lescha federala davart l'acquist public (LAPub) https://www.fedlex.admin.ch/eli/oc/2020/126/de
+[BöB]::
+Lescha federala davart l'acquist public (LAPub) https://www.fedlex.admin.ch/eli/oc/2020/126/de
 
-|[DigiV]
-|Ordinaziun davart las prestaziuns digitalas e la transformaziun digitala en l'administraziun federala (DigiV) CS 172.019.1 – Ordinaziun dals 2 d'avrigl 2025 \| Fedlex
+[DigiV]::
+Ordinaziun davart las prestaziuns digitalas e la transformaziun digitala en l'administraziun federala (DigiV) CS 172.019.1 – Ordinaziun dals 2 d'avrigl 2025 | Fedlex
 
-|[BBL-WL]
-a|Directiva Open Source en l'acquist: cumpra da software tenor l'art. 9 EMBAG; UFCL; en l'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-WL]::
+Directiva Open Source en l'acquist: cumpra da software tenor l'art. 9 EMBAG; UFCL; en l'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[BBL-CL]
-a|per l'excepziun integrala art. 9 EMBAG, UFCL, en l'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
+[BBL-CL]::
+per l'excepziun integrala art. 9 EMBAG, UFCL, en l'intranet: +https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html+
 
-|[KKB-MB]
-a|Fegl d'infurmaziun: Acquist da software ed art. 9 EMBAG dal Center da cumpetenza per l'acquist public da la Confederaziun: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
+[KKB-MB]::
+Fegl d'infurmaziun: Acquist da software ed art. 9 EMBAG dal Center da cumpetenza per l'acquist public da la Confederaziun: +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
 
-|[KBB-KV]
-a|Criteris models – Acquist ed EMBAG. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
+[KBB-KV]::
+Criteris models – Acquist ed EMBAG. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
 Texts da contract models – Svilup da software +https://perimap.admin.ch/goto_perimap_file_47059_download.html+
 
-|[KBB-Perimap]
-|Plattafurma d'emprender e da models dal CCA
+[KBB-Perimap]::
+Plattafurma d'emprender e da models dal CCA
 
-|[OSBA-VK]
-|Criteris d'attribuziun per l'acquist persistent da software open source \| OSBA – Open Source Business Alliance
+[OSBA-VK]::
+Criteris d'attribuziun per l'acquist persistent da software open source | OSBA – Open Source Business Alliance
 
-|[Sto2024]
-|Attestat da cumpetenza 3 davart criteris relevants per l'acquist en connex cun la nova _lescha federala davart l'utilisaziun da meds electronics per ademplir incumbensas d'autoritads (EMBAG), sa basond sin l'art. 9 (software open source)_ da Reto Stoll, 2024
+[Sto2024]::
+Attestat da cumpetenza 3 davart criteris relevants per l'acquist en connex cun la nova _lescha federala davart l'utilisaziun da meds electronics per ademplir incumbensas d'autoritads (EMBAG), sa basond sin l'art. 9 (software open source)_ da Reto Stoll, 2024
 
-|[Stü2015]
-|Model da fatschenta open source: plivalur da la purschida d'abunament, Matthias Stürmer, 2015
+[Stü2015]::
+Model da fatschenta open source: plivalur da la purschida d'abunament, Matthias Stürmer, 2015
 
-|[Stü2024]
-|Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
+[Stü2024]::
+Technological Perspective on Digital Sovereignty, Matthias Stürmer, 2024, https://arbor.bfh.ch/entities/publication/b77d2f8b-4148-4325-82cd-405fa077a28a
 
-|[SIK]
-a|SIK per l'acquist da software open source: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
+[SIK]::
+SIK per l'acquist da software open source: +https://www.parldigi.ch/de/sik-e-fuer-beschaffung-von-open-source-software/+, 2015
 
-|[W012]
-|W012 – Directivas per la suveranitad digitala en l'administraziun federala, V1.0 2025
-|===
+[W012]::
+W012 – Directivas per la suveranitad digitala en l'administraziun federala, V1.0 2025
 
 == Agiunta B: Glossari
 
@@ -3879,75 +3847,72 @@ Il glossari general per la seria da documents Em002 sa chatta en Em002-6 OSS-FAQ
 
 Ulteriurs terms sa chattan en la https://www.bk.admin.ch/bk/de/home/dokumentation/sprachen/termdat.html[banca da datas terminologica TERMDAT da l'administraziun federala].
 
-[cols="1,4"]
-|===
-|Sectur d'applicaziun
-|Cun quai èn manegiadas las categorias da software da l'automatisaziun da biro tenor [A029] ed ulteriuras repartiziuns.
+Sectur d'applicaziun::
+Cun quai èn manegiadas las categorias da software da l'automatisaziun da biro tenor [A029] ed ulteriuras repartiziuns.
 
-|Branch
-|Ina branca da svilup d'in OSS.
+Branch::
+Ina branca da svilup d'in OSS.
 
-|CCA
-|Center da cumpetenza per l'acquist public da la Confederaziun
+CCA::
+Center da cumpetenza per l'acquist public da la Confederaziun
 
-|Collaboration
-a|Il term collaboration deriva dal latin «collaborare» e munta «lavurar ensemen».
+Collaboration::
+Il term collaboration deriva dal latin «collaborare» e munta «lavurar ensemen».
 El descriva ina moda da lavurar, tar la quala pliras persunas u teams lavuran ensemen vers ina finamira cuminaivla ed inducan lur abilitads e resursas. En il center stattan il barat vicendaivel, la transparenza ed il cundivider da savida. +
 Tenor il Gabler Wirtschaftslexikon designescha collaboration era la «collavuraziun tranter ina interpresa e sias clientas e ses clients e furniturs cun utilisar modernas tecnologias d'infurmaziun per integrar process da fatschenta interns ed interinterpresarials».
 
-|Committer
-|In committer è ina persuna che endatescha ina midada da datas en in sistem da gestiun da versiuns.
+Committer::
+In committer è ina persuna che endatescha ina midada da datas en in sistem da gestiun da versiuns.
 
-|Contribution
-|Contribution OSS designescha la contribuziun al svilup ed al meglierament da software open source (OSS). Quai po capitar en furma da code, documentaziun, tests, resuns u auters geners da contribuziuns. (Google AI)
+Contribution::
+Contribution OSS designescha la contribuziun al svilup ed al meglierament da software open source (OSS). Quai po capitar en furma da code, documentaziun, tests, resuns u auters geners da contribuziuns. (Google AI)
 
-|Contributor Licence Agreement (CLA)
-|In Contributor Licence Agreement (CLA), numnà era Contributor Agreement, è in document che fixescha las cundiziuns, sut las qualas proprietad intellectuala po vegnir contribuida ad in project u ad in'interpresa. Cun quai è per ordinari manegià in project da software sut ina licenza open source (Wikipedia).
+Contributor Licence Agreement (CLA)::
+In Contributor Licence Agreement (CLA), numnà era Contributor Agreement, è in document che fixescha las cundiziuns, sut las qualas proprietad intellectuala po vegnir contribuida ad in project u ad in'interpresa. Cun quai è per ordinari manegià in project da software sut ina licenza open source (Wikipedia).
 
-|TDT
-|Sectur Transformaziun digitala e direcziun TIC. Part da la Chanzlia federala ChF
+TDT::
+Sectur Transformaziun digitala e direcziun TIC. Part da la Chanzlia federala ChF
 
-|eOperations
-|eOperations Svizra pussibilitescha prestaziuns publicas digitalas cuminaivlas per la Confederaziun, ils chantuns e las vischnancas. https://www.eoperations.ch[www.eoperations.ch]
+eOperations::
+eOperations Svizra pussibilitescha prestaziuns publicas digitalas cuminaivlas per la Confederaziun, ils chantuns e las vischnancas. https://www.eoperations.ch[www.eoperations.ch]
 
-|ISB
-|Organ da direcziun d'informatica da la Confederaziun. Predecessur da ChF-TDT
+ISB::
+Organ da direcziun d'informatica da la Confederaziun. Predecessur da ChF-TDT
 
-|UFCL
-|Uffizi federal per edifizis e logistica
+UFCL::
+Uffizi federal per edifizis e logistica
 
-|Ciclus da vita
-|In ciclus da vita da software descriva il process dal svilup da software cun la finamira da metter a disposiziun software al client. Da regla cumenza il ciclus cun in problem renconuschì dal client e sia analisa e finescha da la vart dal client cun la remplazzada dal software tras in successur.
+Ciclus da vita::
+In ciclus da vita da software descriva il process dal svilup da software cun la finamira da metter a disposiziun software al client. Da regla cumenza il ciclus cun in problem renconuschì dal client e sia analisa e finescha da la vart dal client cun la remplazzada dal software tras in successur.
 
-|Lock-in
-|L'effect lock-in designescha ina stretga liaziun da la clientella a products/prestaziuns u ad in purschider, che renda difficil per la clientella ina midada da product u da purschider pervia dals custs e d'ulteriuras savas colliadas cun la midada.
+Lock-in::
+L'effect lock-in designescha ina stretga liaziun da la clientella a products/prestaziuns u ad in purschider, che renda difficil per la clientella ina midada da product u da purschider pervia dals custs e d'ulteriuras savas colliadas cun la midada.
 
-|Analisa dal martgà
-a|Ina analisa dal martgà specifica serva ad eruir ed elavurar infurmaziuns davart il martgà d'acquist actual e potenzial. L'intent da l'analisa dal martgà è d'eruir e da chapir las structuras dal martgà ed en spezial la structura dals purschiders areguard tuttas caracteristicas determinantas: situaziun dals pretschs (auts, bass, fluctuaziuns); grondezza dal martgà; repartiziun geografica dals purschiders potenzials e dals acturs principals etc. (vesair https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
+Analisa dal martgà::
+Ina analisa dal martgà specifica serva ad eruir ed elavurar infurmaziuns davart il martgà d'acquist actual e potenzial. L'intent da l'analisa dal martgà è d'eruir e da chapir las structuras dal martgà ed en spezial la structura dals purschiders areguard tuttas caracteristicas determinantas: situaziun dals pretschs (auts, bass, fluctuaziuns); grondezza dal martgà; repartiziun geografica dals purschiders potenzials e dals acturs principals etc. (vesair https://perimap.admin.ch/goto_perimap_file_38221_download.html). +
 Funtaunas pussaivlas per software OSS sa chattan en link:em002-1.pdf[Em002-1 Guida pratica OSS] en il chapitel 7.
 
-|Product
-a|Qua duvrà sco sinonim per «applicaziun». +
+Product::
+Qua duvrà sco sinonim per «applicaziun». +
 Il term deriva da ITIL. En ITIL (Information Technology Infrastructure Library) è in product ina configuraziun da resursas ch'è concepida per furnir valur ad in client u ad ina organisaziun. Cuntrari ad in servetsch, ch'è tipicamain in process currant ed interactiv, è in product ina unitad statica. +
 Products pon esser software, hardware, datas u autras resursas mess a disposiziun da l'organisaziun. (Google AI)
 
-|Standardisaziun dals products
-|En quest document sa referescha la standardisaziun en emprima lingia a SD120, la prestaziun standard TIC per l'automatisaziun da biro, ed ad ulteriuras standardisaziuns dal sectur TDT.
+Standardisaziun dals products::
+En quest document sa referescha la standardisaziun en emprima lingia a SD120, la prestaziun standard TIC per l'automatisaziun da biro, ed ad ulteriuras standardisaziuns dal sectur TDT.
 
-|SBOM
-|Ina Software Bill of Materials (SBOM) è ina glista d'inventari da tuttas cumponentas e dependenzas da software che fan part dal svilup e da la messa a disposiziun d'in software.
+SBOM::
+Ina Software Bill of Materials (SBOM) è ina glista d'inventari da tuttas cumponentas e dependenzas da software che fan part dal svilup e da la messa a disposiziun d'in software.
 
-|Abunament
-|Tar l'abunament d'in software vegn concludida ina subscripziun. Quai munta che il software na vegn betg cumprà. +
+Abunament::
+Tar l'abunament d'in software vegn concludida ina subscripziun. Quai munta che il software na vegn betg cumprà. +
 En la gronda part dals cas cumpiglia quai betg mo il permiss d'utilisar il software, mabain era tuttas prestaziuns determinantas ed il support.
 
-|Project upstream
-|Upstream è in term dal svilup da software distribuì (savens open source) e designescha la direcziun d'in patch vers sia origin (upstream), pia vers las sviluppadras ed ils sviluppaders originals u las tgiraduras ed ils tgiraders dal software resp. vers il project original. Quai pon era esser bibliotecas da software.
+Project upstream::
+Upstream è in term dal svilup da software distribuì (savens open source) e designescha la direcziun d'in patch vers sia origin (upstream), pia vers las sviluppadras ed ils sviluppaders originals u las tgiraduras ed ils tgiraders dal software resp. vers il project original. Quai pon era esser bibliotecas da software.
 
-|ZenDiS
-|ZenDiS è ina societad cun responsabladad limitada (GmbH) en maun public en Germania. Ella sustegna la Confederaziun, ils Länder e las vischnancas en la realisaziun da la suveranitad digitala. Cun opencode.de e container.gov.de porscha ella ina plattafurma per in svilup open source segir. (https://www.zendis.de[www.zendis.de])
+ZenDiS::
+ZenDiS è ina societad cun responsabladad limitada (GmbH) en maun public en Germania. Ella sustegna la Confederaziun, ils Länder e las vischnancas en la realisaziun da la suveranitad digitala. Cun opencode.de e container.gov.de porscha ella ina plattafurma per in svilup open source segir. (https://www.zendis.de[www.zendis.de])
 
-|Zero-day-exploit
-|In zero-day-exploit designescha l'exploataziun d'ina largia da segirezza, per la quala i n'è anc disponibel nagin patch dal fabricant da la cumponenta.
-|===
+Zero-day-exploit::
+In zero-day-exploit designescha l'exploataziun d'ina largia da segirezza, per la quala i n'è anc disponibel nagin patch dal fabricant da la cumponenta.
 endif::[]
