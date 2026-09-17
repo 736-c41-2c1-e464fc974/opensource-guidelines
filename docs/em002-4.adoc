@@ -379,32 +379,21 @@ The basic methodology of development can also have an influence on the type of c
 
 This section provides guidance on writing the community concept based on the fundamental decisions made (as per Section 5).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|open
-|Partner
-|Federal government
-a|Contents or suggestions, if the basic decisions are: +
+open / Partner / Federal government::
+Contents or suggestions, if the basic decisions are: +
 Product management c) Open organisation +
 Supplier involvement: b) Supplier as partner +
 Cost distribution: b) Each their own +
 _The text above can be copied into the template and adapted._
 
-|Joint
-|-
-|Each their own
-a|Contents or suggestions, if the basic decisions are: +
+Joint / - / Each their own::
+Joint / - / Originator::
+Contents or suggestions, if the basic decisions are: +
 Product management b) Joint development +
 Supplier involvement: a) or b) (not relevant) +
 Cost distribution: c) Originator pays principle or d) Cost sharing
-
-|Joint
-|-
-|Originator
-|
-|===
 
 The community concept should be a dynamic document that can be adapted in consultation with the community. The concept should reflect the current situation and propose future development options. If more members join the community later, the organisation and processes can be further elaborated, and more complex mechanisms can be introduced. The following sub-sections directly follow the proposed structure of the community concept (see Section 4).
 
@@ -442,87 +431,76 @@ In principle, for new developments, the aim is for the Confederation to be the o
 
 The type of project management depends on which organisation had the lead (SAFe, HERMES) in the case of the Confederation. The organisational form should always seek minimum overhead (existing rather than new; simple partnership rather than an association).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Federal government
-|-
-|Internal
-a|As the Confederation retains direct control, no additional organisational structures are necessary. +
+Federal government / - / Internal::
+As the Confederation retains direct control, no additional organisational structures are necessary. +
 The publishing entity (e.g. a federal office) retains ownership and assumes all coordination tasks. In this case, the 'Organisation' section can be kept very brief.
 
-|Joint
-|-
-|Internal
-a|For this scenario, organisation as a *simple partnership* is usually recommended. +
+Joint / - / Internal::
+For this scenario, organisation as a *simple partnership* is usually recommended. +
 To enable joint development and coordination of the roadmap and requirements, it is advisable to create two groups, each with one participant per community member:
-
++
+--
 * Management Board: Defines the strategy and prioritisation.
 * Expert group: Develops requirements and specific content at the expert level. Depending on the scope, a separate expert group can also be established for each topic.
-
+--
++
 The owner of the code is the office that published it.
-
++
 If the structures become more complex or more than five users or additional members are involved, it may be worth considering whether the community should be better organised as an association. Compare the explanations in the variant directly below.
 
-|Joint
-|-
-|Third party
-a|Organisation as an *association* is recommended. +
+Joint / - / Third party::
+Organisation as an *association* is recommended. +
 Either a separate association is founded specifically for the application, or the application is transferred to an existing association. An association is recommended because otherwise, the distribution of costs becomes complex, and there is likely to be enough work within the coordination tasks to employ a part-time manager for the association.
-
++
 The rights to the code are then transferred to the association, which takes over community management and ordering from suppliers.
 
-|Joint
-|Contractor
-|Internal
-a|Organisation as an *association* is recommended. Either a separate association is founded specifically for the application, or the application is transferred to an existing association. An association is recommended because otherwise, the distribution of costs becomes complex, and there is likely to be enough work within the coordination tasks to employ a part-time manager for the association.
-
+Joint / Contractor / Internal::
+Organisation as an *association* is recommended. Either a separate association is founded specifically for the application, or the application is transferred to an existing association. An association is recommended because otherwise, the distribution of costs becomes complex, and there is likely to be enough work within the coordination tasks to employ a part-time manager for the association.
++
 The rights to the code are then transferred to the association, which takes over community management and ordering from suppliers. +
 Here, the suppliers are not members of the association, but only contractors. The manager should not be appointed by a supplier.
 
-|Joint
-|Contractor
-|Third party
-a|Organisation as an *association* is recommended. Either a separate association is founded specifically for the application, or the application is transferred to an existing association. An association is recommended because otherwise, the distribution of costs becomes complex, and there is likely to be enough work within the coordination tasks to employ a part-time manager for the association. +
+Joint / Contractor / Third party::
+Organisation as an *association* is recommended. Either a separate association is founded specifically for the application, or the application is transferred to an existing association. An association is recommended because otherwise, the distribution of costs becomes complex, and there is likely to be enough work within the coordination tasks to employ a part-time manager for the association. +
 The rights to the code are then transferred to the association, which takes over community management and ordering from suppliers. +
 The suppliers are members of the association; the manager can also be provided by a supplier.
 
-|open
-|-
-|Internal
-a|There is no *need for a detailed description of an organisation*, as it is deliberately designed to be open. However, it is important to establish who receives and processes external enquiries (responsibility). It should also be determined whether and to what extent external persons can be involved:
-
+open / - / Internal::
+There is no *need for a detailed description of an organisation*, as it is deliberately designed to be open. However, it is important to establish who receives and processes external enquiries (responsibility). It should also be determined whether and to what extent external persons can be involved:
++
+--
 * No direct integration: External parties can only submit suggestions and contributions (as pull requests).
 * Involvement as contributors: External parties who make frequent and good contributions are directly involved.
 * Handover to external parties possible: If, after publication, external parties contribute more to further development than the publishing organisation, the application can also be transferred to them.
-
+--
++
 The publishing organisation retains ownership. This variant corresponds to the organisation of 'classic' open source projects; see for example https://opensource.guide/leadership-and-governance/ for further information.
 
-|open
-|Contractor
-|Internal
-a|There is no *need for a detailed description of an organisation*, as it is deliberately designed to be open. However, it is important to establish who receives and processes external enquiries (responsibility). It should also be determined whether and to what extent external persons can be involved:
-
+open / Contractor / Internal::
+There is no *need for a detailed description of an organisation*, as it is deliberately designed to be open. However, it is important to establish who receives and processes external enquiries (responsibility). It should also be determined whether and to what extent external persons can be involved:
++
+--
 * No direct integration: External parties can only submit suggestions and contributions (as pull requests).
 * Involvement as contributors: External parties who make frequent and good contributions are directly involved.
 * Handover to external parties possible: If, after publication, external parties contribute more to further development than the publishing organisation, the application can also be transferred to them.
-
+--
++
 The publishing organisation retains ownership. +
 This variant corresponds to the organisation of 'classic' open source projects; see for example https://opensource.guide/leadership-and-governance/ for further information. +
 The supplier should only take on purely technical coordination tasks (code review, assessment).
 
-|Third party
-|Partner
-|Internal
-a|There is no *need for a detailed description of an organisation*, as it is deliberately designed to be open. However, it is important to establish who receives and processes external enquiries (responsibility). It should also be determined whether and to what extent external persons can be involved:
-
+Third party / Partner / Internal::
+There is no *need for a detailed description of an organisation*, as it is deliberately designed to be open. However, it is important to establish who receives and processes external enquiries (responsibility). It should also be determined whether and to what extent external persons can be involved:
++
+--
 * No direct integration: External parties can only submit suggestions and contributions (as pull requests).
 * Involvement as contributors: External parties who make frequent and good contributions are directly involved.
 * Handover to external parties possible: If, after publication, external parties contribute more to further development than the publishing organisation, the application can also be transferred to them.
-
+--
++
 The publishing organisation retains ownership. This variant corresponds to the organisation of 'classic' open source projects; see for example https://opensource.guide/leadership-and-governance/ for further information.
-|===
 
 With regard to governance, _[BITKOM2023]_ Section 4.1, _[IZqCab2023]_ or https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module7/README.md#governance-models can also be consulted.
 
@@ -532,255 +510,179 @@ NB: As the release must be guaranteed in accordance with Art. 9 EMOTA, the Feder
 
 === Roadmap and change process
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Federal government
-|Contractor
-|-
-|The federal authority defines the roadmap and decides which changes will be implemented. The standard processes of the office XY are used for this.
+Federal government / Contractor / -::
+The federal authority defines the roadmap and decides which changes will be implemented. The standard processes of the office XY are used for this.
 
-|Federal government
-|Partner
-|-
-|The federal authority defines the roadmap in collaboration with company XY. It decides which changes will be implemented. The standard processes of the office XY are used for this.
+Federal government / Partner / -::
+The federal authority defines the roadmap in collaboration with company XY. It decides which changes will be implemented. The standard processes of the office XY are used for this.
 
-|Joint
-|-
-|Internal
-a|The process for developing the roadmap and approving changes must be determined by the members of the company or association. Depending on the member structure (number, size ratio, etc.), other processes may be appropriate. +
+Joint / - / Internal::
+The process for developing the roadmap and approving changes must be determined by the members of the company or association. Depending on the member structure (number, size ratio, etc.), other processes may be appropriate. +
 However, the processes must include measures for conflict resolution and finding a majority.
 
-|Joint
-|-
-|Third party
-a|The process for developing the roadmap and approving changes must be determined by the members of the company or association. Depending on the member structure (number, size ratio, etc.), other processes may be appropriate.
-
+Joint / - / Third party::
+The process for developing the roadmap and approving changes must be determined by the members of the company or association. Depending on the member structure (number, size ratio, etc.), other processes may be appropriate.
++
 However, the processes must include measures for conflict resolution and finding a majority.
-
++
 With the addition that a cost distribution key must also be established. Consideration should also be given as to how to handle cost sharing for adjustments not desired by the relevant members. Especially in associations with members of unequal size, situations may arise where a large member (e.g. the federal authority) bears a significant portion of the costs for an extension without deriving any benefit from it.
 
-|open
-|-
-|-
-a|_Example, not suitable for all situations_ +
+open / - / -::
+_Example, not suitable for all situations_ +
 There is no need to create a roadmap; the application currently meets the needs.
-
++
 Changes are decided upon in an open discussion and a consensus is sought. The final decision lies with the owner of the code (Swiss Confederation).
-|===
 
 === Development process
 
 If open development comes into play, it should be defined here. Task distribution and naming of central positions in the community concept are important. Also, how the security of the repository content is ensured.
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Federal government
-|-
-|-
-a|The committer rights (write access to the code) lie with the persons/entities/suppliers selected by the Confederation. After the contract expires, the respective rights are revoked.
-
+Federal government / - / -::
+The committer rights (write access to the code) lie with the persons/entities/suppliers selected by the Confederation. After the contract expires, the respective rights are revoked.
++
 The service providers and suppliers are responsible for conducting the technical code review process for external contributions that have been technically accepted by the Confederation. They are responsible for the technical quality. The suppliers are compensated for this work by the Confederation.
 
-|Joint
-|Contractor
-|Internal
-a|In principle, all entities commissioned by a community member receive write access to the code (committer rights). After the contract expires, the respective rights are revoked.
-
+Joint / Contractor / Internal::
+In principle, all entities commissioned by a community member receive write access to the code (committer rights). After the contract expires, the respective rights are revoked.
++
 Where changed code affects core areas of the application, all changes must be reviewed by an entity specially commissioned by the community for this purpose. This entity is responsible for the technical quality of the application. It is also responsible for reviewing changes that have been technically accepted by the community.
 
-|Joint
-|Partner
-|Third party
-a|The committer rights (write access to the code) lie with the members of the community. These persons organise themselves and jointly bear responsibility for the quality of the code.
-
+Joint / Partner / Third party::
+The committer rights (write access to the code) lie with the members of the community. These persons organise themselves and jointly bear responsibility for the quality of the code.
++
 If a community member commissions an external supplier for an adjustment or extension, the adjustment is reviewed by a member of the community. They are compensated for this by the client.
-
++
 Changes to the core of the application must be reviewed by a second member of the community.
-
++
 The suppliers who are community members are also responsible for reviewing external contributions and new technical code that has been technically accepted by the association.
 
-|open
-|-
-|-
-a|Initially, the committer rights lie with the developers or their employers. Committer rights are granted to all developers who actively contribute to the project for several months and demonstrate appropriate social competence.
-
+open / - / -::
+Initially, the committer rights lie with the developers or their employers. Committer rights are granted to all developers who actively contribute to the project for several months and demonstrate appropriate social competence.
++
 The individual developers generally retain their committer rights, even if they change their employer or the Confederation chooses a different supplier. Committer rights only expire if they are voluntarily relinquished or if the majority of other committers decide to revoke them.
-
++
 The Confederation has the right to designate individual developers from the companies it commissions as committers. It does not have the right to revoke someone's committer rights without reason.
-
++
 Code reviews are carried out by at least one person who acts as a committer. Committers organise themselves.
-
++
 The Confederation undertakes to compensate the review work as far as it is financially feasible for them.
-|===
 
 === Cost sharing and suppliers
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Federal government
-|Contractor
-|Internal
-|Suppliers are periodically selected through WTO tenders or a direct award procedure (depending on the scope of the maintenance services).
+Federal government / Contractor / Internal::
+Suppliers are periodically selected through WTO tenders or a direct award procedure (depending on the scope of the maintenance services).
 
-|Federal government
-|Partner
-|-
-a|*Important:* Check beforehand whether this is permissible under procurement law in the specific case.
-
+Federal government / Partner / -::
+*Important:* Check beforehand whether this is permissible under procurement law in the specific case.
++
 We will make additions to the documentation on this point. The Confederation chooses the supplier XXX as a strategic partner and aims for long-term cooperation.
 
-|Joint
-|Contractor
-|Internal
-a|Each member of the community independently commissions one or more software suppliers to implement the adjustments and extensions they require. Cost sharing is agreed on a case-by-case basis for adjustments requested by several members. The member with the largest share of the costs is responsible for selecting and commissioning the supplier. (Regulations for software maintenance)
+Joint / Contractor / Internal::
+Each member of the community independently commissions one or more software suppliers to implement the adjustments and extensions they require. Cost sharing is agreed on a case-by-case basis for adjustments requested by several members. The member with the largest share of the costs is responsible for selecting and commissioning the supplier. (Regulations for software maintenance)
 
-|Joint
-|Contractor
-|Third party
-|The association centrally selects the software suppliers periodically through WTO tenders or direct award procedures (depending on the scope of maintenance services). The costs are allocated to the members according to a key: (to be defined: by population, user, etc.)
+Joint / Contractor / Third party::
+The association centrally selects the software suppliers periodically through WTO tenders or direct award procedures (depending on the scope of maintenance services). The costs are allocated to the members according to a key: (to be defined: by population, user, etc.)
 
-|Joint
-|Partner
-|Internal
-a|Each member of the community independently commissions one or more software suppliers to implement the adjustments and extensions they require. Cost sharing is agreed on a case-by-case basis for adjustments requested by several members. The member with the largest share of the costs is responsible for selecting and commissioning the supplier.
-
+Joint / Partner / Internal::
+Each member of the community independently commissions one or more software suppliers to implement the adjustments and extensions they require. Cost sharing is agreed on a case-by-case basis for adjustments requested by several members. The member with the largest share of the costs is responsible for selecting and commissioning the supplier.
++
 _(Regulations for software maintenance)_ If necessary, supplemented by a contribution from the participating suppliers. Example: _Each software development company that is a member of the community commits to investing at least XY working days per year at its own expense in the further development, technological updating, or marketing of the application._
 
-|Joint
-|Partner
-|Third party
-a|The association centrally selects the software suppliers periodically through WTO tenders or direct award procedures (depending on the scope of maintenance services). The costs are allocated to the members according to a key: (to be defined: by population, user, etc.) If necessary, supplemented by the addition: _Each software development company that is a member of the community commits to investing at least XY working days per year at its own expense in the further development, technological updating, or marketing of the application._
+Joint / Partner / Third party::
+The association centrally selects the software suppliers periodically through WTO tenders or direct award procedures (depending on the scope of maintenance services). The costs are allocated to the members according to a key: (to be defined: by population, user, etc.) If necessary, supplemented by the addition: _Each software development company that is a member of the community commits to investing at least XY working days per year at its own expense in the further development, technological updating, or marketing of the application._
 
-|Third party
-|Contractor
-|-
-a|Suppliers are periodically selected through WTO tenders or a direct award procedure (depending on the scope of the maintenance services). With the addition: _The improvements contributed by potential suppliers and activities in the community are considered as a factor in the evaluation._
-
+Third party / Contractor / -::
+Suppliers are periodically selected through WTO tenders or a direct award procedure (depending on the scope of the maintenance services). With the addition: _The improvements contributed by potential suppliers and activities in the community are considered as a factor in the evaluation._
++
 Changes requested by external parties are not financed by the Confederation, but must be commissioned and paid for by the parties themselves.
 
-|Third party
-|Partner
-|-
-a|Suppliers are periodically selected through WTO tenders or a direct award procedure (depending on the scope of the maintenance services). With the addition: _The improvements contributed by potential suppliers and activities in the community are considered as a factor in the evaluation. Changes requested by external parties are not financed by the Confederation, but must be commissioned and paid for by the parties themselves._
-|===
+Third party / Partner / -::
+Suppliers are periodically selected through WTO tenders or a direct award procedure (depending on the scope of the maintenance services). With the addition: _The improvements contributed by potential suppliers and activities in the community are considered as a factor in the evaluation. Changes requested by external parties are not financed by the Confederation, but must be commissioned and paid for by the parties themselves._
 
 === Marketing
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Federal government
-|Contractor
-|-
-|The Confederation does not actively market the application but publishes it on open-source software platforms. The publication of the application is announced in professional committees. If interested parties come forward, we will consider whether to establish a joint community or continue working with their version of the software.
+Federal government / Contractor / -::
+The Confederation does not actively market the application but publishes it on open-source software platforms. The publication of the application is announced in professional committees. If interested parties come forward, we will consider whether to establish a joint community or continue working with their version of the software.
 
-|Joint
-|Partner
-|-
-a|Additionally: +
+Joint / Partner / -::
+Additionally: +
 Suppliers may market the application and seek further interested parties. The Confederation may be cited as a reference. We consciously accept that divergent versions of the software may emerge as a result.
 
-|Joint
-|Contractor
-|Internal
-|The application is marketed by the members or the association.
+Joint / Contractor / Internal::
+The application is marketed by the members or the association.
 
-|Joint
-|Partner
-|Internal
-|The application is marketed by suppliers.
+Joint / Partner / Internal::
+The application is marketed by suppliers.
 
-|Joint
-|-
-|Third party
-|The application is marketed by the association, the simple partnership and its members.
+Joint / - / Third party::
+The application is marketed by the association, the simple partnership and its members.
 
-|open
-|-
-|-
-a|The application may be marketed by suppliers, or explicit marketing may be foregone.
-
+open / - / -::
+The application may be marketed by suppliers, or explicit marketing may be foregone.
++
 Alternative without explicit marketing: The Confederation does not actively market the application but publishes it on open-source software platforms. In professional committees, we indicate that we have published the application and that collaboration is welcome. We demonstrate the software to interested parties and attempt to integrate them into our processes for shaping the roadmap.
-|===
 
 === Handling external contributions
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Federal government
-|Contractor
-|-
-a|External contributions and enquiries must also be processed even if the Confederation remains the sole decision-maker regarding the software (except in cases of minimum release, where a fork is inevitable). We propose the following approach:
-
+Federal government / Contractor / -::
+External contributions and enquiries must also be processed even if the Confederation remains the sole decision-maker regarding the software (except in cases of minimum release, where a fork is inevitable). We propose the following approach:
++
 *Handling reported errors* +
 We attempt to reproduce errors reported by external individuals, requesting clarification if necessary. If reproduction is successful, the Confederation commissions the correction of errors. If the error cannot be verified or if the effort to fix it is disproportionately high, we apologise to the person reporting the error and ask if they could submit a pull request to address it.
-
++
 *Handling enquiries* +
 We respond to every incoming enquiry. If an enquiry cannot be resolved with reasonable effort and further time investment seems inefficient, we apologise, citing limited resources, and offer to connect the enquiring person with a supplier for further consultation.
-
++
 *Handling pull requests* +
 We review each pull request carefully. To avoid unnecessary effort on the contributor's part, we immediately indicate if something contradicts our roadmap or if it is questionable whether we will accept the contribution. The Confederation decides independently and based on technical criteria which contributions to accept. Error corrections that have passed the review process are always accepted.
-
++
 *Handling forks* +
 We support forks of our application. Those who implement the application should create their own fork. We review the resulting forks at least once a year and adopt good and suitable extensions.
 
-|Joint
-|-
-|-
-a|External refers to contributions from outside the defined community (association members). Deviations from above: +
+Joint / - / -::
+External refers to contributions from outside the defined community (association members). Deviations from above: +
 *Handling forks* +
 We aim to prevent (long-lived) forks of the application. Instead, interested parties should join the community directly. Within the community, we try to ensure all members use the main version.
 
-|Open
-|-
-|-
-a|Building a functioning community and an open culture is important to us.
-
+Open / - / -::
+Building a functioning community and an open culture is important to us.
++
 *Handling reported errors* +
 We attempt to reproduce and correct reported errors. We require active cooperation from the reporting individuals. If possible, they should create a pull request with an error correction directly.
-
++
 *Handling enquiries* +
 We address each enquiry within a maximum of one week. Enquiries from active contributors are treated with priority and in depth. We try to involve other members in handling enquiries.
-
++
 *Handling pull requests* +
 We aim to receive as many high-quality pull requests as possible. We involve all active contributors in the reviews and technical and professional assessment of pull requests. For controversial contributions, we try to reach a decision through informal voting.
-
++
 *Handling forks* +
 We try to make forks unnecessary through active and open community management. If forks do emerge, we actively review them and attempt to incorporate the extensions and improvements developed there. In such cases, we actively request pull requests.
-|===
 
 In general, it should be noted that contributions can range from supporting other users to taking responsibility for entire parts of a project (see _[BITKOM2023]_ Section 4.2).
 
 === Operation of the application
 
-[cols="1,1,1,4",options="header"]
-|===
-|Product management |Supplier as |Development |Proposal
+_Product management / Supplier as / Development -- Proposal_
 
-|Joint
-|-
-|-
-|Central operation can optionally be offered additionally by the central association, in the sense of Software as a Service (SaaS). It should be examined whether this is desired.
+Joint / - / -::
+Central operation can optionally be offered additionally by the central association, in the sense of Software as a Service (SaaS). It should be examined whether this is desired.
 
-|-
-|Partner
-|-
-|It should be specified whether the supplier should also operate the software.
+- / Partner / -::
+It should be specified whether the supplier should also operate the software.
 
-|-
-|Lead
-|-
-|It should be stated that the supplier is responsible for operation.
-|===
+- / Lead / -::
+It should be stated that the supplier is responsible for operation.
 
 Support levels and support contacts should also be specified in this section.
 
@@ -1344,32 +1246,21 @@ Auch die grundsätzliche Methodik der Entwicklung kann Einfluss auf die Art der 
 
 Dieses Kapitel gibt Hinweise zum Verfassen des Community-Konzepts auf Basis der getroffenen Grundsatzentscheide (gemäss Kapitel 5).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|offen
-|Partner
-|Bund
-a|Inhalte oder Vorschläge, wenn die Grundsatzentscheide lauten: +
+offen / Partner / Bund::
+Inhalte oder Vorschläge, wenn die Grundsatzentscheide lauten: +
 Produktmanagement c) Offene Organisation +
 Einbindung der Lieferanten: b) Lieferant als Partner +
 Kostenverteilung: b) Jede und jeder für sich +
 _Der obige Text kann in die Vorlage kopiert und angepasst werden._
 
-|Gemeinsam
-|-
-|Jede und jeder für sich
-a|Inhalte oder Vorschläge, wenn die Grundsatzentscheide lauten: +
+Gemeinsam / - / Jede und jeder für sich::
+Gemeinsam / - / Verursacher::
+Inhalte oder Vorschläge, wenn die Grundsatzentscheide lauten: +
 Produktmanagement b) Gemeinsame Entwicklung +
 Einbindung der Lieferanten: a) oder b) (nicht relevant) +
 Kostenverteilung: c) Verursacherprinzip oder d) Kostenteilung
-
-|Gemeinsam
-|-
-|Verursacher
-|
-|===
 
 Das Community-Konzept sollte ein dynamisches Dokument sein, das in Absprache mit der Community angepasst werden kann. Das Konzept sollte die aktuelle Situation abbilden und künftige Entwicklungsoptionen vorschlagen. Treten später weitere Mitglieder der Community bei, so können Organisation und Prozesse weiter ausgearbeitet und komplexere Mechanismen eingeführt werden. Die folgenden Unterkapitel folgen direkt der vorgeschlagenen Struktur des Community-Konzepts (siehe Kapitel 4).
 
@@ -1407,87 +1298,76 @@ Grundsätzlich wird bei Neuentwicklungen angestrebt, dass der Bund Inhaber der H
 
 Die Art der Projektführung hängt davon ab, welche Organisation beim Bund die Führung hatte (SAFe, HERMES). Bei der Organisationsform ist stets ein minimaler Overhead anzustreben (bestehendes statt neues Gefäss; einfache Gesellschaft statt Verein).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Bund
-|-
-|Intern
-a|Da der Bund die direkte Kontrolle behält, sind keine zusätzlichen Organisationsstrukturen nötig. +
+Bund / - / Intern::
+Da der Bund die direkte Kontrolle behält, sind keine zusätzlichen Organisationsstrukturen nötig. +
 Die veröffentlichende Stelle (z. B. ein Bundesamt) bleibt Eigentümerin und übernimmt sämtliche Koordinationsaufgaben. In diesem Fall kann das Kapitel «Organisation» sehr kurz gehalten werden.
 
-|Gemeinsam
-|-
-|Intern
-a|Für dieses Szenario wird in der Regel die Organisation als *einfache Gesellschaft* empfohlen. +
+Gemeinsam / - / Intern::
+Für dieses Szenario wird in der Regel die Organisation als *einfache Gesellschaft* empfohlen. +
 Damit die gemeinsame Entwicklung und die Abstimmung von Roadmap und Anforderungen möglich sind, empfiehlt es sich, zwei Gremien mit je einer teilnehmenden Person pro Community-Mitglied zu bilden:
-
++
+--
 * Steuerungsgremium: definiert Strategie und Priorisierung.
 * Fachgruppe: erarbeitet Anforderungen und konkrete Inhalte auf Fachebene. Je nach Umfang kann auch je Thema eine eigene Fachgruppe eingesetzt werden.
-
+--
++
 Eigentümerin des Codes ist das Amt, das ihn veröffentlicht hat.
-
++
 Werden die Strukturen komplexer oder sind mehr als fünf Nutzende bzw. zusätzliche Mitglieder beteiligt, so kann es sich lohnen zu prüfen, ob die Community besser als Verein organisiert werden sollte. Vergleiche die Erläuterungen in der Variante direkt darunter.
 
-|Gemeinsam
-|-
-|Dritte
-a|Empfohlen wird die Organisation als *Verein*. +
+Gemeinsam / - / Dritte::
+Empfohlen wird die Organisation als *Verein*. +
 Entweder wird eigens für die Anwendung ein Verein gegründet, oder die Anwendung wird an einen bestehenden Verein übertragen. Ein Verein wird empfohlen, weil sonst die Kostenverteilung komplex wird und innerhalb der Koordinationsaufgaben voraussichtlich genügend Arbeit anfällt, um eine Geschäftsführung in Teilzeit für den Verein anzustellen.
-
++
 Die Rechte am Code werden dann an den Verein übertragen, der das Community-Management und die Bestellungen bei Lieferanten übernimmt.
 
-|Gemeinsam
-|Auftragnehmer
-|Intern
-a|Empfohlen wird die Organisation als *Verein*. Entweder wird eigens für die Anwendung ein Verein gegründet, oder die Anwendung wird an einen bestehenden Verein übertragen. Ein Verein wird empfohlen, weil sonst die Kostenverteilung komplex wird und innerhalb der Koordinationsaufgaben voraussichtlich genügend Arbeit anfällt, um eine Geschäftsführung in Teilzeit für den Verein anzustellen.
-
+Gemeinsam / Auftragnehmer / Intern::
+Empfohlen wird die Organisation als *Verein*. Entweder wird eigens für die Anwendung ein Verein gegründet, oder die Anwendung wird an einen bestehenden Verein übertragen. Ein Verein wird empfohlen, weil sonst die Kostenverteilung komplex wird und innerhalb der Koordinationsaufgaben voraussichtlich genügend Arbeit anfällt, um eine Geschäftsführung in Teilzeit für den Verein anzustellen.
++
 Die Rechte am Code werden dann an den Verein übertragen, der das Community-Management und die Bestellungen bei Lieferanten übernimmt. +
 Hier sind die Lieferanten nicht Mitglieder des Vereins, sondern lediglich Auftragnehmer. Die Geschäftsführung sollte nicht von einem Lieferanten gestellt werden.
 
-|Gemeinsam
-|Auftragnehmer
-|Dritte
-a|Empfohlen wird die Organisation als *Verein*. Entweder wird eigens für die Anwendung ein Verein gegründet, oder die Anwendung wird an einen bestehenden Verein übertragen. Ein Verein wird empfohlen, weil sonst die Kostenverteilung komplex wird und innerhalb der Koordinationsaufgaben voraussichtlich genügend Arbeit anfällt, um eine Geschäftsführung in Teilzeit für den Verein anzustellen. +
+Gemeinsam / Auftragnehmer / Dritte::
+Empfohlen wird die Organisation als *Verein*. Entweder wird eigens für die Anwendung ein Verein gegründet, oder die Anwendung wird an einen bestehenden Verein übertragen. Ein Verein wird empfohlen, weil sonst die Kostenverteilung komplex wird und innerhalb der Koordinationsaufgaben voraussichtlich genügend Arbeit anfällt, um eine Geschäftsführung in Teilzeit für den Verein anzustellen. +
 Die Rechte am Code werden dann an den Verein übertragen, der das Community-Management und die Bestellungen bei Lieferanten übernimmt. +
 Die Lieferanten sind Mitglieder des Vereins; die Geschäftsführung kann auch von einem Lieferanten gestellt werden.
 
-|offen
-|-
-|Intern
-a|Es besteht *kein Bedarf für eine detaillierte Beschreibung einer Organisation*, da sie bewusst offen gestaltet ist. Wichtig ist jedoch festzulegen, wer externe Anfragen entgegennimmt und bearbeitet (Verantwortung). Zudem ist zu bestimmen, ob und in welchem Umfang externe Personen einbezogen werden können:
-
+offen / - / Intern::
+Es besteht *kein Bedarf für eine detaillierte Beschreibung einer Organisation*, da sie bewusst offen gestaltet ist. Wichtig ist jedoch festzulegen, wer externe Anfragen entgegennimmt und bearbeitet (Verantwortung). Zudem ist zu bestimmen, ob und in welchem Umfang externe Personen einbezogen werden können:
++
+--
 * Keine direkte Einbindung: Externe können nur Vorschläge und Beiträge einreichen (als Pull Requests).
 * Einbindung als Contributors: Externe, die häufig und gute Beiträge leisten, werden direkt eingebunden.
 * Übergabe an Externe möglich: Tragen nach der Veröffentlichung Externe mehr zur Weiterentwicklung bei als die veröffentlichende Organisation, so kann die Anwendung auch an sie übertragen werden.
-
+--
++
 Die veröffentlichende Organisation bleibt Eigentümerin. Diese Variante entspricht der Organisation «klassischer» Open-Source-Projekte; siehe für weitere Informationen beispielsweise https://opensource.guide/leadership-and-governance/.
 
-|offen
-|Auftragnehmer
-|Intern
-a|Es besteht *kein Bedarf für eine detaillierte Beschreibung einer Organisation*, da sie bewusst offen gestaltet ist. Wichtig ist jedoch festzulegen, wer externe Anfragen entgegennimmt und bearbeitet (Verantwortung). Zudem ist zu bestimmen, ob und in welchem Umfang externe Personen einbezogen werden können:
-
+offen / Auftragnehmer / Intern::
+Es besteht *kein Bedarf für eine detaillierte Beschreibung einer Organisation*, da sie bewusst offen gestaltet ist. Wichtig ist jedoch festzulegen, wer externe Anfragen entgegennimmt und bearbeitet (Verantwortung). Zudem ist zu bestimmen, ob und in welchem Umfang externe Personen einbezogen werden können:
++
+--
 * Keine direkte Einbindung: Externe können nur Vorschläge und Beiträge einreichen (als Pull Requests).
 * Einbindung als Contributors: Externe, die häufig und gute Beiträge leisten, werden direkt eingebunden.
 * Übergabe an Externe möglich: Tragen nach der Veröffentlichung Externe mehr zur Weiterentwicklung bei als die veröffentlichende Organisation, so kann die Anwendung auch an sie übertragen werden.
-
+--
++
 Die veröffentlichende Organisation bleibt Eigentümerin. +
 Diese Variante entspricht der Organisation «klassischer» Open-Source-Projekte; siehe für weitere Informationen beispielsweise https://opensource.guide/leadership-and-governance/. +
 Der Lieferant sollte nur rein technische Koordinationsaufgaben übernehmen (Code-Review, Beurteilung).
 
-|Dritte
-|Partner
-|Intern
-a|Es besteht *kein Bedarf für eine detaillierte Beschreibung einer Organisation*, da sie bewusst offen gestaltet ist. Wichtig ist jedoch festzulegen, wer externe Anfragen entgegennimmt und bearbeitet (Verantwortung). Zudem ist zu bestimmen, ob und in welchem Umfang externe Personen einbezogen werden können:
-
+Dritte / Partner / Intern::
+Es besteht *kein Bedarf für eine detaillierte Beschreibung einer Organisation*, da sie bewusst offen gestaltet ist. Wichtig ist jedoch festzulegen, wer externe Anfragen entgegennimmt und bearbeitet (Verantwortung). Zudem ist zu bestimmen, ob und in welchem Umfang externe Personen einbezogen werden können:
++
+--
 * Keine direkte Einbindung: Externe können nur Vorschläge und Beiträge einreichen (als Pull Requests).
 * Einbindung als Contributors: Externe, die häufig und gute Beiträge leisten, werden direkt eingebunden.
 * Übergabe an Externe möglich: Tragen nach der Veröffentlichung Externe mehr zur Weiterentwicklung bei als die veröffentlichende Organisation, so kann die Anwendung auch an sie übertragen werden.
-
+--
++
 Die veröffentlichende Organisation bleibt Eigentümerin. Diese Variante entspricht der Organisation «klassischer» Open-Source-Projekte; siehe für weitere Informationen beispielsweise https://opensource.guide/leadership-and-governance/.
-|===
 
 Bezüglich Governance können auch _[BITKOM2023]_ Kapitel 4.1, _[IZqCab2023]_ oder https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module7/README.md#governance-models beigezogen werden.
 
@@ -1497,255 +1377,179 @@ Hinweis: Da die Freigabe nach Art. 9 EMBAG gewährleistet sein muss, hat die Bun
 
 === Roadmap und Änderungsprozess
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Bund
-|Auftragnehmer
-|-
-|Die Bundesbehörde definiert die Roadmap und entscheidet, welche Änderungen umgesetzt werden. Dafür werden die Standardprozesse des Amtes XY verwendet.
+Bund / Auftragnehmer / -::
+Die Bundesbehörde definiert die Roadmap und entscheidet, welche Änderungen umgesetzt werden. Dafür werden die Standardprozesse des Amtes XY verwendet.
 
-|Bund
-|Partner
-|-
-|Die Bundesbehörde definiert die Roadmap in Zusammenarbeit mit der Firma XY. Sie entscheidet, welche Änderungen umgesetzt werden. Dafür werden die Standardprozesse des Amtes XY verwendet.
+Bund / Partner / -::
+Die Bundesbehörde definiert die Roadmap in Zusammenarbeit mit der Firma XY. Sie entscheidet, welche Änderungen umgesetzt werden. Dafür werden die Standardprozesse des Amtes XY verwendet.
 
-|Gemeinsam
-|-
-|Intern
-a|Der Prozess zur Entwicklung der Roadmap und zur Genehmigung von Änderungen ist von den Mitgliedern der Gesellschaft oder des Vereins festzulegen. Je nach Mitgliederstruktur (Anzahl, Grössenverhältnis usw.) können andere Prozesse angemessen sein. +
+Gemeinsam / - / Intern::
+Der Prozess zur Entwicklung der Roadmap und zur Genehmigung von Änderungen ist von den Mitgliedern der Gesellschaft oder des Vereins festzulegen. Je nach Mitgliederstruktur (Anzahl, Grössenverhältnis usw.) können andere Prozesse angemessen sein. +
 Die Prozesse müssen jedoch Massnahmen zur Konfliktlösung und Mehrheitsfindung enthalten.
 
-|Gemeinsam
-|-
-|Dritte
-a|Der Prozess zur Entwicklung der Roadmap und zur Genehmigung von Änderungen ist von den Mitgliedern der Gesellschaft oder des Vereins festzulegen. Je nach Mitgliederstruktur (Anzahl, Grössenverhältnis usw.) können andere Prozesse angemessen sein.
-
+Gemeinsam / - / Dritte::
+Der Prozess zur Entwicklung der Roadmap und zur Genehmigung von Änderungen ist von den Mitgliedern der Gesellschaft oder des Vereins festzulegen. Je nach Mitgliederstruktur (Anzahl, Grössenverhältnis usw.) können andere Prozesse angemessen sein.
++
 Die Prozesse müssen jedoch Massnahmen zur Konfliktlösung und Mehrheitsfindung enthalten.
-
++
 Mit dem Zusatz, dass auch ein Kostenverteilschlüssel festzulegen ist. Zu überlegen ist zudem, wie mit der Kostenteilung für Anpassungen umzugehen ist, die von den betreffenden Mitgliedern nicht gewünscht sind. Insbesondere in Vereinen mit unterschiedlich grossen Mitgliedern können Situationen entstehen, in denen ein grosses Mitglied (z. B. die Bundesbehörde) einen erheblichen Teil der Kosten für eine Erweiterung trägt, ohne daraus einen Nutzen zu ziehen.
 
-|offen
-|-
-|-
-a|_Beispiel, nicht für alle Situationen geeignet_ +
+offen / - / -::
+_Beispiel, nicht für alle Situationen geeignet_ +
 Es besteht kein Bedarf, eine Roadmap zu erstellen; die Anwendung erfüllt die Bedürfnisse derzeit.
-
++
 Über Änderungen wird in einer offenen Diskussion entschieden und ein Konsens angestrebt. Der endgültige Entscheid liegt bei der Eigentümerin des Codes (Schweizerische Eidgenossenschaft).
-|===
 
 === Entwicklungsprozess
 
 Kommt offene Entwicklung zum Tragen, so ist dies hier zu definieren. Wichtig sind die Aufgabenverteilung und die Nennung zentraler Stellen im Community-Konzept. Ebenso, wie die Sicherheit der Repository-Inhalte gewährleistet wird.
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Bund
-|-
-|-
-a|Die Committer-Rechte (Schreibzugriff auf den Code) liegen bei den vom Bund ausgewählten Personen/Stellen/Lieferanten. Nach Ablauf des Vertrags werden die jeweiligen Rechte entzogen.
-
+Bund / - / -::
+Die Committer-Rechte (Schreibzugriff auf den Code) liegen bei den vom Bund ausgewählten Personen/Stellen/Lieferanten. Nach Ablauf des Vertrags werden die jeweiligen Rechte entzogen.
++
 Die Leistungserbringer und Lieferanten sind für die Durchführung des technischen Code-Review-Prozesses für externe Beiträge verantwortlich, die vom Bund fachlich angenommen wurden. Sie sind für die technische Qualität verantwortlich. Die Lieferanten werden für diese Arbeit vom Bund entschädigt.
 
-|Gemeinsam
-|Auftragnehmer
-|Intern
-a|Grundsätzlich erhalten alle von einem Community-Mitglied beauftragten Stellen Schreibzugriff auf den Code (Committer-Rechte). Nach Ablauf des Vertrags werden die jeweiligen Rechte entzogen.
-
+Gemeinsam / Auftragnehmer / Intern::
+Grundsätzlich erhalten alle von einem Community-Mitglied beauftragten Stellen Schreibzugriff auf den Code (Committer-Rechte). Nach Ablauf des Vertrags werden die jeweiligen Rechte entzogen.
++
 Betrifft geänderter Code Kernbereiche der Anwendung, so müssen alle Änderungen von einer eigens dafür von der Community beauftragten Stelle geprüft werden. Diese Stelle ist für die technische Qualität der Anwendung verantwortlich. Sie ist zudem für die Prüfung von Änderungen zuständig, die von der Community fachlich angenommen wurden.
 
-|Gemeinsam
-|Partner
-|Dritte
-a|Die Committer-Rechte (Schreibzugriff auf den Code) liegen bei den Mitgliedern der Community. Diese Personen organisieren sich selbst und tragen gemeinsam die Verantwortung für die Qualität des Codes.
-
+Gemeinsam / Partner / Dritte::
+Die Committer-Rechte (Schreibzugriff auf den Code) liegen bei den Mitgliedern der Community. Diese Personen organisieren sich selbst und tragen gemeinsam die Verantwortung für die Qualität des Codes.
++
 Beauftragt ein Community-Mitglied einen externen Lieferanten für eine Anpassung oder Erweiterung, so wird die Anpassung von einem Mitglied der Community geprüft. Es wird dafür vom Auftraggeber entschädigt.
-
++
 Änderungen am Kern der Anwendung müssen von einem zweiten Mitglied der Community geprüft werden.
-
++
 Die Lieferanten, die Community-Mitglieder sind, sind zudem für die Prüfung externer Beiträge und neuen technischen Codes verantwortlich, der vom Verein fachlich angenommen wurde.
 
-|offen
-|-
-|-
-a|Anfänglich liegen die Committer-Rechte bei den Entwickelnden oder ihren Arbeitgebern. Committer-Rechte werden allen Entwickelnden erteilt, die während mehrerer Monate aktiv zum Projekt beitragen und angemessene Sozialkompetenz zeigen.
-
+offen / - / -::
+Anfänglich liegen die Committer-Rechte bei den Entwickelnden oder ihren Arbeitgebern. Committer-Rechte werden allen Entwickelnden erteilt, die während mehrerer Monate aktiv zum Projekt beitragen und angemessene Sozialkompetenz zeigen.
++
 Die einzelnen Entwickelnden behalten ihre Committer-Rechte grundsätzlich, auch wenn sie den Arbeitgeber wechseln oder der Bund einen anderen Lieferanten wählt. Committer-Rechte erlöschen nur, wenn sie freiwillig abgegeben werden oder die Mehrheit der übrigen Committer deren Entzug beschliesst.
-
++
 Der Bund hat das Recht, einzelne Entwickelnde der von ihm beauftragten Unternehmen als Committer zu benennen. Er hat nicht das Recht, jemandem die Committer-Rechte ohne Grund zu entziehen.
-
++
 Code-Reviews werden von mindestens einer Person durchgeführt, die als Committer tätig ist. Die Committer organisieren sich selbst.
-
++
 Der Bund verpflichtet sich, die Review-Arbeit zu entschädigen, soweit dies für ihn finanziell machbar ist.
-|===
 
 === Kostenteilung und Lieferanten
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Bund
-|Auftragnehmer
-|Intern
-|Die Lieferanten werden periodisch über WTO-Ausschreibungen oder ein freihändiges Verfahren ausgewählt (je nach Umfang der Wartungsleistungen).
+Bund / Auftragnehmer / Intern::
+Die Lieferanten werden periodisch über WTO-Ausschreibungen oder ein freihändiges Verfahren ausgewählt (je nach Umfang der Wartungsleistungen).
 
-|Bund
-|Partner
-|-
-a|*Wichtig:* Vorgängig prüfen, ob dies im konkreten Fall beschaffungsrechtlich zulässig ist.
-
+Bund / Partner / -::
+*Wichtig:* Vorgängig prüfen, ob dies im konkreten Fall beschaffungsrechtlich zulässig ist.
++
 Wir werden die Dokumentation zu diesem Punkt ergänzen. Der Bund wählt den Lieferanten XXX als strategischen Partner und strebt eine langfristige Zusammenarbeit an.
 
-|Gemeinsam
-|Auftragnehmer
-|Intern
-a|Jedes Mitglied der Community beauftragt eigenständig einen oder mehrere Softwarelieferanten mit der Umsetzung der von ihm benötigten Anpassungen und Erweiterungen. Für Anpassungen, die von mehreren Mitgliedern gewünscht werden, wird die Kostenteilung im Einzelfall vereinbart. Das Mitglied mit dem grössten Kostenanteil ist für die Auswahl und Beauftragung des Lieferanten verantwortlich. (Regelungen zur Softwarewartung)
+Gemeinsam / Auftragnehmer / Intern::
+Jedes Mitglied der Community beauftragt eigenständig einen oder mehrere Softwarelieferanten mit der Umsetzung der von ihm benötigten Anpassungen und Erweiterungen. Für Anpassungen, die von mehreren Mitgliedern gewünscht werden, wird die Kostenteilung im Einzelfall vereinbart. Das Mitglied mit dem grössten Kostenanteil ist für die Auswahl und Beauftragung des Lieferanten verantwortlich. (Regelungen zur Softwarewartung)
 
-|Gemeinsam
-|Auftragnehmer
-|Dritte
-|Der Verein wählt die Softwarelieferanten periodisch zentral über WTO-Ausschreibungen oder freihändige Verfahren aus (je nach Umfang der Wartungsleistungen). Die Kosten werden den Mitgliedern nach einem Schlüssel zugewiesen: (festzulegen: nach Bevölkerung, Nutzenden usw.)
+Gemeinsam / Auftragnehmer / Dritte::
+Der Verein wählt die Softwarelieferanten periodisch zentral über WTO-Ausschreibungen oder freihändige Verfahren aus (je nach Umfang der Wartungsleistungen). Die Kosten werden den Mitgliedern nach einem Schlüssel zugewiesen: (festzulegen: nach Bevölkerung, Nutzenden usw.)
 
-|Gemeinsam
-|Partner
-|Intern
-a|Jedes Mitglied der Community beauftragt eigenständig einen oder mehrere Softwarelieferanten mit der Umsetzung der von ihm benötigten Anpassungen und Erweiterungen. Für Anpassungen, die von mehreren Mitgliedern gewünscht werden, wird die Kostenteilung im Einzelfall vereinbart. Das Mitglied mit dem grössten Kostenanteil ist für die Auswahl und Beauftragung des Lieferanten verantwortlich.
-
+Gemeinsam / Partner / Intern::
+Jedes Mitglied der Community beauftragt eigenständig einen oder mehrere Softwarelieferanten mit der Umsetzung der von ihm benötigten Anpassungen und Erweiterungen. Für Anpassungen, die von mehreren Mitgliedern gewünscht werden, wird die Kostenteilung im Einzelfall vereinbart. Das Mitglied mit dem grössten Kostenanteil ist für die Auswahl und Beauftragung des Lieferanten verantwortlich.
++
 _(Regelungen zur Softwarewartung)_ Nötigenfalls ergänzt durch einen Beitrag der beteiligten Lieferanten. Beispiel: _Jedes Softwareentwicklungsunternehmen, das Mitglied der Community ist, verpflichtet sich, jährlich mindestens XY Arbeitstage auf eigene Kosten in die Weiterentwicklung, die technologische Aktualisierung oder das Marketing der Anwendung zu investieren._
 
-|Gemeinsam
-|Partner
-|Dritte
-a|Der Verein wählt die Softwarelieferanten periodisch zentral über WTO-Ausschreibungen oder freihändige Verfahren aus (je nach Umfang der Wartungsleistungen). Die Kosten werden den Mitgliedern nach einem Schlüssel zugewiesen: (festzulegen: nach Bevölkerung, Nutzenden usw.) Nötigenfalls ergänzt durch den Zusatz: _Jedes Softwareentwicklungsunternehmen, das Mitglied der Community ist, verpflichtet sich, jährlich mindestens XY Arbeitstage auf eigene Kosten in die Weiterentwicklung, die technologische Aktualisierung oder das Marketing der Anwendung zu investieren._
+Gemeinsam / Partner / Dritte::
+Der Verein wählt die Softwarelieferanten periodisch zentral über WTO-Ausschreibungen oder freihändige Verfahren aus (je nach Umfang der Wartungsleistungen). Die Kosten werden den Mitgliedern nach einem Schlüssel zugewiesen: (festzulegen: nach Bevölkerung, Nutzenden usw.) Nötigenfalls ergänzt durch den Zusatz: _Jedes Softwareentwicklungsunternehmen, das Mitglied der Community ist, verpflichtet sich, jährlich mindestens XY Arbeitstage auf eigene Kosten in die Weiterentwicklung, die technologische Aktualisierung oder das Marketing der Anwendung zu investieren._
 
-|Dritte
-|Auftragnehmer
-|-
-a|Die Lieferanten werden periodisch über WTO-Ausschreibungen oder ein freihändiges Verfahren ausgewählt (je nach Umfang der Wartungsleistungen). Mit dem Zusatz: _Die von potenziellen Lieferanten beigetragenen Verbesserungen und Aktivitäten in der Community werden als Faktor in der Bewertung berücksichtigt._
-
+Dritte / Auftragnehmer / -::
+Die Lieferanten werden periodisch über WTO-Ausschreibungen oder ein freihändiges Verfahren ausgewählt (je nach Umfang der Wartungsleistungen). Mit dem Zusatz: _Die von potenziellen Lieferanten beigetragenen Verbesserungen und Aktivitäten in der Community werden als Faktor in der Bewertung berücksichtigt._
++
 Von Externen gewünschte Änderungen werden nicht vom Bund finanziert, sondern müssen von diesen selbst in Auftrag gegeben und bezahlt werden.
 
-|Dritte
-|Partner
-|-
-a|Die Lieferanten werden periodisch über WTO-Ausschreibungen oder ein freihändiges Verfahren ausgewählt (je nach Umfang der Wartungsleistungen). Mit dem Zusatz: _Die von potenziellen Lieferanten beigetragenen Verbesserungen und Aktivitäten in der Community werden als Faktor in der Bewertung berücksichtigt. Von Externen gewünschte Änderungen werden nicht vom Bund finanziert, sondern müssen von diesen selbst in Auftrag gegeben und bezahlt werden._
-|===
+Dritte / Partner / -::
+Die Lieferanten werden periodisch über WTO-Ausschreibungen oder ein freihändiges Verfahren ausgewählt (je nach Umfang der Wartungsleistungen). Mit dem Zusatz: _Die von potenziellen Lieferanten beigetragenen Verbesserungen und Aktivitäten in der Community werden als Faktor in der Bewertung berücksichtigt. Von Externen gewünschte Änderungen werden nicht vom Bund finanziert, sondern müssen von diesen selbst in Auftrag gegeben und bezahlt werden._
 
 === Marketing
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Bund
-|Auftragnehmer
-|-
-|Der Bund vermarktet die Anwendung nicht aktiv, veröffentlicht sie aber auf Open-Source-Softwareplattformen. Die Veröffentlichung der Anwendung wird in Fachgremien bekannt gegeben. Melden sich Interessierte, so prüfen wir, ob eine gemeinsame Community aufgebaut oder mit deren Version der Software weitergearbeitet wird.
+Bund / Auftragnehmer / -::
+Der Bund vermarktet die Anwendung nicht aktiv, veröffentlicht sie aber auf Open-Source-Softwareplattformen. Die Veröffentlichung der Anwendung wird in Fachgremien bekannt gegeben. Melden sich Interessierte, so prüfen wir, ob eine gemeinsame Community aufgebaut oder mit deren Version der Software weitergearbeitet wird.
 
-|Gemeinsam
-|Partner
-|-
-a|Zusätzlich: +
+Gemeinsam / Partner / -::
+Zusätzlich: +
 Lieferanten dürfen die Anwendung vermarkten und weitere Interessierte suchen. Der Bund darf als Referenz genannt werden. Wir nehmen bewusst in Kauf, dass dadurch abweichende Versionen der Software entstehen können.
 
-|Gemeinsam
-|Auftragnehmer
-|Intern
-|Die Anwendung wird von den Mitgliedern oder vom Verein vermarktet.
+Gemeinsam / Auftragnehmer / Intern::
+Die Anwendung wird von den Mitgliedern oder vom Verein vermarktet.
 
-|Gemeinsam
-|Partner
-|Intern
-|Die Anwendung wird von den Lieferanten vermarktet.
+Gemeinsam / Partner / Intern::
+Die Anwendung wird von den Lieferanten vermarktet.
 
-|Gemeinsam
-|-
-|Dritte
-|Die Anwendung wird vom Verein, von der einfachen Gesellschaft und deren Mitgliedern vermarktet.
+Gemeinsam / - / Dritte::
+Die Anwendung wird vom Verein, von der einfachen Gesellschaft und deren Mitgliedern vermarktet.
 
-|offen
-|-
-|-
-a|Die Anwendung darf von Lieferanten vermarktet werden, oder es kann auf explizites Marketing verzichtet werden.
-
+offen / - / -::
+Die Anwendung darf von Lieferanten vermarktet werden, oder es kann auf explizites Marketing verzichtet werden.
++
 Alternative ohne explizites Marketing: Der Bund vermarktet die Anwendung nicht aktiv, veröffentlicht sie aber auf Open-Source-Softwareplattformen. In Fachgremien weisen wir darauf hin, dass wir die Anwendung veröffentlicht haben und dass eine Zusammenarbeit willkommen ist. Wir zeigen Interessierten die Software und versuchen, sie in unsere Prozesse zur Gestaltung der Roadmap einzubinden.
-|===
 
 === Umgang mit externen Beiträgen
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Bund
-|Auftragnehmer
-|-
-a|Externe Beiträge und Anfragen müssen auch dann bearbeitet werden, wenn der Bund alleiniger Entscheidträger bezüglich der Software bleibt (ausser bei minimaler Freigabe, wo ein Fork unvermeidlich ist). Wir schlagen folgendes Vorgehen vor:
-
+Bund / Auftragnehmer / -::
+Externe Beiträge und Anfragen müssen auch dann bearbeitet werden, wenn der Bund alleiniger Entscheidträger bezüglich der Software bleibt (ausser bei minimaler Freigabe, wo ein Fork unvermeidlich ist). Wir schlagen folgendes Vorgehen vor:
++
 *Umgang mit gemeldeten Fehlern* +
 Wir versuchen, von externen Personen gemeldete Fehler zu reproduzieren, und fragen nötigenfalls nach. Gelingt die Reproduktion, so gibt der Bund die Fehlerbehebung in Auftrag. Lässt sich der Fehler nicht verifizieren oder ist der Aufwand zu dessen Behebung unverhältnismässig hoch, so entschuldigen wir uns bei der meldenden Person und fragen, ob sie einen Pull Request zur Behebung einreichen könnte.
-
++
 *Umgang mit Anfragen* +
 Wir beantworten jede eingehende Anfrage. Lässt sich eine Anfrage nicht mit vertretbarem Aufwand klären und erscheint ein weiterer Zeiteinsatz ineffizient, so entschuldigen wir uns unter Hinweis auf beschränkte Ressourcen und bieten an, die anfragende Person für die weitere Beratung mit einem Lieferanten in Kontakt zu bringen.
-
++
 *Umgang mit Pull Requests* +
 Wir prüfen jeden Pull Request sorgfältig. Um unnötigen Aufwand auf Seiten der beitragenden Person zu vermeiden, weisen wir sofort darauf hin, wenn etwas unserer Roadmap widerspricht oder fraglich ist, ob wir den Beitrag annehmen. Der Bund entscheidet eigenständig und nach fachlichen Kriterien, welche Beiträge er annimmt. Fehlerkorrekturen, die den Review-Prozess bestanden haben, werden immer angenommen.
-
++
 *Umgang mit Forks* +
 Wir unterstützen Forks unserer Anwendung. Wer die Anwendung einführt, sollte einen eigenen Fork erstellen. Wir prüfen die entstehenden Forks mindestens einmal jährlich und übernehmen gute und passende Erweiterungen.
 
-|Gemeinsam
-|-
-|-
-a|Extern bezeichnet Beiträge von ausserhalb der definierten Community (Vereinsmitglieder). Abweichungen von oben: +
+Gemeinsam / - / -::
+Extern bezeichnet Beiträge von ausserhalb der definierten Community (Vereinsmitglieder). Abweichungen von oben: +
 *Umgang mit Forks* +
 Wir wollen (langlebige) Forks der Anwendung verhindern. Interessierte sollen stattdessen der Community direkt beitreten. Innerhalb der Community versuchen wir sicherzustellen, dass alle Mitglieder die Hauptversion nutzen.
 
-|Offen
-|-
-|-
-a|Der Aufbau einer funktionierenden Community und einer offenen Kultur ist uns wichtig.
-
+Offen / - / -::
+Der Aufbau einer funktionierenden Community und einer offenen Kultur ist uns wichtig.
++
 *Umgang mit gemeldeten Fehlern* +
 Wir versuchen, gemeldete Fehler zu reproduzieren und zu beheben. Wir setzen die aktive Mitwirkung der meldenden Personen voraus. Wenn möglich sollten sie direkt einen Pull Request mit einer Fehlerkorrektur erstellen.
-
++
 *Umgang mit Anfragen* +
 Wir behandeln jede Anfrage innerhalb von höchstens einer Woche. Anfragen aktiver Beitragender werden mit Priorität und vertieft behandelt. Wir versuchen, andere Mitglieder in die Bearbeitung von Anfragen einzubeziehen.
-
++
 *Umgang mit Pull Requests* +
 Wir wollen möglichst viele qualitativ hochwertige Pull Requests erhalten. Wir beziehen alle aktiven Beitragenden in die Reviews und die technische und fachliche Beurteilung von Pull Requests ein. Bei umstrittenen Beiträgen versuchen wir, über eine informelle Abstimmung zu einem Entscheid zu gelangen.
-
++
 *Umgang mit Forks* +
 Wir versuchen, Forks durch aktives und offenes Community-Management unnötig zu machen. Entstehen dennoch Forks, so prüfen wir diese aktiv und versuchen, die dort entwickelten Erweiterungen und Verbesserungen zu übernehmen. In solchen Fällen fordern wir aktiv Pull Requests an.
-|===
 
 Allgemein ist festzuhalten, dass Beiträge von der Unterstützung anderer Nutzender bis zur Übernahme der Verantwortung für ganze Teile eines Projekts reichen können (siehe _[BITKOM2023]_ Kapitel 4.2).
 
 === Betrieb der Anwendung
 
-[cols="1,1,1,4",options="header"]
-|===
-|Produktmanagement |Lieferant als |Entwicklung |Vorschlag
+_Produktmanagement / Lieferant als / Entwicklung -- Vorschlag_
 
-|Gemeinsam
-|-
-|-
-|Ein zentraler Betrieb kann optional zusätzlich vom zentralen Verein angeboten werden, im Sinne von Software as a Service (SaaS). Es ist zu prüfen, ob dies gewünscht ist.
+Gemeinsam / - / -::
+Ein zentraler Betrieb kann optional zusätzlich vom zentralen Verein angeboten werden, im Sinne von Software as a Service (SaaS). Es ist zu prüfen, ob dies gewünscht ist.
 
-|-
-|Partner
-|-
-|Es ist festzulegen, ob der Lieferant die Software auch betreiben soll.
+- / Partner / -::
+Es ist festzulegen, ob der Lieferant die Software auch betreiben soll.
 
-|-
-|Führung
-|-
-|Es ist festzuhalten, dass der Lieferant für den Betrieb verantwortlich ist.
-|===
+- / Führung / -::
+Es ist festzuhalten, dass der Lieferant für den Betrieb verantwortlich ist.
 
 Supportstufen und Supportkontakte sollten in diesem Kapitel ebenfalls festgelegt werden.
 
@@ -2309,32 +2113,21 @@ La méthodologie fondamentale du développement peut aussi influencer le type de
 
 Ce chapitre donne des indications pour la rédaction du concept de communauté sur la base des décisions de principe prises (selon le chapitre 5).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|ouvert
-|Partenaire
-|Confédération
-a|Contenus ou suggestions, si les décisions de principe sont : +
+ouvert / Partenaire / Confédération::
+Contenus ou suggestions, si les décisions de principe sont : +
 Gestion du produit c) Organisation ouverte +
 Intégration des fournisseurs : b) Fournisseur comme partenaire +
 Répartition des coûts : b) Chacun pour soi +
 _Le texte ci-dessus peut être copié dans le modèle et adapté._
 
-|Commun
-|-
-|Chacun pour soi
-a|Contenus ou suggestions, si les décisions de principe sont : +
+Commun / - / Chacun pour soi::
+Commun / - / Auteur::
+Contenus ou suggestions, si les décisions de principe sont : +
 Gestion du produit b) Développement commun +
 Intégration des fournisseurs : a) ou b) (non pertinent) +
 Répartition des coûts : c) Principe de causalité ou d) Partage des coûts
-
-|Commun
-|-
-|Auteur
-|
-|===
 
 Le concept de communauté devrait être un document dynamique, pouvant être adapté en concertation avec la communauté. Le concept devrait refléter la situation actuelle et proposer des options de développement futures. Si d'autres membres rejoignent ultérieurement la communauté, l'organisation et les processus peuvent être précisés et des mécanismes plus complexes introduits. Les sous-chapitres suivants suivent directement la structure proposée du concept de communauté (voir chapitre 4).
 
@@ -2372,87 +2165,76 @@ En principe, pour les nouveaux développements, l'objectif est que la Confédér
 
 Le type de conduite de projet dépend de l'organisation qui avait la direction (SAFe, HERMES) au sein de la Confédération. Pour la forme d'organisation, il convient toujours de viser un minimum de frais généraux (existant plutôt que nouveau ; société simple plutôt qu'association).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Confédération
-|-
-|Interne
-a|Comme la Confédération conserve le contrôle direct, aucune structure organisationnelle supplémentaire n'est nécessaire. +
+Confédération / - / Interne::
+Comme la Confédération conserve le contrôle direct, aucune structure organisationnelle supplémentaire n'est nécessaire. +
 L'entité qui publie (p. ex. un office fédéral) reste propriétaire et assume toutes les tâches de coordination. Dans ce cas, le chapitre « Organisation » peut être très bref.
 
-|Commun
-|-
-|Interne
-a|Pour ce scénario, l'organisation en *société simple* est généralement recommandée. +
+Commun / - / Interne::
+Pour ce scénario, l'organisation en *société simple* est généralement recommandée. +
 Afin de permettre le développement commun et la coordination de la feuille de route et des exigences, il est recommandé de créer deux groupes, chacun comptant un participant par membre de la communauté :
-
++
+--
 * Organe de pilotage : définit la stratégie et la priorisation.
 * Groupe d'experts : élabore les exigences et les contenus concrets au niveau technique. Selon l'ampleur, un groupe d'experts distinct peut aussi être institué par thème.
-
+--
++
 Le propriétaire du code est l'office qui l'a publié.
-
++
 Si les structures deviennent plus complexes ou si plus de cinq utilisateurs ou membres supplémentaires sont impliqués, il peut valoir la peine d'examiner si la communauté ne serait pas mieux organisée sous forme d'association. Comparer les explications de la variante ci-dessous.
 
-|Commun
-|-
-|Tiers
-a|L'organisation en *association* est recommandée. +
+Commun / - / Tiers::
+L'organisation en *association* est recommandée. +
 Soit une association est fondée spécialement pour l'application, soit l'application est transférée à une association existante. Une association est recommandée car, à défaut, la répartition des coûts devient complexe et les tâches de coordination représentent vraisemblablement assez de travail pour employer un gérant à temps partiel pour l'association.
-
++
 Les droits sur le code sont alors transférés à l'association, qui assume la gestion de la communauté et les commandes auprès des fournisseurs.
 
-|Commun
-|Mandataire
-|Interne
-a|L'organisation en *association* est recommandée. Soit une association est fondée spécialement pour l'application, soit l'application est transférée à une association existante. Une association est recommandée car, à défaut, la répartition des coûts devient complexe et les tâches de coordination représentent vraisemblablement assez de travail pour employer un gérant à temps partiel pour l'association.
-
+Commun / Mandataire / Interne::
+L'organisation en *association* est recommandée. Soit une association est fondée spécialement pour l'application, soit l'application est transférée à une association existante. Une association est recommandée car, à défaut, la répartition des coûts devient complexe et les tâches de coordination représentent vraisemblablement assez de travail pour employer un gérant à temps partiel pour l'association.
++
 Les droits sur le code sont alors transférés à l'association, qui assume la gestion de la communauté et les commandes auprès des fournisseurs. +
 Ici, les fournisseurs ne sont pas membres de l'association, mais uniquement mandataires. Le gérant ne devrait pas être fourni par un fournisseur.
 
-|Commun
-|Mandataire
-|Tiers
-a|L'organisation en *association* est recommandée. Soit une association est fondée spécialement pour l'application, soit l'application est transférée à une association existante. Une association est recommandée car, à défaut, la répartition des coûts devient complexe et les tâches de coordination représentent vraisemblablement assez de travail pour employer un gérant à temps partiel pour l'association. +
+Commun / Mandataire / Tiers::
+L'organisation en *association* est recommandée. Soit une association est fondée spécialement pour l'application, soit l'application est transférée à une association existante. Une association est recommandée car, à défaut, la répartition des coûts devient complexe et les tâches de coordination représentent vraisemblablement assez de travail pour employer un gérant à temps partiel pour l'association. +
 Les droits sur le code sont alors transférés à l'association, qui assume la gestion de la communauté et les commandes auprès des fournisseurs. +
 Les fournisseurs sont membres de l'association ; le gérant peut aussi être fourni par un fournisseur.
 
-|ouvert
-|-
-|Interne
-a|Il n'est *pas nécessaire de décrire en détail une organisation*, celle-ci étant délibérément conçue de manière ouverte. Il importe toutefois d'établir qui reçoit et traite les demandes externes (responsabilité). Il faut aussi déterminer si et dans quelle mesure des personnes externes peuvent être associées :
-
+ouvert / - / Interne::
+Il n'est *pas nécessaire de décrire en détail une organisation*, celle-ci étant délibérément conçue de manière ouverte. Il importe toutefois d'établir qui reçoit et traite les demandes externes (responsabilité). Il faut aussi déterminer si et dans quelle mesure des personnes externes peuvent être associées :
++
+--
 * Aucune intégration directe : les externes ne peuvent soumettre que des suggestions et des contributions (sous forme de pull requests).
 * Intégration comme contributeurs : les externes qui apportent des contributions fréquentes et de qualité sont directement intégrés.
 * Transfert à des externes possible : si, après la publication, des externes contribuent davantage au développement que l'organisation qui publie, l'application peut aussi leur être transférée.
-
+--
++
 L'organisation qui publie reste propriétaire. Cette variante correspond à l'organisation des projets open source « classiques » ; voir par exemple https://opensource.guide/leadership-and-governance/ pour plus d'informations.
 
-|ouvert
-|Mandataire
-|Interne
-a|Il n'est *pas nécessaire de décrire en détail une organisation*, celle-ci étant délibérément conçue de manière ouverte. Il importe toutefois d'établir qui reçoit et traite les demandes externes (responsabilité). Il faut aussi déterminer si et dans quelle mesure des personnes externes peuvent être associées :
-
+ouvert / Mandataire / Interne::
+Il n'est *pas nécessaire de décrire en détail une organisation*, celle-ci étant délibérément conçue de manière ouverte. Il importe toutefois d'établir qui reçoit et traite les demandes externes (responsabilité). Il faut aussi déterminer si et dans quelle mesure des personnes externes peuvent être associées :
++
+--
 * Aucune intégration directe : les externes ne peuvent soumettre que des suggestions et des contributions (sous forme de pull requests).
 * Intégration comme contributeurs : les externes qui apportent des contributions fréquentes et de qualité sont directement intégrés.
 * Transfert à des externes possible : si, après la publication, des externes contribuent davantage au développement que l'organisation qui publie, l'application peut aussi leur être transférée.
-
+--
++
 L'organisation qui publie reste propriétaire. +
 Cette variante correspond à l'organisation des projets open source « classiques » ; voir par exemple https://opensource.guide/leadership-and-governance/ pour plus d'informations. +
 Le fournisseur ne devrait assumer que des tâches de coordination purement techniques (revue de code, évaluation).
 
-|Tiers
-|Partenaire
-|Interne
-a|Il n'est *pas nécessaire de décrire en détail une organisation*, celle-ci étant délibérément conçue de manière ouverte. Il importe toutefois d'établir qui reçoit et traite les demandes externes (responsabilité). Il faut aussi déterminer si et dans quelle mesure des personnes externes peuvent être associées :
-
+Tiers / Partenaire / Interne::
+Il n'est *pas nécessaire de décrire en détail une organisation*, celle-ci étant délibérément conçue de manière ouverte. Il importe toutefois d'établir qui reçoit et traite les demandes externes (responsabilité). Il faut aussi déterminer si et dans quelle mesure des personnes externes peuvent être associées :
++
+--
 * Aucune intégration directe : les externes ne peuvent soumettre que des suggestions et des contributions (sous forme de pull requests).
 * Intégration comme contributeurs : les externes qui apportent des contributions fréquentes et de qualité sont directement intégrés.
 * Transfert à des externes possible : si, après la publication, des externes contribuent davantage au développement que l'organisation qui publie, l'application peut aussi leur être transférée.
-
+--
++
 L'organisation qui publie reste propriétaire. Cette variante correspond à l'organisation des projets open source « classiques » ; voir par exemple https://opensource.guide/leadership-and-governance/ pour plus d'informations.
-|===
 
 S'agissant de la gouvernance, _[BITKOM2023]_ chapitre 4.1, _[IZqCab2023]_ ou https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module7/README.md#governance-models peuvent également être consultés.
 
@@ -2462,255 +2244,179 @@ Remarque : la publication devant être garantie conformément à l'art. 9 LMETA,
 
 === Feuille de route et processus de modification
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Confédération
-|Mandataire
-|-
-|L'autorité fédérale définit la feuille de route et décide quelles modifications sont mises en œuvre. Les processus standard de l'office XY sont utilisés à cette fin.
+Confédération / Mandataire / -::
+L'autorité fédérale définit la feuille de route et décide quelles modifications sont mises en œuvre. Les processus standard de l'office XY sont utilisés à cette fin.
 
-|Confédération
-|Partenaire
-|-
-|L'autorité fédérale définit la feuille de route en collaboration avec l'entreprise XY. Elle décide quelles modifications sont mises en œuvre. Les processus standard de l'office XY sont utilisés à cette fin.
+Confédération / Partenaire / -::
+L'autorité fédérale définit la feuille de route en collaboration avec l'entreprise XY. Elle décide quelles modifications sont mises en œuvre. Les processus standard de l'office XY sont utilisés à cette fin.
 
-|Commun
-|-
-|Interne
-a|Le processus d'élaboration de la feuille de route et d'approbation des modifications doit être déterminé par les membres de la société ou de l'association. Selon la structure des membres (nombre, rapport de taille, etc.), d'autres processus peuvent être appropriés. +
+Commun / - / Interne::
+Le processus d'élaboration de la feuille de route et d'approbation des modifications doit être déterminé par les membres de la société ou de l'association. Selon la structure des membres (nombre, rapport de taille, etc.), d'autres processus peuvent être appropriés. +
 Les processus doivent toutefois comporter des mesures de résolution des conflits et de recherche de majorité.
 
-|Commun
-|-
-|Tiers
-a|Le processus d'élaboration de la feuille de route et d'approbation des modifications doit être déterminé par les membres de la société ou de l'association. Selon la structure des membres (nombre, rapport de taille, etc.), d'autres processus peuvent être appropriés.
-
+Commun / - / Tiers::
+Le processus d'élaboration de la feuille de route et d'approbation des modifications doit être déterminé par les membres de la société ou de l'association. Selon la structure des membres (nombre, rapport de taille, etc.), d'autres processus peuvent être appropriés.
++
 Les processus doivent toutefois comporter des mesures de résolution des conflits et de recherche de majorité.
-
++
 Avec l'ajout qu'une clé de répartition des coûts doit également être établie. Il convient aussi de réfléchir à la manière de traiter le partage des coûts pour des adaptations non souhaitées par les membres concernés. En particulier dans les associations comptant des membres de tailles inégales, des situations peuvent survenir où un grand membre (p. ex. l'autorité fédérale) supporte une part importante des coûts d'une extension sans en tirer profit.
 
-|ouvert
-|-
-|-
-a|_Exemple, ne convient pas à toutes les situations_ +
+ouvert / - / -::
+_Exemple, ne convient pas à toutes les situations_ +
 Il n'est pas nécessaire d'établir une feuille de route ; l'application répond actuellement aux besoins.
-
++
 Les modifications sont décidées dans une discussion ouverte et un consensus est recherché. La décision finale appartient au propriétaire du code (Confédération suisse).
-|===
 
 === Processus de développement
 
 Si le développement ouvert entre en jeu, il doit être défini ici. La répartition des tâches et la désignation des postes centraux dans le concept de communauté sont importantes. De même que la manière dont la sécurité du contenu du dépôt est assurée.
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Confédération
-|-
-|-
-a|Les droits de committer (accès en écriture au code) appartiennent aux personnes/entités/fournisseurs sélectionnés par la Confédération. À l'expiration du contrat, les droits correspondants sont révoqués.
-
+Confédération / - / -::
+Les droits de committer (accès en écriture au code) appartiennent aux personnes/entités/fournisseurs sélectionnés par la Confédération. À l'expiration du contrat, les droits correspondants sont révoqués.
++
 Les prestataires et fournisseurs sont responsables de la conduite du processus technique de revue de code pour les contributions externes acceptées sur le fond par la Confédération. Ils répondent de la qualité technique. Les fournisseurs sont indemnisés pour ce travail par la Confédération.
 
-|Commun
-|Mandataire
-|Interne
-a|En principe, toutes les entités mandatées par un membre de la communauté reçoivent un accès en écriture au code (droits de committer). À l'expiration du contrat, les droits correspondants sont révoqués.
-
+Commun / Mandataire / Interne::
+En principe, toutes les entités mandatées par un membre de la communauté reçoivent un accès en écriture au code (droits de committer). À l'expiration du contrat, les droits correspondants sont révoqués.
++
 Lorsque du code modifié touche des domaines centraux de l'application, toutes les modifications doivent être examinées par une entité spécialement mandatée à cet effet par la communauté. Cette entité répond de la qualité technique de l'application. Elle est aussi chargée d'examiner les modifications acceptées sur le fond par la communauté.
 
-|Commun
-|Partenaire
-|Tiers
-a|Les droits de committer (accès en écriture au code) appartiennent aux membres de la communauté. Ces personnes s'organisent elles-mêmes et assument conjointement la responsabilité de la qualité du code.
-
+Commun / Partenaire / Tiers::
+Les droits de committer (accès en écriture au code) appartiennent aux membres de la communauté. Ces personnes s'organisent elles-mêmes et assument conjointement la responsabilité de la qualité du code.
++
 Si un membre de la communauté mandate un fournisseur externe pour une adaptation ou une extension, celle-ci est examinée par un membre de la communauté. Il est indemnisé pour cela par le mandant.
-
++
 Les modifications du cœur de l'application doivent être examinées par un second membre de la communauté.
-
++
 Les fournisseurs membres de la communauté sont en outre chargés d'examiner les contributions externes et le nouveau code technique accepté sur le fond par l'association.
 
-|ouvert
-|-
-|-
-a|Initialement, les droits de committer appartiennent aux développeurs ou à leurs employeurs. Les droits de committer sont accordés à tous les développeurs qui contribuent activement au projet pendant plusieurs mois et font preuve d'une compétence sociale appropriée.
-
+ouvert / - / -::
+Initialement, les droits de committer appartiennent aux développeurs ou à leurs employeurs. Les droits de committer sont accordés à tous les développeurs qui contribuent activement au projet pendant plusieurs mois et font preuve d'une compétence sociale appropriée.
++
 Les développeurs conservent en principe leurs droits de committer, même s'ils changent d'employeur ou si la Confédération choisit un autre fournisseur. Les droits de committer ne s'éteignent que s'ils sont abandonnés volontairement ou si la majorité des autres committers décide de les révoquer.
-
++
 La Confédération a le droit de désigner comme committers certains développeurs des entreprises qu'elle mandate. Elle n'a pas le droit de retirer sans motif les droits de committer à quelqu'un.
-
++
 Les revues de code sont effectuées par au moins une personne agissant comme committer. Les committers s'organisent eux-mêmes.
-
++
 La Confédération s'engage à indemniser le travail de revue dans la mesure où cela lui est financièrement possible.
-|===
 
 === Partage des coûts et fournisseurs
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Confédération
-|Mandataire
-|Interne
-|Les fournisseurs sont sélectionnés périodiquement par appels d'offres OMC ou par une procédure de gré à gré (selon l'ampleur des prestations de maintenance).
+Confédération / Mandataire / Interne::
+Les fournisseurs sont sélectionnés périodiquement par appels d'offres OMC ou par une procédure de gré à gré (selon l'ampleur des prestations de maintenance).
 
-|Confédération
-|Partenaire
-|-
-a|*Important :* vérifier au préalable si cela est admissible au regard du droit des marchés publics dans le cas concret.
-
+Confédération / Partenaire / -::
+*Important :* vérifier au préalable si cela est admissible au regard du droit des marchés publics dans le cas concret.
++
 Nous compléterons la documentation sur ce point. La Confédération choisit le fournisseur XXX comme partenaire stratégique et vise une coopération à long terme.
 
-|Commun
-|Mandataire
-|Interne
-a|Chaque membre de la communauté mandate de manière autonome un ou plusieurs fournisseurs de logiciels pour mettre en œuvre les adaptations et extensions dont il a besoin. Pour les adaptations souhaitées par plusieurs membres, le partage des coûts est convenu au cas par cas. Le membre supportant la plus grande part des coûts est responsable de la sélection et du mandat au fournisseur. (Réglementations relatives à la maintenance logicielle)
+Commun / Mandataire / Interne::
+Chaque membre de la communauté mandate de manière autonome un ou plusieurs fournisseurs de logiciels pour mettre en œuvre les adaptations et extensions dont il a besoin. Pour les adaptations souhaitées par plusieurs membres, le partage des coûts est convenu au cas par cas. Le membre supportant la plus grande part des coûts est responsable de la sélection et du mandat au fournisseur. (Réglementations relatives à la maintenance logicielle)
 
-|Commun
-|Mandataire
-|Tiers
-|L'association sélectionne périodiquement les fournisseurs de logiciels de manière centralisée par appels d'offres OMC ou procédures de gré à gré (selon l'ampleur des prestations de maintenance). Les coûts sont attribués aux membres selon une clé : (à définir : par population, utilisateurs, etc.)
+Commun / Mandataire / Tiers::
+L'association sélectionne périodiquement les fournisseurs de logiciels de manière centralisée par appels d'offres OMC ou procédures de gré à gré (selon l'ampleur des prestations de maintenance). Les coûts sont attribués aux membres selon une clé : (à définir : par population, utilisateurs, etc.)
 
-|Commun
-|Partenaire
-|Interne
-a|Chaque membre de la communauté mandate de manière autonome un ou plusieurs fournisseurs de logiciels pour mettre en œuvre les adaptations et extensions dont il a besoin. Pour les adaptations souhaitées par plusieurs membres, le partage des coûts est convenu au cas par cas. Le membre supportant la plus grande part des coûts est responsable de la sélection et du mandat au fournisseur.
-
+Commun / Partenaire / Interne::
+Chaque membre de la communauté mandate de manière autonome un ou plusieurs fournisseurs de logiciels pour mettre en œuvre les adaptations et extensions dont il a besoin. Pour les adaptations souhaitées par plusieurs membres, le partage des coûts est convenu au cas par cas. Le membre supportant la plus grande part des coûts est responsable de la sélection et du mandat au fournisseur.
++
 _(Réglementations relatives à la maintenance logicielle)_ Au besoin complété par une contribution des fournisseurs participants. Exemple : _Chaque entreprise de développement logiciel membre de la communauté s'engage à investir chaque année au moins XY jours de travail à ses propres frais dans le développement, la mise à jour technologique ou le marketing de l'application._
 
-|Commun
-|Partenaire
-|Tiers
-a|L'association sélectionne périodiquement les fournisseurs de logiciels de manière centralisée par appels d'offres OMC ou procédures de gré à gré (selon l'ampleur des prestations de maintenance). Les coûts sont attribués aux membres selon une clé : (à définir : par population, utilisateurs, etc.) Au besoin complété par l'ajout suivant : _Chaque entreprise de développement logiciel membre de la communauté s'engage à investir chaque année au moins XY jours de travail à ses propres frais dans le développement, la mise à jour technologique ou le marketing de l'application._
+Commun / Partenaire / Tiers::
+L'association sélectionne périodiquement les fournisseurs de logiciels de manière centralisée par appels d'offres OMC ou procédures de gré à gré (selon l'ampleur des prestations de maintenance). Les coûts sont attribués aux membres selon une clé : (à définir : par population, utilisateurs, etc.) Au besoin complété par l'ajout suivant : _Chaque entreprise de développement logiciel membre de la communauté s'engage à investir chaque année au moins XY jours de travail à ses propres frais dans le développement, la mise à jour technologique ou le marketing de l'application._
 
-|Tiers
-|Mandataire
-|-
-a|Les fournisseurs sont sélectionnés périodiquement par appels d'offres OMC ou par une procédure de gré à gré (selon l'ampleur des prestations de maintenance). Avec l'ajout suivant : _Les améliorations apportées par les fournisseurs potentiels et leurs activités dans la communauté sont prises en compte comme facteur dans l'évaluation._
-
+Tiers / Mandataire / -::
+Les fournisseurs sont sélectionnés périodiquement par appels d'offres OMC ou par une procédure de gré à gré (selon l'ampleur des prestations de maintenance). Avec l'ajout suivant : _Les améliorations apportées par les fournisseurs potentiels et leurs activités dans la communauté sont prises en compte comme facteur dans l'évaluation._
++
 Les modifications souhaitées par des externes ne sont pas financées par la Confédération, mais doivent être commandées et payées par eux-mêmes.
 
-|Tiers
-|Partenaire
-|-
-a|Les fournisseurs sont sélectionnés périodiquement par appels d'offres OMC ou par une procédure de gré à gré (selon l'ampleur des prestations de maintenance). Avec l'ajout suivant : _Les améliorations apportées par les fournisseurs potentiels et leurs activités dans la communauté sont prises en compte comme facteur dans l'évaluation. Les modifications souhaitées par des externes ne sont pas financées par la Confédération, mais doivent être commandées et payées par eux-mêmes._
-|===
+Tiers / Partenaire / -::
+Les fournisseurs sont sélectionnés périodiquement par appels d'offres OMC ou par une procédure de gré à gré (selon l'ampleur des prestations de maintenance). Avec l'ajout suivant : _Les améliorations apportées par les fournisseurs potentiels et leurs activités dans la communauté sont prises en compte comme facteur dans l'évaluation. Les modifications souhaitées par des externes ne sont pas financées par la Confédération, mais doivent être commandées et payées par eux-mêmes._
 
 === Marketing
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Confédération
-|Mandataire
-|-
-|La Confédération ne commercialise pas activement l'application, mais la publie sur des plateformes de logiciels open source. La publication de l'application est annoncée dans les organes spécialisés. Si des parties intéressées se manifestent, nous examinons s'il convient de constituer une communauté commune ou de poursuivre avec leur version du logiciel.
+Confédération / Mandataire / -::
+La Confédération ne commercialise pas activement l'application, mais la publie sur des plateformes de logiciels open source. La publication de l'application est annoncée dans les organes spécialisés. Si des parties intéressées se manifestent, nous examinons s'il convient de constituer une communauté commune ou de poursuivre avec leur version du logiciel.
 
-|Commun
-|Partenaire
-|-
-a|En complément : +
+Commun / Partenaire / -::
+En complément : +
 Les fournisseurs peuvent commercialiser l'application et rechercher d'autres parties intéressées. La Confédération peut être citée comme référence. Nous acceptons consciemment que des versions divergentes du logiciel puissent en résulter.
 
-|Commun
-|Mandataire
-|Interne
-|L'application est commercialisée par les membres ou par l'association.
+Commun / Mandataire / Interne::
+L'application est commercialisée par les membres ou par l'association.
 
-|Commun
-|Partenaire
-|Interne
-|L'application est commercialisée par les fournisseurs.
+Commun / Partenaire / Interne::
+L'application est commercialisée par les fournisseurs.
 
-|Commun
-|-
-|Tiers
-|L'application est commercialisée par l'association, la société simple et leurs membres.
+Commun / - / Tiers::
+L'application est commercialisée par l'association, la société simple et leurs membres.
 
-|ouvert
-|-
-|-
-a|L'application peut être commercialisée par des fournisseurs, ou il peut être renoncé à un marketing explicite.
-
+ouvert / - / -::
+L'application peut être commercialisée par des fournisseurs, ou il peut être renoncé à un marketing explicite.
++
 Alternative sans marketing explicite : la Confédération ne commercialise pas activement l'application, mais la publie sur des plateformes de logiciels open source. Dans les organes spécialisés, nous signalons que nous avons publié l'application et qu'une collaboration est bienvenue. Nous présentons le logiciel aux personnes intéressées et tentons de les intégrer dans nos processus d'élaboration de la feuille de route.
-|===
 
 === Traitement des contributions externes
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Confédération
-|Mandataire
-|-
-a|Les contributions et demandes externes doivent aussi être traitées même si la Confédération reste seule décideuse concernant le logiciel (sauf en cas de publication minimale, où un fork est inévitable). Nous proposons l'approche suivante :
-
+Confédération / Mandataire / -::
+Les contributions et demandes externes doivent aussi être traitées même si la Confédération reste seule décideuse concernant le logiciel (sauf en cas de publication minimale, où un fork est inévitable). Nous proposons l'approche suivante :
++
 *Traitement des erreurs signalées* +
 Nous tentons de reproduire les erreurs signalées par des personnes externes et demandons des précisions au besoin. Si la reproduction réussit, la Confédération commande la correction des erreurs. Si l'erreur ne peut pas être vérifiée ou si l'effort de correction est disproportionné, nous présentons nos excuses à la personne ayant signalé l'erreur et lui demandons si elle pourrait soumettre une pull request pour y remédier.
-
++
 *Traitement des demandes* +
 Nous répondons à chaque demande entrante. Si une demande ne peut pas être traitée avec un effort raisonnable et qu'un investissement supplémentaire de temps semble inefficient, nous présentons nos excuses en invoquant des ressources limitées et proposons de mettre la personne en contact avec un fournisseur pour un conseil plus approfondi.
-
++
 *Traitement des pull requests* +
 Nous examinons chaque pull request avec soin. Afin d'éviter un effort inutile du côté du contributeur, nous signalons immédiatement si quelque chose contredit notre feuille de route ou s'il est douteux que nous acceptions la contribution. La Confédération décide de manière autonome et selon des critères techniques quelles contributions elle accepte. Les corrections d'erreurs ayant passé le processus de revue sont toujours acceptées.
-
++
 *Traitement des forks* +
 Nous soutenons les forks de notre application. Celui qui déploie l'application devrait créer son propre fork. Nous examinons les forks qui en résultent au moins une fois par an et reprenons les extensions bonnes et adaptées.
 
-|Commun
-|-
-|-
-a|Externe désigne les contributions provenant de l'extérieur de la communauté définie (membres de l'association). Différences par rapport à ci-dessus : +
+Commun / - / -::
+Externe désigne les contributions provenant de l'extérieur de la communauté définie (membres de l'association). Différences par rapport à ci-dessus : +
 *Traitement des forks* +
 Nous voulons éviter les forks (durables) de l'application. Les personnes intéressées devraient plutôt rejoindre directement la communauté. Au sein de la communauté, nous tentons de garantir que tous les membres utilisent la version principale.
 
-|Ouvert
-|-
-|-
-a|La constitution d'une communauté qui fonctionne et d'une culture ouverte nous importe.
-
+Ouvert / - / -::
+La constitution d'une communauté qui fonctionne et d'une culture ouverte nous importe.
++
 *Traitement des erreurs signalées* +
 Nous tentons de reproduire et de corriger les erreurs signalées. Nous présupposons la collaboration active des personnes qui signalent. Si possible, elles devraient créer directement une pull request avec une correction d'erreur.
-
++
 *Traitement des demandes* +
 Nous traitons chaque demande dans un délai d'une semaine au maximum. Les demandes de contributeurs actifs sont traitées en priorité et de manière approfondie. Nous tentons d'associer d'autres membres au traitement des demandes.
-
++
 *Traitement des pull requests* +
 Nous souhaitons recevoir autant de pull requests de haute qualité que possible. Nous associons tous les contributeurs actifs aux revues ainsi qu'à l'évaluation technique et métier des pull requests. Pour les contributions controversées, nous tentons de parvenir à une décision par un vote informel.
-
++
 *Traitement des forks* +
 Nous tentons de rendre les forks inutiles par une gestion de communauté active et ouverte. Si des forks apparaissent malgré tout, nous les examinons activement et tentons de reprendre les extensions et améliorations qui y ont été développées. Dans de tels cas, nous sollicitons activement des pull requests.
-|===
 
 De manière générale, il convient de relever que les contributions peuvent aller du soutien à d'autres utilisateurs jusqu'à la prise en charge de la responsabilité de parties entières d'un projet (voir _[BITKOM2023]_ chapitre 4.2).
 
 === Exploitation de l'application
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestion du produit |Fournisseur comme |Développement |Proposition
+_Gestion du produit / Fournisseur comme / Développement -- Proposition_
 
-|Commun
-|-
-|-
-|Une exploitation centralisée peut être proposée en option par l'association centrale, au sens du Software as a Service (SaaS). Il convient d'examiner si cela est souhaité.
+Commun / - / -::
+Une exploitation centralisée peut être proposée en option par l'association centrale, au sens du Software as a Service (SaaS). Il convient d'examiner si cela est souhaité.
 
-|-
-|Partenaire
-|-
-|Il convient de préciser si le fournisseur doit aussi exploiter le logiciel.
+- / Partenaire / -::
+Il convient de préciser si le fournisseur doit aussi exploiter le logiciel.
 
-|-
-|Direction
-|-
-|Il convient d'indiquer que le fournisseur est responsable de l'exploitation.
-|===
+- / Direction / -::
+Il convient d'indiquer que le fournisseur est responsable de l'exploitation.
 
 Les niveaux de support et les contacts de support devraient également être précisés dans ce chapitre.
 
@@ -3274,32 +2980,21 @@ Anche la metodologia fondamentale dello sviluppo può influire sul tipo di commu
 
 Il presente capitolo fornisce indicazioni per la redazione del concetto di community sulla base delle decisioni di principio prese (secondo il capitolo 5).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|aperto
-|Partner
-|Confederazione
-a|Contenuti o suggerimenti, se le decisioni di principio sono: +
+aperto / Partner / Confederazione::
+Contenuti o suggerimenti, se le decisioni di principio sono: +
 Gestione del prodotto c) Organizzazione aperta +
 Coinvolgimento dei fornitori: b) Fornitore quale partner +
 Ripartizione dei costi: b) Ciascuno per sé +
 _Il testo di cui sopra può essere copiato nel modello e adattato._
 
-|Comune
-|-
-|Ciascuno per sé
-a|Contenuti o suggerimenti, se le decisioni di principio sono: +
+Comune / - / Ciascuno per sé::
+Comune / - / Causante::
+Contenuti o suggerimenti, se le decisioni di principio sono: +
 Gestione del prodotto b) Sviluppo comune +
 Coinvolgimento dei fornitori: a) o b) (non rilevante) +
 Ripartizione dei costi: c) Principio di causalità o d) Ripartizione dei costi
-
-|Comune
-|-
-|Causante
-|
-|===
 
 Il concetto di community dovrebbe essere un documento dinamico, adattabile d'intesa con la community. Il concetto dovrebbe rispecchiare la situazione attuale e proporre opzioni di sviluppo future. Se in seguito aderiscono altri membri alla community, l'organizzazione e i processi possono essere ulteriormente elaborati e possono essere introdotti meccanismi più complessi. I sottocapitoli seguenti seguono direttamente la struttura proposta del concetto di community (cfr. capitolo 4).
 
@@ -3337,87 +3032,76 @@ In linea di principio, per i nuovi sviluppi si mira a che la Confederazione sia 
 
 Il tipo di conduzione del progetto dipende da quale organizzazione aveva la direzione (SAFe, HERMES) in seno alla Confederazione. Per la forma organizzativa va sempre perseguito un onere amministrativo minimo (esistente anziché nuovo; società semplice anziché associazione).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Confederazione
-|-
-|Interno
-a|Poiché la Confederazione mantiene il controllo diretto, non sono necessarie strutture organizzative supplementari. +
+Confederazione / - / Interno::
+Poiché la Confederazione mantiene il controllo diretto, non sono necessarie strutture organizzative supplementari. +
 L'ente che pubblica (p. es. un ufficio federale) resta proprietario e assume tutti i compiti di coordinamento. In tal caso il capitolo «Organizzazione» può essere tenuto molto breve.
 
-|Comune
-|-
-|Interno
-a|Per questo scenario si raccomanda di regola l'organizzazione quale *società semplice*. +
+Comune / - / Interno::
+Per questo scenario si raccomanda di regola l'organizzazione quale *società semplice*. +
 Affinché lo sviluppo comune e il coordinamento di roadmap e requisiti siano possibili, è consigliabile costituire due organi, ciascuno con un partecipante per membro della community:
-
++
+--
 * Organo direttivo: definisce strategia e priorità.
 * Gruppo specialistico: elabora requisiti e contenuti concreti a livello tecnico. A seconda dell'ampiezza può essere istituito anche un gruppo specialistico per ogni tema.
-
+--
++
 Proprietario del codice è l'ufficio che lo ha pubblicato.
-
++
 Se le strutture diventano più complesse o se sono coinvolti più di cinque utenti o membri supplementari, può valere la pena esaminare se la community non sia meglio organizzata come associazione. Si confrontino le spiegazioni della variante immediatamente sottostante.
 
-|Comune
-|-
-|Terzi
-a|Si raccomanda l'organizzazione quale *associazione*. +
+Comune / - / Terzi::
+Si raccomanda l'organizzazione quale *associazione*. +
 O viene fondata un'associazione appositamente per l'applicazione, oppure l'applicazione viene trasferita a un'associazione esistente. Un'associazione è raccomandata perché altrimenti la ripartizione dei costi diventa complessa e i compiti di coordinamento comportano verosimilmente lavoro sufficiente per assumere un gerente a tempo parziale per l'associazione.
-
++
 I diritti sul codice sono allora trasferiti all'associazione, che assume la gestione della community e le ordinazioni presso i fornitori.
 
-|Comune
-|Mandatario
-|Interno
-a|Si raccomanda l'organizzazione quale *associazione*. O viene fondata un'associazione appositamente per l'applicazione, oppure l'applicazione viene trasferita a un'associazione esistente. Un'associazione è raccomandata perché altrimenti la ripartizione dei costi diventa complessa e i compiti di coordinamento comportano verosimilmente lavoro sufficiente per assumere un gerente a tempo parziale per l'associazione.
-
+Comune / Mandatario / Interno::
+Si raccomanda l'organizzazione quale *associazione*. O viene fondata un'associazione appositamente per l'applicazione, oppure l'applicazione viene trasferita a un'associazione esistente. Un'associazione è raccomandata perché altrimenti la ripartizione dei costi diventa complessa e i compiti di coordinamento comportano verosimilmente lavoro sufficiente per assumere un gerente a tempo parziale per l'associazione.
++
 I diritti sul codice sono allora trasferiti all'associazione, che assume la gestione della community e le ordinazioni presso i fornitori. +
 Qui i fornitori non sono membri dell'associazione, bensì soltanto mandatari. Il gerente non dovrebbe essere fornito da un fornitore.
 
-|Comune
-|Mandatario
-|Terzi
-a|Si raccomanda l'organizzazione quale *associazione*. O viene fondata un'associazione appositamente per l'applicazione, oppure l'applicazione viene trasferita a un'associazione esistente. Un'associazione è raccomandata perché altrimenti la ripartizione dei costi diventa complessa e i compiti di coordinamento comportano verosimilmente lavoro sufficiente per assumere un gerente a tempo parziale per l'associazione. +
+Comune / Mandatario / Terzi::
+Si raccomanda l'organizzazione quale *associazione*. O viene fondata un'associazione appositamente per l'applicazione, oppure l'applicazione viene trasferita a un'associazione esistente. Un'associazione è raccomandata perché altrimenti la ripartizione dei costi diventa complessa e i compiti di coordinamento comportano verosimilmente lavoro sufficiente per assumere un gerente a tempo parziale per l'associazione. +
 I diritti sul codice sono allora trasferiti all'associazione, che assume la gestione della community e le ordinazioni presso i fornitori. +
 I fornitori sono membri dell'associazione; il gerente può anche essere fornito da un fornitore.
 
-|aperto
-|-
-|Interno
-a|Non vi è *alcuna necessità di una descrizione dettagliata di un'organizzazione*, poiché essa è deliberatamente concepita in modo aperto. È tuttavia importante stabilire chi riceve e tratta le richieste esterne (responsabilità). Va inoltre determinato se e in quale misura persone esterne possono essere coinvolte:
-
+aperto / - / Interno::
+Non vi è *alcuna necessità di una descrizione dettagliata di un'organizzazione*, poiché essa è deliberatamente concepita in modo aperto. È tuttavia importante stabilire chi riceve e tratta le richieste esterne (responsabilità). Va inoltre determinato se e in quale misura persone esterne possono essere coinvolte:
++
+--
 * Nessuna integrazione diretta: gli esterni possono soltanto presentare suggerimenti e contributi (come pull request).
 * Integrazione quali contributori: gli esterni che apportano contributi frequenti e di qualità sono integrati direttamente.
 * Trasferimento a esterni possibile: se, dopo la pubblicazione, gli esterni contribuiscono allo sviluppo più dell'organizzazione che pubblica, l'applicazione può anche essere loro trasferita.
-
+--
++
 L'organizzazione che pubblica resta proprietaria. Questa variante corrisponde all'organizzazione dei progetti open source «classici»; cfr. per esempio https://opensource.guide/leadership-and-governance/ per maggiori informazioni.
 
-|aperto
-|Mandatario
-|Interno
-a|Non vi è *alcuna necessità di una descrizione dettagliata di un'organizzazione*, poiché essa è deliberatamente concepita in modo aperto. È tuttavia importante stabilire chi riceve e tratta le richieste esterne (responsabilità). Va inoltre determinato se e in quale misura persone esterne possono essere coinvolte:
-
+aperto / Mandatario / Interno::
+Non vi è *alcuna necessità di una descrizione dettagliata di un'organizzazione*, poiché essa è deliberatamente concepita in modo aperto. È tuttavia importante stabilire chi riceve e tratta le richieste esterne (responsabilità). Va inoltre determinato se e in quale misura persone esterne possono essere coinvolte:
++
+--
 * Nessuna integrazione diretta: gli esterni possono soltanto presentare suggerimenti e contributi (come pull request).
 * Integrazione quali contributori: gli esterni che apportano contributi frequenti e di qualità sono integrati direttamente.
 * Trasferimento a esterni possibile: se, dopo la pubblicazione, gli esterni contribuiscono allo sviluppo più dell'organizzazione che pubblica, l'applicazione può anche essere loro trasferita.
-
+--
++
 L'organizzazione che pubblica resta proprietaria. +
 Questa variante corrisponde all'organizzazione dei progetti open source «classici»; cfr. per esempio https://opensource.guide/leadership-and-governance/ per maggiori informazioni. +
 Il fornitore dovrebbe assumere soltanto compiti di coordinamento puramente tecnici (code review, valutazione).
 
-|Terzi
-|Partner
-|Interno
-a|Non vi è *alcuna necessità di una descrizione dettagliata di un'organizzazione*, poiché essa è deliberatamente concepita in modo aperto. È tuttavia importante stabilire chi riceve e tratta le richieste esterne (responsabilità). Va inoltre determinato se e in quale misura persone esterne possono essere coinvolte:
-
+Terzi / Partner / Interno::
+Non vi è *alcuna necessità di una descrizione dettagliata di un'organizzazione*, poiché essa è deliberatamente concepita in modo aperto. È tuttavia importante stabilire chi riceve e tratta le richieste esterne (responsabilità). Va inoltre determinato se e in quale misura persone esterne possono essere coinvolte:
++
+--
 * Nessuna integrazione diretta: gli esterni possono soltanto presentare suggerimenti e contributi (come pull request).
 * Integrazione quali contributori: gli esterni che apportano contributi frequenti e di qualità sono integrati direttamente.
 * Trasferimento a esterni possibile: se, dopo la pubblicazione, gli esterni contribuiscono allo sviluppo più dell'organizzazione che pubblica, l'applicazione può anche essere loro trasferita.
-
+--
++
 L'organizzazione che pubblica resta proprietaria. Questa variante corrisponde all'organizzazione dei progetti open source «classici»; cfr. per esempio https://opensource.guide/leadership-and-governance/ per maggiori informazioni.
-|===
 
 Riguardo alla governance possono essere consultati anche _[BITKOM2023]_ capitolo 4.1, _[IZqCab2023]_ o https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module7/README.md#governance-models.
 
@@ -3427,255 +3111,179 @@ Nota: poiché la pubblicazione deve essere garantita conformemente all'art. 9 LM
 
 === Roadmap e processo di modifica
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Confederazione
-|Mandatario
-|-
-|L'autorità federale definisce la roadmap e decide quali modifiche vengono attuate. A tal fine sono utilizzati i processi standard dell'ufficio XY.
+Confederazione / Mandatario / -::
+L'autorità federale definisce la roadmap e decide quali modifiche vengono attuate. A tal fine sono utilizzati i processi standard dell'ufficio XY.
 
-|Confederazione
-|Partner
-|-
-|L'autorità federale definisce la roadmap in collaborazione con l'impresa XY. Essa decide quali modifiche vengono attuate. A tal fine sono utilizzati i processi standard dell'ufficio XY.
+Confederazione / Partner / -::
+L'autorità federale definisce la roadmap in collaborazione con l'impresa XY. Essa decide quali modifiche vengono attuate. A tal fine sono utilizzati i processi standard dell'ufficio XY.
 
-|Comune
-|-
-|Interno
-a|Il processo di elaborazione della roadmap e di approvazione delle modifiche va stabilito dai membri della società o dell'associazione. A seconda della struttura dei membri (numero, rapporto dimensionale ecc.) possono essere adeguati altri processi. +
+Comune / - / Interno::
+Il processo di elaborazione della roadmap e di approvazione delle modifiche va stabilito dai membri della società o dell'associazione. A seconda della struttura dei membri (numero, rapporto dimensionale ecc.) possono essere adeguati altri processi. +
 I processi devono tuttavia prevedere misure per la risoluzione dei conflitti e la formazione della maggioranza.
 
-|Comune
-|-
-|Terzi
-a|Il processo di elaborazione della roadmap e di approvazione delle modifiche va stabilito dai membri della società o dell'associazione. A seconda della struttura dei membri (numero, rapporto dimensionale ecc.) possono essere adeguati altri processi.
-
+Comune / - / Terzi::
+Il processo di elaborazione della roadmap e di approvazione delle modifiche va stabilito dai membri della società o dell'associazione. A seconda della struttura dei membri (numero, rapporto dimensionale ecc.) possono essere adeguati altri processi.
++
 I processi devono tuttavia prevedere misure per la risoluzione dei conflitti e la formazione della maggioranza.
-
++
 Con l'aggiunta che va stabilita anche una chiave di ripartizione dei costi. Occorre inoltre riflettere su come trattare la ripartizione dei costi per adattamenti non desiderati dai membri interessati. In particolare nelle associazioni con membri di dimensioni disuguali possono verificarsi situazioni in cui un grande membro (p. es. l'autorità federale) sostiene una parte rilevante dei costi di un'estensione senza trarne alcun beneficio.
 
-|aperto
-|-
-|-
-a|_Esempio, non adatto a tutte le situazioni_ +
+aperto / - / -::
+_Esempio, non adatto a tutte le situazioni_ +
 Non occorre elaborare una roadmap; l'applicazione soddisfa attualmente le esigenze.
-
++
 Le modifiche sono decise in una discussione aperta e si ricerca un consenso. La decisione finale spetta al proprietario del codice (Confederazione Svizzera).
-|===
 
 === Processo di sviluppo
 
 Se entra in gioco lo sviluppo aperto, esso va definito qui. Sono importanti la ripartizione dei compiti e l'indicazione delle posizioni centrali nel concetto di community. Nonché il modo in cui è garantita la sicurezza dei contenuti del repository.
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Confederazione
-|-
-|-
-a|I diritti di committer (accesso in scrittura al codice) spettano alle persone/agli enti/ai fornitori selezionati dalla Confederazione. Alla scadenza del contratto i rispettivi diritti sono revocati.
-
+Confederazione / - / -::
+I diritti di committer (accesso in scrittura al codice) spettano alle persone/agli enti/ai fornitori selezionati dalla Confederazione. Alla scadenza del contratto i rispettivi diritti sono revocati.
++
 I fornitori di prestazioni e i fornitori sono responsabili dello svolgimento del processo tecnico di code review per i contributi esterni accettati nel merito dalla Confederazione. Essi rispondono della qualità tecnica. I fornitori sono indennizzati per tale lavoro dalla Confederazione.
 
-|Comune
-|Mandatario
-|Interno
-a|In linea di principio tutti gli enti incaricati da un membro della community ricevono l'accesso in scrittura al codice (diritti di committer). Alla scadenza del contratto i rispettivi diritti sono revocati.
-
+Comune / Mandatario / Interno::
+In linea di principio tutti gli enti incaricati da un membro della community ricevono l'accesso in scrittura al codice (diritti di committer). Alla scadenza del contratto i rispettivi diritti sono revocati.
++
 Se il codice modificato riguarda settori centrali dell'applicazione, tutte le modifiche devono essere esaminate da un ente appositamente incaricato dalla community. Tale ente risponde della qualità tecnica dell'applicazione. Esso è inoltre competente per l'esame delle modifiche accettate nel merito dalla community.
 
-|Comune
-|Partner
-|Terzi
-a|I diritti di committer (accesso in scrittura al codice) spettano ai membri della community. Tali persone si organizzano da sé e assumono congiuntamente la responsabilità della qualità del codice.
-
+Comune / Partner / Terzi::
+I diritti di committer (accesso in scrittura al codice) spettano ai membri della community. Tali persone si organizzano da sé e assumono congiuntamente la responsabilità della qualità del codice.
++
 Se un membro della community incarica un fornitore esterno di un adattamento o di un'estensione, l'adattamento è esaminato da un membro della community. Esso è indennizzato a tal fine dal committente.
-
++
 Le modifiche al nucleo dell'applicazione devono essere esaminate da un secondo membro della community.
-
++
 I fornitori membri della community sono inoltre responsabili dell'esame dei contributi esterni e del nuovo codice tecnico accettato nel merito dall'associazione.
 
-|aperto
-|-
-|-
-a|Inizialmente i diritti di committer spettano agli sviluppatori o ai loro datori di lavoro. I diritti di committer sono concessi a tutti gli sviluppatori che contribuiscono attivamente al progetto per più mesi e dimostrano un'adeguata competenza sociale.
-
+aperto / - / -::
+Inizialmente i diritti di committer spettano agli sviluppatori o ai loro datori di lavoro. I diritti di committer sono concessi a tutti gli sviluppatori che contribuiscono attivamente al progetto per più mesi e dimostrano un'adeguata competenza sociale.
++
 I singoli sviluppatori conservano in linea di principio i propri diritti di committer, anche se cambiano datore di lavoro o se la Confederazione sceglie un altro fornitore. I diritti di committer si estinguono soltanto se vengono ceduti volontariamente o se la maggioranza degli altri committer ne decide la revoca.
-
++
 La Confederazione ha il diritto di designare quali committer singoli sviluppatori delle imprese che incarica. Non ha il diritto di revocare a qualcuno i diritti di committer senza motivo.
-
++
 Le code review sono effettuate da almeno una persona che agisce quale committer. I committer si organizzano da sé.
-
++
 La Confederazione si impegna a indennizzare il lavoro di revisione nella misura in cui ciò le sia finanziariamente possibile.
-|===
 
 === Ripartizione dei costi e fornitori
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Confederazione
-|Mandatario
-|Interno
-|I fornitori sono selezionati periodicamente mediante bandi OMC o una procedura per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione).
+Confederazione / Mandatario / Interno::
+I fornitori sono selezionati periodicamente mediante bandi OMC o una procedura per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione).
 
-|Confederazione
-|Partner
-|-
-a|*Importante:* verificare preventivamente se ciò sia ammissibile sotto il profilo del diritto degli acquisti pubblici nel caso concreto.
-
+Confederazione / Partner / -::
+*Importante:* verificare preventivamente se ciò sia ammissibile sotto il profilo del diritto degli acquisti pubblici nel caso concreto.
++
 Completeremo la documentazione su questo punto. La Confederazione sceglie il fornitore XXX quale partner strategico e mira a una cooperazione a lungo termine.
 
-|Comune
-|Mandatario
-|Interno
-a|Ogni membro della community incarica autonomamente uno o più fornitori di software di attuare gli adattamenti e le estensioni di cui necessita. Per gli adattamenti desiderati da più membri, la ripartizione dei costi è concordata caso per caso. Il membro con la quota di costi maggiore è responsabile della scelta e dell'incarico al fornitore. (Disciplinamenti per la manutenzione del software)
+Comune / Mandatario / Interno::
+Ogni membro della community incarica autonomamente uno o più fornitori di software di attuare gli adattamenti e le estensioni di cui necessita. Per gli adattamenti desiderati da più membri, la ripartizione dei costi è concordata caso per caso. Il membro con la quota di costi maggiore è responsabile della scelta e dell'incarico al fornitore. (Disciplinamenti per la manutenzione del software)
 
-|Comune
-|Mandatario
-|Terzi
-|L'associazione seleziona periodicamente i fornitori di software in modo centralizzato mediante bandi OMC o procedure per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). I costi sono attribuiti ai membri secondo una chiave: (da definire: per popolazione, utenti ecc.)
+Comune / Mandatario / Terzi::
+L'associazione seleziona periodicamente i fornitori di software in modo centralizzato mediante bandi OMC o procedure per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). I costi sono attribuiti ai membri secondo una chiave: (da definire: per popolazione, utenti ecc.)
 
-|Comune
-|Partner
-|Interno
-a|Ogni membro della community incarica autonomamente uno o più fornitori di software di attuare gli adattamenti e le estensioni di cui necessita. Per gli adattamenti desiderati da più membri, la ripartizione dei costi è concordata caso per caso. Il membro con la quota di costi maggiore è responsabile della scelta e dell'incarico al fornitore.
-
+Comune / Partner / Interno::
+Ogni membro della community incarica autonomamente uno o più fornitori di software di attuare gli adattamenti e le estensioni di cui necessita. Per gli adattamenti desiderati da più membri, la ripartizione dei costi è concordata caso per caso. Il membro con la quota di costi maggiore è responsabile della scelta e dell'incarico al fornitore.
++
 _(Disciplinamenti per la manutenzione del software)_ Se necessario integrati da un contributo dei fornitori partecipanti. Esempio: _Ogni impresa di sviluppo software membro della community si impegna a investire annualmente almeno XY giorni lavorativi a proprie spese nello sviluppo, nell'aggiornamento tecnologico o nel marketing dell'applicazione._
 
-|Comune
-|Partner
-|Terzi
-a|L'associazione seleziona periodicamente i fornitori di software in modo centralizzato mediante bandi OMC o procedure per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). I costi sono attribuiti ai membri secondo una chiave: (da definire: per popolazione, utenti ecc.) Se necessario integrati dall'aggiunta: _Ogni impresa di sviluppo software membro della community si impegna a investire annualmente almeno XY giorni lavorativi a proprie spese nello sviluppo, nell'aggiornamento tecnologico o nel marketing dell'applicazione._
+Comune / Partner / Terzi::
+L'associazione seleziona periodicamente i fornitori di software in modo centralizzato mediante bandi OMC o procedure per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). I costi sono attribuiti ai membri secondo una chiave: (da definire: per popolazione, utenti ecc.) Se necessario integrati dall'aggiunta: _Ogni impresa di sviluppo software membro della community si impegna a investire annualmente almeno XY giorni lavorativi a proprie spese nello sviluppo, nell'aggiornamento tecnologico o nel marketing dell'applicazione._
 
-|Terzi
-|Mandatario
-|-
-a|I fornitori sono selezionati periodicamente mediante bandi OMC o una procedura per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). Con l'aggiunta: _I miglioramenti apportati dai potenziali fornitori e le loro attività nella community sono considerati quale fattore nella valutazione._
-
+Terzi / Mandatario / -::
+I fornitori sono selezionati periodicamente mediante bandi OMC o una procedura per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). Con l'aggiunta: _I miglioramenti apportati dai potenziali fornitori e le loro attività nella community sono considerati quale fattore nella valutazione._
++
 Le modifiche desiderate da esterni non sono finanziate dalla Confederazione, bensì devono essere commissionate e pagate da essi stessi.
 
-|Terzi
-|Partner
-|-
-a|I fornitori sono selezionati periodicamente mediante bandi OMC o una procedura per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). Con l'aggiunta: _I miglioramenti apportati dai potenziali fornitori e le loro attività nella community sono considerati quale fattore nella valutazione. Le modifiche desiderate da esterni non sono finanziate dalla Confederazione, bensì devono essere commissionate e pagate da essi stessi._
-|===
+Terzi / Partner / -::
+I fornitori sono selezionati periodicamente mediante bandi OMC o una procedura per incarico diretto (a seconda dell'ampiezza delle prestazioni di manutenzione). Con l'aggiunta: _I miglioramenti apportati dai potenziali fornitori e le loro attività nella community sono considerati quale fattore nella valutazione. Le modifiche desiderate da esterni non sono finanziate dalla Confederazione, bensì devono essere commissionate e pagate da essi stessi._
 
 === Marketing
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Confederazione
-|Mandatario
-|-
-|La Confederazione non commercializza attivamente l'applicazione, ma la pubblica su piattaforme di software open source. La pubblicazione dell'applicazione è annunciata negli organi specializzati. Se si manifestano interessati, esaminiamo se costituire una community comune o proseguire con la loro versione del software.
+Confederazione / Mandatario / -::
+La Confederazione non commercializza attivamente l'applicazione, ma la pubblica su piattaforme di software open source. La pubblicazione dell'applicazione è annunciata negli organi specializzati. Se si manifestano interessati, esaminiamo se costituire una community comune o proseguire con la loro versione del software.
 
-|Comune
-|Partner
-|-
-a|In aggiunta: +
+Comune / Partner / -::
+In aggiunta: +
 I fornitori possono commercializzare l'applicazione e cercare ulteriori interessati. La Confederazione può essere citata come referenza. Accettiamo consapevolmente che ne possano derivare versioni divergenti del software.
 
-|Comune
-|Mandatario
-|Interno
-|L'applicazione è commercializzata dai membri o dall'associazione.
+Comune / Mandatario / Interno::
+L'applicazione è commercializzata dai membri o dall'associazione.
 
-|Comune
-|Partner
-|Interno
-|L'applicazione è commercializzata dai fornitori.
+Comune / Partner / Interno::
+L'applicazione è commercializzata dai fornitori.
 
-|Comune
-|-
-|Terzi
-|L'applicazione è commercializzata dall'associazione, dalla società semplice e dai loro membri.
+Comune / - / Terzi::
+L'applicazione è commercializzata dall'associazione, dalla società semplice e dai loro membri.
 
-|aperto
-|-
-|-
-a|L'applicazione può essere commercializzata dai fornitori, oppure si può rinunciare a un marketing esplicito.
-
+aperto / - / -::
+L'applicazione può essere commercializzata dai fornitori, oppure si può rinunciare a un marketing esplicito.
++
 Alternativa senza marketing esplicito: la Confederazione non commercializza attivamente l'applicazione, ma la pubblica su piattaforme di software open source. Negli organi specializzati segnaliamo di aver pubblicato l'applicazione e che una collaborazione è benvenuta. Mostriamo il software agli interessati e cerchiamo di integrarli nei nostri processi di elaborazione della roadmap.
-|===
 
 === Trattamento dei contributi esterni
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Confederazione
-|Mandatario
-|-
-a|I contributi e le richieste esterni devono essere trattati anche se la Confederazione resta l'unica decisore riguardo al software (salvo in caso di pubblicazione minima, dove un fork è inevitabile). Proponiamo il seguente modo di procedere:
-
+Confederazione / Mandatario / -::
+I contributi e le richieste esterni devono essere trattati anche se la Confederazione resta l'unica decisore riguardo al software (salvo in caso di pubblicazione minima, dove un fork è inevitabile). Proponiamo il seguente modo di procedere:
++
 *Trattamento degli errori segnalati* +
 Cerchiamo di riprodurre gli errori segnalati da persone esterne e chiediamo precisazioni se necessario. Se la riproduzione riesce, la Confederazione commissiona la correzione degli errori. Se l'errore non può essere verificato o se l'onere per correggerlo è sproporzionato, ci scusiamo con la persona che ha segnalato l'errore e le chiediamo se potrebbe presentare una pull request per porvi rimedio.
-
++
 *Trattamento delle richieste* +
 Rispondiamo a ogni richiesta in entrata. Se una richiesta non può essere chiarita con un onere ragionevole e un ulteriore impiego di tempo appare inefficiente, ci scusiamo richiamando le risorse limitate e offriamo di mettere in contatto la persona con un fornitore per una consulenza approfondita.
-
++
 *Trattamento delle pull request* +
 Esaminiamo con cura ogni pull request. Per evitare oneri inutili al contributore, segnaliamo immediatamente se qualcosa contraddice la nostra roadmap o se è dubbio che accetteremo il contributo. La Confederazione decide autonomamente e secondo criteri tecnici quali contributi accettare. Le correzioni di errori che hanno superato il processo di revisione sono sempre accettate.
-
++
 *Trattamento dei fork* +
 Sosteniamo i fork della nostra applicazione. Chi introduce l'applicazione dovrebbe creare un proprio fork. Esaminiamo i fork che ne risultano almeno una volta all'anno e riprendiamo le estensioni valide e adeguate.
 
-|Comune
-|-
-|-
-a|Per esterni si intendono i contributi provenienti dall'esterno della community definita (membri dell'associazione). Differenze rispetto a quanto sopra: +
+Comune / - / -::
+Per esterni si intendono i contributi provenienti dall'esterno della community definita (membri dell'associazione). Differenze rispetto a quanto sopra: +
 *Trattamento dei fork* +
 Vogliamo evitare fork (duraturi) dell'applicazione. Gli interessati dovrebbero invece aderire direttamente alla community. All'interno della community cerchiamo di assicurare che tutti i membri utilizzino la versione principale.
 
-|Aperto
-|-
-|-
-a|La costituzione di una community funzionante e di una cultura aperta è per noi importante.
-
+Aperto / - / -::
+La costituzione di una community funzionante e di una cultura aperta è per noi importante.
++
 *Trattamento degli errori segnalati* +
 Cerchiamo di riprodurre e correggere gli errori segnalati. Presupponiamo la collaborazione attiva delle persone che segnalano. Se possibile, esse dovrebbero creare direttamente una pull request con una correzione dell'errore.
-
++
 *Trattamento delle richieste* +
 Trattiamo ogni richiesta entro al massimo una settimana. Le richieste di contributori attivi sono trattate in via prioritaria e in modo approfondito. Cerchiamo di coinvolgere altri membri nel trattamento delle richieste.
-
++
 *Trattamento delle pull request* +
 Vogliamo ricevere il maggior numero possibile di pull request di elevata qualità. Coinvolgiamo tutti i contributori attivi nelle revisioni e nella valutazione tecnica e specialistica delle pull request. Per i contributi controversi cerchiamo di giungere a una decisione mediante una votazione informale.
-
++
 *Trattamento dei fork* +
 Cerchiamo di rendere superflui i fork mediante una gestione della community attiva e aperta. Se nondimeno emergono fork, li esaminiamo attivamente e cerchiamo di riprendere le estensioni e i miglioramenti ivi sviluppati. In tali casi sollecitiamo attivamente pull request.
-|===
 
 In generale va rilevato che i contributi possono spaziare dal sostegno ad altri utenti fino all'assunzione della responsabilità di intere parti di un progetto (cfr. _[BITKOM2023]_ capitolo 4.2).
 
 === Esercizio dell'applicazione
 
-[cols="1,1,1,4",options="header"]
-|===
-|Gestione del prodotto |Fornitore quale |Sviluppo |Proposta
+_Gestione del prodotto / Fornitore quale / Sviluppo -- Proposta_
 
-|Comune
-|-
-|-
-|Un esercizio centralizzato può essere offerto in opzione dall'associazione centrale, nel senso del Software as a Service (SaaS). Va esaminato se ciò è desiderato.
+Comune / - / -::
+Un esercizio centralizzato può essere offerto in opzione dall'associazione centrale, nel senso del Software as a Service (SaaS). Va esaminato se ciò è desiderato.
 
-|-
-|Partner
-|-
-|Va precisato se il fornitore debba anche esercire il software.
+- / Partner / -::
+Va precisato se il fornitore debba anche esercire il software.
 
-|-
-|Direzione
-|-
-|Va indicato che il fornitore è responsabile dell'esercizio.
-|===
+- / Direzione / -::
+Va indicato che il fornitore è responsabile dell'esercizio.
 
 I livelli di supporto e i contatti di supporto dovrebbero parimenti essere precisati in questo capitolo.
 
@@ -4239,32 +3847,21 @@ Era la metodica fundamentala dal svilup po influenzar il gener da la communitad.
 
 Quest chapitel dat indicaziuns per redigier il concept da communitad sin la basa da las decisiuns fundamentalas prendidas (tenor il chapitel 5).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|avert
-|Partenari
-|Confederaziun
-a|Cuntegns u propostas, sche las decisiuns fundamentalas èn: +
+avert / Partenari / Confederaziun::
+Cuntegns u propostas, sche las decisiuns fundamentalas èn: +
 Management dal product c) Organisaziun averta +
 Integraziun dals furniturs: b) Furnitur sco partenari +
 Repartiziun dals custs: b) Mintgin per sasez +
 _Il text survart po vegnir copià en il model ed adattà._
 
-|Cuminaivel
-|-
-|Mintgin per sasez
-a|Cuntegns u propostas, sche las decisiuns fundamentalas èn: +
+Cuminaivel / - / Mintgin per sasez::
+Cuminaivel / - / Chaschunader::
+Cuntegns u propostas, sche las decisiuns fundamentalas èn: +
 Management dal product b) Svilup cuminaivel +
 Integraziun dals furniturs: a) u b) (betg relevant) +
 Repartiziun dals custs: c) Princip dal chaschunader u d) Partiziun dals custs
-
-|Cuminaivel
-|-
-|Chaschunader
-|
-|===
 
 Il concept da communitad duess esser in document dinamic che po vegnir adattà en concertaziun cun la communitad. Il concept duess reflectar la situaziun actuala e proponer opziuns da svilup futuras. Sche pli tard entran ulteriurs commembers en la communitad, pon l'organisaziun ed ils process vegnir elavurads vinavant e pon vegnir introducids mecanissems pli cumplexs. Ils suandants sutchapitels suondan directamain la structura proponida dal concept da communitad (vesair chapitel 4).
 
@@ -4302,87 +3899,76 @@ Fundamentalmain vegn aspirà tar svilups novs che la Confederaziun saja possessu
 
 Il gener da la direcziun dal project dependa da tge organisaziun ch'ha gì la direcziun tar la Confederaziun (SAFe, HERMES). Tar la furma d'organisaziun sto adina vegnir aspirà in minimal overhead (structura existenta empè d'ina nova; societad simpla empè d'ina associaziun).
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Confederaziun
-|-
-|Intern
-a|Perquai che la Confederaziun mantegna la controlla directa, n'èn naginas structuras d'organisaziun supplementaras necessarias. +
+Confederaziun / - / Intern::
+Perquai che la Confederaziun mantegna la controlla directa, n'èn naginas structuras d'organisaziun supplementaras necessarias. +
 Il post che publitgescha (p.ex. in uffizi federal) resta possessur e surpiglia tuttas incumbensas da coordinaziun. En quest cas po il chapitel «Organisaziun» vegnir tegnì fitg curt.
 
-|Cuminaivel
-|-
-|Intern
-a|Per quest scenari vegn per ordinari recumandada l'organisaziun sco *societad simpla*. +
+Cuminaivel / - / Intern::
+Per quest scenari vegn per ordinari recumandada l'organisaziun sco *societad simpla*. +
 Per che il svilup cuminaivel e l'accordanza da la roadmap e da las pretensiuns sajan pussaivels, è recumandabel da furmar dus gremis cun mintgamai ina persuna participanta per commember da la communitad:
-
++
+--
 * Gremi da direcziun: definescha la strategia e la prioritisaziun.
 * Gruppa spezialisada: elavura pretensiuns e cuntegns concrets sin il nivel spezialisà. Tut tenor l'extensiun po era vegnir installada ina atgna gruppa spezialisada per mintga tema.
-
+--
++
 Possessur dal code è l'uffizi che l'ha publitgà.
-
++
 Sche las structuras daventan pli cumplexas u sche dapli che tschintg utilisaders resp. commembers supplementars èn participads, po valair la paina d'examinar, sche la communitad duess vegnir organisada meglier sco associaziun. Cumparegliar las explicaziuns en la varianta directamain sutvart.
 
-|Cuminaivel
-|-
-|Terzas persunas
-a|Recumandada vegn l'organisaziun sco *associaziun*. +
+Cuminaivel / - / Terzas persunas::
+Recumandada vegn l'organisaziun sco *associaziun*. +
 U i vegn fundada ina associaziun spezialmain per l'applicaziun, u l'applicaziun vegn transferida ad ina associaziun existenta. Ina associaziun vegn recumandada, perquai ch'uschiglio daventa la repartiziun dals custs cumplexa e perquai che las incumbensas da coordinaziun cumportan probablamain avunda lavur per engaschar ina gestiun a temp parzial per l'associaziun.
-
++
 Ils dretgs sin il code vegnan lura transferids a l'associaziun che surpiglia il management da la communitad e las ordinaziuns tar ils furniturs.
 
-|Cuminaivel
-|Incumbensà
-|Intern
-a|Recumandada vegn l'organisaziun sco *associaziun*. U i vegn fundada ina associaziun spezialmain per l'applicaziun, u l'applicaziun vegn transferida ad ina associaziun existenta. Ina associaziun vegn recumandada, perquai ch'uschiglio daventa la repartiziun dals custs cumplexa e perquai che las incumbensas da coordinaziun cumportan probablamain avunda lavur per engaschar ina gestiun a temp parzial per l'associaziun.
-
+Cuminaivel / Incumbensà / Intern::
+Recumandada vegn l'organisaziun sco *associaziun*. U i vegn fundada ina associaziun spezialmain per l'applicaziun, u l'applicaziun vegn transferida ad ina associaziun existenta. Ina associaziun vegn recumandada, perquai ch'uschiglio daventa la repartiziun dals custs cumplexa e perquai che las incumbensas da coordinaziun cumportan probablamain avunda lavur per engaschar ina gestiun a temp parzial per l'associaziun.
++
 Ils dretgs sin il code vegnan lura transferids a l'associaziun che surpiglia il management da la communitad e las ordinaziuns tar ils furniturs. +
 Qua n'èn ils furniturs betg commembers da l'associaziun, mabain mo incumbensads. La gestiun na duess betg vegnir messa a disposiziun d'in furnitur.
 
-|Cuminaivel
-|Incumbensà
-|Terzas persunas
-a|Recumandada vegn l'organisaziun sco *associaziun*. U i vegn fundada ina associaziun spezialmain per l'applicaziun, u l'applicaziun vegn transferida ad ina associaziun existenta. Ina associaziun vegn recumandada, perquai ch'uschiglio daventa la repartiziun dals custs cumplexa e perquai che las incumbensas da coordinaziun cumportan probablamain avunda lavur per engaschar ina gestiun a temp parzial per l'associaziun. +
+Cuminaivel / Incumbensà / Terzas persunas::
+Recumandada vegn l'organisaziun sco *associaziun*. U i vegn fundada ina associaziun spezialmain per l'applicaziun, u l'applicaziun vegn transferida ad ina associaziun existenta. Ina associaziun vegn recumandada, perquai ch'uschiglio daventa la repartiziun dals custs cumplexa e perquai che las incumbensas da coordinaziun cumportan probablamain avunda lavur per engaschar ina gestiun a temp parzial per l'associaziun. +
 Ils dretgs sin il code vegnan lura transferids a l'associaziun che surpiglia il management da la communitad e las ordinaziuns tar ils furniturs. +
 Ils furniturs èn commembers da l'associaziun; la gestiun po era vegnir messa a disposiziun d'in furnitur.
 
-|avert
-|-
-|Intern
-a|I n'exista *nagin basegn per ina descripziun detagliada d'ina organisaziun*, perquai ch'ella è concepida conscientamain avertamain. Impurtant è dentant da fixar, tgi che recepescha ed elavura las dumondas externas (responsabladad). Ultra da quai sto vegnir determinà, sche ed en tge dimensiun che persunas externas pon vegnir integradas:
-
+avert / - / Intern::
+I n'exista *nagin basegn per ina descripziun detagliada d'ina organisaziun*, perquai ch'ella è concepida conscientamain avertamain. Impurtant è dentant da fixar, tgi che recepescha ed elavura las dumondas externas (responsabladad). Ultra da quai sto vegnir determinà, sche ed en tge dimensiun che persunas externas pon vegnir integradas:
++
+--
 * Nagina integraziun directa: Externs pon mo inoltrar propostas e contribuziuns (sco pull requests).
 * Integraziun sco contributors: Externs che prestan savens e bunas contribuziuns vegnan integrads directamain.
 * Surdada ad externs pussaivla: Sche suenter la publicaziun contribueschan externs dapli al svilup vinavant che l'organisaziun che publitgescha, po l'applicaziun era vegnir transferida ad els.
-
+--
++
 L'organisaziun che publitgescha resta possessura. Questa varianta correspunda a l'organisaziun da projects open source «classics»; vesair per ulteriuras infurmaziuns per exempel https://opensource.guide/leadership-and-governance/.
 
-|avert
-|Incumbensà
-|Intern
-a|I n'exista *nagin basegn per ina descripziun detagliada d'ina organisaziun*, perquai ch'ella è concepida conscientamain avertamain. Impurtant è dentant da fixar, tgi che recepescha ed elavura las dumondas externas (responsabladad). Ultra da quai sto vegnir determinà, sche ed en tge dimensiun che persunas externas pon vegnir integradas:
-
+avert / Incumbensà / Intern::
+I n'exista *nagin basegn per ina descripziun detagliada d'ina organisaziun*, perquai ch'ella è concepida conscientamain avertamain. Impurtant è dentant da fixar, tgi che recepescha ed elavura las dumondas externas (responsabladad). Ultra da quai sto vegnir determinà, sche ed en tge dimensiun che persunas externas pon vegnir integradas:
++
+--
 * Nagina integraziun directa: Externs pon mo inoltrar propostas e contribuziuns (sco pull requests).
 * Integraziun sco contributors: Externs che prestan savens e bunas contribuziuns vegnan integrads directamain.
 * Surdada ad externs pussaivla: Sche suenter la publicaziun contribueschan externs dapli al svilup vinavant che l'organisaziun che publitgescha, po l'applicaziun era vegnir transferida ad els.
-
+--
++
 L'organisaziun che publitgescha resta possessura. +
 Questa varianta correspunda a l'organisaziun da projects open source «classics»; vesair per ulteriuras infurmaziuns per exempel https://opensource.guide/leadership-and-governance/. +
 Il furnitur duess mo surpigliar incumbensas da coordinaziun puramain tecnicas (code review, giudicaziun).
 
-|Terzas persunas
-|Partenari
-|Intern
-a|I n'exista *nagin basegn per ina descripziun detagliada d'ina organisaziun*, perquai ch'ella è concepida conscientamain avertamain. Impurtant è dentant da fixar, tgi che recepescha ed elavura las dumondas externas (responsabladad). Ultra da quai sto vegnir determinà, sche ed en tge dimensiun che persunas externas pon vegnir integradas:
-
+Terzas persunas / Partenari / Intern::
+I n'exista *nagin basegn per ina descripziun detagliada d'ina organisaziun*, perquai ch'ella è concepida conscientamain avertamain. Impurtant è dentant da fixar, tgi che recepescha ed elavura las dumondas externas (responsabladad). Ultra da quai sto vegnir determinà, sche ed en tge dimensiun che persunas externas pon vegnir integradas:
++
+--
 * Nagina integraziun directa: Externs pon mo inoltrar propostas e contribuziuns (sco pull requests).
 * Integraziun sco contributors: Externs che prestan savens e bunas contribuziuns vegnan integrads directamain.
 * Surdada ad externs pussaivla: Sche suenter la publicaziun contribueschan externs dapli al svilup vinavant che l'organisaziun che publitgescha, po l'applicaziun era vegnir transferida ad els.
-
+--
++
 L'organisaziun che publitgescha resta possessura. Questa varianta correspunda a l'organisaziun da projects open source «classics»; vesair per ulteriuras infurmaziuns per exempel https://opensource.guide/leadership-and-governance/.
-|===
 
 Concernent la governanza pon era vegnir consultads _[BITKOM2023]_ chapitel 4.1, _[IZqCab2023]_ u https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module7/README.md#governance-models.
 
@@ -4392,255 +3978,179 @@ Indicaziun: Perquai che la relaschada sto esser garantida tenor l'art. 9 EMBAG, 
 
 === Roadmap e process da midada
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Confederaziun
-|Incumbensà
-|-
-|L'autoritad federala definescha la roadmap e decida, tge midadas che vegnan realisadas. Per quai vegnan duvrads ils process standard da l'uffizi XY.
+Confederaziun / Incumbensà / -::
+L'autoritad federala definescha la roadmap e decida, tge midadas che vegnan realisadas. Per quai vegnan duvrads ils process standard da l'uffizi XY.
 
-|Confederaziun
-|Partenari
-|-
-|L'autoritad federala definescha la roadmap en collavuraziun cun la firma XY. Ella decida, tge midadas che vegnan realisadas. Per quai vegnan duvrads ils process standard da l'uffizi XY.
+Confederaziun / Partenari / -::
+L'autoritad federala definescha la roadmap en collavuraziun cun la firma XY. Ella decida, tge midadas che vegnan realisadas. Per quai vegnan duvrads ils process standard da l'uffizi XY.
 
-|Cuminaivel
-|-
-|Intern
-a|Il process per sviluppar la roadmap e per approvar midadas sto vegnir fixà dals commembers da la societad u da l'associaziun. Tut tenor la structura dals commembers (dumber, relaziun da grondezza etc.) pon auters process esser adequats. +
+Cuminaivel / - / Intern::
+Il process per sviluppar la roadmap e per approvar midadas sto vegnir fixà dals commembers da la societad u da l'associaziun. Tut tenor la structura dals commembers (dumber, relaziun da grondezza etc.) pon auters process esser adequats. +
 Ils process ston dentant cuntegnair mesiras per schliar conflicts e per chattar maioritads.
 
-|Cuminaivel
-|-
-|Terzas persunas
-a|Il process per sviluppar la roadmap e per approvar midadas sto vegnir fixà dals commembers da la societad u da l'associaziun. Tut tenor la structura dals commembers (dumber, relaziun da grondezza etc.) pon auters process esser adequats.
-
+Cuminaivel / - / Terzas persunas::
+Il process per sviluppar la roadmap e per approvar midadas sto vegnir fixà dals commembers da la societad u da l'associaziun. Tut tenor la structura dals commembers (dumber, relaziun da grondezza etc.) pon auters process esser adequats.
++
 Ils process ston dentant cuntegnair mesiras per schliar conflicts e per chattar maioritads.
-
++
 Cun il supplement ch'era ina clav da repartiziun dals custs sto vegnir fixada. Da reflectar è ultra da quai, co ch'i sto vegnir tractà cun la partiziun dals custs per adattaments che n'èn betg giavischads dals commembers pertutgads. En spezial en associaziuns cun commembers da grondezza differenta pon naschair situaziuns, en las qualas in grond commember (p.ex. l'autoritad federala) porta ina part considerabla dals custs per ina extensiun senza trair in profit da quai.
 
-|avert
-|-
-|-
-a|_Exempel, betg adattà per tuttas situaziuns_ +
+avert / - / -::
+_Exempel, betg adattà per tuttas situaziuns_ +
 I n'exista nagin basegn da crear ina roadmap; l'applicaziun adempla actualmain ils basegns.
-
++
 Davart midadas vegn decidì en ina discussiun averta ed in consens vegn aspirà. La decisiun finala sa chatta tar la possessura dal code (Confederaziun svizra).
-|===
 
 === Process da svilup
 
 Sche il svilup avert vegn applitgà, sto quai vegnir definì qua. Impurtants èn la repartiziun da las incumbensas e la menziun da posts centrals en il concept da communitad. Er, co che la segirezza dals cuntegns dal repositori vegn garantida.
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Confederaziun
-|-
-|-
-a|Ils dretgs da committer (access da scriver al code) sa chattan tar las persunas/ils posts/ils furniturs tschernids da la Confederaziun. Suenter la scadenza dal contract vegnan ils dretgs respectivs retratgs.
-
+Confederaziun / - / -::
+Ils dretgs da committer (access da scriver al code) sa chattan tar las persunas/ils posts/ils furniturs tschernids da la Confederaziun. Suenter la scadenza dal contract vegnan ils dretgs respectivs retratgs.
++
 Ils purschiders da prestaziuns ed ils furniturs èn responsabels per exequir il process tecnic da code review per contribuziuns externas ch'èn vegnidas acceptadas dal puntg da vista spezialisà da la Confederaziun. Els èn responsabels per la qualitad tecnica. Ils furniturs vegnan recumpensads per questa lavur da la Confederaziun.
 
-|Cuminaivel
-|Incumbensà
-|Intern
-a|Fundamentalmain survegnan tut ils posts incumbensads d'in commember da la communitad l'access da scriver al code (dretgs da committer). Suenter la scadenza dal contract vegnan ils dretgs respectivs retratgs.
-
+Cuminaivel / Incumbensà / Intern::
+Fundamentalmain survegnan tut ils posts incumbensads d'in commember da la communitad l'access da scriver al code (dretgs da committer). Suenter la scadenza dal contract vegnan ils dretgs respectivs retratgs.
++
 Sche code midà pertutga secturs centrals da l'applicaziun, ston tuttas midadas vegnir examinadas d'in post incumbensà spezialmain per quai da la communitad. Quest post è responsabel per la qualitad tecnica da l'applicaziun. El è ultra da quai cumpetent per examinar midadas ch'èn vegnidas acceptadas dal puntg da vista spezialisà da la communitad.
 
-|Cuminaivel
-|Partenari
-|Terzas persunas
-a|Ils dretgs da committer (access da scriver al code) sa chattan tar ils commembers da la communitad. Questas persunas s'organiseschan sezzas e portan cuminaivlamain la responsabladad per la qualitad dal code.
-
+Cuminaivel / Partenari / Terzas persunas::
+Ils dretgs da committer (access da scriver al code) sa chattan tar ils commembers da la communitad. Questas persunas s'organiseschan sezzas e portan cuminaivlamain la responsabladad per la qualitad dal code.
++
 Sch'in commember da la communitad incumbensescha in furnitur extern per in adattament u ina extensiun, vegn l'adattament examinà d'in commember da la communitad. El vegn recumpensà per quai dal mandant.
-
++
 Midadas al center da l'applicaziun ston vegnir examinadas d'in segund commember da la communitad.
-
++
 Ils furniturs ch'èn commembers da la communitad èn ultra da quai responsabels per examinar contribuziuns externas e nov code tecnic ch'è vegnì acceptà dal puntg da vista spezialisà da l'associaziun.
 
-|avert
-|-
-|-
-a|Al cumenzament sa chattan ils dretgs da committer tar ils sviluppaders u tar lur patruns. Dretgs da committer vegnan concedids a tut ils sviluppaders che contribueschan activamain al project durant plirs mais e che mussan ina cumpetenza sociala adequata.
-
+avert / - / -::
+Al cumenzament sa chattan ils dretgs da committer tar ils sviluppaders u tar lur patruns. Dretgs da committer vegnan concedids a tut ils sviluppaders che contribueschan activamain al project durant plirs mais e che mussan ina cumpetenza sociala adequata.
++
 Ils singuls sviluppaders mantegnan fundamentalmain lur dretgs da committer, era sch'els midan il patrun u sche la Confederaziun tscherna in auter furnitur. Dretgs da committer extinguan mo, sch'els vegnan dads davent voluntarmain u sche la maioritad dals auters committers decida lur retratga.
-
++
 La Confederaziun ha il dretg da numnar singuls sviluppaders da las interpresas ch'ella incumbensescha sco committers. Ella n'ha betg il dretg da retrair ad insatgi ils dretgs da committer senza motiv.
-
++
 Code reviews vegnan fatgas dad almain ina persuna ch'è activa sco committer. Ils committers s'organiseschan sezs.
-
++
 La Confederaziun s'oblighescha da recumpensar la lavur da review, uschenavant che quai è finanzialmain pussaivel per ella.
-|===
 
 === Partiziun dals custs e furniturs
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Confederaziun
-|Incumbensà
-|Intern
-|Ils furniturs vegnan tschernids periodicamain via concurs OMC u ina procedura libra (tut tenor l'extensiun da las prestaziuns da mantenziun).
+Confederaziun / Incumbensà / Intern::
+Ils furniturs vegnan tschernids periodicamain via concurs OMC u ina procedura libra (tut tenor l'extensiun da las prestaziuns da mantenziun).
 
-|Confederaziun
-|Partenari
-|-
-a|*Impurtant:* Examinar anticipadamain, sche quai è permess dal puntg da vista dal dretg d'acquist en il cas concret.
-
+Confederaziun / Partenari / -::
+*Impurtant:* Examinar anticipadamain, sche quai è permess dal puntg da vista dal dretg d'acquist en il cas concret.
++
 Nus vegnin a cumplettar la documentaziun davart quest punct. La Confederaziun tscherna il furnitur XXX sco partenari strategic ed aspira ina collavuraziun a lunga vista.
 
-|Cuminaivel
-|Incumbensà
-|Intern
-a|Mintga commember da la communitad incumbensescha independentamain in u plirs furniturs da software cun la realisaziun dals adattaments e da las extensiuns ch'el dovra. Per adattaments giavischads da plirs commembers vegn la partiziun dals custs convegnida en il cas singul. Il commember cun la pli gronda part dals custs è responsabel per la tscherna e l'incumbensa dal furnitur. (Reglamentaziuns per la mantenziun dal software)
+Cuminaivel / Incumbensà / Intern::
+Mintga commember da la communitad incumbensescha independentamain in u plirs furniturs da software cun la realisaziun dals adattaments e da las extensiuns ch'el dovra. Per adattaments giavischads da plirs commembers vegn la partiziun dals custs convegnida en il cas singul. Il commember cun la pli gronda part dals custs è responsabel per la tscherna e l'incumbensa dal furnitur. (Reglamentaziuns per la mantenziun dal software)
 
-|Cuminaivel
-|Incumbensà
-|Terzas persunas
-|L'associaziun tscherna ils furniturs da software periodicamain centralmain via concurs OMC u proceduras libras (tut tenor l'extensiun da las prestaziuns da mantenziun). Ils custs vegnan attribuids als commembers tenor ina clav: (da fixar: tenor populaziun, utilisaders etc.)
+Cuminaivel / Incumbensà / Terzas persunas::
+L'associaziun tscherna ils furniturs da software periodicamain centralmain via concurs OMC u proceduras libras (tut tenor l'extensiun da las prestaziuns da mantenziun). Ils custs vegnan attribuids als commembers tenor ina clav: (da fixar: tenor populaziun, utilisaders etc.)
 
-|Cuminaivel
-|Partenari
-|Intern
-a|Mintga commember da la communitad incumbensescha independentamain in u plirs furniturs da software cun la realisaziun dals adattaments e da las extensiuns ch'el dovra. Per adattaments giavischads da plirs commembers vegn la partiziun dals custs convegnida en il cas singul. Il commember cun la pli gronda part dals custs è responsabel per la tscherna e l'incumbensa dal furnitur.
-
+Cuminaivel / Partenari / Intern::
+Mintga commember da la communitad incumbensescha independentamain in u plirs furniturs da software cun la realisaziun dals adattaments e da las extensiuns ch'el dovra. Per adattaments giavischads da plirs commembers vegn la partiziun dals custs convegnida en il cas singul. Il commember cun la pli gronda part dals custs è responsabel per la tscherna e l'incumbensa dal furnitur.
++
 _(Reglamentaziuns per la mantenziun dal software)_ Sche necessari cumplettà tras ina contribuziun dals furniturs participads. Exempel: _Mintga interpresa da svilup da software ch'è commembra da la communitad s'oblighescha dad investir mintg'onn almain XY dis da lavur sin agens custs en il svilup vinavant, l'actualisaziun tecnologica u il marketing da l'applicaziun._
 
-|Cuminaivel
-|Partenari
-|Terzas persunas
-a|L'associaziun tscherna ils furniturs da software periodicamain centralmain via concurs OMC u proceduras libras (tut tenor l'extensiun da las prestaziuns da mantenziun). Ils custs vegnan attribuids als commembers tenor ina clav: (da fixar: tenor populaziun, utilisaders etc.) Sche necessari cumplettà tras il supplement: _Mintga interpresa da svilup da software ch'è commembra da la communitad s'oblighescha dad investir mintg'onn almain XY dis da lavur sin agens custs en il svilup vinavant, l'actualisaziun tecnologica u il marketing da l'applicaziun._
+Cuminaivel / Partenari / Terzas persunas::
+L'associaziun tscherna ils furniturs da software periodicamain centralmain via concurs OMC u proceduras libras (tut tenor l'extensiun da las prestaziuns da mantenziun). Ils custs vegnan attribuids als commembers tenor ina clav: (da fixar: tenor populaziun, utilisaders etc.) Sche necessari cumplettà tras il supplement: _Mintga interpresa da svilup da software ch'è commembra da la communitad s'oblighescha dad investir mintg'onn almain XY dis da lavur sin agens custs en il svilup vinavant, l'actualisaziun tecnologica u il marketing da l'applicaziun._
 
-|Terzas persunas
-|Incumbensà
-|-
-a|Ils furniturs vegnan tschernids periodicamain via concurs OMC u ina procedura libra (tut tenor l'extensiun da las prestaziuns da mantenziun). Cun il supplement: _Las meglieraziuns contribuidas da furniturs potenzials e las activitads en la communitad vegnan resguardadas sco factur en la valitaziun._
-
+Terzas persunas / Incumbensà / -::
+Ils furniturs vegnan tschernids periodicamain via concurs OMC u ina procedura libra (tut tenor l'extensiun da las prestaziuns da mantenziun). Cun il supplement: _Las meglieraziuns contribuidas da furniturs potenzials e las activitads en la communitad vegnan resguardadas sco factur en la valitaziun._
++
 Midadas giavischadas dad externs na vegnan betg finanziadas da la Confederaziun, mabain ston vegnir dadas en incumbensa e pajadas dad els sezs.
 
-|Terzas persunas
-|Partenari
-|-
-a|Ils furniturs vegnan tschernids periodicamain via concurs OMC u ina procedura libra (tut tenor l'extensiun da las prestaziuns da mantenziun). Cun il supplement: _Las meglieraziuns contribuidas da furniturs potenzials e las activitads en la communitad vegnan resguardadas sco factur en la valitaziun. Midadas giavischadas dad externs na vegnan betg finanziadas da la Confederaziun, mabain ston vegnir dadas en incumbensa e pajadas dad els sezs._
-|===
+Terzas persunas / Partenari / -::
+Ils furniturs vegnan tschernids periodicamain via concurs OMC u ina procedura libra (tut tenor l'extensiun da las prestaziuns da mantenziun). Cun il supplement: _Las meglieraziuns contribuidas da furniturs potenzials e las activitads en la communitad vegnan resguardadas sco factur en la valitaziun. Midadas giavischadas dad externs na vegnan betg finanziadas da la Confederaziun, mabain ston vegnir dadas en incumbensa e pajadas dad els sezs._
 
 === Marketing
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Confederaziun
-|Incumbensà
-|-
-|La Confederaziun na commercialisescha betg activamain l'applicaziun, ma la publitgescha sin plattafurmas da software open source. La publicaziun da l'applicaziun vegn communitgada en gremis spezialisads. Sch'i s'annunzian interessads, examinain nus, sch'ina communitad cuminaivla duai vegnir construida u sch'i duai vegnir lavurà vinavant cun lur versiun dal software.
+Confederaziun / Incumbensà / -::
+La Confederaziun na commercialisescha betg activamain l'applicaziun, ma la publitgescha sin plattafurmas da software open source. La publicaziun da l'applicaziun vegn communitgada en gremis spezialisads. Sch'i s'annunzian interessads, examinain nus, sch'ina communitad cuminaivla duai vegnir construida u sch'i duai vegnir lavurà vinavant cun lur versiun dal software.
 
-|Cuminaivel
-|Partenari
-|-
-a|Supplementarmain: +
+Cuminaivel / Partenari / -::
+Supplementarmain: +
 Furniturs dastgan commercialisar l'applicaziun e tschertgar ulteriurs interessads. La Confederaziun dastga vegnir numnada sco referenza. Nus prendain conscientamain en cumpra ch'i possian naschair versiuns divergentas dal software.
 
-|Cuminaivel
-|Incumbensà
-|Intern
-|L'applicaziun vegn commercialisada dals commembers u da l'associaziun.
+Cuminaivel / Incumbensà / Intern::
+L'applicaziun vegn commercialisada dals commembers u da l'associaziun.
 
-|Cuminaivel
-|Partenari
-|Intern
-|L'applicaziun vegn commercialisada dals furniturs.
+Cuminaivel / Partenari / Intern::
+L'applicaziun vegn commercialisada dals furniturs.
 
-|Cuminaivel
-|-
-|Terzas persunas
-|L'applicaziun vegn commercialisada da l'associaziun, da la societad simpla e da lur commembers.
+Cuminaivel / - / Terzas persunas::
+L'applicaziun vegn commercialisada da l'associaziun, da la societad simpla e da lur commembers.
 
-|avert
-|-
-|-
-a|L'applicaziun dastga vegnir commercialisada da furniturs, u i po vegnir renunzià ad in marketing explicit.
-
+avert / - / -::
+L'applicaziun dastga vegnir commercialisada da furniturs, u i po vegnir renunzià ad in marketing explicit.
++
 Alternativa senza marketing explicit: La Confederaziun na commercialisescha betg activamain l'applicaziun, ma la publitgescha sin plattafurmas da software open source. En gremis spezialisads rendain nus attent ch'avain publitgà l'applicaziun e ch'ina collavuraziun è bainvegnida. Nus mussain il software als interessads ed empruvain da ls integrar en noss process per concepir la roadmap.
-|===
 
 === Tractament da contribuziuns externas
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Confederaziun
-|Incumbensà
-|-
-a|Contribuziuns e dumondas externas ston era vegnir elavuradas, sche la Confederaziun resta la suletta ch'ha da decider davart il software (ordaifer tar ina relaschada minimala, nua ch'in fork è inevitabel). Nus proponin il suandant proceder:
-
+Confederaziun / Incumbensà / -::
+Contribuziuns e dumondas externas ston era vegnir elavuradas, sche la Confederaziun resta la suletta ch'ha da decider davart il software (ordaifer tar ina relaschada minimala, nua ch'in fork è inevitabel). Nus proponin il suandant proceder:
++
 *Tractament da sbagls annunziads* +
 Nus empruvain da reproducir sbagls annunziads da persunas externas e dumandain sche necessari. Sche la reproducziun reussescha, dat la Confederaziun en incumbensa la reparaziun dals sbagls. Sche il sbagl na sa lascha betg verifitgar u sche la lavur per il reparar è dischproporziunadamain gronda, ans stgisain nus tar la persuna che ha annunzià e dumandain, sch'ella pudess inoltrar ina pull request per il reparar.
-
++
 *Tractament da dumondas* +
 Nus respundain mintga dumonda entrada. Sch'ina dumonda na sa lascha betg sclerir cun ina lavur adequata e sch'in ulteriur investiment da temp para inefficient, ans stgisain nus cun inditgar las resursas limitadas ed offrin da metter la persuna che dumonda en contact cun in furnitur per ina cussegliaziun vinavant.
-
++
 *Tractament da pull requests* +
 Nus examinain mintga pull request accuratamain. Per evitar ina lavur nunnecessaria da vart da la persuna che contribuescha, rendain nus immediatamain attent, sche insatge cuntradi a nossa roadmap u sch'igl è dubitus, sche nus acceptain la contribuziun. La Confederaziun decida independentamain e tenor criteris spezialisads, tge contribuziuns ch'ella accepta. Correcturas da sbagls ch'han surpassà il process da review vegnan adina acceptadas.
-
++
 *Tractament da forks* +
 Nus sustegnain forks da nossa applicaziun. Tgi ch'introducescha l'applicaziun duess crear in agen fork. Nus examinain ils forks resultants almain ina giada l'onn e surpigliain extensiuns bunas ed adattadas.
 
-|Cuminaivel
-|-
-|-
-a|Extern designescha contribuziuns da ordaifer la communitad definida (commembers da l'associaziun). Divergenzas da survart: +
+Cuminaivel / - / -::
+Extern designescha contribuziuns da ordaifer la communitad definida (commembers da l'associaziun). Divergenzas da survart: +
 *Tractament da forks* +
 Nus vulain impedir forks (da lunga durada) da l'applicaziun. Interessads duessan empè da quai entrar directamain en la communitad. Entaifer la communitad empruvain nus da garantir che tut ils commembers utiliseschian la versiun principala.
 
-|Avert
-|-
-|-
-a|La construcziun d'ina communitad che funcziuna e d'ina cultura averta è impurtanta per nus.
-
+Avert / - / -::
+La construcziun d'ina communitad che funcziuna e d'ina cultura averta è impurtanta per nus.
++
 *Tractament da sbagls annunziads* +
 Nus empruvain da reproducir e da reparar sbagls annunziads. Nus premettain la collavuraziun activa da las persunas che annunzian. Sche pussaivel duessan ellas crear directamain ina pull request cun ina correctura dal sbagl.
-
++
 *Tractament da dumondas* +
 Nus tractain mintga dumonda entaifer maximalmain in'emna. Dumondas da contribuents activs vegnan tractadas cun prioritad e profundamain. Nus empruvain d'integrar auters commembers en l'elavuraziun da dumondas.
-
++
 *Tractament da pull requests* +
 Nus vulain survegnir uschè bleras pull requests da buna qualitad sco pussaivel. Nus integrain tut ils contribuents activs en las reviews ed en la giudicaziun tecnica e spezialisada da pull requests. Tar contribuziuns contestadas empruvain nus da vegnir ad ina decisiun via ina votaziun informala.
-
++
 *Tractament da forks* +
 Nus empruvain da render forks nunnecessaris tras in management da communitad activ ed avert. Sch'i nascha tuttina forks, ils examinain nus activamain ed empruvain da surpigliar las extensiuns e las meglieraziuns sviluppadas là. En tals cas pretendain nus activamain pull requests.
-|===
 
 En general è da tegnair en scrit che contribuziuns pon ir dal sustegn dad auters utilisaders fin a la surpigliada da la responsabladad per parts entiras d'in project (vesair _[BITKOM2023]_ chapitel 4.2).
 
 === Manaschi da l'applicaziun
 
-[cols="1,1,1,4",options="header"]
-|===
-|Management dal product |Furnitur sco |Svilup |Proposta
+_Management dal product / Furnitur sco / Svilup -- Proposta_
 
-|Cuminaivel
-|-
-|-
-|In manaschi central po vegnir purschì opziunalmain supplementarmain da l'associaziun centrala, en il senn da Software as a Service (SaaS). I sto vegnir examinà, sche quai è giavischà.
+Cuminaivel / - / -::
+In manaschi central po vegnir purschì opziunalmain supplementarmain da l'associaziun centrala, en il senn da Software as a Service (SaaS). I sto vegnir examinà, sche quai è giavischà.
 
-|-
-|Partenari
-|-
-|I sto vegnir fixà, sche il furnitur duai era manar il software.
+- / Partenari / -::
+I sto vegnir fixà, sche il furnitur duai era manar il software.
 
-|-
-|Direcziun
-|-
-|I sto vegnir tegnì en scrit che il furnitur è responsabel per il manaschi.
-|===
+- / Direcziun / -::
+I sto vegnir tegnì en scrit che il furnitur è responsabel per il manaschi.
 
 Stgalims da support e contacts da support duessan vegnir fixads era en quest chapitel.
 
