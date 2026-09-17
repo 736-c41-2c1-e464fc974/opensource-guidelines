@@ -127,6 +127,7 @@ The OSS tools and resources are aimed at different target groups. The following 
 // both the number and the localised word for "Table", so unlike the captions in
 // Em002-2, Em002-3 and Em002-7 there is nothing here to keep in step by hand.
 .OSS tools and resources by target group
+[.landscape]
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
 |Document \ Target group |Management |IT management (a) |ISBO / DSBO (a) |Application Manager |Project Management |Legal Services |Procurement |Development |Communications
@@ -448,6 +449,7 @@ Die OSS-Hilfsmittel richten sich an unterschiedliche Zielgruppen. Die folgende T
 
 // Siehe den englischen Block für die Begründung dieses Blocktitels.
 .OSS-Hilfsmittel nach Zielgruppe
+[.landscape]
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
 |Dokument \ Zielgruppe |Geschäftsleitung |IT-Leitung (a) |ISBO / DSBO (a) |Application Manager |Projektleitung |Rechtsdienst |Beschaffung |Entwicklung |Kommunikation
@@ -769,6 +771,7 @@ Les outils et ressources OSS s'adressent à différents groupes cibles. Le table
 
 // Voir le bloc anglais pour la justification de ce titre de bloc.
 .Outils et ressources OSS par groupe cible
+[.landscape]
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
 |Document \ Groupe cible |Direction |Direction informatique (a) |ISBO / DSBO (a) |Application Manager |Direction de projet |Service juridique |Achats |Développement |Communication
@@ -1090,6 +1093,7 @@ Gli strumenti e le risorse OSS si rivolgono a gruppi target diversi. La tabella 
 
 // Cfr. il blocco inglese per la motivazione di questo titolo di blocco.
 .Strumenti e risorse OSS per gruppo target
+[.landscape]
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
 |Documento \ Gruppo target |Direzione |Direzione informatica (a) |ISBO / DSBO (a) |Application Manager |Direzione di progetto |Servizio giuridico |Acquisti |Sviluppo |Comunicazione
@@ -1411,6 +1415,7 @@ Ils meds e las resursas OSS s'adressan a differentas gruppas da destinaziun. La 
 
 // Vesair il bloc englais per la motivaziun da quest titel da bloc.
 .Meds e resursas OSS tenor gruppa da destinaziun
+[.landscape]
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
 |Document \ Gruppa da destinaziun |Direcziun |Direcziun d'informatica (a) |ISBO / DSBO (a) |Application Manager |Direcziun da project |Servetsch giuridic |Acquist |Svilup |Communicaziun
