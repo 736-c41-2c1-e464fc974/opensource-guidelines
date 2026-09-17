@@ -52,69 +52,39 @@ It concludes the instructions and results in release of the software under an op
 
 Enter the name of the software.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=1]
 
 === Contact person and review
 
 Name the organisation, contact person from the specialist office and the persons responsible (e.g. ISBO/DSBO) who have verified compliance with the publication requirements.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 === Repository names and developer permissions
 
 State the planned repository names of the software to be published and the chosen publication platform.footnote:[A repository under the GitHub organisation of the Federal Chancellery (http://github.com/swiss) can be requested from opensource@bk.admin.ch.]
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 Specify who (GitHub username, name, position, function) is working on the repository. If this is in a repository of an office, it must be stated who authorised the person. That person is then also responsible for the solution if the first person leaves the organisation or changes their position. It should also be specified whether individuals are acting as private persons or as part of the office. Name the GitHub user account that should be assigned the role of Repository Administrator. There can be several administrators.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 == Checklist
 
 The checklist is to be completed before actual publication.
 
-[cols="1,6,1"]
-|===
-|
-a|
 [%interactive]
 * [ ] 'Em002-2.1 OSS Preliminary Assessment Checklist' has been completed and no problematic points were identified.
-|
 
-|
-a|
 [%interactive]
 * [ ] 'Em002-2.2 OSS Analysis and Preparation Checklist' has been completed and no problematic points were identified.
-|
 
-|
-a|
 [%interactive]
 * [ ] Licence has been selected.
 
 Selected licence and justification
 
-|
-
-|
-a|
 [%interactive]
 * [ ] ISDS concept has been created.
 
@@ -123,28 +93,16 @@ If applicable, the software will be subject to a bug bounty programme. +
 There may also be OSS checks in the repositories. +
 The relevant configuration is described and the person responsible is named.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Community and support is regulated (via 'Em002-4.1 OSS Community Checklist')
 
 The checklist is attached. The key points are included here.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Level and method of support have been clarified.
 
 Indication of how this has been regulated.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] A *publiccode.yml* was created for the publication.
 
@@ -152,36 +110,21 @@ The metadata standard https://yml.publiccode.tools/ describes the software. The 
 This must be saved in the main directory of the repository. +
 If a new repository or organisation is created, this can be reported via opensource@bk.admin.ch for inclusion in the OSS Catalogue.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Transferred responsibilities
 
 Indication of whether responsibility for release was transferred to a third party (supplier, support, association) during procurement or subsequently.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Green light for open sourcing from the application and budget managers
 
 Names and date
 
-|
-|===
-
 == Concluding remarks
 
 Comments and references to other relevant documents
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 *Filing of form*
 
@@ -203,69 +146,39 @@ Sie schliesst die Anleitung ab und führt zur Freigabe der Software unter einer 
 
 Tragen Sie den Namen der Software ein.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=1]
 
 === Ansprechperson und Prüfung
 
 Nennen Sie die Organisation, die Ansprechperson der Fachstelle sowie die verantwortlichen Personen (z. B. ISBO/DSBO), welche die Einhaltung der Veröffentlichungsvorgaben geprüft haben.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 === Repository-Namen und Entwicklerberechtigungen
 
 Geben Sie die geplanten Repository-Namen der zu veröffentlichenden Software sowie die gewählte Veröffentlichungsplattform an.footnote:[Ein Repository unter der GitHub-Organisation der Bundeskanzlei (http://github.com/swiss) kann bei opensource@bk.admin.ch beantragt werden.]
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 Geben Sie an, wer (GitHub-Benutzername, Name, Stelle, Funktion) am Repository arbeitet. Befindet sich dieses in einem Repository eines Amtes, so ist anzugeben, wer die Person autorisiert hat. Diese Person ist anschliessend auch für die Lösung verantwortlich, falls die erste Person die Organisation verlässt oder ihre Stelle wechselt. Anzugeben ist zudem, ob Personen als Privatpersonen oder als Teil des Amtes handeln. Nennen Sie das GitHub-Benutzerkonto, dem die Rolle Repository-Administrator zugewiesen werden soll. Es kann mehrere Administratorinnen und Administratoren geben.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 == Checkliste
 
 Die Checkliste ist vor der eigentlichen Veröffentlichung auszufüllen.
 
-[cols="1,6,1"]
-|===
-|
-a|
 [%interactive]
 * [ ] Die «Em002-2.1 Checkliste OSS-Vorabklärung» wurde ausgefüllt und es wurden keine problematischen Punkte festgestellt.
-|
 
-|
-a|
 [%interactive]
 * [ ] Die «Em002-2.2 Checkliste OSS-Analyse und -Vorbereitung» wurde ausgefüllt und es wurden keine problematischen Punkte festgestellt.
-|
 
-|
-a|
 [%interactive]
 * [ ] Die Lizenz wurde ausgewählt.
 
 Gewählte Lizenz und Begründung
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Das ISDS-Konzept wurde erstellt.
 
@@ -274,28 +187,16 @@ Gegebenenfalls untersteht die Software einem Bug-Bounty-Programm. +
 Es kann zudem OSS-Prüfungen in den Repositories geben. +
 Die entsprechende Konfiguration ist beschrieben und die verantwortliche Person ist benannt.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Community und Support sind geregelt (über «Em002-4.1 Checkliste OSS-Community»)
 
 Die Checkliste liegt bei. Die wichtigsten Punkte sind hier aufgeführt.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Umfang und Art des Supports wurden geklärt.
 
 Angabe, wie dies geregelt wurde.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Für die Veröffentlichung wurde eine *publiccode.yml* erstellt.
 
@@ -303,36 +204,21 @@ Der Metadatenstandard https://yml.publiccode.tools/ beschreibt die Software. Das
 Diese ist im Hauptverzeichnis des Repositorys abzulegen. +
 Wird ein neues Repository oder eine neue Organisation erstellt, so kann dies über opensource@bk.admin.ch zur Aufnahme in den OSS-Katalog gemeldet werden.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Übertragene Verantwortlichkeiten
 
 Angabe, ob die Verantwortung für die Freigabe bei der Beschaffung oder nachträglich an Dritte (Lieferant, Support, Verein) übertragen wurde.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Grünes Licht für das Open Sourcing durch die Applikations- und Budgetverantwortlichen
 
 Namen und Datum
 
-|
-|===
-
 == Schlussbemerkungen
 
 Bemerkungen und Verweise auf weitere relevante Dokumente
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 *Ablage des Formulars*
 
@@ -354,69 +240,39 @@ Elle conclut les instructions et aboutit à la publication du logiciel sous une 
 
 Indiquez le nom du logiciel.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=1]
 
 === Personne de contact et examen
 
 Indiquez l'organisation, la personne de contact du service spécialisé ainsi que les personnes responsables (p. ex. ISBO/DSBO) qui ont vérifié le respect des exigences de publication.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 === Noms des dépôts et autorisations des développeurs
 
 Indiquez les noms de dépôt prévus pour le logiciel à publier ainsi que la plateforme de publication choisie.footnote:[Un dépôt au sein de l'organisation GitHub de la Chancellerie fédérale (http://github.com/swiss) peut être demandé à opensource@bk.admin.ch.]
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 Indiquez qui (nom d'utilisateur GitHub, nom, poste, fonction) travaille sur le dépôt. Si celui-ci se trouve dans un dépôt d'un office, il faut préciser qui a autorisé la personne. Cette personne est alors également responsable de la solution si la première quitte l'organisation ou change de poste. Il convient également de préciser si les personnes agissent à titre privé ou en tant que membres de l'office. Indiquez le compte utilisateur GitHub auquel doit être attribué le rôle d'administrateur du dépôt. Il peut y avoir plusieurs administrateurs.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 == Liste de contrôle
 
 La liste de contrôle doit être remplie avant la publication proprement dite.
 
-[cols="1,6,1"]
-|===
-|
-a|
 [%interactive]
 * [ ] La « liste de contrôle Em002-2.1 Évaluation préalable OSS » a été remplie et aucun point problématique n'a été constaté.
-|
 
-|
-a|
 [%interactive]
 * [ ] La « liste de contrôle Em002-2.2 Analyse et préparation OSS » a été remplie et aucun point problématique n'a été constaté.
-|
 
-|
-a|
 [%interactive]
 * [ ] La licence a été choisie.
 
 Licence choisie et justification
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Le concept SIPD a été établi.
 
@@ -425,28 +281,16 @@ Le cas échéant, le logiciel est soumis à un programme de bug bounty. +
 Des contrôles OSS peuvent en outre exister dans les dépôts. +
 La configuration correspondante est décrite et la personne responsable est désignée.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] La communauté et le support sont réglés (via la « liste de contrôle Em002-4.1 Communauté OSS »)
 
 La liste de contrôle est jointe. Les points essentiels figurent ici.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] L'étendue et la forme du support ont été clarifiées.
 
 Indication de la manière dont cela a été réglé.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Un fichier *publiccode.yml* a été créé pour la publication.
 
@@ -454,36 +298,21 @@ Le standard de métadonnées https://yml.publiccode.tools/ décrit le logiciel. 
 Ce fichier doit être enregistré dans le répertoire principal du dépôt. +
 Si un nouveau dépôt ou une nouvelle organisation est créé, cela peut être annoncé à opensource@bk.admin.ch en vue de l'inscription au catalogue OSS.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Responsabilités transférées
 
 Indication précisant si la responsabilité de la publication a été transférée à des tiers (fournisseur, support, association) lors de l'acquisition ou ultérieurement.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Feu vert pour l'open sourcing de la part des responsables de l'application et du budget
 
 Noms et date
 
-|
-|===
-
 == Remarques finales
 
 Remarques et renvois à d'autres documents pertinents
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 *Classement du formulaire*
 
@@ -505,69 +334,39 @@ Essa conclude le istruzioni e porta al rilascio del software sotto una licenza o
 
 Indicate il nome del software.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=1]
 
 === Persona di contatto ed esame
 
 Indicate l'organizzazione, la persona di contatto del servizio specializzato nonché le persone responsabili (p. es. ISBO/DSBO) che hanno verificato il rispetto delle prescrizioni di pubblicazione.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 === Nomi dei repository e autorizzazioni degli sviluppatori
 
 Indicate i nomi di repository previsti per il software da pubblicare nonché la piattaforma di pubblicazione scelta.footnote:[Un repository nell'organizzazione GitHub della Cancelleria federale (http://github.com/swiss) può essere richiesto a opensource@bk.admin.ch.]
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 Indicate chi (nome utente GitHub, nome, posizione, funzione) lavora al repository. Se questo si trova in un repository di un ufficio, occorre indicare chi ha autorizzato la persona. Tale persona è poi responsabile anche della soluzione qualora la prima lasci l'organizzazione o cambi posizione. Va inoltre precisato se le persone agiscono a titolo privato o in quanto parte dell'ufficio. Indicate l'account utente GitHub al quale deve essere attribuito il ruolo di amministratore del repository. Vi possono essere più amministratori.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 == Lista di controllo
 
 La lista di controllo va compilata prima della pubblicazione vera e propria.
 
-[cols="1,6,1"]
-|===
-|
-a|
 [%interactive]
 * [ ] La «lista di controllo Em002-2.1 Valutazione preliminare OSS» è stata compilata e non sono stati rilevati punti problematici.
-|
 
-|
-a|
 [%interactive]
 * [ ] La «lista di controllo Em002-2.2 Analisi e preparazione OSS» è stata compilata e non sono stati rilevati punti problematici.
-|
 
-|
-a|
 [%interactive]
 * [ ] La licenza è stata scelta.
 
 Licenza scelta e motivazione
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Il concetto SIPD è stato allestito.
 
@@ -576,28 +375,16 @@ Se del caso, il software è sottoposto a un programma di bug bounty. +
 Nei repository possono inoltre essere previsti controlli OSS. +
 La relativa configurazione è descritta e la persona responsabile è designata.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Community e supporto sono disciplinati (mediante la «lista di controllo Em002-4.1 Community OSS»)
 
 La lista di controllo è allegata. I punti essenziali figurano qui.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] L'entità e la modalità del supporto sono state chiarite.
 
 Indicazione di come ciò è stato disciplinato.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Per la pubblicazione è stato creato un file *publiccode.yml*.
 
@@ -605,36 +392,21 @@ Lo standard di metadati https://yml.publiccode.tools/ descrive il software. Il f
 Il file va salvato nella directory principale del repository. +
 Se viene creato un nuovo repository o una nuova organizzazione, ciò può essere segnalato a opensource@bk.admin.ch per l'inserimento nel catalogo OSS.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Responsabilità trasferite
 
 Indicazione se la responsabilità della pubblicazione è stata trasferita a terzi (fornitore, supporto, associazione) al momento dell'acquisto o successivamente.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Via libera all'open sourcing da parte dei responsabili dell'applicazione e del budget
 
 Nomi e data
 
-|
-|===
-
 == Osservazioni conclusive
 
 Osservazioni e rinvii ad altri documenti rilevanti
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 *Archiviazione del modulo*
 
@@ -656,69 +428,39 @@ Ella conclura las instrucziuns e maina a la relaschada dal software sut ina lice
 
 Endatai il num dal software.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=1]
 
 === Persuna da contact e controlla
 
 Numnai l'organisaziun, la persuna da contact dal post spezialisà sco er las persunas responsablas (p.ex. ISBO/DSBO) che han verifitgà l'observaziun da las prescripziuns da publicaziun.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 === Nums dals repositoris ed autorisaziuns dals sviluppaders
 
 Inditgai ils nums da repositori planisads dal software da publitgar sco er la plattafurma da publicaziun tschernida.footnote:[In repositori sut l'organisaziun GitHub da la Chanzlia federala (http://github.com/swiss) po vegnir dumandà tar opensource@bk.admin.ch.]
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=3]
 
 Inditgai, tgi (num d'utilisader GitHub, num, post, funcziun) che lavura al repositori. Sche quel sa chatta en in repositori d'in uffizi, sto vegnir inditgà, tgi che ha autorisà la persuna. Questa persuna è lura era responsabla per la soluziun, sche l'emprima persuna banduna l'organisaziun u mida ses post. I sto ultra da quai vegnir inditgà, sche las persunas agischeschan sco persunas privatas u sco part da l'uffizi. Numnai il conto d'utilisader GitHub al qual duai vegnir attribuì il rol d'administratur dal repositori. I pon dar plirs administraturs.
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 == Glista da controlla
 
 La glista da controlla sto vegnir emplenida avant la publicaziun propria.
 
-[cols="1,6,1"]
-|===
-|
-a|
 [%interactive]
 * [ ] La «glista da controlla Em002-2.1 Evaluaziun preliminara OSS» è vegnida emplenida e i n'èn vegnids constatads nagins puncts problematics.
-|
 
-|
-a|
 [%interactive]
 * [ ] La «glista da controlla Em002-2.2 Analisa e preparaziun OSS» è vegnida emplenida e i n'èn vegnids constatads nagins puncts problematics.
-|
 
-|
-a|
 [%interactive]
 * [ ] La licenza è vegnida tschernida.
 
 Licenza tschernida e motivaziun
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Il concept ISDS è vegnì elavurà.
 
@@ -727,28 +469,16 @@ Eventualmain è il software suttamess ad in program da bug bounty. +
 I pon ultra da quai dar controllas OSS en ils repositoris. +
 La configuraziun correspundenta è descritta e la persuna responsabla è numnada.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Communitad e support èn reglads (via la «glista da controlla Em002-4.1 Communitad OSS»)
 
 La glista da controlla è agiuntada. Ils puncts ils pli impurtants èn inditgads qua.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] L'extensiun e la moda dal support èn vegnidas scleridas.
 
 Indicaziun, co che quai è vegnì reglà.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Per la publicaziun è vegnida creada ina *publiccode.yml*.
 
@@ -756,36 +486,21 @@ Il standard da metadatas https://yml.publiccode.tools/ descriva il software. Il 
 Quella sto vegnir archivada en l'ordinatur principal dal repositori. +
 Sch'in nov repositori u ina nova organisaziun vegn creà, po quai vegnir annunzià via opensource@bk.admin.ch per l'admissiun en il catalog OSS.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Responsabladads transferidas
 
 Indicaziun, sche la responsabladad per la relaschada è vegnida transferida a terzas persunas (furnitur, support, associaziun) tar l'acquist u pli tard.
 
-|
-
-|
-a|
 [%interactive]
 * [ ] Glisch verda per l'open sourcing da vart dals responsabels da l'applicaziun e dal budget
 
 Nums e data
 
-|
-|===
-
 == Remartgas finalas
 
 Remartgas e renviaments ad ulteriurs documents relevants
 
-[cols="1"]
-|===
-a|
-
-|===
+field::[rows=4]
 
 *Archivaziun dal formular*
 
