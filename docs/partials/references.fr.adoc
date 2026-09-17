@@ -89,10 +89,12 @@ Accessible uniquement aux services fédéraux sur l'intranet de la Confédérati
 // end::ref-em002-7[]
 // end::ref-em002-tools[]
 // tag::ref-em002-tools[]
+// tag::ref-em002-7[]
 [KBB-MB]::
 Aide-mémoire : acquisition de logiciels et art. 9 LMETA, Centre de compétence des marchés publics de la Confédération : +
 link:https://perimap.admin.ch/goto_perimap_file_46835_download.html[https://perimap.admin.ch/goto_perimap_file_46835_download.html]
 
+// end::ref-em002-7[]
 // end::ref-em002-tools[]
 // tag::ref-em002-general[]
 [EY2011]::
@@ -165,11 +167,6 @@ Stürmer, Matthias et Nussbaumer, Jasmin. Open Source Studie Schweiz 2021. Forsc
 Wheeler, David A. The Free-Libre / Open Source Software (FLOSS) License Slide. 2007. link:https://dwheeler.com/essays/floss-license-slide.pdf[https://dwheeler.com/essays/floss-license-slide.pdf]
 
 // end::ref-em002-general[]
-// tag::ref-em002-7[]
-[KKB-MB]::
-Aide-mémoire : acquisition de logiciels et art. 9 LMETA du Centre de compétence des marchés publics de la Confédération : +https://perimap.admin.ch/goto_perimap_file_46835_download.html+
-
-// end::ref-em002-7[]
 // tag::ref-em002-tools[]
 // tag::ref-em002-7[]
 [KBB-KV]::

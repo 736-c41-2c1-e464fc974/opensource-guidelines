@@ -552,93 +552,13 @@ The ISO standard outlines further areas of responsibility for an Open Source Pro
 === Abbreviations
 
 [horizontal]
-AI::
-Artificial intelligence
-AO::
-Application owner
-CCPP::
-Competence Centre for Federal Public Procurement
-CLA::
-Contributor Licence Agreement
-DCO::
-Developer Certificate of Origin
-DPSS::
-Digital Public Services Switzerland (www.digital-public-services-switzerland.ch/strategy)
-EMOTA::
-Federal Act on the Use of Electronic Means to Carry Out Official Tasks
-FITSU::
-Federal IT Steering Unit (until 2021)
-FOBL::
-Federal Office for Buildings and Logistics
-FoIA::
-Freedom of Information Act
-FSF::
-Free Software Foundation
-HERMES::
-_Handbuch der Elektronischen Rechenzentren des Bundes_, a method for system development (www.hermes.admin.ch)
-OSI::
-Open Source Initiative
-OSPO::
-Open Source Programme Office
-OSS::
-Open source software
-OSSD::
-open source software development
-OU::
-Organisational unit (usually a federal office)
-SPc::
-Service procurer
-SPDX::
-Software Package Data Exchange
-SPv::
-Service provider
+include::partials/abbreviations.en.adoc[tags=abbr-em002-6]
 
 === Glossary
 
 Further terms can be found in TERMDAT, the Federal Administration's https://www.bk.admin.ch/bk/en/home/dokumentation/languages/termdat.html[terminology database].
 
-Application area::
-This refers to the categories of office automation (OA) software as defined in [A029] and other classifications.
-
-Branch::
-A development branch of an OSS
-
-Collaboration::
-The term 'collaboration' derives from the Latin word 'collaborare', which means 'to work together'. +
-It describes a way of working in which several people or teams work together towards a common goal, contributing their skills and resources. The focus is on mutual exchange, transparency and the sharing of knowledge. +
-According to the Gabler Business Dictionary, collaboration also refers to 'cooperation between a company and its customers and suppliers, using modern information technologies to integrate internal and cross-company business processes.'
-
-Contribution::
-OSS contribution refers to the contribution to the development and improvement of open source software (OSS). This can take the form of providing code, documentation, tests, feedback or other types of contributions. (Google AI)
-
-Contributor Licence Agreement (CLA)::
-A Contributor Licence Agreement (CLA), also known as a Contributor Agreement, is a document that sets out the terms under which intellectual property may be contributed to a project or initiative. This usually refers to a software project under an open-source licence (Wikipedia).
-
-Core developer::
-Developer of an OSS project who has committer access rights to the repository.
-
-Market analysis::
-A specific market analysis is used to identify and process information on the current and potential procurement market. The purpose of the market analysis is to identify and understand market structures and, in particular, the supplier structure with regard to all relevant characteristics: price situation (high, low, fluctuations); market size; geographical distribution of potential suppliers and key players, etc. (see https://perimap.admin.ch/goto_perimap_file_38221_download.html). Possible sources of OSS software can be found in link:em002-1.pdf[Em002-1 Practical Guidelines for OSS] in Section 7.
-
-OSS::
-Open source software
-
-Product::
-Used here as a synonym for 'application'.
-+
-The term originates from ITIL. In ITIL (Information Technology Infrastructure Library), a product is a configuration of resources designed to deliver value to a customer or organisation. Unlike a service, which is typically an ongoing, interactive process, a product is a static entity.
-+
-Products can be software, hardware, data or other resources provided by the organisation. (Google AI)
-
-Product standardisation::
-In this document, standardisation primarily refers to SD120, the ICT standard service for office automation, and other standardisations by DTI.
-
-Subscription::
-When subscribing to software, a subscription is taken out. This means that the software is not purchased. +
-In most cases, this involves not only permission to use the software, but also includes all relevant services and support.
-
-Upstream project::
-Upstream is a term used in distributed software development (often open source) and refers to the direction of a patch to its origin (upstream), i.e. to the original developers or maintainers of the software, or to the original project. These can also be software libraries.
+include::partials/glossary.en.adoc[tags=gloss-em002-6]
 endif::[]
 
 ifeval::["{lang}" == "de"]
@@ -1152,93 +1072,13 @@ Die ISO-Norm umreisst weitere Verantwortungsbereiche eines Open Source Programme
 === Abkürzungen
 
 [horizontal]
-AO::
-Application Owner
-BBL::
-Bundesamt für Bauten und Logistik
-BGÖ::
-Öffentlichkeitsgesetz
-CLA::
-Contributor Licence Agreement
-DCO::
-Developer Certificate of Origin
-DÖDS::
-Digitale Öffentliche Dienste Schweiz (www.digital-public-services-switzerland.ch/strategy)
-EMBAG::
-Bundesgesetz über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben
-FSF::
-Free Software Foundation
-HERMES::
-_Handbuch der Elektronischen Rechenzentren des Bundes_, eine Methode zur Systementwicklung (www.hermes.admin.ch)
-ISB::
-Informatiksteuerungsorgan des Bundes (bis 2021)
-KBB::
-Kompetenzzentrum Beschaffungswesen Bund
-KI::
-Künstliche Intelligenz
-LB::
-Leistungsbezüger
-LE::
-Leistungserbringer
-OE::
-Organisationseinheit (in der Regel ein Bundesamt)
-OSI::
-Open Source Initiative
-OSPO::
-Open Source Programme Office
-OSS::
-Open-Source-Software
-OSSD::
-Open-Source-Softwareentwicklung
-SPDX::
-Software Package Data Exchange
+include::partials/abbreviations.de.adoc[tags=abbr-em002-6]
 
 === Glossar
 
 Weitere Begriffe finden sich in TERMDAT, der https://www.bk.admin.ch/bk/de/home/dokumentation/sprachen/termdat.html[Terminologiedatenbank] der Bundesverwaltung.
 
-Anwendungsbereich::
-Gemeint sind die Kategorien der Büroautomationssoftware (BA) nach [A029] und weitere Klassifizierungen.
-
-Branch::
-Ein Entwicklungszweig einer OSS.
-
-Kollaboration::
-Der Begriff «Kollaboration» leitet sich vom lateinischen Wort «collaborare» ab, das «zusammenarbeiten» bedeutet. +
-Er beschreibt eine Arbeitsweise, bei der mehrere Personen oder Teams gemeinsam auf ein Ziel hinarbeiten und dabei ihre Fähigkeiten und Ressourcen einbringen. Im Zentrum stehen gegenseitiger Austausch, Transparenz und das Teilen von Wissen. +
-Nach dem Gabler Wirtschaftslexikon bezeichnet Kollaboration auch die «Zusammenarbeit eines Unternehmens mit seinen Kunden und Lieferanten unter Nutzung moderner Informationstechnologien zur Integration inner- und überbetrieblicher Geschäftsprozesse».
-
-Contribution::
-Eine OSS-Contribution ist ein Beitrag zur Entwicklung und Verbesserung von Open-Source-Software (OSS). Dies kann in Form von Code, Dokumentation, Tests, Rückmeldungen oder anderen Beitragsarten geschehen. (Google AI)
-
-Contributor Licence Agreement (CLA)::
-Ein Contributor Licence Agreement (CLA), auch Contributor Agreement genannt, ist ein Dokument, das die Bedingungen festlegt, unter denen geistiges Eigentum zu einem Projekt oder einer Initiative beigetragen werden darf. Damit ist in der Regel ein Softwareprojekt unter einer Open-Source-Lizenz gemeint (Wikipedia).
-
-Core Developer::
-Entwicklerin oder Entwickler eines OSS-Projekts mit Committer-Zugriffsrechten auf das Repositorium.
-
-Marktanalyse::
-Mit einer spezifischen Marktanalyse werden Informationen zum aktuellen und potenziellen Beschaffungsmarkt ermittelt und aufbereitet. Zweck der Marktanalyse ist es, Marktstrukturen und insbesondere die Anbieterstruktur hinsichtlich aller relevanten Merkmale zu erkennen und zu verstehen: Preissituation (hoch, tief, Schwankungen), Marktgrösse, geografische Verteilung potenzieller Anbieter und wichtiger Akteure usw. (siehe https://perimap.admin.ch/goto_perimap_file_38221_download.html). Mögliche Quellen für OSS-Software finden sich in link:em002-1.pdf[Em002-1 Praxisleitfaden OSS] in Kapitel 7.
-
-OSS::
-Open-Source-Software
-
-Produkt::
-Hier als Synonym für «Anwendung» verwendet.
-+
-Der Begriff stammt aus ITIL. In ITIL (Information Technology Infrastructure Library) ist ein Produkt eine Konfiguration von Ressourcen, die darauf ausgelegt ist, einer Kundin oder einer Organisation Nutzen zu stiften. Anders als ein Service, der typischerweise ein laufender, interaktiver Prozess ist, ist ein Produkt eine statische Einheit.
-+
-Produkte können Software, Hardware, Daten oder andere von der Organisation bereitgestellte Ressourcen sein. (Google AI)
-
-Produktstandardisierung::
-In diesem Dokument bezieht sich die Standardisierung in erster Linie auf SD120, den IKT-Standarddienst für die Büroautomation, sowie auf weitere Standardisierungen durch DTI.
-
-Subscription::
-Beim Bezug von Software im Abonnement wird eine Subscription abgeschlossen. Das bedeutet, dass die Software nicht gekauft wird. +
-In den meisten Fällen umfasst dies nicht nur die Erlaubnis zur Nutzung der Software, sondern auch alle relevanten Dienstleistungen und den Support.
-
-Upstream-Projekt::
-Upstream ist ein Begriff aus der verteilten Softwareentwicklung (oft Open Source) und bezeichnet die Richtung eines Patches zu seinem Ursprung (upstream), also zu den ursprünglichen Entwicklerinnen und Entwicklern bzw. Maintainern der Software oder zum ursprünglichen Projekt. Dabei kann es sich auch um Softwarebibliotheken handeln.
+include::partials/glossary.de.adoc[tags=gloss-em002-6]
 endif::[]
 
 ifeval::["{lang}" == "fr"]
@@ -1752,95 +1592,13 @@ La norme ISO esquisse d'autres domaines de responsabilité d'un Open Source Prog
 === Abréviations
 
 [horizontal]
-AO::
-Application owner
-CCMP::
-Centre de compétence des marchés publics de la Confédération
-ChF::
-Chancellerie fédérale
-CLA::
-Contributor Licence Agreement
-DCO::
-Developer Certificate of Origin
-ANS::
-Administration numérique suisse (www.digital-public-services-switzerland.ch/strategy)
-BP::
-Bénéficiaire de prestations
-FP::
-Fournisseur de prestations
-FSF::
-Free Software Foundation
-HERMES::
-_Handbuch der Elektronischen Rechenzentren des Bundes_, une méthode de développement de systèmes (www.hermes.admin.ch)
-IA::
-Intelligence artificielle
-LMETA::
-Loi fédérale sur l'utilisation des moyens électroniques pour l'exécution des tâches des autorités
-LTrans::
-Loi sur la transparence
-OFCL::
-Office fédéral des constructions et de la logistique
-OSI::
-Open Source Initiative
-OSPO::
-Open Source Programme Office
-OSS::
-Logiciel open source
-OSSD::
-Développement de logiciels open source
-UO::
-Unité d'organisation (en règle générale un office fédéral)
-USIC::
-Unité de pilotage informatique de la Confédération (jusqu'en 2021)
-SPDX::
-Software Package Data Exchange
+include::partials/abbreviations.fr.adoc[tags=abbr-em002-6]
 
 === Glossaire
 
 D'autres termes figurent dans TERMDAT, la https://www.bk.admin.ch/bk/fr/home/dokumentation/sprachen/termdat.html[banque de données terminologique] de l'administration fédérale.
 
-Domaine d'application::
-Il s'agit des catégories de logiciels de bureautique (BA) telles que définies dans [A029] et d'autres classifications.
-
-Branche::
-Une branche de développement d'un logiciel open source.
-
-Collaboration::
-Le terme «collaboration» dérive du mot latin «collaborare», qui signifie «travailler ensemble». +
-Il décrit un mode de travail dans lequel plusieurs personnes ou équipes œuvrent ensemble à un objectif commun en y apportant leurs compétences et leurs ressources. L'échange mutuel, la transparence et le partage des connaissances sont au centre. +
-Selon le Gabler Wirtschaftslexikon, la collaboration désigne aussi la «coopération d'une entreprise avec ses clients et ses fournisseurs, en recourant aux technologies modernes de l'information pour intégrer les processus d'affaires internes et interentreprises».
-
-Contribution::
-Une contribution OSS est un apport au développement et à l'amélioration d'un logiciel open source (OSS). Cela peut prendre la forme de code, de documentation, de tests, de retours ou d'autres types de contributions. (Google AI)
-
-Contributor Licence Agreement (CLA)::
-Un Contributor Licence Agreement (CLA), également appelé Contributor Agreement, est un document qui fixe les conditions auxquelles de la propriété intellectuelle peut être apportée à un projet ou à une initiative. Il s'agit généralement d'un projet logiciel sous licence open source (Wikipédia).
-
-Core developer::
-Développeur d'un projet open source disposant de droits d'accès de committer au dépôt.
-
-Analyse de marché::
-Une analyse de marché spécifique permet d'identifier et de traiter les informations relatives au marché d'acquisition actuel et potentiel. Le but de l'analyse de marché est d'identifier et de comprendre les structures du marché, et en particulier la structure de l'offre, sous tous les aspects pertinents: situation des prix (élevés, bas, fluctuations), taille du marché, répartition géographique des fournisseurs potentiels et des principaux acteurs, etc. (voir https://perimap.admin.ch/goto_perimap_file_38221_download.html). Des sources possibles de logiciels open source figurent dans link:em002-1.pdf[Em002-1 Guide pratique OSS] au chapitre 7.
-
-OSS::
-Logiciel open source
-
-Produit::
-Utilisé ici comme synonyme d'«application».
-+
-Le terme provient d'ITIL. Dans ITIL (Information Technology Infrastructure Library), un produit est une configuration de ressources conçue pour apporter de la valeur à un client ou à une organisation. Contrairement à un service, qui est typiquement un processus interactif et continu, un produit est une entité statique.
-+
-Les produits peuvent être des logiciels, du matériel, des données ou d'autres ressources fournies par l'organisation. (Google AI)
-
-Standardisation des produits::
-Dans le présent document, la standardisation se réfère principalement à SD120, le service standard TIC pour la bureautique, ainsi qu'à d'autres standardisations du secteur TNI.
-
-Subscription::
-Lors de l'acquisition d'un logiciel par abonnement, une subscription est conclue. Cela signifie que le logiciel n'est pas acheté. +
-Dans la plupart des cas, cela comprend non seulement l'autorisation d'utiliser le logiciel, mais aussi l'ensemble des prestations et du support pertinents.
-
-Projet upstream::
-Upstream est un terme issu du développement logiciel distribué (souvent open source) et désigne la direction d'un correctif vers son origine (upstream), c'est-à-dire vers les développeurs ou mainteneurs d'origine du logiciel, ou vers le projet d'origine. Il peut aussi s'agir de bibliothèques logicielles.
+include::partials/glossary.fr.adoc[tags=gloss-em002-6]
 endif::[]
 
 ifeval::["{lang}" == "it"]
@@ -2354,95 +2112,13 @@ La norma ISO delinea ulteriori ambiti di responsabilità di un Open Source Progr
 === Abbreviazioni
 
 [horizontal]
-ADS::
-Amministrazione digitale svizzera (www.digital-public-services-switzerland.ch/strategy)
-AO::
-Application owner
-BP::
-Beneficiario di prestazioni
-CaF::
-Cancelleria federale
-CCAP::
-Centro di competenza per gli acquisti pubblici della Confederazione
-CLA::
-Contributor Licence Agreement
-DCO::
-Developer Certificate of Origin
-FP::
-Fornitore di prestazioni
-FSF::
-Free Software Foundation
-HERMES::
-_Handbuch der Elektronischen Rechenzentren des Bundes_, un metodo per lo sviluppo di sistemi (www.hermes.admin.ch)
-IA::
-Intelligenza artificiale
-LMeCA::
-Legge federale concernente l'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità
-LTras::
-Legge sulla trasparenza
-ODIC::
-Organo direzione informatica della Confederazione (fino al 2021)
-OSI::
-Open Source Initiative
-OSPO::
-Open Source Programme Office
-OSS::
-Software open source
-OSSD::
-Sviluppo di software open source
-UFCL::
-Ufficio federale delle costruzioni e della logistica
-UO::
-Unità organizzativa (di regola un ufficio federale)
-SPDX::
-Software Package Data Exchange
+include::partials/abbreviations.it.adoc[tags=abbr-em002-6]
 
 === Glossario
 
 Ulteriori termini sono reperibili in TERMDAT, la https://www.bk.admin.ch/bk/it/home/dokumentation/sprachen/termdat.html[banca dati terminologica] dell'Amministrazione federale.
 
-Ambito di applicazione::
-Si intendono le categorie di software per l'automazione d'ufficio (BA) secondo [A029] e altre classificazioni.
-
-Branch::
-Un ramo di sviluppo di un software open source.
-
-Collaborazione::
-Il termine «collaborazione» deriva dalla parola latina «collaborare», che significa «lavorare insieme». +
-Descrive un modo di lavorare in cui più persone o team operano insieme verso un obiettivo comune, apportando le proprie competenze e risorse. Al centro vi sono lo scambio reciproco, la trasparenza e la condivisione delle conoscenze. +
-Secondo il Gabler Wirtschaftslexikon, la collaborazione indica anche la «cooperazione di un'impresa con i suoi clienti e fornitori, ricorrendo alle moderne tecnologie dell'informazione per integrare i processi aziendali interni e interaziendali».
-
-Contribution::
-Una contribution OSS è un contributo allo sviluppo e al miglioramento di software open source (OSS). Ciò può avvenire sotto forma di codice, documentazione, test, riscontri o altri tipi di contributi. (Google AI)
-
-Contributor Licence Agreement (CLA)::
-Un Contributor Licence Agreement (CLA), noto anche come Contributor Agreement, è un documento che stabilisce le condizioni alle quali la proprietà intellettuale può essere apportata a un progetto o a un'iniziativa. Di regola si tratta di un progetto software sotto licenza open source (Wikipedia).
-
-Core developer::
-Sviluppatore di un progetto open source che dispone di diritti di accesso come committer al repository.
-
-Analisi di mercato::
-Con un'analisi di mercato specifica si rilevano ed elaborano informazioni sul mercato d'acquisto attuale e potenziale. Scopo dell'analisi di mercato è riconoscere e comprendere le strutture del mercato e in particolare la struttura dell'offerta sotto tutti gli aspetti rilevanti: situazione dei prezzi (alti, bassi, oscillazioni), dimensione del mercato, distribuzione geografica dei fornitori potenziali e degli attori principali ecc. (cfr. https://perimap.admin.ch/goto_perimap_file_38221_download.html). Possibili fonti di software open source sono riportate in link:em002-1.pdf[Em002-1 Guida pratica OSS] al capitolo 7.
-
-OSS::
-Software open source
-
-Prodotto::
-Qui utilizzato come sinonimo di «applicazione».
-+
-Il termine deriva da ITIL. In ITIL (Information Technology Infrastructure Library) un prodotto è una configurazione di risorse concepita per generare valore per un cliente o un'organizzazione. A differenza di un servizio, che è tipicamente un processo continuo e interattivo, un prodotto è un'entità statica.
-+
-I prodotti possono essere software, hardware, dati o altre risorse messe a disposizione dall'organizzazione. (Google AI)
-
-Standardizzazione dei prodotti::
-Nel presente documento la standardizzazione si riferisce in primo luogo a SD120, il servizio standard TIC per l'automazione d'ufficio, nonché ad altre standardizzazioni del settore TDT.
-
-Subscription::
-Acquisendo software in abbonamento si stipula una subscription. Ciò significa che il software non viene acquistato. +
-Nella maggior parte dei casi ciò comprende non solo l'autorizzazione a utilizzare il software, ma anche tutte le prestazioni e il supporto pertinenti.
-
-Progetto upstream::
-Upstream è un termine dello sviluppo software distribuito (spesso open source) e indica la direzione di una patch verso la sua origine (upstream), ossia verso gli sviluppatori o i maintainer originari del software o verso il progetto originario. Può trattarsi anche di librerie software.
+include::partials/glossary.it.adoc[tags=gloss-em002-6]
 endif::[]
 
 ifeval::["{lang}" == "rm"]
@@ -2956,93 +2632,11 @@ La norma ISO delinescha ulteriurs secturs da responsabladad d'in Open Source Pro
 === Abreviaziuns
 
 [horizontal]
-ADS::
-Administraziun digitala Svizra (www.digital-public-services-switzerland.ch/strategy)
-AO::
-Application owner
-CCA::
-Center da cumpetenza per l'acquist public da la Confederaziun
-ChF::
-Chanzlia federala
-CLA::
-Contributor Licence Agreement
-DCO::
-Developer Certificate of Origin
-FSF::
-Free Software Foundation
-HERMES::
-_Handbuch der Elektronischen Rechenzentren des Bundes_, ina metoda per il svilup da sistems (www.hermes.admin.ch)
-IA::
-Intelligenza artifiziala
-ISB::
-Organ da direcziun d'informatica da la Confederaziun (fin 2021)
-EMBAG::
-Lescha federala davart ils meds electronics per ademplir incumbensas d'autoritads
-LTrans::
-Lescha davart la transparenza
-PP::
-Purschider da prestaziuns
-RP::
-Retratg da prestaziuns
-OSI::
-Open Source Initiative
-OSPO::
-Open Source Programme Office
-OSS::
-Software open source
-OSSD::
-Svilup da software open source
-UFCL::
-Uffizi federal per edifizis e logistica
-UO::
-Unitad d'organisaziun (per ordinari in uffizi federal)
-SPDX::
-Software Package Data Exchange
+include::partials/abbreviations.rm.adoc[tags=abbr-em002-6]
 
 === Glossari
 
 Ulteriuras noziuns sa chattan en TERMDAT, la https://www.bk.admin.ch/bk/rm/home/dokumentation/sprachen/termdat.html[banca da datas terminologica] da l'administraziun federala.
 
-Sectur d'applicaziun::
-Manegiadas èn las categorias dal software d'automatisaziun da biro (BA) tenor [A029] ed ulteriuras classificaziuns.
-
-Branch::
-In roman da svilup d'in OSS.
-
-Collavuraziun::
-La noziun «collavuraziun» deriva dal pled latin «collaborare» che munta «lavurar ensemen». +
-Ella descriva ina moda da lavurar, en la quala pliras persunas u teams lavuran ensemen vers ina finamira cuminaivla ed integreschan lur abilitads e resursas. En il center stattan il barat vicendaivel, la transparenza ed il cundivider da savida. +
-Tenor il Gabler Wirtschaftslexikon designescha collavuraziun era la «collavuraziun d'ina interpresa cun ses clients e furniturs, cun utilisar modernas tecnologias d'infurmaziun per integrar process da fatschenta interns ed interinterpresarials».
-
-Contribution::
-Ina contribution OSS è ina contribuziun al svilup ed a la meglieraziun da software open source (OSS). Quai po capitar en furma da code, documentaziun, tests, resuns u auters geners da contribuziuns. (Google AI)
-
-Contributor Licence Agreement (CLA)::
-In Contributor Licence Agreement (CLA), era numnà Contributor Agreement, è in document che fixescha las cundiziuns, sut las qualas proprietad intellectuala dastga vegnir contribuida ad in project u ad ina iniziativa. Per ordinari è manegià cun quai in project da software sut ina licenza open source (Wikipedia).
-
-Core developer::
-Sviluppadra u sviluppader d'in project OSS cun dretgs d'access sco committer al repositori.
-
-Analisa dal martgà::
-Cun ina analisa specifica dal martgà vegnan relevadas ed elavuradas infurmaziuns davart il martgà d'acquist actual e potenzial. L'intent da l'analisa dal martgà è da renconuscher e da chapir las structuras dal martgà ed en spezial la structura dals purschiders en tut ils aspects relevants: situaziun dals pretschs (auts, bass, fluctuaziuns), grondezza dal martgà, repartiziun geografica dals purschiders potenzials e dals acturs impurtants etc. (vesair https://perimap.admin.ch/goto_perimap_file_38221_download.html). Funtaunas pussaivlas per software OSS sa chattan en link:em002-1.pdf[Em002-1 Guida pratica OSS] en il chapitel 7.
-
-OSS::
-Software open source
-
-Product::
-Qua duvrà sco sinonim per «applicaziun».
-+
-La noziun deriva da ITIL. En ITIL (Information Technology Infrastructure Library) è in product ina configuraziun da resursas concepida per purtar valur ad ina clientella u ad ina organisaziun. Cuntrari ad in servetsch ch'è tipicamain in process current ed interactiv, è in product ina unitad statica.
-+
-Products pon esser software, hardware, datas u autras resursas messas a disposiziun da l'organisaziun. (Google AI)
-
-Standardisaziun da products::
-En quest document sa referescha la standardisaziun en emprima lingia a SD120, il servetsch standard TIC per l'automatisaziun da biro, sco era ad ulteriuras standardisaziuns dal sectur TDT.
-
-Subscription::
-Tar il retratg da software en abunament vegn serrada ina subscription. Quai munta che il software na vegn betg cumprà. +
-En ils pli blers cas cumpiglia quai betg mo il permiss dad utilisar il software, mabain era tut las prestaziuns relevantas ed il support.
-
-Project upstream::
-Upstream è ina noziun dal svilup da software repartì (savens open source) e designescha la direcziun d'in patch vers sia origin (upstream), pia vers las sviluppadras ed ils sviluppaders resp. maintainers originals dal software u vers il project original. I po sa tractar era da bibliotecas da software.
+include::partials/glossary.rm.adoc[tags=gloss-em002-6]
 endif::[]
