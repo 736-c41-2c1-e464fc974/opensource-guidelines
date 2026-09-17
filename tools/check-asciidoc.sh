@@ -216,10 +216,15 @@ AWK
 # the check becomes fatal for it -- a stale entry is reported as such, so the
 # list cannot quietly outlive the problem it documents.
 #
-# TODO: empty this list.
-#   OSI     (docs/em002-3.adoc) -- cited as a bare organisation, no entry exists
-#   OSI2019 (docs/em002-1.adoc) -- year does not match the [OSI2024] entry
-known_unresolved=(OSI OSI2019)
+# Empty, and meant to stay that way: it held OSI (docs/em002-3.adoc) and OSI2019
+# (docs/em002-1.adoc) until the owner decided what they should point at, and both
+# citations were corrected. Add a key here only to park a citation an owner has
+# yet to rule on, one per line with the document and the question, like
+#
+#     known_unresolved=(
+#         Xy2026  # docs/em002-4.adoc -- entry promised for the 2026 revision
+#     )
+known_unresolved=()
 
 if ! unresolved=$(
     for lang in "${languages[@]}"; do

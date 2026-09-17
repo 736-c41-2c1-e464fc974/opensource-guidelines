@@ -129,7 +129,7 @@ Figure 1: Overview of OSS tools in relation to Art. 9 EMOTA
 == Definitions
 
 Open source software::
-Software is considered open source software (OSS) when it is published under one of approximately 80 licences recognised by the Open Source Initiative OSI [OSI2019]. Specifically, the definition of open source sets out ten criteria that all open source licences must meet _[Pe1999]_. These can essentially be summarised in four points:
+Software is considered open source software (OSS) when it is published under one of approximately 80 licences recognised by the Open Source Initiative OSI _[OSI2024]_. Specifically, the definition of open source sets out ten criteria that all open source licences must meet _[Pe1999]_. These can essentially be summarised in four points:
 +
 . The software may be used for any purpose.
 . The source code of the software is freely accessible.
@@ -652,7 +652,7 @@ Abbildung 1: Übersicht über die OSS-Hilfsmittel im Zusammenhang mit Art. 9 EMB
 == Begriffe
 
 Open-Source-Software::
-Software gilt als Open-Source-Software (OSS), wenn sie unter einer der rund 80 von der Open Source Initiative OSI anerkannten Lizenzen veröffentlicht wird [OSI2019]. Konkret legt die Definition von Open Source zehn Kriterien fest, die alle Open-Source-Lizenzen erfüllen müssen _[Pe1999]_. Diese lassen sich im Wesentlichen in vier Punkten zusammenfassen:
+Software gilt als Open-Source-Software (OSS), wenn sie unter einer der rund 80 von der Open Source Initiative OSI anerkannten Lizenzen veröffentlicht wird _[OSI2024]_. Konkret legt die Definition von Open Source zehn Kriterien fest, die alle Open-Source-Lizenzen erfüllen müssen _[Pe1999]_. Diese lassen sich im Wesentlichen in vier Punkten zusammenfassen:
 +
 . Die Software darf zu jedem Zweck genutzt werden.
 . Der Quellcode der Software ist frei zugänglich.
@@ -1175,7 +1175,7 @@ Figure 1 : Vue d'ensemble des outils OSS en lien avec l'art. 9 LMETA
 == Définitions
 
 Logiciel open source::
-Un logiciel est considéré comme un logiciel open source (OSS) lorsqu'il est publié sous l'une des quelque 80 licences reconnues par l'Open Source Initiative OSI [OSI2019]. Concrètement, la définition de l'open source énonce dix critères que toutes les licences open source doivent remplir _[Pe1999]_. Ceux-ci peuvent pour l'essentiel se résumer en quatre points :
+Un logiciel est considéré comme un logiciel open source (OSS) lorsqu'il est publié sous l'une des quelque 80 licences reconnues par l'Open Source Initiative OSI _[OSI2024]_. Concrètement, la définition de l'open source énonce dix critères que toutes les licences open source doivent remplir _[Pe1999]_. Ceux-ci peuvent pour l'essentiel se résumer en quatre points :
 +
 . Le logiciel peut être utilisé à toutes fins.
 . Le code source du logiciel est librement accessible.
@@ -1698,7 +1698,7 @@ Figura 1: Panoramica degli strumenti OSS in relazione all'art. 9 LMeCA
 == Definizioni
 
 Software open source::
-Un software è considerato software open source (OSS) quando è pubblicato sotto una delle circa 80 licenze riconosciute dall'Open Source Initiative OSI [OSI2019]. Concretamente, la definizione di open source stabilisce dieci criteri che tutte le licenze open source devono soddisfare _[Pe1999]_. Essi possono essere sostanzialmente riassunti in quattro punti:
+Un software è considerato software open source (OSS) quando è pubblicato sotto una delle circa 80 licenze riconosciute dall'Open Source Initiative OSI _[OSI2024]_. Concretamente, la definizione di open source stabilisce dieci criteri che tutte le licenze open source devono soddisfare _[Pe1999]_. Essi possono essere sostanzialmente riassunti in quattro punti:
 +
 . Il software può essere utilizzato per qualsiasi scopo.
 . Il codice sorgente del software è liberamente accessibile.
@@ -2221,7 +2221,7 @@ Illustraziun 1: Survista dals meds OSS en connex cun l'art. 9 EMBAG
 == Concepts
 
 Software open source::
-In software vala sco software open source (OSS), sch'el vegn publitgà sut ina da las var 80 licenzas renconuschidas da l'Open Source Initiative OSI [OSI2019]. Concretamain fixescha la definiziun d'open source diesch criteris che tuttas licenzas open source ston ademplir _[Pe1999]_. Quels sa laschan resumar en il fund en quatter puncts:
+In software vala sco software open source (OSS), sch'el vegn publitgà sut ina da las var 80 licenzas renconuschidas da l'Open Source Initiative OSI _[OSI2024]_. Concretamain fixescha la definiziun d'open source diesch criteris che tuttas licenzas open source ston ademplir _[Pe1999]_. Quels sa laschan resumar en il fund en quatter puncts:
 +
 . Il software dastga vegnir utilisà per mintga intent.
 . Il code da funtauna dal software è accessibel libramain.

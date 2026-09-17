@@ -119,7 +119,7 @@ If a computer program is created in an employment relationship, the employer rec
 
 === Fundamentals
 
-OSS is essentially characterised by the following features (based on a definition of the Open Source Initiative _[OSI]_footnote:[https://opensource.org/]):
+OSS is essentially characterised by the following features (based on a definition of the Open Source Initiative _[Pe1999]_footnote:[https://opensource.org/]):
 
 * Unlimited and free redistribution of the software is permitted;
 * The software is available in source code form;
@@ -650,7 +650,7 @@ Where federal authorities contribute to third-party software that requires a CLA
 * Who signs it? (The signatory must be authorised to sign on behalf of the Confederation vis-à-vis third parties)
 * Where is it filed?
 * How is the CLA or DCO documented in the project?
-* How is it ensured that the code that has been released remains published? (This remains the responsibility of the federal authority under Art. 9 EMOTA, see [KKB-MB].)
+* How is it ensured that the code that has been released remains published? (This remains the responsibility of the federal authority under Art. 9 EMOTA, see [KBB-MB].)
 
 Possible criteria for the review are:
 
@@ -958,7 +958,7 @@ Wird ein Computerprogramm im Arbeitsverhältnis geschaffen, so erhält die Arbei
 
 === Grundlagen
 
-OSS zeichnet sich im Wesentlichen durch die folgenden Merkmale aus (nach einer Definition der Open Source Initiative _[OSI]_footnote:[https://opensource.org/]):
+OSS zeichnet sich im Wesentlichen durch die folgenden Merkmale aus (nach einer Definition der Open Source Initiative _[Pe1999]_footnote:[https://opensource.org/]):
 
 * Die unbeschränkte und unentgeltliche Weiterverbreitung der Software ist erlaubt;
 * Die Software liegt im Quellcode vor;
@@ -1489,7 +1489,7 @@ Tragen Bundesbehörden zu Drittsoftware bei, die ein CLA verlangt, so muss der R
 * Wer unterzeichnet es? (Die unterzeichnende Person muss befugt sein, für den Bund gegenüber Dritten zu unterschreiben)
 * Wo wird es abgelegt?
 * Wie wird das CLA oder DCO im Projekt dokumentiert?
-* Wie wird sichergestellt, dass der freigegebene Code veröffentlicht bleibt? (Dies bleibt nach Art. 9 EMBAG in der Verantwortung der Bundesbehörde, siehe [KKB-MB].)
+* Wie wird sichergestellt, dass der freigegebene Code veröffentlicht bleibt? (Dies bleibt nach Art. 9 EMBAG in der Verantwortung der Bundesbehörde, siehe [KBB-MB].)
 
 Mögliche Kriterien für die Prüfung sind:
 
@@ -1797,7 +1797,7 @@ Lorsqu'un programme d'ordinateur est créé dans le cadre d'un rapport de travai
 
 === Principes
 
-Les OSS se caractérisent pour l'essentiel par les éléments suivants (d'après une définition de l'Open Source Initiative _[OSI]_footnote:[https://opensource.org/]) :
+Les OSS se caractérisent pour l'essentiel par les éléments suivants (d'après une définition de l'Open Source Initiative _[Pe1999]_footnote:[https://opensource.org/]) :
 
 * la redistribution illimitée et gratuite du logiciel est autorisée ;
 * le logiciel est disponible sous forme de code source ;
@@ -2328,7 +2328,7 @@ Lorsque des autorités fédérales contribuent à un logiciel de tiers exigeant 
 * Qui le signe ? (Le signataire doit être habilité à signer pour la Confédération à l'égard de tiers)
 * Où est-il classé ?
 * Comment le CLA ou le DCO est-il documenté dans le projet ?
-* Comment s'assure-t-on que le code publié le reste ? (Cela demeure de la responsabilité de l'autorité fédérale au titre de l'art. 9 LMETA, voir [KKB-MB].)
+* Comment s'assure-t-on que le code publié le reste ? (Cela demeure de la responsabilité de l'autorité fédérale au titre de l'art. 9 LMETA, voir [KBB-MB].)
 
 Critères possibles pour l'examen :
 
@@ -2636,7 +2636,7 @@ Se un programma per computer è creato nell'ambito di un rapporto di lavoro, il 
 
 === Principi
 
-L'OSS si caratterizza essenzialmente per i seguenti elementi (secondo una definizione dell'Open Source Initiative _[OSI]_footnote:[https://opensource.org/]):
+L'OSS si caratterizza essenzialmente per i seguenti elementi (secondo una definizione dell'Open Source Initiative _[Pe1999]_footnote:[https://opensource.org/]):
 
 * è consentita la ridistribuzione illimitata e gratuita del software;
 * il software è disponibile in forma di codice sorgente;
@@ -3167,7 +3167,7 @@ Se le autorità federali contribuiscono a software di terzi che richiede un CLA,
 * Chi lo firma? (Il firmatario deve essere autorizzato a firmare per la Confederazione nei confronti di terzi)
 * Dove viene archiviato?
 * Come sono documentati il CLA o il DCO nel progetto?
-* Come si garantisce che il codice pubblicato resti pubblicato? (Ciò resta di competenza dell'autorità federale ai sensi dell'art. 9 LMeCA, cfr. [KKB-MB].)
+* Come si garantisce che il codice pubblicato resti pubblicato? (Ciò resta di competenza dell'autorità federale ai sensi dell'art. 9 LMeCA, cfr. [KBB-MB].)
 
 Possibili criteri per l'esame sono:
 
@@ -3475,7 +3475,7 @@ Sch'in program da computer vegn creà en il rapport da lavur, survegn il patrun 
 
 === Basas
 
-L'OSS sa caracterisescha en il fund tras las suandantas caracteristicas (tenor ina definiziun da l'Open Source Initiative _[OSI]_footnote:[https://opensource.org/]):
+L'OSS sa caracterisescha en il fund tras las suandantas caracteristicas (tenor ina definiziun da l'Open Source Initiative _[Pe1999]_footnote:[https://opensource.org/]):
 
 * La derasaziun vinavant illimitada e gratuita dal software è permessa;
 * Il software è avant maun en il code da funtauna;
@@ -4006,7 +4006,7 @@ Sche autoritads federalas contribueschan a software da terzas persunas che prete
 * Tgi il suttascriva? (La persuna che suttascriva sto esser autorisada da suttascriver per la Confederaziun vers terzas persunas)
 * Nua vegn el archivà?
 * Co vegnan il CLA u il DCO documentads en il project?
-* Co vegn garantì che il code relaschà restia publitgà? (Quai resta tenor l'art. 9 EMBAG en la responsabladad da l'autoritad federala, vesair [KKB-MB].)
+* Co vegn garantì che il code relaschà restia publitgà? (Quai resta tenor l'art. 9 EMBAG en la responsabladad da l'autoritad federala, vesair [KBB-MB].)
 
 Criteris pussaivels per l'examinaziun èn:
 
