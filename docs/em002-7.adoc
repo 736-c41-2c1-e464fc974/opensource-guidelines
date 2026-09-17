@@ -181,100 +181,138 @@ The Federal Administration is also involved in developing a *digital sovereignty
 
 Possible perspectives include:
 
-[cols="1,2,4",options="header"]
-|===
-|# |Perspective |Description
+A -- Technological control::
+To what extent does the Federal Administration have control over the technologies used and their further development?
 
-|A
-|Technological control
-|To what extent does the Federal Administration have control over the technologies used and their further development?
+B -- Data sovereignty::
+Who has access to, control over and decision-making power regarding the data -- particularly sensitive administrative data?
 
-|B
-|Data sovereignty
-|Who has access to, control over and decision-making power regarding the data -- particularly sensitive administrative data?
+C -- Legal capacity to act::
+To what extent can Switzerland and the Federal Administration influence the legal and political framework for digitalisation?
 
-|C
-|Legal capacity to act
-|To what extent can Switzerland and the Federal Administration influence the legal and political framework for digitalisation?
+D -- Resilience::
+How robust and crisis-proof are the Federal Administration's digital systems and processes in the face of disruptions, crises and dependencies?
 
-|D
-|Resilience
-|How robust and crisis-proof are the Federal Administration's digital systems and processes in the face of disruptions, crises and dependencies?
-
-|E
-|Economic control
-|How can the Federal Administration exercise economic control and strategic sourcing to secure its digital sovereignty cost-efficiently, while minimising dependencies and risks in IT procurement?
-|===
+E -- Economic control::
+How can the Federal Administration exercise economic control and strategic sourcing to secure its digital sovereignty cost-efficiently, while minimising dependencies and risks in IT procurement?
 
 For each of these perspectives, the degree of digital sovereignty can be determined against a scale to be defined:
 
-[cols="1,3,6",options="header"]
-|===
-|Level |Short name |Description
+0 -- Externally determined / non-sovereign::
+No control over systems, data or infrastructure; no transparency, high dependencies; no exit or alternative options
 
-|0
-|Externally determined / non-sovereign
-|No control over systems, data or infrastructure; no transparency, high dependencies; no exit or alternative options
+1 -- Minimally controlled::
+Initial insight into usage and dependencies; selective control mechanisms; operational, legal or technological gaps remain
 
-|1
-|Minimally controlled
-|Initial insight into usage and dependencies; selective control mechanisms; operational, legal or technological gaps remain
+2 -- Regulated and usable::
+Systems reliable and partially controllable; legal and technical framework established; strategic dependencies still present
 
-|2
-|Regulated and usable
-|Systems reliable and partially controllable; legal and technical framework established; strategic dependencies still present
+3 -- Self-directing and resilient::
+Market position is used; exit strategies and multi-vendor concepts implemented; know-how built up; resilience and crisis scenarios prepared
 
-|3
-|Self-directing and resilient
-|Market position is used; exit strategies and multi-vendor concepts implemented; know-how built up; resilience and crisis scenarios prepared
-
-|4
-|Systemically sovereign
-|Sovereignty across all relevant dimensions (legal, technological, cultural, strategic); active shaping of markets and standards; geopolitical effect possible
-|===
-
-_Degree of digital sovereignty._
+4 -- Systemically sovereign::
+Sovereignty across all relevant dimensions (legal, technological, cultural, strategic); active shaping of markets and standards; geopolitical effect possible
 
 These two dimensions produce the following matrix:
 
-[cols="2,1,1,1,1,1",options="header"]
+[cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
-|Perspective |0 |1 |2 |3 |4
+|Perspective
+|0 +
+Externally determined
+|1 +
+Minimally controlled
+|2 +
+Regulated and usable
+|3 +
+Self-directing and resilient
+|4 +
+Systemically sovereign
 
 |A -- Technological control
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |B -- Data sovereignty
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |C -- Legal capacity to act
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |D -- Resilience
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |E -- Economic control
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 |===
 
 _Matrix of digital sovereignty: perspectives against degree of sovereignty._
@@ -364,7 +402,7 @@ Where requirements indicate a need to adapt software, or a potential need for la
 
 This section addresses the implications of Art. 9 EMOTA for tenders for software and services that may involve the creation or modification of software.
 
-It applies to both centralised and decentralised Federal Administration. Exceptions to this requirement are set out in the Digitalisation Ordinance _[DigiO]_.
+It applies to both centralised and decentralised Federal Administration. Exceptions to this requirement are set out in the Digitalisation Ordinance _[DigiV]_.
 
 === Relevance of Article 9 EMOTA for software creation
 
@@ -956,100 +994,138 @@ Die Bundesverwaltung ist ebenfalls an der Entwicklung eines *Frameworks für dig
 
 Mögliche Perspektiven sind:
 
-[cols="1,2,4",options="header"]
-|===
-|# |Perspektive |Beschreibung
+A -- Technologische Kontrolle::
+Inwieweit hat die Bundesverwaltung Kontrolle über die eingesetzten Technologien und deren Weiterentwicklung?
 
-|A
-|Technologische Kontrolle
-|Inwieweit hat die Bundesverwaltung Kontrolle über die eingesetzten Technologien und deren Weiterentwicklung?
+B -- Datensouveränität::
+Wer hat Zugriff auf die Daten, Kontrolle darüber und Entscheidungsbefugnis – insbesondere bei sensiblen Verwaltungsdaten?
 
-|B
-|Datensouveränität
-|Wer hat Zugriff auf die Daten, Kontrolle darüber und Entscheidungsbefugnis – insbesondere bei sensiblen Verwaltungsdaten?
+C -- Rechtliche Handlungsfähigkeit::
+Inwieweit können die Schweiz und die Bundesverwaltung die rechtlichen und politischen Rahmenbedingungen der Digitalisierung beeinflussen?
 
-|C
-|Rechtliche Handlungsfähigkeit
-|Inwieweit können die Schweiz und die Bundesverwaltung die rechtlichen und politischen Rahmenbedingungen der Digitalisierung beeinflussen?
+D -- Resilienz::
+Wie robust und krisenfest sind die digitalen Systeme und Prozesse der Bundesverwaltung gegenüber Störungen, Krisen und Abhängigkeiten?
 
-|D
-|Resilienz
-|Wie robust und krisenfest sind die digitalen Systeme und Prozesse der Bundesverwaltung gegenüber Störungen, Krisen und Abhängigkeiten?
-
-|E
-|Wirtschaftliche Kontrolle
-|Wie kann die Bundesverwaltung wirtschaftliche Kontrolle und strategisches Sourcing ausüben, um ihre digitale Souveränität kosteneffizient zu sichern und dabei Abhängigkeiten und Risiken in der IT-Beschaffung zu minimieren?
-|===
+E -- Wirtschaftliche Kontrolle::
+Wie kann die Bundesverwaltung wirtschaftliche Kontrolle und strategisches Sourcing ausüben, um ihre digitale Souveränität kosteneffizient zu sichern und dabei Abhängigkeiten und Risiken in der IT-Beschaffung zu minimieren?
 
 Für jede dieser Perspektiven lässt sich der Grad der digitalen Souveränität anhand einer noch zu definierenden Skala bestimmen:
 
-[cols="1,3,6",options="header"]
-|===
-|Stufe |Kurzbezeichnung |Beschreibung
+0 -- Fremdbestimmt / nicht souverän::
+Keine Kontrolle über Systeme, Daten oder Infrastruktur; keine Transparenz, hohe Abhängigkeiten; keine Exit- oder Alternativoptionen
 
-|0
-|Fremdbestimmt / nicht souverän
-|Keine Kontrolle über Systeme, Daten oder Infrastruktur; keine Transparenz, hohe Abhängigkeiten; keine Exit- oder Alternativoptionen
+1 -- Minimal kontrolliert::
+Erste Einsichten in Nutzung und Abhängigkeiten; punktuelle Kontrollmechanismen; operative, rechtliche oder technologische Lücken bestehen
 
-|1
-|Minimal kontrolliert
-|Erste Einsichten in Nutzung und Abhängigkeiten; punktuelle Kontrollmechanismen; operative, rechtliche oder technologische Lücken bestehen
+2 -- Geregelt nutzungsfähig::
+Systeme verlässlich und teilweise steuerbar; rechtlicher und technischer Rahmen etabliert; strategische Abhängigkeiten bestehen weiterhin
 
-|2
-|Geregelt nutzungsfähig
-|Systeme verlässlich und teilweise steuerbar; rechtlicher und technischer Rahmen etabliert; strategische Abhängigkeiten bestehen weiterhin
+3 -- Selbststeuernd und resilient::
+Marktposition wird genutzt; Exit-Strategien und Multivendor-Konzepte implementiert; Know-how aufgebaut; Resilienz und Krisenszenarien vorbereitet
 
-|3
-|Selbststeuernd und resilient
-|Marktposition wird genutzt; Exit-Strategien und Multivendor-Konzepte implementiert; Know-how aufgebaut; Resilienz und Krisenszenarien vorbereitet
-
-|4
-|Systemisch souverän
-|Souveränität in allen relevanten Dimensionen (rechtlich, technologisch, kulturell, strategisch); aktive Markt- und Standardgestaltung; geopolitische Wirkung möglich
-|===
-
-_Grad der digitalen Souveränität._
+4 -- Systemisch souverän::
+Souveränität in allen relevanten Dimensionen (rechtlich, technologisch, kulturell, strategisch); aktive Markt- und Standardgestaltung; geopolitische Wirkung möglich
 
 Diese beiden Dimensionen ergeben die folgende Matrix:
 
-[cols="2,1,1,1,1,1",options="header"]
+[cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
-|Perspektive |0 |1 |2 |3 |4
+|Perspektive
+|0 +
+Fremdbestimmt
+|1 +
+Minimal kontrolliert
+|2 +
+Geregelt nutzungsfähig
+|3 +
+Selbststeuernd und resilient
+|4 +
+Systemisch souverän
 
 |A -- Technologische Kontrolle
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |B -- Datensouveränität
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |C -- Rechtliche Handlungsfähigkeit
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |D -- Resilienz
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |E -- Wirtschaftliche Kontrolle
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 |===
 
 _Matrix digitale Souveränität: Perspektiven gegenüber dem Grad der Souveränität._
@@ -1731,100 +1807,138 @@ L'administration fédérale participe également à l'élaboration d'un *cadre d
 
 Les perspectives possibles sont :
 
-[cols="1,2,4",options="header"]
-|===
-|# |Perspective |Description
+A -- Contrôle technologique::
+Dans quelle mesure l'administration fédérale contrôle-t-elle les technologies utilisées et leur développement ultérieur ?
 
-|A
-|Contrôle technologique
-|Dans quelle mesure l'administration fédérale contrôle-t-elle les technologies utilisées et leur développement ultérieur ?
+B -- Souveraineté des données::
+Qui a accès aux données, en a le contrôle et le pouvoir de décision — en particulier pour les données administratives sensibles ?
 
-|B
-|Souveraineté des données
-|Qui a accès aux données, en a le contrôle et le pouvoir de décision — en particulier pour les données administratives sensibles ?
+C -- Capacité juridique d'action::
+Dans quelle mesure la Suisse et l'administration fédérale peuvent-elles influencer le cadre juridique et politique de la numérisation ?
 
-|C
-|Capacité juridique d'action
-|Dans quelle mesure la Suisse et l'administration fédérale peuvent-elles influencer le cadre juridique et politique de la numérisation ?
+D -- Résilience::
+Quelle est la robustesse et la résistance aux crises des systèmes et processus numériques de l'administration fédérale face aux perturbations, aux crises et aux dépendances ?
 
-|D
-|Résilience
-|Quelle est la robustesse et la résistance aux crises des systèmes et processus numériques de l'administration fédérale face aux perturbations, aux crises et aux dépendances ?
-
-|E
-|Contrôle économique
-|Comment l'administration fédérale peut-elle exercer un contrôle économique et un sourcing stratégique afin d'assurer sa souveraineté numérique de manière économiquement efficace, tout en minimisant les dépendances et les risques dans les acquisitions informatiques ?
-|===
+E -- Contrôle économique::
+Comment l'administration fédérale peut-elle exercer un contrôle économique et un sourcing stratégique afin d'assurer sa souveraineté numérique de manière économiquement efficace, tout en minimisant les dépendances et les risques dans les acquisitions informatiques ?
 
 Pour chacune de ces perspectives, le degré de souveraineté numérique peut être déterminé au moyen d'une échelle à définir :
 
-[cols="1,3,6",options="header"]
-|===
-|Degré |Désignation abrégée |Description
+0 -- Hétéronome / non souverain::
+Aucun contrôle sur les systèmes, les données ou l'infrastructure ; aucune transparence, fortes dépendances ; aucune option de sortie ou de remplacement
 
-|0
-|Hétéronome / non souverain
-|Aucun contrôle sur les systèmes, les données ou l'infrastructure ; aucune transparence, fortes dépendances ; aucune option de sortie ou de remplacement
+1 -- Contrôle minimal::
+Premières informations sur l'utilisation et les dépendances ; mécanismes de contrôle ponctuels ; des lacunes opérationnelles, juridiques ou technologiques subsistent
 
-|1
-|Contrôle minimal
-|Premières informations sur l'utilisation et les dépendances ; mécanismes de contrôle ponctuels ; des lacunes opérationnelles, juridiques ou technologiques subsistent
+2 -- Utilisable de manière réglementée::
+Systèmes fiables et partiellement pilotables ; cadre juridique et technique établi ; des dépendances stratégiques subsistent
 
-|2
-|Utilisable de manière réglementée
-|Systèmes fiables et partiellement pilotables ; cadre juridique et technique établi ; des dépendances stratégiques subsistent
+3 -- Autonome et résilient::
+La position sur le marché est exploitée ; stratégies de sortie et concepts multifournisseurs mis en œuvre ; savoir-faire développé ; résilience et scénarios de crise préparés
 
-|3
-|Autonome et résilient
-|La position sur le marché est exploitée ; stratégies de sortie et concepts multifournisseurs mis en œuvre ; savoir-faire développé ; résilience et scénarios de crise préparés
-
-|4
-|Souverain sur le plan systémique
-|Souveraineté dans toutes les dimensions pertinentes (juridique, technologique, culturelle, stratégique) ; façonnage actif du marché et des normes ; effet géopolitique possible
-|===
-
-_Degré de souveraineté numérique._
+4 -- Souverain sur le plan systémique::
+Souveraineté dans toutes les dimensions pertinentes (juridique, technologique, culturelle, stratégique) ; façonnage actif du marché et des normes ; effet géopolitique possible
 
 Ces deux dimensions produisent la matrice suivante :
 
-[cols="2,1,1,1,1,1",options="header"]
+[cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
-|Perspective |0 |1 |2 |3 |4
+|Perspective
+|0 +
+Hétéronome
+|1 +
+Contrôle minimal
+|2 +
+Utilisable de manière réglementée
+|3 +
+Autonome et résilient
+|4 +
+Souverain sur le plan systémique
 
 |A -- Contrôle technologique
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |B -- Souveraineté des données
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |C -- Capacité juridique d'action
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |D -- Résilience
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |E -- Contrôle économique
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 |===
 
 _Matrice Souveraineté numérique : perspectives et degré de souveraineté._
@@ -1914,7 +2028,7 @@ Lorsque les exigences indiquent un besoin d'adaptation du logiciel, ou un besoin
 
 Ce chapitre traite des implications de l'art. 9 LMETA pour les appels d'offres portant sur des logiciels et des prestations pouvant impliquer la création ou la modification de logiciels.
 
-Il s'applique tant à l'administration fédérale centrale que décentralisée. Les exceptions à cette obligation sont fixées dans l'ordonnance sur la numérisation _[DigiO]_.
+Il s'applique tant à l'administration fédérale centrale que décentralisée. Les exceptions à cette obligation sont fixées dans l'ordonnance sur la numérisation _[DigiV]_.
 
 === Pertinence de l'article 9 LMETA pour la création de logiciels
 
@@ -2506,100 +2620,138 @@ Anche l'Amministrazione federale partecipa allo sviluppo di un *quadro di riferi
 
 Le prospettive possibili sono:
 
-[cols="1,2,4",options="header"]
-|===
-|# |Prospettiva |Descrizione
+A -- Controllo tecnologico::
+In che misura l'Amministrazione federale controlla le tecnologie impiegate e il loro ulteriore sviluppo?
 
-|A
-|Controllo tecnologico
-|In che misura l'Amministrazione federale controlla le tecnologie impiegate e il loro ulteriore sviluppo?
+B -- Sovranità dei dati::
+Chi ha accesso ai dati, il controllo su di essi e il potere decisionale — in particolare per i dati amministrativi sensibili?
 
-|B
-|Sovranità dei dati
-|Chi ha accesso ai dati, il controllo su di essi e il potere decisionale — in particolare per i dati amministrativi sensibili?
+C -- Capacità giuridica d'azione::
+In che misura la Svizzera e l'Amministrazione federale possono influenzare il quadro giuridico e politico della digitalizzazione?
 
-|C
-|Capacità giuridica d'azione
-|In che misura la Svizzera e l'Amministrazione federale possono influenzare il quadro giuridico e politico della digitalizzazione?
+D -- Resilienza::
+Quanto sono robusti e resistenti alle crisi i sistemi e i processi digitali dell'Amministrazione federale di fronte a perturbazioni, crisi e dipendenze?
 
-|D
-|Resilienza
-|Quanto sono robusti e resistenti alle crisi i sistemi e i processi digitali dell'Amministrazione federale di fronte a perturbazioni, crisi e dipendenze?
-
-|E
-|Controllo economico
-|Come può l'Amministrazione federale esercitare un controllo economico e un sourcing strategico per assicurare la propria sovranità digitale in modo efficiente sotto il profilo dei costi, riducendo al minimo dipendenze e rischi negli acquisti informatici?
-|===
+E -- Controllo economico::
+Come può l'Amministrazione federale esercitare un controllo economico e un sourcing strategico per assicurare la propria sovranità digitale in modo efficiente sotto il profilo dei costi, riducendo al minimo dipendenze e rischi negli acquisti informatici?
 
 Per ciascuna di queste prospettive il grado di sovranità digitale può essere determinato mediante una scala ancora da definire:
 
-[cols="1,3,6",options="header"]
-|===
-|Grado |Denominazione breve |Descrizione
+0 -- Eterodiretto / non sovrano::
+Nessun controllo su sistemi, dati o infrastrutture; nessuna trasparenza, forti dipendenze; nessuna opzione di uscita o alternativa
 
-|0
-|Eterodiretto / non sovrano
-|Nessun controllo su sistemi, dati o infrastrutture; nessuna trasparenza, forti dipendenze; nessuna opzione di uscita o alternativa
+1 -- Controllo minimo::
+Prime conoscenze sull'utilizzo e sulle dipendenze; meccanismi di controllo puntuali; permangono lacune operative, giuridiche o tecnologiche
 
-|1
-|Controllo minimo
-|Prime conoscenze sull'utilizzo e sulle dipendenze; meccanismi di controllo puntuali; permangono lacune operative, giuridiche o tecnologiche
+2 -- Utilizzabile in modo regolamentato::
+Sistemi affidabili e parzialmente governabili; quadro giuridico e tecnico consolidato; permangono dipendenze strategiche
 
-|2
-|Utilizzabile in modo regolamentato
-|Sistemi affidabili e parzialmente governabili; quadro giuridico e tecnico consolidato; permangono dipendenze strategiche
+3 -- Autonomo e resiliente::
+La posizione di mercato viene sfruttata; strategie di uscita e concetti multifornitore attuati; know-how sviluppato; resilienza e scenari di crisi preparati
 
-|3
-|Autonomo e resiliente
-|La posizione di mercato viene sfruttata; strategie di uscita e concetti multifornitore attuati; know-how sviluppato; resilienza e scenari di crisi preparati
-
-|4
-|Sistemicamente sovrano
-|Sovranità in tutte le dimensioni rilevanti (giuridica, tecnologica, culturale, strategica); definizione attiva del mercato e degli standard; effetto geopolitico possibile
-|===
-
-_Grado di sovranità digitale._
+4 -- Sistemicamente sovrano::
+Sovranità in tutte le dimensioni rilevanti (giuridica, tecnologica, culturale, strategica); definizione attiva del mercato e degli standard; effetto geopolitico possibile
 
 Queste due dimensioni producono la matrice seguente:
 
-[cols="2,1,1,1,1,1",options="header"]
+[cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
-|Prospettiva |0 |1 |2 |3 |4
+|Prospettiva
+|0 +
+Eterodiretto
+|1 +
+Controllo minimo
+|2 +
+Utilizzabile in modo regolamentato
+|3 +
+Autonomo e resiliente
+|4 +
+Sistemicamente sovrano
 
 |A -- Controllo tecnologico
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |B -- Sovranità dei dati
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |C -- Capacità giuridica d'azione
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |D -- Resilienza
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |E -- Controllo economico
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 |===
 
 _Matrice Sovranità digitale: prospettive e grado di sovranità._
@@ -2689,7 +2841,7 @@ Quando le esigenze indicano un bisogno di adattamento del software o un possibil
 
 Il presente capitolo tratta le implicazioni dell'art. 9 LMeCA per i bandi relativi a software e prestazioni che possono comportare la creazione o la modifica di software.
 
-Esso si applica sia all'Amministrazione federale centrale sia a quella decentralizzata. Le eccezioni a tale obbligo sono stabilite nell'ordinanza sulla digitalizzazione _[DigiO]_.
+Esso si applica sia all'Amministrazione federale centrale sia a quella decentralizzata. Le eccezioni a tale obbligo sono stabilite nell'ordinanza sulla digitalizzazione _[DigiV]_.
 
 === Rilevanza dell'articolo 9 LMeCA per la creazione di software
 
@@ -3281,100 +3433,138 @@ Era l'administraziun federala è participada al svilup d'in *framework per la su
 
 Perspectivas pussaivlas èn:
 
-[cols="1,2,4",options="header"]
-|===
-|# |Perspectiva |Descripziun
+A -- Controlla tecnologica::
+Quant lunsch ha l'administraziun federala la controlla davart las tecnologias duvradas e lur svilup vinavant?
 
-|A
-|Controlla tecnologica
-|Quant lunsch ha l'administraziun federala la controlla davart las tecnologias duvradas e lur svilup vinavant?
+B -- Suveranitad da las datas::
+Tgi ha access a las datas, la controlla davart ellas ed il pudair da decider – en spezial tar datas administrativas sensiblas?
 
-|B
-|Suveranitad da las datas
-|Tgi ha access a las datas, la controlla davart ellas ed il pudair da decider – en spezial tar datas administrativas sensiblas?
+C -- Capacitad giuridica d'agir::
+Quant lunsch pon la Svizra e l'administraziun federala influenzar las cundiziuns basicas giuridicas e politicas da la digitalisaziun?
 
-|C
-|Capacitad giuridica d'agir
-|Quant lunsch pon la Svizra e l'administraziun federala influenzar las cundiziuns basicas giuridicas e politicas da la digitalisaziun?
+D -- Resilienza::
+Quant robusts e resistents en cas da crisa èn ils sistems ed ils process digitals da l'administraziun federala envers disturbis, crisas e dependenzas?
 
-|D
-|Resilienza
-|Quant robusts e resistents en cas da crisa èn ils sistems ed ils process digitals da l'administraziun federala envers disturbis, crisas e dependenzas?
-
-|E
-|Controlla economica
-|Co po l'administraziun federala exercitar ina controlla economica ed in sourcing strategic per garantir sia suveranitad digitala en moda effizienta areguard ils custs e per minimar a medem temp dependenzas e ristgs en l'acquist informatic?
-|===
+E -- Controlla economica::
+Co po l'administraziun federala exercitar ina controlla economica ed in sourcing strategic per garantir sia suveranitad digitala en moda effizienta areguard ils custs e per minimar a medem temp dependenzas e ristgs en l'acquist informatic?
 
 Per mintgina da questas perspectivas sa lascha determinar il grad da suveranitad digitala cun agid d'ina scala anc da definir:
 
-[cols="1,3,6",options="header"]
-|===
-|Grad |Denominaziun curta |Descripziun
+0 -- Determinà da terzs / betg suveran::
+Nagina controlla davart sistems, datas u infrastructura; nagina transparenza, grondas dependenzas; naginas opziuns d'exit u alternativas
 
-|0
-|Determinà da terzs / betg suveran
-|Nagina controlla davart sistems, datas u infrastructura; nagina transparenza, grondas dependenzas; naginas opziuns d'exit u alternativas
+1 -- Controllà minimalmain::
+Emprimas enconuschientschas davart l'utilisaziun e las dependenzas; mecanissems da controlla puntuals; lacunas operativas, giuridicas u tecnologicas persistan
 
-|1
-|Controllà minimalmain
-|Emprimas enconuschientschas davart l'utilisaziun e las dependenzas; mecanissems da controlla puntuals; lacunas operativas, giuridicas u tecnologicas persistan
+2 -- Utilisabel en moda reglamentada::
+Sistems fidaivels e per part controllabels; rom giuridic e tecnic stabilì; dependenzas strategicas persistan
 
-|2
-|Utilisabel en moda reglamentada
-|Sistems fidaivels e per part controllabels; rom giuridic e tecnic stabilì; dependenzas strategicas persistan
+3 -- Autoregulà e resilient::
+La posiziun sin il martgà vegn duvrada; strategias d'exit e concepts multifurnitur implementads; know-how construì; resilienza e scenaris da crisa preparads
 
-|3
-|Autoregulà e resilient
-|La posiziun sin il martgà vegn duvrada; strategias d'exit e concepts multifurnitur implementads; know-how construì; resilienza e scenaris da crisa preparads
-
-|4
-|Suveran sistemicamain
-|Suveranitad en tut las dimensiuns relevantas (giuridica, tecnologica, culturala, strategica); format activ dal martgà e dals standards; effect geopolitic pussaivel
-|===
-
-_Grad da suveranitad digitala._
+4 -- Suveran sistemicamain::
+Suveranitad en tut las dimensiuns relevantas (giuridica, tecnologica, culturala, strategica); format activ dal martgà e dals standards; effect geopolitic pussaivel
 
 Questas duas dimensiuns dattan la suandanta matrix:
 
-[cols="2,1,1,1,1,1",options="header"]
+[cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
-|Perspectiva |0 |1 |2 |3 |4
+|Perspectiva
+|0 +
+Determinà da terzs
+|1 +
+Controllà minimalmain
+|2 +
+Utilisabel en moda reglamentada
+|3 +
+Autoregulà e resilient
+|4 +
+Suveran sistemicamain
 
 |A -- Controlla tecnologica
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |B -- Suveranitad da las datas
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |C -- Capacitad giuridica d'agir
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |D -- Resilienza
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 
 |E -- Controlla economica
-|
-|
-|
-|
-|
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
+a|
+[%interactive]
+* [ ] {empty}
 |===
 
 _Matrix suveranitad digitala: perspectivas ed il grad da suveranitad._
