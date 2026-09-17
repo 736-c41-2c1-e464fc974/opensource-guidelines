@@ -115,6 +115,13 @@ under https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bun
 
 The OSS tools and resources are aimed at different target groups. The following table provides a recommendation as to which documents are relevant for each target group.
 
+// The only block title on a table in the document set, and it stays. 4d1056c
+// avoided them because auto-numbering would have renumbered the tables whose
+// numbers Em002-7's prose cites; Em002-5 has one table, no hand-written number
+// and no prose in any of the five languages that cites one. The block title is
+// a real <caption> -- the table's accessible name -- and open-govpress supplies
+// both the number and the localised word for "Table", so unlike the captions in
+// Em002-2, Em002-3 and Em002-7 there is nothing here to keep in step by hand.
 .OSS tools and resources by target group
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
@@ -435,6 +442,7 @@ unter https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bun
 
 Die OSS-Hilfsmittel richten sich an unterschiedliche Zielgruppen. Die folgende Tabelle enthält eine Empfehlung, welche Dokumente für welche Zielgruppe relevant sind.
 
+// Siehe den englischen Block für die Begründung dieses Blocktitels.
 .OSS-Hilfsmittel nach Zielgruppe
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
@@ -755,6 +763,7 @@ sous https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/bund
 
 Les outils et ressources OSS s'adressent à différents groupes cibles. Le tableau suivant recommande quels documents sont pertinents pour quel groupe cible.
 
+// Voir le bloc anglais pour la justification de ce titre de bloc.
 .Outils et ressources OSS par groupe cible
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
@@ -1075,6 +1084,7 @@ alla pagina https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenku
 
 Gli strumenti e le risorse OSS si rivolgono a gruppi target diversi. La tabella seguente raccomanda quali documenti sono rilevanti per quale gruppo target.
 
+// Cfr. il blocco inglese per la motivazione di questo titolo di blocco.
 .Strumenti e risorse OSS per gruppo target
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
@@ -1395,6 +1405,7 @@ sut https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bunde
 
 Ils meds e las resursas OSS s'adressan a differentas gruppas da destinaziun. La tabella suandanta cuntegna ina recumandaziun, tge documents che èn relevants per tge gruppa da destinaziun.
 
+// Vesair il bloc englais per la motivaziun da quest titel da bloc.
 .Meds e resursas OSS tenor gruppa da destinaziun
 [options="header",cols="3,1,1,1,1,1,1,1,1,1"]
 |===
