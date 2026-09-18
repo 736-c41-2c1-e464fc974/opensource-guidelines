@@ -48,7 +48,7 @@ endif::[]
 ifeval::["{lang}" == "en"]
 This repository contains *evolving drafts* of guidelines and tools to support the Federal Administration in publishing open source code. The *official and binding versions* are available in all official languages on the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Swiss Federal Chancellery website].
 
-Every document in this repository carries all five languages -- English, German, French, Italian and Romansh -- in a single AsciiDoc file. The German, French, Italian and Romansh texts are *unreviewed translations*; see link:TRANSLATING.md[TRANSLATING.md] before editing them.
+Every document in this repository carries all five languages -- English, German, French, Italian and Romansh -- in a single AsciiDoc file. The German, French, Italian and Romansh texts are *unreviewed translations*; see link:TRANSLATING.adoc[TRANSLATING.adoc] before editing them.
 
 For a complete list of documents, see: link:docs/index.adoc[Tools for Publishing Open Source Software]
 
@@ -67,6 +67,8 @@ Contributions from the open source community and other stakeholders to these gui
 . Open a pull request
 
 Alternatively, you can simply open an issue.
+
+To build and check the sources on your own machine, see link:DEVENV-SETUP.adoc[DEVENV-SETUP.adoc].
 
 NOTE: You can also write in *German, French, or Italian* and refer to the https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[official language documents] where relevant.
 
@@ -88,7 +90,7 @@ endif::[]
 ifeval::["{lang}" == "de"]
 Dieses Repository enthält *laufend weiterentwickelte Entwürfe* von Hilfsmitteln, welche die Bundesverwaltung bei der Veröffentlichung von Open-Source-Code unterstützen. Die *offiziellen und verbindlichen Fassungen* sind in allen Amtssprachen auf der https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Website der Schweizerischen Bundeskanzlei] verfügbar.
 
-Jedes Dokument in diesem Repository enthält alle fünf Sprachen -- Englisch, Deutsch, Französisch, Italienisch und Rumantsch -- in einer einzigen AsciiDoc-Datei. Die deutschen, französischen, italienischen und rätoromanischen Texte sind *ungeprüfte Übersetzungen*; lesen Sie link:TRANSLATING.md[TRANSLATING.md], bevor Sie sie bearbeiten.
+Jedes Dokument in diesem Repository enthält alle fünf Sprachen -- Englisch, Deutsch, Französisch, Italienisch und Rumantsch -- in einer einzigen AsciiDoc-Datei. Die deutschen, französischen, italienischen und rätoromanischen Texte sind *ungeprüfte Übersetzungen*; lesen Sie link:TRANSLATING.adoc[TRANSLATING.adoc], bevor Sie sie bearbeiten.
 
 Eine vollständige Liste der Dokumente finden Sie unter: link:docs/index.adoc[Hilfsmittel zur Veröffentlichung von Open-Source-Software]
 
@@ -107,6 +109,8 @@ Beiträge aus der Open-Source-Community und von weiteren Interessierten zu diese
 . Einen Pull Request eröffnen
 
 Alternativ können Sie auch einfach ein Issue eröffnen.
+
+Wie Sie die Quellen auf Ihrem eigenen Rechner bauen und prüfen, steht in link:DEVENV-SETUP.adoc[DEVENV-SETUP.adoc].
 
 NOTE: Sie können auch auf *Deutsch, Französisch oder Italienisch* schreiben und dort, wo es sinnvoll ist, auf die https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[Dokumente in den Amtssprachen] verweisen.
 
@@ -128,7 +132,7 @@ endif::[]
 ifeval::["{lang}" == "fr"]
 Ce dépôt contient des *projets en cours d'élaboration* d'outils destinés à soutenir l'administration fédérale dans la publication de code open source. Les *versions officielles et contraignantes* sont disponibles dans toutes les langues officielles sur le https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[site de la Chancellerie fédérale suisse].
 
-Chaque document de ce dépôt contient les cinq langues -- anglais, allemand, français, italien et romanche -- dans un seul fichier AsciiDoc. Les textes allemand, français, italien et romanche sont des *traductions non vérifiées* ; veuillez lire link:TRANSLATING.md[TRANSLATING.md] avant de les modifier.
+Chaque document de ce dépôt contient les cinq langues -- anglais, allemand, français, italien et romanche -- dans un seul fichier AsciiDoc. Les textes allemand, français, italien et romanche sont des *traductions non vérifiées* ; veuillez lire link:TRANSLATING.adoc[TRANSLATING.adoc] avant de les modifier.
 
 Pour la liste complète des documents, voir : link:docs/index.adoc[Outils pour la publication de logiciels open source]
 
@@ -147,6 +151,8 @@ Les contributions de la communauté open source et des autres parties prenantes 
 . Ouvrir une pull request
 
 Vous pouvez également ouvrir simplement une issue.
+
+Pour générer et vérifier les sources sur votre propre machine, voir link:DEVENV-SETUP.adoc[DEVENV-SETUP.adoc].
 
 NOTE: Vous pouvez aussi écrire en *allemand, français ou italien* et renvoyer, le cas échéant, aux https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[documents dans les langues officielles].
 
@@ -168,7 +174,7 @@ endif::[]
 ifeval::["{lang}" == "it"]
 Questo repository contiene *bozze in continua evoluzione* di strumenti destinati a sostenere l'Amministrazione federale nella pubblicazione di codice open source. Le *versioni ufficiali e vincolanti* sono disponibili in tutte le lingue ufficiali sul https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[sito della Cancelleria federale svizzera].
 
-Ogni documento di questo repository contiene tutte e cinque le lingue -- inglese, tedesco, francese, italiano e romancio -- in un unico file AsciiDoc. I testi tedesco, francese, italiano e romancio sono *traduzioni non verificate*; consultate link:TRANSLATING.md[TRANSLATING.md] prima di modificarli.
+Ogni documento di questo repository contiene tutte e cinque le lingue -- inglese, tedesco, francese, italiano e romancio -- in un unico file AsciiDoc. I testi tedesco, francese, italiano e romancio sono *traduzioni non verificate*; consultate link:TRANSLATING.adoc[TRANSLATING.adoc] prima di modificarli.
 
 Per l'elenco completo dei documenti si veda: link:docs/index.adoc[Strumenti per la pubblicazione di software open source]
 
@@ -187,6 +193,8 @@ I contributi della community open source e delle altre parti interessate a quest
 . Aprire una pull request
 
 In alternativa potete semplicemente aprire una issue.
+
+Per compilare e verificare i sorgenti sul vostro computer, si veda link:DEVENV-SETUP.adoc[DEVENV-SETUP.adoc].
 
 NOTE: Potete scrivere anche in *tedesco, francese o italiano* e rinviare, ove opportuno, ai https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[documenti nelle lingue ufficiali].
 
@@ -208,7 +216,7 @@ endif::[]
 ifeval::["{lang}" == "rm"]
 Quest repositori cuntegna *sbozzas ch'èn vegnidas sviluppadas vinavant* da meds che sustegnan l'administraziun federala en la publicaziun da code open source. Las *versiuns ufficialas e liantas* èn disponiblas en tuttas linguas ufficialas sin la https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[pagina d'internet da la Chanzlia federala svizra].
 
-Mintga document da quest repositori cuntegna tuttas tschintg linguas -- englais, tudestg, franzos, talian e rumantsch -- en ina suletta datoteca AsciiDoc. Ils texts tudestg, franzos, talian e rumantsch èn *translaziuns betg verifitgadas*; legiai link:TRANSLATING.md[TRANSLATING.md] avant che elavurar els.
+Mintga document da quest repositori cuntegna tuttas tschintg linguas -- englais, tudestg, franzos, talian e rumantsch -- en ina suletta datoteca AsciiDoc. Ils texts tudestg, franzos, talian e rumantsch èn *translaziuns betg verifitgadas*; legiai link:TRANSLATING.adoc[TRANSLATING.adoc] avant che elavurar els.
 
 Ina glista cumpletta dals documents chattais Vus sut: link:docs/index.adoc[Meds per publitgar software open source]
 
@@ -227,6 +235,8 @@ Contribuziuns da la communitad open source e d'ulteriurs interessads a quests me
 . Avrir ina pull request
 
 Alternativamain pudais Vus era simplamain avrir in issue.
+
+Co ch'i vegn bajegià e controllà las funtaunas sin Voss agen computer, chattais Vus en link:DEVENV-SETUP.adoc[DEVENV-SETUP.adoc].
 
 NOTE: Vus pudais era scriver per *tudestg, franzos u talian* e renviar, nua ch'igl è sensa, als https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[documents en las linguas ufficialas].
 

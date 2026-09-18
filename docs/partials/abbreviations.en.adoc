@@ -8,7 +8,7 @@
 // documents cite different things, and a translator picked a different
 // abbreviation for the same concept (German AV vs AO, DVS vs DOEDS). So the
 // entries are tagged per consuming document rather than included wholesale.
-// The per-language entry counts differ on purpose; see TRANSLATING.md.
+// The per-language entry counts differ on purpose; see TRANSLATING.adoc.
 //
 // `[horizontal]` stays in the including document, immediately before the
 // include -- the block attribute carries across the include and across the
