@@ -152,8 +152,10 @@ Several hooks fix the file rather than only complaining -- `end-of-file-fixer`, 
 ----
 render-docs                                          # all five languages
 render-docs de rm                                    # just those two
-open-govpress render --lang de -o build/de docs/em002-5.adoc
+open-govpress render --lang de -o build/de/ docs/em002-5.adoc
 ----
+
+The trailing slash on `-o build/de/` is not decoration: with a single input file, that path is treated as a directory only if it ends in a separator or already exists. Without it, the first render into a fresh clone writes a PDF into a file named `build/de`. link:TRANSLATING.adoc[TRANSLATING.adoc] covers this alongside the rest of the per-document loop.
 
 The first invocation of either downloads the renderer -- a ~112 MiB release asset, checksum-verified -- into `open-govpress/.cache/` and unpacks it into `open-govpress/.extracted/`. Both are gitignored and both are reused afterwards, so only the first render pays for this. It happens on first use rather than on shell entry so that entering the shell stays fast for anyone who is not rendering.
 
