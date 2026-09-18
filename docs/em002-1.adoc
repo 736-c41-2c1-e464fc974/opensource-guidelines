@@ -141,13 +141,13 @@ Software is considered open source software (OSS) when it is published under one
 . The software may be modified and distributed in modified form under certain conditions.
 
 Free software::
-Before the term 'open source', the Free Software Foundation (FSF) introduced the concept of 'free software' in the 1980s. In essence, free software meets the conditions of open source software, but aims to ensure that the software is always freely accessible and, wherever possible, is not integrated into proprietary software. footnote:[See: https://en.wikipedia.org/wiki/Free_software]
+Before the term 'open source', the Free Software Foundation (FSF) introduced the concept of 'free software' in the 1980s. In essence, free software meets the conditions of open source software, but aims to ensure that the software is always freely accessible and, wherever possible, is not integrated into proprietary software. footnote:[https://en.wikipedia.org/wiki/Free_software[Free software -- Wikipedia]]
 
 Proprietary software::
-With proprietary software, a supplier develops software and sells a usage licence to the user. Generally, the user does not know the software code and may not redistribute or modify the software. They can only use the software according to the licence terms (e.g. End-User Licence Agreement, EULA) in return for payment of licence fees. For example, the software may be authorised to be used by only a certain number of users or a certain number of processors. footnote:[See: https://en.wikipedia.org/wiki/Proprietary_software] In return for the usually annual maintenance fees, the supplier commits to fixing errors within a reasonable timeframe and to continuously developing the software.
+With proprietary software, a supplier develops software and sells a usage licence to the user. Generally, the user does not know the software code and may not redistribute or modify the software. They can only use the software according to the licence terms (e.g. End-User Licence Agreement, EULA) in return for payment of licence fees. For example, the software may be authorised to be used by only a certain number of users or a certain number of processors. footnote:[https://en.wikipedia.org/wiki/Proprietary_software[Proprietary software -- Wikipedia]] In return for the usually annual maintenance fees, the supplier commits to fixing errors within a reasonable timeframe and to continuously developing the software.
 
 Licence::
-A licence is a document that contains binding guidelines for the use and distribution of software. In the case of open source, licences that comply with OSI are usually used. footnote:[See: https://opensource.org/]
+A licence is a document that contains binding guidelines for the use and distribution of software. In the case of open source, licences that comply with OSI are usually used. footnote:[https://opensource.org/[Open Source Initiative]]
 
 Community::
 A community in the context of open source software is broadly defined. It can be a loose ecosystem or a structure with governance that develops the software. The document link:em002-4.pdf[Em002-4 OSS Community Guidelines] covers this topic. Community members can jointly manage the product, develop, test, translate, provide feedback or simply use the software.
@@ -159,7 +159,7 @@ Exceptions under EMOTA::
 Exceptions according to Art. 9 para. 1 EMOTA include third-party rights and security-related reasons. Both are covered in Section 3 of link:em002-2.pdf[Em002-2 Instructions for Publishing Open Source Software].
 
 Source code::
-In computing, source code (or source text) is the human-readable text of a computer program written in a programming language. footnote:[See: https://en.wikipedia.org/wiki/Source_code]
+In computing, source code (or source text) is the human-readable text of a computer program written in a programming language. footnote:[https://en.wikipedia.org/wiki/Source_code[Source code -- Wikipedia]]
 
 Publication::
 Publication primarily refers to the release of the source code under an open licence according to OSI. For practical reasons, this usually also includes documentation and automated instructions for building the application from the source code. Automated tests and test documents are also typically included. To enable a community to develop, a platform is used that then takes on several functions of a development platform (build, test, support).
@@ -171,19 +171,19 @@ Repository::
 A repository is a storage location used by a version control tool for files and metadata about the code base. Repositories allow multiple contributors to work on the same files and store different versions. Most also allow issue tracking, release management, automated builds and documentation.
 
 Fork::
-A fork footnote:[See: https://en.wikipedia.org/wiki/Fork_(software_development)] of an open source project is the process of setting up an independent development of the original project.
+A fork footnote:[https://en.wikipedia.org/wiki/Fork_(software_development)[Fork (software development) -- Wikipedia]] of an open source project is the process of setting up an independent development of the original project.
 
 Contributor Licence Agreement (CLA)::
-A Contributor Licence Agreement footnote:[See: https://en.wikipedia.org/wiki/Contributor_License_Agreement] is a document that describes the conditions under which intellectual property can be contributed to a project or venture.
+A Contributor Licence Agreement footnote:[https://en.wikipedia.org/wiki/Contributor_License_Agreement[Contributor License Agreement -- Wikipedia]] is a document that describes the conditions under which intellectual property can be contributed to a project or venture.
 
 Source code management (SCM)::
-Source code management footnote:[See: https://en.wikipedia.org/wiki/Version_control], also known as version control, is a tool that effectively manages changes and version numbers, particularly in software development. The free software Git footnote:[See: https://en.wikipedia.org/wiki/Git] for managing distributed SCM has become established.
+Source code management footnote:[https://en.wikipedia.org/wiki/Version_control[Version control -- Wikipedia]], also known as version control, is a tool that effectively manages changes and version numbers, particularly in software development. The free software Git footnote:[https://en.wikipedia.org/wiki/Git[Git -- Wikipedia]] for managing distributed SCM has become established.
 
 Open source software development (OSSD)::
-In open source software development (OSSD) footnote:[See: https://en.wikipedia.org/wiki/Open-source_software_development], in addition to publishing the source code, the entire development process is carried out publicly. Everything from requirements (issues) to source code is transparent. OSSD is supported by public communication tools (mailing lists, forums, etc.), a version control system (git), bug and feature lists, roadmap and developer tools.
+In open source software development (OSSD) footnote:[https://en.wikipedia.org/wiki/Open-source_software_development[Open-source software development -- Wikipedia]], in addition to publishing the source code, the entire development process is carried out publicly. Everything from requirements (issues) to source code is transparent. OSSD is supported by public communication tools (mailing lists, forums, etc.), a version control system (git), bug and feature lists, roadmap and developer tools.
 
 Software Package Data Exchange (SPDX)::
-Software Package Data Exchange (SPDX) footnote:[See: https://en.wikipedia.org/wiki/Software_Package_Data_Exchange] describes a standard format for Software Bill of Materials (SBOM) with the aim of facilitating the correct handling of free software or open source software.
+Software Package Data Exchange (SPDX) footnote:[https://en.wikipedia.org/wiki/Software_Package_Data_Exchange[Software Package Data Exchange -- Wikipedia]] describes a standard format for Software Bill of Materials (SBOM) with the aim of facilitating the correct handling of free software or open source software.
 
 Copyleft effect::
 If software is under a licence with a copyleft provision, any modification or extension of the source code must be released again under the licence of the modified open source software (see also link:em002-3.pdf[Em002-3 OSS Licensing Guidelines]).
@@ -197,7 +197,7 @@ There is enormous potential for open source software in today's world of IT. At 
 The following points describe the potential that can be realised when using and releasing open source software.
 
 {empty}1. Digital sovereignty::
-This involves the ability to use and control digital services. Digital sovereignty extends over the entire lifecycle of a digital system. Open source software promotes digital sovereignty, as it guarantees interchangeability, design flexibility and influence. footnote:[We use the definition from _[St2024]_: 'Digital sovereignty of a state or organisation necessarily includes complete control over stored and processed data as well as independent decision-making about who may access it. It further includes the ability to independently develop, modify, control and supplement technological components and systems.']
+This involves the ability to use and control digital services. Digital sovereignty extends over the entire lifecycle of a digital system. Open source software promotes digital sovereignty, as it guarantees interchangeability, design flexibility and influence. footnote:[We use the definition from _[St2024\]_: 'Digital sovereignty of a state or organisation necessarily includes complete control over stored and processed data as well as independent decision-making about who may access it. It further includes the ability to independently develop, modify, control and supplement technological components and systems.']
 
 {empty}2. No licence fees::
 There are no licence costs for using open source software. However, when obtaining complex standard open source software packages, it may make sense to purchase support subscriptions, for which a fee is paid.
@@ -246,7 +246,7 @@ When procuring standard software, it may happen that there is no open source sof
 Short-term cost savings resulting from licence savings when using open source software are often offset by higher integration costs. Therefore, it is important to recognise that the professional use of open source software is not 'free' but actually generates internal or external costs.
 
 {empty}4. Unclear responsibilities and support::
-Open source software is often criticised for the lack of support and maintenance by external companies. However, there are now a variety of suppliers offering commercial services (long-term support, ongoing maintenance, further development, liability and warranty, etc.) for open source solutions. The different business models with open source software are explained in Annex D and the different support models in Section 8. An up-to-date overview of open source service providers and their services can be found in the Open Source Directory (https://www.ossdirectory.com) or in the OSS Study 2024 footnote:[See: https://www.oss-studie.ch/] _[OSS2024]_.
+Open source software is often criticised for the lack of support and maintenance by external companies. However, there are now a variety of suppliers offering commercial services (long-term support, ongoing maintenance, further development, liability and warranty, etc.) for open source solutions. The different business models with open source software are explained in Annex D and the different support models in Section 8. An up-to-date overview of open source service providers and their services can be found in the Open Source Directory (https://www.ossdirectory.com) or in the OSS Study 2024 footnote:[https://www.oss-studie.ch/[OSS Study]] _[OSS2024]_.
 
 {empty}5. Small market with few suppliers::
 As certain open source applications, such as desktop applications, generally require little or no support and maintenance, there may be little market for open source providers of support and maintenance. In this case, a tendering process for open source software services can help to create a market that increases competition between suppliers. The existence of a broad development community for the software in question and the quality of the development documentation are of practical importance when tendering for such services.
@@ -346,7 +346,7 @@ The Competence Centre for Federal Public Procurement (CCPP) has published a new 
 
 Further assistance is available on the https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html[FOBL intranet] (accessible only on the federal network) with the https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[_Open Source in Procurement Guidelines_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[BBL-WL]]_ and the https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[_Checklist for Art. 9 EMOTA Blanket Exception_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[BBL-CL]]_.
 
-The enterprise readiness of open source can be found in the document _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[See _[Gu2024]_] or in the Bitkom guide. footnote:[See https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Best practice recommendations for open source software | 2025 Guidelines | Bitkom e. V.], Section 3.3]
+The enterprise readiness of open source can be found in the document _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[See _[Gu2024\]_] or in the Bitkom guide. footnote:[See https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Best practice recommendations for open source software | 2025 Guidelines | Bitkom e. V.], Section 3.3]
 
 == Findability of OSS solutions
 
@@ -664,13 +664,13 @@ Software gilt als Open-Source-Software (OSS), wenn sie unter einer der rund 80 v
 . Die Software darf unter bestimmten Bedingungen verändert und in veränderter Form verbreitet werden.
 
 Freie Software::
-Vor dem Begriff «Open Source» führte die Free Software Foundation (FSF) in den 1980er-Jahren das Konzept der «freien Software» ein. Im Kern erfüllt freie Software die Bedingungen von Open-Source-Software, zielt aber darauf ab, dass die Software stets frei zugänglich bleibt und nach Möglichkeit nicht in proprietäre Software integriert wird. footnote:[Siehe: https://de.wikipedia.org/wiki/Freie_Software]
+Vor dem Begriff «Open Source» führte die Free Software Foundation (FSF) in den 1980er-Jahren das Konzept der «freien Software» ein. Im Kern erfüllt freie Software die Bedingungen von Open-Source-Software, zielt aber darauf ab, dass die Software stets frei zugänglich bleibt und nach Möglichkeit nicht in proprietäre Software integriert wird. footnote:[https://de.wikipedia.org/wiki/Freie_Software[Freie Software -- Wikipedia]]
 
 Proprietäre Software::
-Bei proprietärer Software entwickelt ein Anbieter Software und verkauft der Nutzerin oder dem Nutzer eine Nutzungslizenz. In der Regel kennen die Nutzenden den Softwarecode nicht und dürfen die Software weder weiterverbreiten noch verändern. Sie können die Software nur gemäss den Lizenzbedingungen (z. B. End-User Licence Agreement, EULA) gegen Bezahlung von Lizenzgebühren nutzen. So kann die Software beispielsweise nur für eine bestimmte Anzahl Nutzender oder eine bestimmte Anzahl Prozessoren zugelassen sein. footnote:[Siehe: https://de.wikipedia.org/wiki/Proprietäre_Software] Im Gegenzug für die meist jährlichen Wartungsgebühren verpflichtet sich der Anbieter, Fehler innerhalb einer angemessenen Frist zu beheben und die Software laufend weiterzuentwickeln.
+Bei proprietärer Software entwickelt ein Anbieter Software und verkauft der Nutzerin oder dem Nutzer eine Nutzungslizenz. In der Regel kennen die Nutzenden den Softwarecode nicht und dürfen die Software weder weiterverbreiten noch verändern. Sie können die Software nur gemäss den Lizenzbedingungen (z. B. End-User Licence Agreement, EULA) gegen Bezahlung von Lizenzgebühren nutzen. So kann die Software beispielsweise nur für eine bestimmte Anzahl Nutzender oder eine bestimmte Anzahl Prozessoren zugelassen sein. footnote:[https://de.wikipedia.org/wiki/Proprietäre_Software[Proprietäre Software -- Wikipedia]] Im Gegenzug für die meist jährlichen Wartungsgebühren verpflichtet sich der Anbieter, Fehler innerhalb einer angemessenen Frist zu beheben und die Software laufend weiterzuentwickeln.
 
 Lizenz::
-Eine Lizenz ist ein Dokument, das verbindliche Vorgaben für die Nutzung und Verbreitung von Software enthält. Bei Open Source werden in der Regel Lizenzen verwendet, die der OSI entsprechen. footnote:[Siehe: https://opensource.org/]
+Eine Lizenz ist ein Dokument, das verbindliche Vorgaben für die Nutzung und Verbreitung von Software enthält. Bei Open Source werden in der Regel Lizenzen verwendet, die der OSI entsprechen. footnote:[https://opensource.org/[Open Source Initiative]]
 
 Community::
 Eine Community im Kontext von Open-Source-Software ist breit definiert. Es kann sich um ein loses Ökosystem oder um eine Struktur mit Governance handeln, welche die Software entwickelt. Das Dokument link:em002-4.pdf[Em002-4 Leitfaden OSS-Community] behandelt dieses Thema. Mitglieder der Community können das Produkt gemeinsam führen, entwickeln, testen, übersetzen, Rückmeldungen geben oder die Software einfach nutzen.
@@ -682,7 +682,7 @@ Ausnahmen nach EMBAG::
 Ausnahmen nach Art. 9 Abs. 1 EMBAG sind Rechte Dritter und sicherheitsrelevante Gründe. Beide werden in Kapitel 3 von link:em002-2.pdf[Em002-2 Anleitung zur Veröffentlichung von Open-Source-Software] behandelt.
 
 Quellcode::
-In der Informatik ist der Quellcode (oder Quelltext) der für Menschen lesbare Text eines Computerprogramms, der in einer Programmiersprache verfasst ist. footnote:[Siehe: https://de.wikipedia.org/wiki/Quelltext]
+In der Informatik ist der Quellcode (oder Quelltext) der für Menschen lesbare Text eines Computerprogramms, der in einer Programmiersprache verfasst ist. footnote:[https://de.wikipedia.org/wiki/Quelltext[Quelltext -- Wikipedia]]
 
 Veröffentlichung::
 Veröffentlichung bezeichnet in erster Linie die Freigabe des Quellcodes unter einer offenen Lizenz nach OSI. Aus praktischen Gründen gehören dazu in der Regel auch die Dokumentation und automatisierte Anweisungen, um die Anwendung aus dem Quellcode zu erstellen. Automatisierte Tests und Testdokumente sind üblicherweise ebenfalls enthalten. Damit sich eine Community entwickeln kann, wird eine Plattform eingesetzt, die dann mehrere Funktionen einer Entwicklungsplattform übernimmt (Build, Test, Support).
@@ -694,19 +694,19 @@ Repository::
 Ein Repository ist ein Speicherort, den ein Versionsverwaltungswerkzeug für Dateien und Metadaten zur Codebasis nutzt. Repositories erlauben es mehreren Mitwirkenden, an denselben Dateien zu arbeiten und verschiedene Versionen abzulegen. Die meisten ermöglichen zudem Issue-Tracking, Release-Management, automatisierte Builds und Dokumentation.
 
 Fork::
-Ein Fork footnote:[Siehe: https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)] eines Open-Source-Projekts ist der Vorgang, eine eigenständige Entwicklung des ursprünglichen Projekts aufzubauen.
+Ein Fork footnote:[https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)[Abspaltung (Softwareentwicklung) -- Wikipedia]] eines Open-Source-Projekts ist der Vorgang, eine eigenständige Entwicklung des ursprünglichen Projekts aufzubauen.
 
 Contributor Licence Agreement (CLA)::
-Ein Contributor Licence Agreement footnote:[Siehe: https://en.wikipedia.org/wiki/Contributor_License_Agreement] ist ein Dokument, das die Bedingungen beschreibt, unter denen geistiges Eigentum zu einem Projekt oder Vorhaben beigetragen werden kann.
+Ein Contributor Licence Agreement footnote:[https://en.wikipedia.org/wiki/Contributor_License_Agreement[Contributor License Agreement -- Wikipedia]] ist ein Dokument, das die Bedingungen beschreibt, unter denen geistiges Eigentum zu einem Projekt oder Vorhaben beigetragen werden kann.
 
 Source Code Management (SCM)::
-Source Code Management footnote:[Siehe: https://de.wikipedia.org/wiki/Versionsverwaltung], auch Versionsverwaltung genannt, ist ein Werkzeug, das Änderungen und Versionsnummern insbesondere in der Softwareentwicklung wirksam verwaltet. Durchgesetzt hat sich die freie Software Git footnote:[Siehe: https://de.wikipedia.org/wiki/Git] zur Verwaltung verteilter SCM.
+Source Code Management footnote:[https://de.wikipedia.org/wiki/Versionsverwaltung[Versionsverwaltung -- Wikipedia]], auch Versionsverwaltung genannt, ist ein Werkzeug, das Änderungen und Versionsnummern insbesondere in der Softwareentwicklung wirksam verwaltet. Durchgesetzt hat sich die freie Software Git footnote:[https://de.wikipedia.org/wiki/Git[Git -- Wikipedia]] zur Verwaltung verteilter SCM.
 
 Open Source Software Development (OSSD)::
-Bei der Open-Source-Softwareentwicklung (OSSD) footnote:[Siehe: https://en.wikipedia.org/wiki/Open-source_software_development] wird zusätzlich zur Veröffentlichung des Quellcodes der gesamte Entwicklungsprozess öffentlich durchgeführt. Alles von den Anforderungen (Issues) bis zum Quellcode ist transparent. OSSD wird unterstützt durch öffentliche Kommunikationswerkzeuge (Mailinglisten, Foren usw.), ein Versionsverwaltungssystem (Git), Fehler- und Funktionslisten, eine Roadmap und Entwicklerwerkzeuge.
+Bei der Open-Source-Softwareentwicklung (OSSD) footnote:[https://en.wikipedia.org/wiki/Open-source_software_development[Open-source software development -- Wikipedia]] wird zusätzlich zur Veröffentlichung des Quellcodes der gesamte Entwicklungsprozess öffentlich durchgeführt. Alles von den Anforderungen (Issues) bis zum Quellcode ist transparent. OSSD wird unterstützt durch öffentliche Kommunikationswerkzeuge (Mailinglisten, Foren usw.), ein Versionsverwaltungssystem (Git), Fehler- und Funktionslisten, eine Roadmap und Entwicklerwerkzeuge.
 
 Software Package Data Exchange (SPDX)::
-Software Package Data Exchange (SPDX) footnote:[Siehe: https://en.wikipedia.org/wiki/Software_Package_Data_Exchange] beschreibt ein Standardformat für Software Bill of Materials (SBOM) mit dem Ziel, den korrekten Umgang mit freier Software oder Open-Source-Software zu erleichtern.
+Software Package Data Exchange (SPDX) footnote:[https://en.wikipedia.org/wiki/Software_Package_Data_Exchange[Software Package Data Exchange -- Wikipedia]] beschreibt ein Standardformat für Software Bill of Materials (SBOM) mit dem Ziel, den korrekten Umgang mit freier Software oder Open-Source-Software zu erleichtern.
 
 Copyleft-Effekt::
 Steht Software unter einer Lizenz mit Copyleft-Bestimmung, so muss jede Veränderung oder Erweiterung des Quellcodes wieder unter der Lizenz der veränderten Open-Source-Software freigegeben werden (siehe auch link:em002-3.pdf[Em002-3 Leitfaden OSS-Lizenzierung]).
@@ -720,7 +720,7 @@ In der heutigen IT-Welt besteht ein enormes Potenzial für Open-Source-Software.
 Die folgenden Punkte beschreiben das Potenzial, das sich bei der Nutzung und Freigabe von Open-Source-Software realisieren lässt.
 
 {empty}1. Digitale Souveränität::
-Dabei geht es um die Fähigkeit, digitale Dienste zu nutzen und zu kontrollieren. Die digitale Souveränität erstreckt sich über den gesamten Lebenszyklus eines digitalen Systems. Open-Source-Software fördert die digitale Souveränität, da sie Austauschbarkeit, Gestaltungsfreiheit und Einfluss garantiert. footnote:[Wir verwenden die Definition aus _[St2024]_: «Die digitale Souveränität eines Staates oder einer Organisation umfasst zwingend die vollständige Kontrolle über gespeicherte und verarbeitete Daten sowie die selbstständige Entscheidung darüber, wer darauf zugreifen darf. Sie umfasst weiter die Fähigkeit, technologische Komponenten und Systeme eigenständig zu entwickeln, zu verändern, zu kontrollieren und zu ergänzen.»]
+Dabei geht es um die Fähigkeit, digitale Dienste zu nutzen und zu kontrollieren. Die digitale Souveränität erstreckt sich über den gesamten Lebenszyklus eines digitalen Systems. Open-Source-Software fördert die digitale Souveränität, da sie Austauschbarkeit, Gestaltungsfreiheit und Einfluss garantiert. footnote:[Wir verwenden die Definition aus _[St2024\]_: «Die digitale Souveränität eines Staates oder einer Organisation umfasst zwingend die vollständige Kontrolle über gespeicherte und verarbeitete Daten sowie die selbstständige Entscheidung darüber, wer darauf zugreifen darf. Sie umfasst weiter die Fähigkeit, technologische Komponenten und Systeme eigenständig zu entwickeln, zu verändern, zu kontrollieren und zu ergänzen.»]
 
 {empty}2. Keine Lizenzgebühren::
 Für die Nutzung von Open-Source-Software fallen keine Lizenzkosten an. Beim Bezug komplexer Open-Source-Standardsoftwarepakete kann es jedoch sinnvoll sein, kostenpflichtige Support-Subskriptionen zu erwerben.
@@ -769,7 +769,7 @@ Bei der Beschaffung von Standardsoftware kann es vorkommen, dass es zur (bisheri
 Kurzfristige Kosteneinsparungen durch wegfallende Lizenzen beim Einsatz von Open-Source-Software werden oft durch höhere Integrationskosten aufgewogen. Daher ist es wichtig zu erkennen, dass der professionelle Einsatz von Open-Source-Software nicht «gratis» ist, sondern tatsächlich interne oder externe Kosten verursacht.
 
 {empty}4. Unklare Verantwortlichkeiten und Support::
-Open-Source-Software wird häufig für den fehlenden Support und die fehlende Wartung durch externe Unternehmen kritisiert. Inzwischen gibt es jedoch eine Vielzahl von Anbietern, die kommerzielle Leistungen (Long-Term-Support, laufende Wartung, Weiterentwicklung, Haftung und Gewährleistung usw.) für Open-Source-Lösungen anbieten. Die verschiedenen Geschäftsmodelle mit Open-Source-Software werden in Anhang D und die verschiedenen Supportmodelle in Kapitel 8 erläutert. Eine aktuelle Übersicht über Open-Source-Dienstleister und ihre Leistungen findet sich im Open Source Directory (https://www.ossdirectory.com) oder in der OSS-Studie 2024 footnote:[Siehe: https://www.oss-studie.ch/] _[OSS2024]_.
+Open-Source-Software wird häufig für den fehlenden Support und die fehlende Wartung durch externe Unternehmen kritisiert. Inzwischen gibt es jedoch eine Vielzahl von Anbietern, die kommerzielle Leistungen (Long-Term-Support, laufende Wartung, Weiterentwicklung, Haftung und Gewährleistung usw.) für Open-Source-Lösungen anbieten. Die verschiedenen Geschäftsmodelle mit Open-Source-Software werden in Anhang D und die verschiedenen Supportmodelle in Kapitel 8 erläutert. Eine aktuelle Übersicht über Open-Source-Dienstleister und ihre Leistungen findet sich im Open Source Directory (https://www.ossdirectory.com) oder in der OSS-Studie 2024 footnote:[https://www.oss-studie.ch/[OSS-Studie]] _[OSS2024]_.
 
 {empty}5. Kleiner Markt mit wenigen Anbietern::
 Da bestimmte Open-Source-Anwendungen, etwa Desktop-Anwendungen, in der Regel wenig oder keinen Support und keine Wartung benötigen, kann der Markt für Open-Source-Anbieter von Support und Wartung klein sein. In diesem Fall kann eine Ausschreibung für Open-Source-Softwaredienstleistungen dazu beitragen, einen Markt zu schaffen, der den Wettbewerb zwischen den Anbietern erhöht. Das Bestehen einer breiten Entwicklungs-Community für die betreffende Software und die Qualität der Entwicklungsdokumentation sind bei der Ausschreibung solcher Leistungen von praktischer Bedeutung.
@@ -869,7 +869,7 @@ Das Kompetenzzentrum Beschaffungswesen Bund (KBB) hat ein neues Merkblatt _Softw
 
 Weitere Unterstützung steht im https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html[BBL-Intranet] (nur im Bundesnetz zugänglich) mit der https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[_Wegleitung Open Source in der Beschaffung_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[BBL-WL]]_ und der https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[_Checkliste Integral-Ausnahme Art. 9 EMBAG_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[BBL-CL]]_ zur Verfügung.
 
-Die Enterprise-Tauglichkeit von Open Source findet sich im Dokument _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Siehe _[Gu2024]_] oder im Bitkom-Leitfaden. footnote:[Siehe https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Praxisempfehlungen für Open-Source-Software | Leitfaden 2025 | Bitkom e. V.], Kapitel 3.3]
+Die Enterprise-Tauglichkeit von Open Source findet sich im Dokument _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Siehe _[Gu2024\]_] oder im Bitkom-Leitfaden. footnote:[Siehe https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Praxisempfehlungen für Open-Source-Software | Leitfaden 2025 | Bitkom e. V.], Kapitel 3.3]
 
 == Auffindbarkeit von OSS-Lösungen
 
@@ -1187,13 +1187,13 @@ Un logiciel est considéré comme un logiciel open source (OSS) lorsqu'il est pu
 . Le logiciel peut être modifié et diffusé sous forme modifiée à certaines conditions.
 
 Logiciel libre::
-Avant le terme « open source », la Free Software Foundation (FSF) a introduit dans les années 1980 la notion de « logiciel libre ». Sur le fond, le logiciel libre remplit les conditions du logiciel open source, mais vise à garantir que le logiciel reste toujours librement accessible et, dans la mesure du possible, ne soit pas intégré à des logiciels propriétaires. footnote:[Voir : https://fr.wikipedia.org/wiki/Logiciel_libre]
+Avant le terme « open source », la Free Software Foundation (FSF) a introduit dans les années 1980 la notion de « logiciel libre ». Sur le fond, le logiciel libre remplit les conditions du logiciel open source, mais vise à garantir que le logiciel reste toujours librement accessible et, dans la mesure du possible, ne soit pas intégré à des logiciels propriétaires. footnote:[https://fr.wikipedia.org/wiki/Logiciel_libre[Logiciel libre -- Wikipédia]]
 
 Logiciel propriétaire::
-Dans le cas d'un logiciel propriétaire, un fournisseur développe le logiciel et vend à l'utilisateur une licence d'utilisation. En règle générale, l'utilisateur ne connaît pas le code du logiciel et ne peut ni le rediffuser ni le modifier. Il peut uniquement utiliser le logiciel selon les conditions de licence (p. ex. End-User Licence Agreement, EULA) moyennant le paiement de redevances de licence. Le logiciel peut par exemple n'être autorisé que pour un certain nombre d'utilisateurs ou un certain nombre de processeurs. footnote:[Voir : https://fr.wikipedia.org/wiki/Logiciel_propriétaire] En contrepartie des frais de maintenance généralement annuels, le fournisseur s'engage à corriger les erreurs dans un délai raisonnable et à développer le logiciel en continu.
+Dans le cas d'un logiciel propriétaire, un fournisseur développe le logiciel et vend à l'utilisateur une licence d'utilisation. En règle générale, l'utilisateur ne connaît pas le code du logiciel et ne peut ni le rediffuser ni le modifier. Il peut uniquement utiliser le logiciel selon les conditions de licence (p. ex. End-User Licence Agreement, EULA) moyennant le paiement de redevances de licence. Le logiciel peut par exemple n'être autorisé que pour un certain nombre d'utilisateurs ou un certain nombre de processeurs. footnote:[https://fr.wikipedia.org/wiki/Logiciel_propriétaire[Logiciel propriétaire -- Wikipédia]] En contrepartie des frais de maintenance généralement annuels, le fournisseur s'engage à corriger les erreurs dans un délai raisonnable et à développer le logiciel en continu.
 
 Licence::
-Une licence est un document qui contient des prescriptions contraignantes relatives à l'utilisation et à la diffusion d'un logiciel. Dans le domaine de l'open source, on utilise généralement des licences conformes à l'OSI. footnote:[Voir : https://opensource.org/]
+Une licence est un document qui contient des prescriptions contraignantes relatives à l'utilisation et à la diffusion d'un logiciel. Dans le domaine de l'open source, on utilise généralement des licences conformes à l'OSI. footnote:[https://opensource.org/[Open Source Initiative]]
 
 Communauté::
 La notion de communauté dans le contexte des logiciels open source est définie largement. Il peut s'agir d'un écosystème informel ou d'une structure dotée d'une gouvernance qui développe le logiciel. Le document link:em002-4.pdf[Em002-4 Guide des communautés OSS] traite de ce sujet. Les membres de la communauté peuvent gérer le produit en commun, le développer, le tester, le traduire, donner leur avis ou simplement utiliser le logiciel.
@@ -1205,7 +1205,7 @@ Exceptions selon la LMETA::
 Les exceptions prévues à l'art. 9, al. 1, LMETA sont les droits de tiers et les motifs relevant de la sécurité. Les deux sont traités au chapitre 3 de link:em002-2.pdf[Em002-2 Instructions pour la publication de logiciels open source].
 
 Code source::
-En informatique, le code source (ou texte source) est le texte lisible par l'être humain d'un programme informatique, rédigé dans un langage de programmation. footnote:[Voir : https://fr.wikipedia.org/wiki/Code_source]
+En informatique, le code source (ou texte source) est le texte lisible par l'être humain d'un programme informatique, rédigé dans un langage de programmation. footnote:[https://fr.wikipedia.org/wiki/Code_source[Code source -- Wikipédia]]
 
 Publication::
 La publication désigne en premier lieu la mise à disposition du code source sous une licence ouverte conforme à l'OSI. Pour des raisons pratiques, elle comprend généralement aussi la documentation et les instructions automatisées permettant de construire l'application à partir du code source. Les tests automatisés et les documents de test en font aussi habituellement partie. Pour qu'une communauté puisse se développer, une plateforme est utilisée, laquelle assume alors plusieurs fonctions d'une plateforme de développement (build, test, support).
@@ -1217,19 +1217,19 @@ Dépôt (repository)::
 Un dépôt est un emplacement de stockage utilisé par un outil de gestion de versions pour les fichiers et les métadonnées relatives à la base de code. Les dépôts permettent à plusieurs contributeurs de travailler sur les mêmes fichiers et d'enregistrer différentes versions. La plupart permettent en outre le suivi des problèmes, la gestion des versions, les compilations automatisées et la documentation.
 
 Fork::
-Un fork footnote:[Voir : https://fr.wikipedia.org/wiki/Fork_(développement_logiciel)] d'un projet open source est le fait de mettre en place un développement indépendant du projet initial.
+Un fork footnote:[https://fr.wikipedia.org/wiki/Fork_(développement_logiciel)[Fork (développement logiciel) -- Wikipédia]] d'un projet open source est le fait de mettre en place un développement indépendant du projet initial.
 
 Contributor Licence Agreement (CLA)::
-Un Contributor Licence Agreement footnote:[Voir : https://en.wikipedia.org/wiki/Contributor_License_Agreement] est un document qui décrit les conditions auxquelles de la propriété intellectuelle peut être apportée à un projet ou à une entreprise.
+Un Contributor Licence Agreement footnote:[https://en.wikipedia.org/wiki/Contributor_License_Agreement[Contributor License Agreement -- Wikipédia]] est un document qui décrit les conditions auxquelles de la propriété intellectuelle peut être apportée à un projet ou à une entreprise.
 
 Source code management (SCM)::
-La gestion du code source footnote:[Voir : https://fr.wikipedia.org/wiki/Gestion_de_versions], également appelée gestion de versions, est un outil qui gère efficacement les modifications et les numéros de version, en particulier dans le développement logiciel. Le logiciel libre Git footnote:[Voir : https://fr.wikipedia.org/wiki/Git] s'est imposé pour la gestion des SCM distribués.
+La gestion du code source footnote:[https://fr.wikipedia.org/wiki/Gestion_de_versions[Gestion de versions -- Wikipédia]], également appelée gestion de versions, est un outil qui gère efficacement les modifications et les numéros de version, en particulier dans le développement logiciel. Le logiciel libre Git footnote:[https://fr.wikipedia.org/wiki/Git[Git -- Wikipédia]] s'est imposé pour la gestion des SCM distribués.
 
 Open source software development (OSSD)::
-Dans le développement de logiciels open source (OSSD) footnote:[Voir : https://en.wikipedia.org/wiki/Open-source_software_development], outre la publication du code source, l'ensemble du processus de développement se déroule publiquement. Tout, des exigences (issues) au code source, est transparent. L'OSSD s'appuie sur des outils de communication publics (listes de diffusion, forums, etc.), un système de gestion de versions (Git), des listes d'erreurs et de fonctionnalités, une feuille de route et des outils de développement.
+Dans le développement de logiciels open source (OSSD) footnote:[https://en.wikipedia.org/wiki/Open-source_software_development[Open-source software development -- Wikipédia]], outre la publication du code source, l'ensemble du processus de développement se déroule publiquement. Tout, des exigences (issues) au code source, est transparent. L'OSSD s'appuie sur des outils de communication publics (listes de diffusion, forums, etc.), un système de gestion de versions (Git), des listes d'erreurs et de fonctionnalités, une feuille de route et des outils de développement.
 
 Software Package Data Exchange (SPDX)::
-Software Package Data Exchange (SPDX) footnote:[Voir : https://en.wikipedia.org/wiki/Software_Package_Data_Exchange] décrit un format standard pour les Software Bill of Materials (SBOM), dans le but de faciliter le traitement correct des logiciels libres ou open source.
+Software Package Data Exchange (SPDX) footnote:[https://en.wikipedia.org/wiki/Software_Package_Data_Exchange[Software Package Data Exchange -- Wikipédia]] décrit un format standard pour les Software Bill of Materials (SBOM), dans le but de faciliter le traitement correct des logiciels libres ou open source.
 
 Effet copyleft::
 Si un logiciel est placé sous une licence comportant une clause de copyleft, toute modification ou extension du code source doit être publiée à nouveau sous la licence du logiciel open source modifié (voir aussi link:em002-3.pdf[Em002-3 Guide de licences OSS]).
@@ -1243,7 +1243,7 @@ Les logiciels open source recèlent un potentiel énorme dans le monde informati
 Les points suivants décrivent le potentiel qui peut être réalisé lors de l'utilisation et de la publication de logiciels open source.
 
 {empty}1. Souveraineté numérique::
-Il s'agit ici de la capacité d'utiliser et de contrôler des services numériques. La souveraineté numérique s'étend sur l'ensemble du cycle de vie d'un système numérique. Les logiciels open source favorisent la souveraineté numérique, car ils garantissent l'interchangeabilité, la liberté de conception et l'influence. footnote:[Nous utilisons la définition de _[St2024]_ : « La souveraineté numérique d'un État ou d'une organisation comprend nécessairement le contrôle complet des données stockées et traitées ainsi que la décision autonome de savoir qui peut y accéder. Elle comprend en outre la capacité de développer, de modifier, de contrôler et de compléter de manière autonome des composants et des systèmes technologiques. »]
+Il s'agit ici de la capacité d'utiliser et de contrôler des services numériques. La souveraineté numérique s'étend sur l'ensemble du cycle de vie d'un système numérique. Les logiciels open source favorisent la souveraineté numérique, car ils garantissent l'interchangeabilité, la liberté de conception et l'influence. footnote:[Nous utilisons la définition de _[St2024\]_ : « La souveraineté numérique d'un État ou d'une organisation comprend nécessairement le contrôle complet des données stockées et traitées ainsi que la décision autonome de savoir qui peut y accéder. Elle comprend en outre la capacité de développer, de modifier, de contrôler et de compléter de manière autonome des composants et des systèmes technologiques. »]
 
 {empty}2. Pas de redevances de licence::
 L'utilisation de logiciels open source n'entraîne aucun coût de licence. Lors de l'acquisition de progiciels open source standard complexes, il peut toutefois être judicieux d'acheter des abonnements de support, qui sont payants.
@@ -1292,7 +1292,7 @@ Lors de l'acquisition de logiciels standard, il peut arriver qu'il n'existe aucu
 Les économies à court terme résultant de l'absence de licences lors de l'utilisation de logiciels open source sont souvent compensées par des coûts d'intégration plus élevés. Il est donc important de reconnaître que l'utilisation professionnelle de logiciels open source n'est pas « gratuite », mais génère bel et bien des coûts internes ou externes.
 
 {empty}4. Responsabilités et support peu clairs::
-Les logiciels open source sont souvent critiqués pour l'absence de support et de maintenance assurés par des entreprises externes. Il existe toutefois désormais une multitude de fournisseurs proposant des prestations commerciales (support à long terme, maintenance continue, développement ultérieur, responsabilité et garantie, etc.) pour les solutions open source. Les différents modèles d'affaires liés aux logiciels open source sont expliqués à l'annexe D et les différents modèles de support au chapitre 8. Une vue d'ensemble actuelle des prestataires open source et de leurs services figure dans l'Open Source Directory (https://www.ossdirectory.com) ou dans l'Étude OSS 2024 footnote:[Voir : https://www.oss-studie.ch/] _[OSS2024]_.
+Les logiciels open source sont souvent critiqués pour l'absence de support et de maintenance assurés par des entreprises externes. Il existe toutefois désormais une multitude de fournisseurs proposant des prestations commerciales (support à long terme, maintenance continue, développement ultérieur, responsabilité et garantie, etc.) pour les solutions open source. Les différents modèles d'affaires liés aux logiciels open source sont expliqués à l'annexe D et les différents modèles de support au chapitre 8. Une vue d'ensemble actuelle des prestataires open source et de leurs services figure dans l'Open Source Directory (https://www.ossdirectory.com) ou dans l'Étude OSS 2024 footnote:[https://www.oss-studie.ch/[Étude OSS]] _[OSS2024]_.
 
 {empty}5. Marché restreint avec peu de fournisseurs::
 Comme certaines applications open source, telles que les applications de bureau, ne nécessitent généralement que peu ou pas de support et de maintenance, le marché des fournisseurs open source de support et de maintenance peut être restreint. Dans ce cas, un appel d'offres portant sur des prestations de services pour logiciels open source peut contribuer à créer un marché qui accroît la concurrence entre les fournisseurs. L'existence d'une large communauté de développement pour le logiciel concerné et la qualité de la documentation de développement revêtent une importance pratique lors de l'appel d'offres pour de telles prestations.
@@ -1392,7 +1392,7 @@ Le Centre de compétence des marchés publics de la Confédération (CCMP) a pub
 
 Une aide supplémentaire est disponible sur l'https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html[intranet de l'OFCL] (accessible uniquement sur le réseau fédéral) avec les https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[_directives Open Source dans les acquisitions_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[BBL-WL]]_ et la https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[_liste de contrôle pour l'exception forfaitaire selon l'art. 9 LMETA_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[BBL-CL]]_.
 
-L'aptitude de l'open source à un usage en entreprise est traitée dans le document _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Voir _[Gu2024]_] ou dans le guide Bitkom. footnote:[Voir https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Recommandations pratiques pour les logiciels open source | Guide 2025 | Bitkom e. V.], chapitre 3.3]
+L'aptitude de l'open source à un usage en entreprise est traitée dans le document _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Voir _[Gu2024\]_] ou dans le guide Bitkom. footnote:[Voir https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Recommandations pratiques pour les logiciels open source | Guide 2025 | Bitkom e. V.], chapitre 3.3]
 
 == Repérabilité des solutions OSS
 
@@ -1710,13 +1710,13 @@ Un software è considerato software open source (OSS) quando è pubblicato sotto
 . Il software può essere modificato e diffuso in forma modificata a determinate condizioni.
 
 Software libero::
-Prima del termine «open source», negli anni Ottanta la Free Software Foundation (FSF) ha introdotto il concetto di «software libero». Nella sostanza il software libero soddisfa le condizioni del software open source, ma mira a garantire che il software resti sempre liberamente accessibile e, per quanto possibile, non venga integrato in software proprietario. footnote:[Cfr.: https://it.wikipedia.org/wiki/Software_libero]
+Prima del termine «open source», negli anni Ottanta la Free Software Foundation (FSF) ha introdotto il concetto di «software libero». Nella sostanza il software libero soddisfa le condizioni del software open source, ma mira a garantire che il software resti sempre liberamente accessibile e, per quanto possibile, non venga integrato in software proprietario. footnote:[https://it.wikipedia.org/wiki/Software_libero[Software libero -- Wikipedia]]
 
 Software proprietario::
-Nel caso del software proprietario un fornitore sviluppa il software e vende all'utente una licenza d'uso. Di regola l'utente non conosce il codice del software e non può né ridistribuirlo né modificarlo. Può utilizzare il software soltanto secondo le condizioni di licenza (p. es. End-User Licence Agreement, EULA) dietro pagamento di tasse di licenza. Il software può ad esempio essere autorizzato soltanto per un determinato numero di utenti o un determinato numero di processori. footnote:[Cfr.: https://it.wikipedia.org/wiki/Software_proprietario] In cambio delle spese di manutenzione, di regola annuali, il fornitore si impegna a correggere gli errori entro un termine adeguato e a sviluppare continuamente il software.
+Nel caso del software proprietario un fornitore sviluppa il software e vende all'utente una licenza d'uso. Di regola l'utente non conosce il codice del software e non può né ridistribuirlo né modificarlo. Può utilizzare il software soltanto secondo le condizioni di licenza (p. es. End-User Licence Agreement, EULA) dietro pagamento di tasse di licenza. Il software può ad esempio essere autorizzato soltanto per un determinato numero di utenti o un determinato numero di processori. footnote:[https://it.wikipedia.org/wiki/Software_proprietario[Software proprietario -- Wikipedia]] In cambio delle spese di manutenzione, di regola annuali, il fornitore si impegna a correggere gli errori entro un termine adeguato e a sviluppare continuamente il software.
 
 Licenza::
-Una licenza è un documento che contiene prescrizioni vincolanti per l'utilizzo e la diffusione di un software. Nell'ambito open source si utilizzano di regola licenze conformi all'OSI. footnote:[Cfr.: https://opensource.org/]
+Una licenza è un documento che contiene prescrizioni vincolanti per l'utilizzo e la diffusione di un software. Nell'ambito open source si utilizzano di regola licenze conformi all'OSI. footnote:[https://opensource.org/[Open Source Initiative]]
 
 Community::
 Il concetto di community nel contesto del software open source è definito in senso ampio. Può trattarsi di un ecosistema informale o di una struttura dotata di governance che sviluppa il software. Il documento link:em002-4.pdf[Em002-4 Guida alle community OSS] tratta questo tema. I membri della community possono gestire congiuntamente il prodotto, svilupparlo, testarlo, tradurlo, fornire riscontri o semplicemente utilizzare il software.
@@ -1728,7 +1728,7 @@ Eccezioni secondo la LMeCA::
 Le eccezioni secondo l'art. 9 cpv. 1 LMeCA sono i diritti di terzi e i motivi rilevanti per la sicurezza. Entrambi sono trattati nel capitolo 3 di link:em002-2.pdf[Em002-2 Istruzioni per la pubblicazione di software open source].
 
 Codice sorgente::
-In informatica il codice sorgente (o testo sorgente) è il testo leggibile dall'essere umano di un programma per computer, redatto in un linguaggio di programmazione. footnote:[Cfr.: https://it.wikipedia.org/wiki/Codice_sorgente]
+In informatica il codice sorgente (o testo sorgente) è il testo leggibile dall'essere umano di un programma per computer, redatto in un linguaggio di programmazione. footnote:[https://it.wikipedia.org/wiki/Codice_sorgente[Codice sorgente -- Wikipedia]]
 
 Pubblicazione::
 Per pubblicazione si intende in primo luogo la messa a disposizione del codice sorgente sotto una licenza aperta conforme all'OSI. Per ragioni pratiche essa comprende di regola anche la documentazione e le istruzioni automatizzate per costruire l'applicazione a partire dal codice sorgente. Anche i test automatizzati e i documenti di test ne fanno solitamente parte. Affinché una community possa svilupparsi si utilizza una piattaforma che assume poi diverse funzioni di una piattaforma di sviluppo (build, test, supporto).
@@ -1740,19 +1740,19 @@ Repository::
 Un repository è un luogo di archiviazione utilizzato da uno strumento di gestione delle versioni per i file e i metadati relativi alla base di codice. I repository consentono a più collaboratori di lavorare sugli stessi file e di archiviare diverse versioni. La maggior parte consente inoltre l'issue tracking, la gestione delle release, le build automatizzate e la documentazione.
 
 Fork::
-Un fork footnote:[Cfr.: https://it.wikipedia.org/wiki/Fork_(sviluppo_software)] di un progetto open source è il processo di avviare uno sviluppo indipendente del progetto originario.
+Un fork footnote:[https://it.wikipedia.org/wiki/Fork_(sviluppo_software)[Fork (sviluppo software) -- Wikipedia]] di un progetto open source è il processo di avviare uno sviluppo indipendente del progetto originario.
 
 Contributor Licence Agreement (CLA)::
-Un Contributor Licence Agreement footnote:[Cfr.: https://en.wikipedia.org/wiki/Contributor_License_Agreement] è un documento che descrive le condizioni alle quali è possibile apportare proprietà intellettuale a un progetto o a un'iniziativa.
+Un Contributor Licence Agreement footnote:[https://en.wikipedia.org/wiki/Contributor_License_Agreement[Contributor License Agreement -- Wikipedia]] è un documento che descrive le condizioni alle quali è possibile apportare proprietà intellettuale a un progetto o a un'iniziativa.
 
 Source code management (SCM)::
-La gestione del codice sorgente footnote:[Cfr.: https://it.wikipedia.org/wiki/Controllo_versione], detta anche gestione delle versioni, è uno strumento che gestisce efficacemente modifiche e numeri di versione, in particolare nello sviluppo software. Si è affermato il software libero Git footnote:[Cfr.: https://it.wikipedia.org/wiki/Git] per la gestione di SCM distribuiti.
+La gestione del codice sorgente footnote:[https://it.wikipedia.org/wiki/Controllo_versione[Controllo versione -- Wikipedia]], detta anche gestione delle versioni, è uno strumento che gestisce efficacemente modifiche e numeri di versione, in particolare nello sviluppo software. Si è affermato il software libero Git footnote:[https://it.wikipedia.org/wiki/Git[Git -- Wikipedia]] per la gestione di SCM distribuiti.
 
 Open source software development (OSSD)::
-Nello sviluppo di software open source (OSSD) footnote:[Cfr.: https://en.wikipedia.org/wiki/Open-source_software_development], oltre alla pubblicazione del codice sorgente, l'intero processo di sviluppo si svolge pubblicamente. Tutto, dai requisiti (issue) al codice sorgente, è trasparente. L'OSSD è supportato da strumenti di comunicazione pubblici (mailing list, forum ecc.), da un sistema di gestione delle versioni (Git), da elenchi di errori e funzionalità, da una roadmap e da strumenti per sviluppatori.
+Nello sviluppo di software open source (OSSD) footnote:[https://en.wikipedia.org/wiki/Open-source_software_development[Open-source software development -- Wikipedia]], oltre alla pubblicazione del codice sorgente, l'intero processo di sviluppo si svolge pubblicamente. Tutto, dai requisiti (issue) al codice sorgente, è trasparente. L'OSSD è supportato da strumenti di comunicazione pubblici (mailing list, forum ecc.), da un sistema di gestione delle versioni (Git), da elenchi di errori e funzionalità, da una roadmap e da strumenti per sviluppatori.
 
 Software Package Data Exchange (SPDX)::
-Software Package Data Exchange (SPDX) footnote:[Cfr.: https://en.wikipedia.org/wiki/Software_Package_Data_Exchange] descrive un formato standard per la Software Bill of Materials (SBOM), con l'obiettivo di agevolare la corretta gestione del software libero o open source.
+Software Package Data Exchange (SPDX) footnote:[https://en.wikipedia.org/wiki/Software_Package_Data_Exchange[Software Package Data Exchange -- Wikipedia]] descrive un formato standard per la Software Bill of Materials (SBOM), con l'obiettivo di agevolare la corretta gestione del software libero o open source.
 
 Effetto copyleft::
 Se un software è soggetto a una licenza con clausola di copyleft, ogni modifica o estensione del codice sorgente deve essere nuovamente pubblicata sotto la licenza del software open source modificato (cfr. anche link:em002-3.pdf[Em002-3 Guida alle licenze OSS]).
@@ -1766,7 +1766,7 @@ Nell'odierno mondo informatico il software open source presenta un potenziale en
 I punti seguenti descrivono il potenziale che può essere realizzato impiegando e pubblicando software open source.
 
 {empty}1. Sovranità digitale::
-Si tratta della capacità di utilizzare e controllare i servizi digitali. La sovranità digitale si estende all'intero ciclo di vita di un sistema digitale. Il software open source promuove la sovranità digitale, poiché garantisce intercambiabilità, libertà di configurazione e influenza. footnote:[Utilizziamo la definizione di _[St2024]_: «La sovranità digitale di uno Stato o di un'organizzazione comprende necessariamente il controllo completo dei dati memorizzati ed elaborati nonché la decisione autonoma su chi possa accedervi. Essa comprende inoltre la capacità di sviluppare, modificare, controllare e completare autonomamente componenti e sistemi tecnologici.»]
+Si tratta della capacità di utilizzare e controllare i servizi digitali. La sovranità digitale si estende all'intero ciclo di vita di un sistema digitale. Il software open source promuove la sovranità digitale, poiché garantisce intercambiabilità, libertà di configurazione e influenza. footnote:[Utilizziamo la definizione di _[St2024\]_: «La sovranità digitale di uno Stato o di un'organizzazione comprende necessariamente il controllo completo dei dati memorizzati ed elaborati nonché la decisione autonoma su chi possa accedervi. Essa comprende inoltre la capacità di sviluppare, modificare, controllare e completare autonomamente componenti e sistemi tecnologici.»]
 
 {empty}2. Nessuna tassa di licenza::
 Per l'utilizzo di software open source non sorgono costi di licenza. Nell'acquisire pacchetti standard open source complessi può tuttavia essere opportuno acquistare abbonamenti di supporto a pagamento.
@@ -1815,7 +1815,7 @@ Nell'acquisto di software standard può accadere che non esista alcuna alternati
 I risparmi a breve termine derivanti dalle licenze non dovute nell'impiego di software open source sono spesso compensati da maggiori costi d'integrazione. È quindi importante riconoscere che l'impiego professionale di software open source non è «gratuito», ma genera effettivamente costi interni o esterni.
 
 {empty}4. Responsabilità e supporto poco chiari::
-Il software open source è spesso criticato per la mancanza di supporto e manutenzione da parte di imprese esterne. Esiste tuttavia ormai una molteplicità di fornitori che offrono prestazioni commerciali (supporto a lungo termine, manutenzione continua, sviluppo ulteriore, responsabilità e garanzia ecc.) per le soluzioni open source. I diversi modelli di business con il software open source sono illustrati nell'allegato D e i diversi modelli di supporto nel capitolo 8. Una panoramica aggiornata dei fornitori di servizi open source e delle loro prestazioni figura nell'Open Source Directory (https://www.ossdirectory.com) o nello Studio OSS 2024 footnote:[Cfr.: https://www.oss-studie.ch/] _[OSS2024]_.
+Il software open source è spesso criticato per la mancanza di supporto e manutenzione da parte di imprese esterne. Esiste tuttavia ormai una molteplicità di fornitori che offrono prestazioni commerciali (supporto a lungo termine, manutenzione continua, sviluppo ulteriore, responsabilità e garanzia ecc.) per le soluzioni open source. I diversi modelli di business con il software open source sono illustrati nell'allegato D e i diversi modelli di supporto nel capitolo 8. Una panoramica aggiornata dei fornitori di servizi open source e delle loro prestazioni figura nell'Open Source Directory (https://www.ossdirectory.com) o nello Studio OSS 2024 footnote:[https://www.oss-studie.ch/[Studio OSS]] _[OSS2024]_.
 
 {empty}5. Mercato ristretto con pochi fornitori::
 Poiché determinate applicazioni open source, come quelle desktop, richiedono di regola poco o nessun supporto e manutenzione, il mercato dei fornitori open source di supporto e manutenzione può essere ristretto. In tal caso un bando per prestazioni di servizi relative a software open source può contribuire a creare un mercato che accresca la concorrenza tra i fornitori. L'esistenza di un'ampia community di sviluppo per il software in questione e la qualità della documentazione di sviluppo rivestono importanza pratica nel mettere a concorso tali prestazioni.
@@ -1915,7 +1915,7 @@ Il Centro di competenza per gli acquisti pubblici della Confederazione (CCAP) ha
 
 Ulteriore sostegno è disponibile sull'https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html[intranet dell'UFCL] (accessibile soltanto dalla rete federale) con le https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[_direttive Open Source negli acquisti_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[BBL-WL]]_ e la https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[_lista di controllo per l'eccezione forfettaria secondo l'art. 9 LMeCA_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[BBL-CL]]_.
 
-L'idoneità dell'open source all'uso aziendale è trattata nel documento _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Cfr. _[Gu2024]_] o nella guida Bitkom. footnote:[Cfr. https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Raccomandazioni pratiche per il software open source | Guida 2025 | Bitkom e. V.], capitolo 3.3]
+L'idoneità dell'open source all'uso aziendale è trattata nel documento _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Cfr. _[Gu2024\]_] o nella guida Bitkom. footnote:[Cfr. https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Raccomandazioni pratiche per il software open source | Guida 2025 | Bitkom e. V.], capitolo 3.3]
 
 == Reperibilità delle soluzioni OSS
 
@@ -2233,13 +2233,13 @@ In software vala sco software open source (OSS), sch'el vegn publitgà sut ina d
 . Il software dastga vegnir midà e derasà en furma midada sut tschertas cundiziuns.
 
 Software liber::
-Avant il term «open source» ha la Free Software Foundation (FSF) introducì en ils onns 1980 il concept dal «software liber». En il fund adempla il software liber las cundiziuns dal software open source, ma mira a quai che il software restia adina accessibel libramain e na vegnia, sche pussaivel, betg integrà en software proprietar. footnote:[Vesair: https://de.wikipedia.org/wiki/Freie_Software]
+Avant il term «open source» ha la Free Software Foundation (FSF) introducì en ils onns 1980 il concept dal «software liber». En il fund adempla il software liber las cundiziuns dal software open source, ma mira a quai che il software restia adina accessibel libramain e na vegnia, sche pussaivel, betg integrà en software proprietar. footnote:[https://de.wikipedia.org/wiki/Freie_Software[Freie Software -- Wikipedia]]
 
 Software proprietar::
-Tar il software proprietar sviluppa in purschider il software e venda a l'utilisader ina licenza d'utilisaziun. Per ordinari na conuscha l'utilisader betg il code dal software e na dastga ni il derasar vinavant ni il midar. El po utilisar il software mo tenor las cundiziuns da licenza (p.ex. End-User Licence Agreement, EULA) cunter pajament da taxas da licenza. Il software po per exempel esser permess mo per in tschert dumber d'utilisaders u per in tschert dumber da processurs. footnote:[Vesair: https://de.wikipedia.org/wiki/Proprietäre_Software] En cuntrachamb per las taxas da mantenziun, per ordinari annualas, s'oblighescha il purschider da reparar sbagls entaifer in termin adequat e da sviluppar cuntinuadamain il software.
+Tar il software proprietar sviluppa in purschider il software e venda a l'utilisader ina licenza d'utilisaziun. Per ordinari na conuscha l'utilisader betg il code dal software e na dastga ni il derasar vinavant ni il midar. El po utilisar il software mo tenor las cundiziuns da licenza (p.ex. End-User Licence Agreement, EULA) cunter pajament da taxas da licenza. Il software po per exempel esser permess mo per in tschert dumber d'utilisaders u per in tschert dumber da processurs. footnote:[https://de.wikipedia.org/wiki/Proprietäre_Software[Proprietäre Software -- Wikipedia]] En cuntrachamb per las taxas da mantenziun, per ordinari annualas, s'oblighescha il purschider da reparar sbagls entaifer in termin adequat e da sviluppar cuntinuadamain il software.
 
 Licenza::
-Ina licenza è in document che cuntegna prescripziuns liantas per l'utilisaziun e la derasaziun dal software. Tar l'open source vegnan per ordinari utilisadas licenzas che correspundan a l'OSI. footnote:[Vesair: https://opensource.org/]
+Ina licenza è in document che cuntegna prescripziuns liantas per l'utilisaziun e la derasaziun dal software. Tar l'open source vegnan per ordinari utilisadas licenzas che correspundan a l'OSI. footnote:[https://opensource.org/[Open Source Initiative]]
 
 Communitad::
 Ina communitad en il context dal software open source è definida amplamain. I po sa tractar d'in ecosistem liber u d'ina structura cun governanza che sviluppa il software. Il document link:em002-4.pdf[Em002-4 Guida da communitads OSS] tracta quest tema. Ils commembers da la communitad pon manar cuminaivlamain il product, il sviluppar, il testar, il translatar, dar resuns u simplamain utilisar il software.
@@ -2251,7 +2251,7 @@ Excepziuns tenor l'EMBAG::
 Excepziuns tenor l'art. 9 al. 1 EMBAG èn dretgs da terzas persunas e motivs relevants per la segirezza. Omadus vegnan tractads en il chapitel 3 da link:em002-2.pdf[Em002-2 Instrucziuns per publitgar software open source].
 
 Code da funtauna::
-En l'informatica è il code da funtauna (u text da funtauna) il text ch'è legibel per umans d'in program da computer, scrit en ina lingua da programmaziun. footnote:[Vesair: https://de.wikipedia.org/wiki/Quelltext]
+En l'informatica è il code da funtauna (u text da funtauna) il text ch'è legibel per umans d'in program da computer, scrit en ina lingua da programmaziun. footnote:[https://de.wikipedia.org/wiki/Quelltext[Quelltext -- Wikipedia]]
 
 Publicaziun::
 Publicaziun designescha en emprima lingia la relaschada dal code da funtauna sut ina licenza averta tenor l'OSI. Per motivs pratics appartegnan a quai per ordinari era la documentaziun ed instrucziuns automatisadas per crear l'applicaziun a partir dal code da funtauna. Tests automatisads e documents da test èn usitadamain era cuntegnids. Per che ina communitad possia sa sviluppar, vegn duvrada ina plattafurma che surpiglia lura pliras funcziuns d'ina plattafurma da svilup (build, test, support).
@@ -2263,19 +2263,19 @@ Repositori::
 In repositori è in lieu da memorisaziun ch'in utensil da gestiun da versiuns utilisescha per datotecas e metadatas davart la basa dal code. Repositoris permettan a plirs collavuraturs da lavurar a las medemas datotecas e da memorisar differentas versiuns. La gronda part permetta ultra da quai l'issue-tracking, il management da releases, builds automatisads e la documentaziun.
 
 Fork::
-In fork footnote:[Vesair: https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)] d'in project open source è il process da construir in svilup independent dal project original.
+In fork footnote:[https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)[Abspaltung (Softwareentwicklung) -- Wikipedia]] d'in project open source è il process da construir in svilup independent dal project original.
 
 Contributor Licence Agreement (CLA)::
-In Contributor Licence Agreement footnote:[Vesair: https://en.wikipedia.org/wiki/Contributor_License_Agreement] è in document che descriva las cundiziuns, sut las qualas proprietad intellectuala po vegnir contribuida ad in project u ad in'interpresa.
+In Contributor Licence Agreement footnote:[https://en.wikipedia.org/wiki/Contributor_License_Agreement[Contributor License Agreement -- Wikipedia]] è in document che descriva las cundiziuns, sut las qualas proprietad intellectuala po vegnir contribuida ad in project u ad in'interpresa.
 
 Source Code Management (SCM)::
-Il source code management footnote:[Vesair: https://de.wikipedia.org/wiki/Versionsverwaltung], numnà era gestiun da versiuns, è in utensil che administrescha effizientamain midadas e numers da versiun, en spezial en il svilup da software. S'ha imponì il software liber Git footnote:[Vesair: https://de.wikipedia.org/wiki/Git] per administrar SCM distribuids.
+Il source code management footnote:[https://de.wikipedia.org/wiki/Versionsverwaltung[Versionsverwaltung -- Wikipedia]], numnà era gestiun da versiuns, è in utensil che administrescha effizientamain midadas e numers da versiun, en spezial en il svilup da software. S'ha imponì il software liber Git footnote:[https://de.wikipedia.org/wiki/Git[Git -- Wikipedia]] per administrar SCM distribuids.
 
 Open Source Software Development (OSSD)::
-Tar il svilup da software open source (OSSD) footnote:[Vesair: https://en.wikipedia.org/wiki/Open-source_software_development] vegn, supplementarmain a la publicaziun dal code da funtauna, l'entir process da svilup exequì publicamain. Tut, da las pretensiuns (issues) fin al code da funtauna, è transparent. L'OSSD vegn sustegnì tras utensilis da communicaziun publics (glistas da mail, forums etc.), in sistem da gestiun da versiuns (Git), glistas da sbagls e da funcziuns, ina roadmap ed utensilis per sviluppaders.
+Tar il svilup da software open source (OSSD) footnote:[https://en.wikipedia.org/wiki/Open-source_software_development[Open-source software development -- Wikipedia]] vegn, supplementarmain a la publicaziun dal code da funtauna, l'entir process da svilup exequì publicamain. Tut, da las pretensiuns (issues) fin al code da funtauna, è transparent. L'OSSD vegn sustegnì tras utensilis da communicaziun publics (glistas da mail, forums etc.), in sistem da gestiun da versiuns (Git), glistas da sbagls e da funcziuns, ina roadmap ed utensilis per sviluppaders.
 
 Software Package Data Exchange (SPDX)::
-Software Package Data Exchange (SPDX) footnote:[Vesair: https://en.wikipedia.org/wiki/Software_Package_Data_Exchange] descriva in format standard per la Software Bill of Materials (SBOM) cun la finamira da facilitar il tractament correct da software liber u da software open source.
+Software Package Data Exchange (SPDX) footnote:[https://en.wikipedia.org/wiki/Software_Package_Data_Exchange[Software Package Data Exchange -- Wikipedia]] descriva in format standard per la Software Bill of Materials (SBOM) cun la finamira da facilitar il tractament correct da software liber u da software open source.
 
 Effect copyleft::
 Sch'in software stat sut ina licenza cun ina disposiziun copyleft, sto mintga midada u extensiun dal code da funtauna vegnir relaschada puspè sut la licenza dal software open source midà (vesair era link:em002-3.pdf[Em002-3 Guida da licenzas OSS]).
@@ -2289,7 +2289,7 @@ En il mund informatic dad oz exista in potenzial enorm per software open source.
 Ils puncts suandants descrivan il potenzial che sa lascha realisar tar l'utilisaziun e la relaschada da software open source.
 
 {empty}1. Suveranitad digitala::
-Qua sa tracti da la abilitad d'utilisar e da controllar servetschs digitals. La suveranitad digitala s'extenda sur l'entir ciclus da vita d'in sistem digital. Software open source promova la suveranitad digitala, perquai ch'el garantescha la substituibilitad, la libertad da configuraziun e l'influenza. footnote:[Nus utilisain la definiziun da _[St2024]_: «La suveranitad digitala d'in stadi u d'ina organisaziun cumpiglia obligatoriamain la controlla cumpletta davart datas memorisadas ed elavuradas sco er la decisiun autonoma davart tgi che dastga acceder a quellas. Ella cumpiglia vinavant la abilitad da sviluppar, midar, controllar e cumplettar autonomamain cumponentas e sistems tecnologics.»]
+Qua sa tracti da la abilitad d'utilisar e da controllar servetschs digitals. La suveranitad digitala s'extenda sur l'entir ciclus da vita d'in sistem digital. Software open source promova la suveranitad digitala, perquai ch'el garantescha la substituibilitad, la libertad da configuraziun e l'influenza. footnote:[Nus utilisain la definiziun da _[St2024\]_: «La suveranitad digitala d'in stadi u d'ina organisaziun cumpiglia obligatoriamain la controlla cumpletta davart datas memorisadas ed elavuradas sco er la decisiun autonoma davart tgi che dastga acceder a quellas. Ella cumpiglia vinavant la abilitad da sviluppar, midar, controllar e cumplettar autonomamain cumponentas e sistems tecnologics.»]
 
 {empty}2. Naginas taxas da licenza::
 Per l'utilisaziun da software open source na resultan nagins custs da licenza. Tar l'obtegniment da pachets da software standard open source cumplexs po dentant esser raschunaivel da cumprar abunaments da support cun custs.
@@ -2338,7 +2338,7 @@ Tar l'acquist da software standard po capitar ch'i na dettia nagina alternativa 
 Spargnas da custs a curt termin pervia da licenzas che croda davent tar l'utilisaziun da software open source vegnan savens cumpensadas tras custs d'integraziun pli auts. Perquai è impurtant da renconuscher che l'utilisaziun professiunala da software open source n'è betg «gratuita», mabain chaschuna effectivamain custs interns u externs.
 
 {empty}4. Responsabladads e support nunclers::
-Software open source vegn savens criticà per il manient da support e da mantenziun tras interpresas externas. I dat dentant ozendi ina multiplitad da purschiders che porschan prestaziuns commerzialas (long-term-support, mantenziun currenta, svilup vinavant, responsabladad e garanzia etc.) per soluziuns open source. Ils differents models da fatschenta cun software open source vegnan explitgads en l'agiunta D ed ils differents models da support en il chapitel 8. Ina survista actuala dals purschiders da prestaziuns open source e da lur prestaziuns sa chatta en l'Open Source Directory (https://www.ossdirectory.com) u en il Studi OSS 2024 footnote:[Vesair: https://www.oss-studie.ch/] _[OSS2024]_.
+Software open source vegn savens criticà per il manient da support e da mantenziun tras interpresas externas. I dat dentant ozendi ina multiplitad da purschiders che porschan prestaziuns commerzialas (long-term-support, mantenziun currenta, svilup vinavant, responsabladad e garanzia etc.) per soluziuns open source. Ils differents models da fatschenta cun software open source vegnan explitgads en l'agiunta D ed ils differents models da support en il chapitel 8. Ina survista actuala dals purschiders da prestaziuns open source e da lur prestaziuns sa chatta en l'Open Source Directory (https://www.ossdirectory.com) u en il Studi OSS 2024 footnote:[https://www.oss-studie.ch/[Studi OSS]] _[OSS2024]_.
 
 {empty}5. Pitschen martgà cun paucs purschiders::
 Perquai che tschertas applicaziuns open source, sco applicaziuns desktop, dovran per ordinari pauc u nagin support e nagina mantenziun, po il martgà per purschiders open source da support e mantenziun esser pitschen. En quest cas po in concurs per prestaziuns da software open source contribuir a crear in martgà ch'augmenta la concurrenza tranter ils purschiders. L'existenza d'ina vasta communitad da svilup per il software respectiv e la qualitad da la documentaziun da svilup èn d'impurtanza pratica tar il concurs da talas prestaziuns.
@@ -2438,7 +2438,7 @@ Il Center da cumpetenza per l'acquist public da la Confederaziun (CCA) ha publit
 
 Ulteriur sustegn stat a disposiziun sin l'https://intranet.bbl.admin.ch/bbl_kp/de/home/informatik/beschaffung-buerotechnik-informatik-des-bbl/werkzeugkasten.html[intranet da l'UFCL] (accessibel mo en la rait da la Confederaziun) cun la https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[_directiva Open Source en l'acquist_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf.download.pdf/Wegleitung%20Open%20Source%20in%20der%20Beschaffung.pdf[BBL-WL]]_ e la https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[_glista da controlla excepziun integrala art. 9 EMBAG_] _[https://intranet.bbl.admin.ch/dam/bbl_kp/de/dokumente/informatik/Werkzeugkiste/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx.download.docx/Checkliste%20Integral-Ausnahme%20Art.%209%20EMBAG.docx[BBL-CL]]_.
 
-L'aptitude da l'open source per l'utilisaziun en interpresas sa chatta en il document _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Vesair _[Gu2024]_] u en la guida Bitkom. footnote:[Vesair https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Recumandaziuns praticas per software open source | Guida 2025 | Bitkom e. V.], chapitel 3.3]
+L'aptitude da l'open source per l'utilisaziun en interpresas sa chatta en il document _Selection Criteria for Enterprise-Ready Open Source Software [Gu2024]_ footnote:[Vesair _[Gu2024\]_] u en la guida Bitkom. footnote:[Vesair https://www.bitkom.org/Bitkom/Publikationen/Praxisempfehlungen-fuer-Open-Source-Software[Recumandaziuns praticas per software open source | Guida 2025 | Bitkom e. V.], chapitel 3.3]
 
 == Chattabladad da soluziuns OSS
 

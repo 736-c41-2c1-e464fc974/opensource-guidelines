@@ -518,7 +518,7 @@ Where a federal authority wishes to procure open source software for strategic r
 As this involves no restrictions, no special justification is required.
 * Functional invitation to tender with eligibility criterion, technical criteria and award criteria requiring open source, full access to source code, or demonstrable experience in open source publication.
 
-*Any preference for open source is permissible under procurement law where it allows the specific needs of the awarding office to be (better) met*.footnote:[See [BBL-WL], [BBL-CL], [KBB-MB], [KBB-KV]]
+*Any preference for open source is permissible under procurement law where it allows the specific needs of the awarding office to be (better) met*.footnote:[See [BBL-WL\], [BBL-CL\], [KBB-MB\], [KBB-KV\]]
 
 A further reason for favouring OSS -- beyond digital sovereignty -- is that where the administration requires significant software adaptations, these must be published under Art. 9 EMOTA.
 Publication is most straightforward when the entire product has always been open source, and adaptations can in some cases be made directly within the product. Otherwise, an exception must be defined and, where necessary, parts of the code must be isolated and still released.
@@ -533,7 +533,7 @@ It is also possible to procure the necessary services for downloaded OSS at a la
 
 Maintenance, support and further development services for the product are then tendered separately in accordance with procurement law.
 
-There are already examples of OSS being used free of charge on the Federal Administration's standard workstations and therefore not procured.footnote:[Examples of OSS with standardisation potential: Gimp, FileZilla, VLC Media Player and 7-zip as Shell 2 products (according to [A029]), which can be used because installation is free of charge. In 2024, BIT designated Red Hat OpenShift as a strategic product for certain application areas on the basis of its unique technical features. OpenShift is currently the strategic platform for containers and operating systems.]
+There are already examples of OSS being used free of charge on the Federal Administration's standard workstations and therefore not procured.footnote:[Examples of OSS with standardisation potential: Gimp, FileZilla, VLC Media Player and 7-zip as Shell 2 products (according to [A029\]), which can be used because installation is free of charge. In 2024, BIT designated Red Hat OpenShift as a strategic product for certain application areas on the basis of its unique technical features. OpenShift is currently the strategic platform for containers and operating systems.]
 
 === Coordinating requirements with other stakeholders
 
@@ -1216,7 +1216,7 @@ Will eine Bundesbehörde aus strategischen Gründen Open-Source-Software beschaf
 Da dies keine Einschränkungen mit sich bringt, ist keine besondere Begründung erforderlich.
 * Funktionale Ausschreibung mit Eignungskriterium, technischen Kriterien und Zuschlagskriterien, die Open Source, vollen Zugriff auf den Quellcode oder nachweisbare Erfahrung mit Open-Source-Veröffentlichungen verlangen.
 
-*Eine Bevorzugung von Open Source ist beschaffungsrechtlich zulässig, wenn sich damit die konkreten Bedürfnisse der vergebenden Stelle (besser) erfüllen lassen*.footnote:[Siehe [BBL-WL], [BBL-CL], [KBB-MB], [KBB-KV]]
+*Eine Bevorzugung von Open Source ist beschaffungsrechtlich zulässig, wenn sich damit die konkreten Bedürfnisse der vergebenden Stelle (besser) erfüllen lassen*.footnote:[Siehe [BBL-WL\], [BBL-CL\], [KBB-MB\], [KBB-KV\]]
 
 Ein weiterer Grund für die Bevorzugung von OSS – über die digitale Souveränität hinaus – ist, dass bei erheblichen Softwareanpassungen durch die Verwaltung diese nach Art. 9 EMBAG veröffentlicht werden müssen.
 Eine Veröffentlichung ist am einfachsten, wenn das gesamte Produkt von jeher Open Source war und Anpassungen teilweise direkt im Produkt vorgenommen werden können. Andernfalls ist eine Ausnahme zu definieren und sind nötigenfalls Codeteile zu isolieren und dennoch freizugeben.
@@ -1231,7 +1231,7 @@ Es ist auch möglich, die nötigen Leistungen für heruntergeladene OSS zu einem
 
 Wartungs-, Support- und Weiterentwicklungsleistungen für das Produkt werden anschliessend separat nach Beschaffungsrecht ausgeschrieben.
 
-Es gibt bereits Beispiele für OSS, die auf den Standardarbeitsplätzen der Bundesverwaltung kostenlos genutzt und daher nicht beschafft wird.footnote:[Beispiele für OSS mit Standardisierungspotenzial: Gimp, FileZilla, VLC Media Player und 7-zip als Shell-2-Produkte (gemäss [A029]), die genutzt werden können, weil die Installation kostenlos ist. 2024 hat das BIT Red Hat OpenShift aufgrund seiner einzigartigen technischen Eigenschaften für bestimmte Anwendungsbereiche als strategisches Produkt bezeichnet. OpenShift ist derzeit die strategische Plattform für Container und Betriebssysteme.]
+Es gibt bereits Beispiele für OSS, die auf den Standardarbeitsplätzen der Bundesverwaltung kostenlos genutzt und daher nicht beschafft wird.footnote:[Beispiele für OSS mit Standardisierungspotenzial: Gimp, FileZilla, VLC Media Player und 7-zip als Shell-2-Produkte (gemäss [A029\]), die genutzt werden können, weil die Installation kostenlos ist. 2024 hat das BIT Red Hat OpenShift aufgrund seiner einzigartigen technischen Eigenschaften für bestimmte Anwendungsbereiche als strategisches Produkt bezeichnet. OpenShift ist derzeit die strategische Plattform für Container und Betriebssysteme.]
 
 === Abstimmung der Anforderungen mit anderen Beteiligten
 
@@ -1914,7 +1914,7 @@ Lorsqu'une autorité fédérale souhaite acquérir un logiciel open source pour 
 Comme cela n'implique aucune restriction, aucune justification particulière n'est nécessaire.
 * Appel d'offres fonctionnel assorti d'un critère d'aptitude, de critères techniques et de critères d'adjudication exigeant l'open source, un accès complet au code source ou une expérience démontrable en matière de publication open source.
 
-*Toute préférence pour l'open source est admissible au regard du droit des marchés publics lorsqu'elle permet de (mieux) répondre aux besoins concrets du service adjudicateur*.footnote:[Voir [BBL-WL], [BBL-CL], [KBB-MB], [KBB-KV]]
+*Toute préférence pour l'open source est admissible au regard du droit des marchés publics lorsqu'elle permet de (mieux) répondre aux besoins concrets du service adjudicateur*.footnote:[Voir [BBL-WL\], [BBL-CL\], [KBB-MB\], [KBB-KV\]]
 
 Une autre raison de privilégier l'OSS — au-delà de la souveraineté numérique — tient au fait que lorsque l'administration requiert des adaptations logicielles importantes, celles-ci doivent être publiées en vertu de l'art. 9 LMETA.
 La publication est la plus simple lorsque l'ensemble du produit a toujours été open source et que les adaptations peuvent dans certains cas être effectuées directement dans le produit. À défaut, une exception doit être définie et, si nécessaire, des parties du code doivent être isolées puis publiées malgré tout.
@@ -1929,7 +1929,7 @@ Il est aussi possible d'acquérir ultérieurement les prestations nécessaires p
 
 Les prestations de maintenance, de support et de développement ultérieur du produit font ensuite l'objet d'un appel d'offres distinct conformément au droit des marchés publics.
 
-Il existe déjà des exemples d'OSS utilisés gratuitement sur les postes de travail standard de l'administration fédérale et donc non acquis.footnote:[Exemples d'OSS à potentiel de standardisation : Gimp, FileZilla, VLC Media Player et 7-zip en tant que produits Shell 2 (selon [A029]), qui peuvent être utilisés parce que l'installation est gratuite. En 2024, l'OFIT a désigné Red Hat OpenShift comme produit stratégique pour certains domaines d'application en raison de ses caractéristiques techniques uniques. OpenShift est actuellement la plateforme stratégique pour les conteneurs et les systèmes d'exploitation.]
+Il existe déjà des exemples d'OSS utilisés gratuitement sur les postes de travail standard de l'administration fédérale et donc non acquis.footnote:[Exemples d'OSS à potentiel de standardisation : Gimp, FileZilla, VLC Media Player et 7-zip en tant que produits Shell 2 (selon [A029\]), qui peuvent être utilisés parce que l'installation est gratuite. En 2024, l'OFIT a désigné Red Hat OpenShift comme produit stratégique pour certains domaines d'application en raison de ses caractéristiques techniques uniques. OpenShift est actuellement la plateforme stratégique pour les conteneurs et les systèmes d'exploitation.]
 
 === Coordonner les exigences avec d'autres parties prenantes
 
@@ -2612,7 +2612,7 @@ Quando un'autorità federale intende acquistare software open source per ragioni
 Poiché ciò non comporta restrizioni, non è necessaria alcuna motivazione particolare.
 * Bando funzionale con criterio di idoneità, criteri tecnici e criteri di aggiudicazione che esigono open source, accesso completo al codice sorgente o esperienza dimostrabile nella pubblicazione open source.
 
-*Una preferenza per l'open source è ammissibile sotto il profilo del diritto degli acquisti pubblici quando consente di soddisfare (meglio) le esigenze concrete del servizio aggiudicatore*.footnote:[Cfr. [BBL-WL], [BBL-CL], [KBB-MB], [KBB-KV]]
+*Una preferenza per l'open source è ammissibile sotto il profilo del diritto degli acquisti pubblici quando consente di soddisfare (meglio) le esigenze concrete del servizio aggiudicatore*.footnote:[Cfr. [BBL-WL\], [BBL-CL\], [KBB-MB\], [KBB-KV\]]
 
 Un'ulteriore ragione per privilegiare l'OSS — oltre alla sovranità digitale — è che, quando l'amministrazione richiede adattamenti software rilevanti, questi devono essere pubblicati ai sensi dell'art. 9 LMeCA.
 La pubblicazione è più semplice quando l'intero prodotto è sempre stato open source e gli adattamenti possono in taluni casi essere effettuati direttamente nel prodotto. Altrimenti va definita un'eccezione e, se necessario, parti del codice vanno isolate e comunque pubblicate.
@@ -2627,7 +2627,7 @@ Lo scaricamento e l'utilizzo gratuiti di OSS non costituiscono di per sé un acq
 
 Le prestazioni di manutenzione, supporto e sviluppo ulteriore del prodotto sono poi messe a concorso separatamente conformemente al diritto degli acquisti pubblici.
 
-Esistono già esempi di OSS utilizzati gratuitamente sulle postazioni di lavoro standard dell'Amministrazione federale e quindi non acquistati.footnote:[Esempi di OSS con potenziale di standardizzazione: Gimp, FileZilla, VLC Media Player e 7-zip quali prodotti Shell 2 (secondo [A029]), utilizzabili perché l'installazione è gratuita. Nel 2024 l'UFIT ha designato Red Hat OpenShift quale prodotto strategico per determinati ambiti d'applicazione in ragione delle sue caratteristiche tecniche uniche. OpenShift è attualmente la piattaforma strategica per container e sistemi operativi.]
+Esistono già esempi di OSS utilizzati gratuitamente sulle postazioni di lavoro standard dell'Amministrazione federale e quindi non acquistati.footnote:[Esempi di OSS con potenziale di standardizzazione: Gimp, FileZilla, VLC Media Player e 7-zip quali prodotti Shell 2 (secondo [A029\]), utilizzabili perché l'installazione è gratuita. Nel 2024 l'UFIT ha designato Red Hat OpenShift quale prodotto strategico per determinati ambiti d'applicazione in ragione delle sue caratteristiche tecniche uniche. OpenShift è attualmente la piattaforma strategica per container e sistemi operativi.]
 
 === Coordinare le esigenze con altre parti interessate
 
@@ -3311,7 +3311,7 @@ Sch'ina autoritad federala vul acquistar software open source per motivs strateg
 Perquai che quai na porta naginas restricziuns, n'è necessaria nagina motivaziun speziala.
 * Concurs funcziunal cun criteri d'aptitude, criteris tecnics e criteris d'attribuziun che pretendan open source, access cumplet al code da funtauna u experientscha cumprovabla cun publicaziuns open source.
 
-*Ina preferenza per l'open source è permessa dal puntg da vista dal dretg d'acquist, sche cun quai sa laschan ademplir (meglier) ils basegns concrets dal post che attribuescha*.footnote:[Vesair [BBL-WL], [BBL-CL], [KBB-MB], [KBB-KV]]
+*Ina preferenza per l'open source è permessa dal puntg da vista dal dretg d'acquist, sche cun quai sa laschan ademplir (meglier) ils basegns concrets dal post che attribuescha*.footnote:[Vesair [BBL-WL\], [BBL-CL\], [KBB-MB\], [KBB-KV\]]
 
 In ulteriur motiv per preferir l'OSS – ultra da la suveranitad digitala – è che tar adattaments considerabels dal software tras l'administraziun ston quels vegnir publitgads tenor l'art. 9 EMBAG.
 Ina publicaziun è il pli simpel, sche l'entir product è adina stà open source e sch'adattaments pon en part vegnir fatgs directamain en il product. Uschiglio sto vegnir definida in'excepziun e ston sche necessari parts dal code vegnir isoladas e tuttina relaschadas.
@@ -3326,7 +3326,7 @@ Igl è era pussaivel d'acquistar pli tard las prestaziuns necessarias per OSS te
 
 Prestaziuns da mantenziun, da support e da svilup vinavant per il product vegnan lura messas a concurs separadamain tenor il dretg d'acquist.
 
-I dat gia exempels d'OSS che vegn duvrà gratuitamain sin las plazzas da lavur standard da l'administraziun federala e che na vegn perquai betg acquistà.footnote:[Exempels d'OSS cun potenzial da standardisaziun: Gimp, FileZilla, VLC Media Player e 7-zip sco products Shell 2 (tenor [A029]) che pon vegnir duvrads, perquai che l'installaziun è gratuita. Il 2024 ha l'UFIT designà Red Hat OpenShift sco product strategic per tscherts secturs d'applicaziun pervia da sias caracteristicas tecnicas unicas. OpenShift è actualmain la plattafurma strategica per containers e sistems da manaschi.]
+I dat gia exempels d'OSS che vegn duvrà gratuitamain sin las plazzas da lavur standard da l'administraziun federala e che na vegn perquai betg acquistà.footnote:[Exempels d'OSS cun potenzial da standardisaziun: Gimp, FileZilla, VLC Media Player e 7-zip sco products Shell 2 (tenor [A029\]) che pon vegnir duvrads, perquai che l'installaziun è gratuita. Il 2024 ha l'UFIT designà Red Hat OpenShift sco product strategic per tscherts secturs d'applicaziun pervia da sias caracteristicas tecnicas unicas. OpenShift è actualmain la plattafurma strategica per containers e sistems da manaschi.]
 
 === Accordar las pretensiuns cun auters participants
 

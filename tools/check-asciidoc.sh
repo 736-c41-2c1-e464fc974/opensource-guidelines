@@ -162,6 +162,10 @@ done <<<"${tracked}"
 # bracket there follows the macro target, so requiring a blank, a `_`, an opening
 # quote or the start of the line in front of it separates the two. A line that is
 # nothing but `[...]` is a block attribute list, never a citation.
+#
+# Inside a footnote the closing bracket is written `\]`, because Asciidoctor ends
+# the footnote at the first bare one. The backslash belongs to the escape and not
+# to the key, so it is dropped along with the bracket.
 program=$(
     cat <<'AWK'
 BEGIN {
@@ -192,7 +196,7 @@ $0 ~ /^\[[^]]*\]$/ { next }
     while (match(rest, citation)) {
         k = substr(rest, RSTART, RLENGTH)
         sub(/^.*\[/, "", k)
-        sub(/\]$/, "", k)
+        sub(/\\?\]$/, "", k)
         if (length(k) > 1 && !((k SUBSEP file) in seen)) {
             seen[k SUBSEP file] = 1
             cited[++n] = k SUBSEP file
