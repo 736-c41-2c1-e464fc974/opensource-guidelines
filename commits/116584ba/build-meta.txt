@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	116584ba42bb0295baf34ed6650e37b85590b7d9
+short	116584ba
+date	2026-09-17T17:15:45+02:00
+epoch	1789658145
+subject	Follow the KKB-MB fold into Em002-2's escaped references
+run	35239364909

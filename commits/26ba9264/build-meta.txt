@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	26ba92649a6a94a3eb8e7762e431f5bbab9e2e16
+short	26ba9264
+date	2026-09-17T17:31:56+02:00
+epoch	1789659116
+subject	Write the repository URL once per document and reference it
+run	35240897007

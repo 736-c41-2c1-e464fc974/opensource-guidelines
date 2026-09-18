@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archived builds &#8212; Open Source Guidelines</title>
+<style>
+  :root { color-scheme: light dark;
+    --link: #0b57d0; --rule: rgba(128,128,128,.3); --wash: rgba(11,87,208,.08); }
+  @media (prefers-color-scheme: dark) {
+    :root { --link: #8ab4f8; --wash: rgba(138,180,248,.12); }
+  }
+  body { margin: 0 auto; padding: 3rem 1rem 4rem; max-width: 40rem;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  h1 { font-size: 1.5rem; margin: 0 0 .5rem; }
+  h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em;
+    opacity: .55; margin: 2.5rem 0 .25rem; font-weight: 600; }
+  p.lead { margin: 0 0 1rem; opacity: .7; font-size: .9rem; }
+  p.empty { margin: .5rem 0 0; opacity: .5; font-size: .85rem; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { border-top: 1px solid var(--rule); }
+  li:last-child { border-bottom: 1px solid var(--rule); }
+  li a { display: flex; align-items: center; gap: .75rem;
+    padding: .8rem .5rem .8rem .25rem; text-decoration: none; color: inherit;
+    font-variant-numeric: tabular-nums; }
+  li a .build { flex: 1; }
+  li a .ref { display: block; color: var(--link); text-decoration: underline;
+    text-underline-offset: .18em; }
+  li a .when { opacity: .55; font-size: .8rem; }
+  li a .subject { display: block; font-size: .75rem; opacity: .6; margin-top: .15rem; }
+  li a::after { content: "\203A"; color: var(--link); font-size: 1.25em;
+    line-height: 1; opacity: .8; }
+  li a:hover, li a:focus-visible { background: var(--wash); }
+  li a:hover .ref { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: -2px; }
+  nav { margin-top: 2.5rem; font-size: .85rem; }
+  nav a { color: var(--link); }
+</style>
+<h1>Archived builds</h1>
+<p class="lead">Each entry is the complete set of documents, in all languages, as
+they stood at that point. Released versions are kept permanently; builds of the
+main branch are kept for the most recent commits only.</p>
+<h2>Releases</h2>
+<ul>
+  <li><a href="tags/v2.0/"><span class="build"><span class="ref">v2.0</span><span class="subject">Give each ref its own Pages deployment version</span></span><span class="when">2026-09-16</span></a></li>
+</ul>
+<h2>Recent builds of main</h2>
+<ul>
+  <li><a href="commits/d732c1ca/"><span class="build"><span class="ref">d732c1ca</span><span class="subject">Keep the black mark on what is not a guideline</span></span><span class="when">2026-09-19</span></a></li>
+  <li><a href="commits/87f07b2d/"><span class="build"><span class="ref">87f07b2d</span><span class="subject">Print the Confederation logo in colour</span></span><span class="when">2026-09-19</span></a></li>
+  <li><a href="commits/648d9b07/"><span class="build"><span class="ref">648d9b07</span><span class="subject">Clean up the &quot;See:&quot; footnotes and unbreak the bracketed citations</span></span><span class="when">2026-09-19</span></a></li>
+  <li><a href="commits/19011a7b/"><span class="build"><span class="ref">19011a7b</span><span class="subject">Give the single-file render example the trailing slash it needs</span></span><span class="when">2026-09-19</span></a></li>
+  <li><a href="commits/63613879/"><span class="build"><span class="ref">63613879</span><span class="subject">Correct the stale and invented claims in TRANSLATING</span></span><span class="when">2026-09-19</span></a></li>
+  <li><a href="commits/4d06a978/"><span class="build"><span class="ref">4d06a978</span><span class="subject">Document the development environment setup</span></span><span class="when">2026-09-19</span></a></li>
+  <li><a href="commits/8397e57c/"><span class="build"><span class="ref">8397e57c</span><span class="subject">Bump the bundled open-govpress to 0.0.15</span></span><span class="when">2026-09-17</span></a></li>
+  <li><a href="commits/5ccbaee3/"><span class="build"><span class="ref">5ccbaee3</span><span class="subject">Give Em002-5's target-group matrix a turned page</span></span><span class="when">2026-09-17</span></a></li>
+  <li><a href="commits/26ba9264/"><span class="build"><span class="ref">26ba9264</span><span class="subject">Write the repository URL once per document and reference it</span></span><span class="when">2026-09-17</span></a></li>
+  <li><a href="commits/116584ba/"><span class="build"><span class="ref">116584ba</span><span class="subject">Follow the KKB-MB fold into Em002-2's escaped references</span></span><span class="when">2026-09-17</span></a></li>
+</ul>
+<nav><a href="./">&#8592; All languages</a></nav>
+</html>

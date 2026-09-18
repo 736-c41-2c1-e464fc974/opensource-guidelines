@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	8397e57c28444cb13fc50abaffa79bd351f38937
+short	8397e57c
+date	2026-09-17T21:53:00+02:00
+epoch	1789674780
+subject	Bump the bundled open-govpress to 0.0.15
+run	35267510165
