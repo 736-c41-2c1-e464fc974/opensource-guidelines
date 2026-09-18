@@ -5,10 +5,9 @@ ifeval::["{lang}" == "en"]
 :title-logo-line2: Digital Transformation and ICT Steering DTI
 endif::[]
 :govpress-style: report
-// The Confederation logo in colour. open-govpress falls back to `black` for any
-// value it does not recognise, `colour` being the one synonym it takes, so the
-// spelling here is the whole of the choice.
-:title-logo-base: color
+// Black, not the colour mark the guidelines carry: contributor documentation,
+// addressed to whoever works on this repository rather than to its readers.
+:title-logo-base: black
 // Deliberately empty: the document carries no classification mark. Omitting the
 // line renders identically -- it is kept so the question is answered rather than
 // left unasked.
@@ -99,6 +98,8 @@ The *Kennzeichnung* on the title page is stated by the document itself. Lines 1 
 |===
 
 Sector names are from the Federal Chancellery's own pages -- https://www.bk.admin.ch/de/bereich-dti[de], https://www.bk.admin.ch/fr/transformation-numerique-et-gouvernance-de-linformatique[fr], https://www.bk.admin.ch/it/trasformazione-digitale-e-governance-delle-tic[it], https://www.bk.admin.ch/en/dti-sector[en], https://www.bk.admin.ch/bk/rm/home/digitale-transformation-ikt-lenkung.html[rm]. Note the sector abbreviation differs per language: *DTI* in German and English, *TNI* in French, *TDT* in Italian _and Romansh_.
+
+The logo above those lines is picked by `:title-logo-base:`, which is shared rather than per-language: the asset is the same in all five. The Em002 documents and the README template Em002-2 hands out carry `color`. This page, link:DEVENV-SETUP.adoc[DEVENV-SETUP.adoc], the repository README and the `docs/index.adoc` language index carry `black`, being documentation *about* the guidelines rather than part of them. open-govpress takes `colour` as a synonym and falls back to `black` for anything else, the attribute being absent included -- so a new document that says nothing gets the black mark by default rather than by decision.
 
 == Building
 
