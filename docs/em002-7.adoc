@@ -102,6 +102,8 @@ include::partials/document-map.en.adoc[]
 
 Figure 1: Overview of OSS tools
 
+The tools and resources are available on the Federal Chancellery website under https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[OSS tools].
+
 This document goes beyond the core of Article 9 EMOTA and also sets out how open source should generally be handled in the context of procurement.
 
 Section 3:: The importance of digital sovereignty in the context of open source and procurement
@@ -156,7 +158,7 @@ OSS supports digital sovereignty in the following ways:
 
 Federal authorities are generally required to comply with the eCH standards.footnote:[https://www.ech.ch/[www.ech.ch]]
 
-The Bern University of Applied Sciences set out the relevant considerations in the study _Technological Perspectives of Digital Sovereignty_ [Stü2024], commissioned by the FDFA, using the 'sovereignty house' model, in which software is presented as a key pillar.
+The Bern University of Applied Sciences set out the relevant considerations in the study _Technological Perspectives of Digital Sovereignty_ [Stü2024], commissioned by the FDFA, using the 'sovereignty house' model, in which software is presented as a key pillar. In that model the layers beneath the roof -- collaboration, technology skills, the four pillars and regulation -- are the areas in which recommended measures promote digital sovereignty.
 
 [mermaid,align="center",alt="Schematic representation of the aspects of digital sovereignty enabling the provision of innovative products and services"]
 ....
@@ -168,7 +170,7 @@ block-beta
   Skills["Technology skills (programming, data science, etc.)"]:4
   SW["Software"] Data["Data and<br/>digital content"] AI["Artificial<br/>intelligence"] Infra["ICT infrastructure<br/>(hardware)"]
   Reg["Regulation (laws, standards)"]:4
-  Collab -->|"enable"| Roof
+  Collab-- "enable" -->Roof
 ....
 
 _Figure 2: Schematic representation of the aspects of digital sovereignty enabling the provision of innovative products and services [Stü2024]_
@@ -181,7 +183,7 @@ Aspects of digital sovereignty may be required in a public tender, but any such 
 
 This operationalisation must be made as objective and transparent as possible.
 
-Various initiatives are attempting to do this. The OSBA, for example, has developed a *sovereignty index*footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[An index for digital sovereignty | OSBA -- Open Source Business Alliance]] _[OSBA-VK]. Nextcloud_ has published a Digital Sovereignty Index (DSI),footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] which compares entire countries but can also provide useful criteria.
+Various initiatives are attempting to do this. The OSBA, for example, has developed a **sovereignty index**footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[An index for digital sovereignty | OSBA -- Open Source Business Alliance]] _[OSBA-VK]. Nextcloud_ has published a Digital Sovereignty Index (DSI),footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] which compares entire countries but can also provide useful criteria.
 The European Union has published a Cloud Sovereignty Frameworkfootnote:[https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf[commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf]] for the cloud.
 The _Centre for Digital Sovereignty ZenDiS_ is working on a sovereignty check designed to evaluate IT solutions and organisations against transparent sovereignty criteria.
 
@@ -223,6 +225,7 @@ Sovereignty across all relevant dimensions (legal, technological, cultural, stra
 
 These two dimensions produce the following matrix:
 
+[.landscape]
 [cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
 |Perspective
@@ -325,7 +328,7 @@ a|
 
 _Matrix of digital sovereignty: perspectives against degree of sovereignty._
 
-Specific criteria can be described in the individual intersections (the empty cells) to make the classification as objective as possible.
+Specific criteria can be described for the individual intersections of the grid to make the classification as objective as possible.
 
 Such a framework is currently being developed as part of Priority 4, 'Strengthening digital sovereignty', of the 'Digital Federal Administration Strategy'.footnote:[https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch -- Digitale Bundesverwaltung]]
 
@@ -800,6 +803,8 @@ include::partials/document-map.de.adoc[]
 
 Abbildung 1: Übersicht über die OSS-Hilfsmittel
 
+Die Hilfsmittel stehen auf der Website der Bundeskanzlei unter https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[OSS-Hilfsmittel] zur Verfügung.
+
 Dieses Dokument geht über den Kern von Artikel 9 EMBAG hinaus und legt zudem dar, wie mit Open Source im Beschaffungskontext allgemein umzugehen ist.
 
 Kapitel 3:: Die Bedeutung der digitalen Souveränität im Kontext von Open Source und Beschaffung
@@ -854,7 +859,7 @@ OSS unterstützt die digitale Souveränität wie folgt:
 
 Bundesbehörden sind grundsätzlich verpflichtet, die eCH-Standards einzuhalten.footnote:[https://www.ech.ch/[www.ech.ch]]
 
-Die Berner Fachhochschule hat die massgebenden Überlegungen in der im Auftrag des EDA erstellten Studie _Technologische Perspektiven der digitalen Souveränität_ [Stü2024] anhand des Modells «Souveränitätshaus» dargelegt, in dem Software als tragende Säule dargestellt wird.
+Die Berner Fachhochschule hat die massgebenden Überlegungen in der im Auftrag des EDA erstellten Studie _Technologische Perspektiven der digitalen Souveränität_ [Stü2024] anhand des Modells «Souveränitätshaus» dargelegt, in dem Software als tragende Säule dargestellt wird. In diesem Modell sind die Schichten unterhalb des Dachs – Zusammenarbeit, Technologie-Skills, die vier Säulen und Regulierungen – die Bereiche, in denen empfohlene Massnahmen die digitale Souveränität fördern.
 
 [mermaid,align="center",alt="Schematische Darstellung der Aspekte digitaler Souveränität, welche die Bereitstellung innovativer Produkte und Dienstleistungen ermöglichen"]
 ....
@@ -866,7 +871,7 @@ block-beta
   Skills["Technologie-Skills (Programmieren, Data Science usw.)"]:4
   SW["Software"] Data["Daten und<br/>digitale Inhalte"] AI["Künstliche<br/>Intelligenz"] Infra["ICT-Infrastruktur<br/>(Hardware)"]
   Reg["Regulierungen (Gesetze, Standards)"]:4
-  Collab -->|"ermöglichen"| Roof
+  Collab-- "ermöglichen" -->Roof
 ....
 
 _Abbildung 2: Schematische Darstellung der Aspekte digitaler Souveränität, welche die Bereitstellung innovativer Produkte und Dienstleistungen ermöglichen [Stü2024]_
@@ -879,7 +884,7 @@ Aspekte der digitalen Souveränität können in einer öffentlichen Ausschreibun
 
 Diese Operationalisierung ist so objektiv und transparent wie möglich vorzunehmen.
 
-Verschiedene Initiativen versuchen dies. Die OSBA hat beispielsweise einen *Souveränitätsindex*footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[Ein Index für digitale Souveränität | OSBA – Open Source Business Alliance]] _[OSBA-VK]_ entwickelt. _Nextcloud_ hat einen Digital Sovereignty Index (DSI)footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] veröffentlicht, der ganze Länder vergleicht, aber auch nützliche Kriterien liefern kann.
+Verschiedene Initiativen versuchen dies. Die OSBA hat beispielsweise einen **Souveränitätsindex**footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[Ein Index für digitale Souveränität | OSBA – Open Source Business Alliance]] _[OSBA-VK]_ entwickelt. _Nextcloud_ hat einen Digital Sovereignty Index (DSI)footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] veröffentlicht, der ganze Länder vergleicht, aber auch nützliche Kriterien liefern kann.
 Die Europäische Union hat für die Cloud ein Cloud Sovereignty Frameworkfootnote:[https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf[commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf]] veröffentlicht.
 Das _Zentrum für Digitale Souveränität ZenDiS_ arbeitet an einem Souveränitätscheck, mit dem IT-Lösungen und Organisationen anhand transparenter Souveränitätskriterien bewertet werden sollen.
 
@@ -921,6 +926,7 @@ Souveränität in allen relevanten Dimensionen (rechtlich, technologisch, kultur
 
 Diese beiden Dimensionen ergeben die folgende Matrix:
 
+[.landscape]
 [cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
 |Perspektive
@@ -1023,7 +1029,7 @@ a|
 
 _Matrix digitale Souveränität: Perspektiven gegenüber dem Grad der Souveränität._
 
-In den einzelnen Schnittfeldern (den leeren Zellen) können konkrete Kriterien beschrieben werden, um die Einstufung möglichst objektiv zu gestalten.
+Zu den einzelnen Schnittfeldern des Rasters können konkrete Kriterien beschrieben werden, um die Einstufung möglichst objektiv zu gestalten.
 
 Ein solches Framework wird derzeit im Rahmen des Schwerpunkts 4 «Digitale Souveränität stärken» der «Strategie Digitale Bundesverwaltung» entwickelt.footnote:[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch – Digitale Bundesverwaltung]]
 
@@ -1498,6 +1504,8 @@ include::partials/document-map.fr.adoc[]
 
 Figure 1 : Vue d'ensemble des outils OSS
 
+Les outils et ressources sont disponibles sur le site de la Chancellerie fédérale sous https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[outils OSS].
+
 Le présent document va au-delà du cœur de l'article 9 LMETA et expose également comment l'open source doit être traité de manière générale dans le contexte des acquisitions.
 
 Chapitre 3:: L'importance de la souveraineté numérique dans le contexte de l'open source et des acquisitions
@@ -1552,7 +1560,7 @@ Les OSS soutiennent la souveraineté numérique de la manière suivante :
 
 Les autorités fédérales sont en principe tenues de respecter les normes eCH.footnote:[https://www.ech.ch/[www.ech.ch]]
 
-La Haute école spécialisée bernoise a exposé les considérations déterminantes dans l'étude _Perspectives technologiques de la souveraineté numérique_ [Stü2024], réalisée sur mandat du DFAE, au moyen du modèle de la « maison de la souveraineté », dans lequel le logiciel est présenté comme un pilier essentiel.
+La Haute école spécialisée bernoise a exposé les considérations déterminantes dans l'étude _Perspectives technologiques de la souveraineté numérique_ [Stü2024], réalisée sur mandat du DFAE, au moyen du modèle de la « maison de la souveraineté », dans lequel le logiciel est présenté comme un pilier essentiel. Dans ce modèle, les couches situées sous le toit — collaboration, compétences technologiques, les quatre piliers et réglementation — sont les domaines dans lesquels les mesures recommandées favorisent la souveraineté numérique.
 
 [mermaid,align="center",alt="Représentation schématique des aspects de la souveraineté numérique permettant la fourniture de produits et services innovants"]
 ....
@@ -1564,7 +1572,7 @@ block-beta
   Skills["Compétences technologiques (programmation, science des données, etc.)"]:4
   SW["Logiciels"] Data["Données et<br/>contenus numériques"] AI["Intelligence<br/>artificielle"] Infra["Infrastructure TIC<br/>(matériel)"]
   Reg["Réglementation (lois, normes)"]:4
-  Collab -->|"permettent"| Roof
+  Collab-- "permettent" -->Roof
 ....
 
 _Figure 2 : Représentation schématique des aspects de la souveraineté numérique permettant la fourniture de produits et services innovants [Stü2024]_
@@ -1577,7 +1585,7 @@ Des aspects de souveraineté numérique peuvent être exigés dans un appel d'of
 
 Cette opérationnalisation doit être aussi objective et transparente que possible.
 
-Diverses initiatives s'y emploient. L'OSBA a par exemple développé un *indice de souveraineté*footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[Un indice de souveraineté numérique | OSBA — Open Source Business Alliance]] _[OSBA-VK]_. _Nextcloud_ a publié un Digital Sovereignty Index (DSI),footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] qui compare des pays entiers mais peut aussi fournir des critères utiles.
+Diverses initiatives s'y emploient. L'OSBA a par exemple développé un **indice de souveraineté**footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[Un indice de souveraineté numérique | OSBA — Open Source Business Alliance]] _[OSBA-VK]_. _Nextcloud_ a publié un Digital Sovereignty Index (DSI),footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] qui compare des pays entiers mais peut aussi fournir des critères utiles.
 L'Union européenne a publié un Cloud Sovereignty Frameworkfootnote:[https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf[commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf]] pour le cloud.
 Le _Centre pour la souveraineté numérique ZenDiS_ travaille à un contrôle de souveraineté destiné à évaluer les solutions informatiques et les organisations au regard de critères de souveraineté transparents.
 
@@ -1619,6 +1627,7 @@ Souveraineté dans toutes les dimensions pertinentes (juridique, technologique, 
 
 Ces deux dimensions produisent la matrice suivante :
 
+[.landscape]
 [cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
 |Perspective
@@ -1721,7 +1730,7 @@ a|
 
 _Matrice Souveraineté numérique : perspectives et degré de souveraineté._
 
-Des critères concrets peuvent être décrits dans les différentes intersections (les cellules vides) afin de rendre le classement aussi objectif que possible.
+Des critères concrets peuvent être décrits pour les différentes intersections de la grille afin de rendre le classement aussi objectif que possible.
 
 Un tel cadre est actuellement élaboré dans le cadre de la priorité 4, « Renforcer la souveraineté numérique », de la « Stratégie Administration fédérale numérique ».footnote:[https://www.bk.admin.ch/bk/fr/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch — Administration fédérale numérique]]
 
@@ -2190,11 +2199,13 @@ Per un impiego sostenibile del software open source è importante che gli OSS no
 
 La legge federale sull'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA)footnote:[https://www.fedlex.admin.ch/eli/cc/2023/682/it] esige che nell'acquisto di software di nuovo sviluppo e di prestazioni di sviluppo software siano considerati aspetti supplementari.
 
-Per sostenere il rispetto dell'art. 9 LMeCA, il settore TDI ha elaborato strumenti e risorse nell'ambito delle link:em002.pdf[Em002 Linee guida strategiche per il software open source nell'Amministrazione federale] e della link:em002-1.pdf[Em002-1 Guida pratica per il software open source nell'Amministrazione federale]
+Per sostenere il rispetto dell'art. 9 LMeCA, il settore TDT ha elaborato strumenti e risorse nell'ambito delle link:em002.pdf[Em002 Linee guida strategiche per il software open source nell'Amministrazione federale] e della link:em002-1.pdf[Em002-1 Guida pratica per il software open source nell'Amministrazione federale]
 
 include::partials/document-map.it.adoc[]
 
 Figura 1: Panoramica degli strumenti OSS
+
+Gli strumenti e le risorse sono disponibili sul sito della Cancelleria federale alla pagina https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[strumenti OSS].
 
 Il presente documento va oltre il nucleo dell'articolo 9 LMeCA ed espone inoltre come trattare in generale l'open source nel contesto degli acquisti.
 
@@ -2250,7 +2261,7 @@ L'OSS sostiene la sovranità digitale nei modi seguenti:
 
 Le autorità federali sono in linea di principio tenute a rispettare gli standard eCH.footnote:[https://www.ech.ch/[www.ech.ch]]
 
-La Scuola universitaria professionale di Berna ha esposto le considerazioni determinanti nello studio _Prospettive tecnologiche della sovranità digitale_ [Stü2024], realizzato su mandato del DFAE, mediante il modello della «casa della sovranità», in cui il software è presentato quale pilastro portante.
+La Scuola universitaria professionale di Berna ha esposto le considerazioni determinanti nello studio _Prospettive tecnologiche della sovranità digitale_ [Stü2024], realizzato su mandato del DFAE, mediante il modello della «casa della sovranità», in cui il software è presentato quale pilastro portante. In questo modello, gli strati sottostanti al tetto — collaborazione, competenze tecnologiche, i quattro pilastri e regolamentazione — sono gli ambiti in cui le misure raccomandate promuovono la sovranità digitale.
 
 [mermaid,align="center",alt="Rappresentazione schematica degli aspetti della sovranità digitale che consentono la fornitura di prodotti e servizi innovativi"]
 ....
@@ -2262,7 +2273,7 @@ block-beta
   Skills["Competenze tecnologiche (programmazione, data science ecc.)"]:4
   SW["Software"] Data["Dati e<br/>contenuti digitali"] AI["Intelligenza<br/>artificiale"] Infra["Infrastruttura TIC<br/>(hardware)"]
   Reg["Regolamentazione (leggi, standard)"]:4
-  Collab -->|"consentono"| Roof
+  Collab-- "consentono" -->Roof
 ....
 
 _Figura 2: Rappresentazione schematica degli aspetti della sovranità digitale che consentono la fornitura di prodotti e servizi innovativi [Stü2024]_
@@ -2275,7 +2286,7 @@ Aspetti della sovranità digitale possono essere richiesti in un bando pubblico,
 
 Questa operazionalizzazione va effettuata nel modo più oggettivo e trasparente possibile.
 
-Diverse iniziative tentano di farlo. L'OSBA ha per esempio sviluppato un *indice di sovranità*footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[Un indice per la sovranità digitale | OSBA — Open Source Business Alliance]] _[OSBA-VK]_. _Nextcloud_ ha pubblicato un Digital Sovereignty Index (DSI),footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] che confronta interi Paesi ma può fornire anche criteri utili.
+Diverse iniziative tentano di farlo. L'OSBA ha per esempio sviluppato un **indice di sovranità**footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[Un indice per la sovranità digitale | OSBA — Open Source Business Alliance]] _[OSBA-VK]_. _Nextcloud_ ha pubblicato un Digital Sovereignty Index (DSI),footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] che confronta interi Paesi ma può fornire anche criteri utili.
 L'Unione europea ha pubblicato per il cloud un Cloud Sovereignty Framework.footnote:[https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf[commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf]]
 Il _Centro per la sovranità digitale ZenDiS_ sta lavorando a un controllo della sovranità volto a valutare soluzioni informatiche e organizzazioni sulla base di criteri di sovranità trasparenti.
 
@@ -2317,6 +2328,7 @@ Sovranità in tutte le dimensioni rilevanti (giuridica, tecnologica, culturale, 
 
 Queste due dimensioni producono la matrice seguente:
 
+[.landscape]
 [cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
 |Prospettiva
@@ -2419,7 +2431,7 @@ a|
 
 _Matrice Sovranità digitale: prospettive e grado di sovranità._
 
-Nelle singole intersezioni (le celle vuote) possono essere descritti criteri concreti per rendere la classificazione il più oggettiva possibile.
+Per le singole intersezioni della griglia possono essere descritti criteri concreti per rendere la classificazione il più oggettiva possibile.
 
 Un simile quadro di riferimento è attualmente in fase di elaborazione nell'ambito della priorità 4 «Rafforzare la sovranità digitale» della «Strategia Amministrazione federale digitale».footnote:[https://www.bk.admin.ch/bk/it/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch — Amministrazione federale digitale]]
 
@@ -2894,6 +2906,8 @@ include::partials/document-map.rm.adoc[]
 
 Illustraziun 1: Survista dals meds OSS
 
+Ils meds e las resursas stattan a disposiziun sin la pagina d'internet da la Chanzlia federala sut https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/bundesarchitektur/open_source_software/hilfsmittel_oss.html[meds OSS].
+
 Quest document va ultra dal center da l'artitgel 9 EMBAG ed exponta ultra da quai, co ch'i sto vegnir tractà en general cun l'open source en il context da l'acquist.
 
 Chapitel 3:: L'impurtanza da la suveranitad digitala en il context da l'open source e da l'acquist
@@ -2948,7 +2962,7 @@ L'OSS sustegna la suveranitad digitala uschia:
 
 Las autoritads federalas èn fundamentalmain obligadas d'observar ils standards eCH.footnote:[https://www.ech.ch/[www.ech.ch]]
 
-La Scola auta spezialisada bernaisa ha exponì las reflexiuns relevantas en il studi _Perspectivas tecnologicas da la suveranitad digitala_ [Stü2024], elavurà per incumbensa dal DFAE, cun agid dal model «chasa da la suveranitad», en il qual il software vegn preschentà sco pitgun purtant.
+La Scola auta spezialisada bernaisa ha exponì las reflexiuns relevantas en il studi _Perspectivas tecnologicas da la suveranitad digitala_ [Stü2024], elavurà per incumbensa dal DFAE, cun agid dal model «chasa da la suveranitad», en il qual il software vegn preschentà sco pitgun purtant. En quest model èn ils strats sut il tetg – collavuraziun, cumpetenzas tecnologicas, ils quatter pitguns e regulaziuns – ils secturs, en ils quals las mesiras recumandadas promovan la suveranitad digitala.
 
 [mermaid,align="center",alt="Represchentaziun schematica dals aspects da la suveranitad digitala che pussibiliteschan la purschida da products e servetschs innovativs"]
 ....
@@ -2960,7 +2974,7 @@ block-beta
   Skills["Cumpetenzas tecnologicas (programmaziun, data science etc.)"]:4
   SW["Software"] Data["Datas e<br/>cuntegns digitals"] AI["Intelligenza<br/>artifiziala"] Infra["Infrastructura TIC<br/>(hardware)"]
   Reg["Regulaziuns (leschas, standards)"]:4
-  Collab -->|"pussibiliteschan"| Roof
+  Collab-- "pussibiliteschan" -->Roof
 ....
 
 _Illustraziun 2: Represchentaziun schematica dals aspects da la suveranitad digitala che pussibiliteschan la purschida da products e servetschs innovativs [Stü2024]_
@@ -2973,7 +2987,7 @@ Aspects da la suveranitad digitala pon vegnir pretendids en in concurs public, m
 
 Questa operaziunalisaziun sto vegnir fatga uschè objectivamain e transparentamain sco pussaivel.
 
-Differentas iniziativas empruvan quai. L'OSBA ha per exempel sviluppà in *index da suveranitad*footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[In index per la suveranitad digitala | OSBA – Open Source Business Alliance]] _[OSBA-VK]_. _Nextcloud_ ha publitgà in Digital Sovereignty Index (DSI)footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] che cumparegliescha entirs pajais, ma po era furnir criteris utils.
+Differentas iniziativas empruvan quai. L'OSBA ha per exempel sviluppà in **index da suveranitad**footnote:[https://osb-alliance.de/featured/ein-index-fuer-digitale-souveraenitaet[In index per la suveranitad digitala | OSBA – Open Source Business Alliance]] _[OSBA-VK]_. _Nextcloud_ ha publitgà in Digital Sovereignty Index (DSI)footnote:[https://dsi.nextcloud.com/[dsi.nextcloud.com]] che cumparegliescha entirs pajais, ma po era furnir criteris utils.
 L'Uniun europeica ha publitgà per il cloud in Cloud Sovereignty Framework.footnote:[https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf[commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en?filename=Cloud-Sovereignty-Framework.pdf]]
 Il _Center per la suveranitad digitala ZenDiS_ lavura ad ina controlla da suveranitad cun la quala soluziuns informaticas ed organisaziuns duain vegnir valitadas sin la basa da criteris da suveranitad transparents.
 
@@ -3015,6 +3029,7 @@ Suveranitad en tut las dimensiuns relevantas (giuridica, tecnologica, culturala,
 
 Questas duas dimensiuns dattan la suandanta matrix:
 
+[.landscape]
 [cols="2,^1,^1,^1,^1,^1",options="header"]
 |===
 |Perspectiva
@@ -3117,7 +3132,7 @@ a|
 
 _Matrix suveranitad digitala: perspectivas ed il grad da suveranitad._
 
-En ils singuls champs da cruschada (las cellas vidas) pon vegnir descrits criteris concrets per render la classificaziun uschè objectiva sco pussaivel.
+Per ils singuls champs da cruschada da la grilla pon vegnir descrits criteris concrets per render la classificaziun uschè objectiva sco pussaivel.
 
 In tal framework vegn actualmain sviluppà en il rom da l'accent 4 «Rinforzar la suveranitad digitala» da la «Strategia Administraziun federala digitala».footnote:[https://www.bk.admin.ch/bk/de/home/digitale-transformation-ikt-lenkung/digitale-bundesverwaltung.html[www.bk.admin.ch – Administraziun federala digitala]]
 
