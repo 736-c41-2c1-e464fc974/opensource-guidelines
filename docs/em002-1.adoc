@@ -1623,7 +1623,7 @@ NOTE: Il presente documento è una bozza in continua evoluzione e fa parte degli
 
 == 1. Utilizzo della presente guida
 
-Secondo l'articolo 9 della legge federale sull'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA), la Confederazione è tenuta a pubblicare il codice sorgente del software che sviluppa o fa sviluppare per adempiere i suoi compiti. footnote:[RS 172.019: https://www.fedlex.admin.ch/eli/cc/2023/682/it] Il settore TDI della Cancelleria federale ha dedotto da questo mandato legale obiettivi generali, esposti nelle Linee guida strategiche per il software open source.
+Secondo l'articolo 9 della legge federale sull'impiego di mezzi elettronici per l'adempimento dei compiti delle autorità (LMeCA), la Confederazione è tenuta a pubblicare il codice sorgente del software che sviluppa o fa sviluppare per adempiere i suoi compiti. footnote:[RS 172.019: https://www.fedlex.admin.ch/eli/cc/2023/682/it] Il settore TDT della Cancelleria federale ha dedotto da questo mandato legale obiettivi generali, esposti nelle Linee guida strategiche per il software open source.
 
 Il presente documento funge da guida pratica alle prescrizioni giuridiche e strategiche. Intende sostenere le unità amministrative della Confederazione nell'utilizzo, nell'acquisto e nella pubblicazione di software open source. Offre a tutte le persone interessate una panoramica completa del tema e rinvia a informazioni approfondite contenute negli altri strumenti.
 
@@ -2100,7 +2100,7 @@ Software open source critico per l'attività, per il quale sono disponibili poch
 
 Nell'Amministrazione federale non esiste un punto di contatto unico che funga da Open Source Programme Office. In linea di principio gli uffici federali sono responsabili essi stessi dell'attuazione.
 
-Le richieste generali relative agli strumenti OSS della serie di documenti Em002 possono essere rivolte al settore TDI della Cancelleria federale: opensource@bk.admin.ch.
+Le richieste generali relative agli strumenti OSS della serie di documenti Em002 possono essere rivolte al settore TDT della Cancelleria federale: opensource@bk.admin.ch.
 
 == Allegati
 

@@ -9,6 +9,12 @@
 // diagram needs no colour key: a reader who cannot tell the fills apart still
 // knows which group each document is in.
 //
+// The original's second key was shape, not colour: square corners meant the DTI
+// sector was responsible, rounded corners the FOBL. That is what the "(DTI
+// sector)" and "(FOBL)" halves of the group names carry, and why Em002-7 spells
+// the sector out for itself -- the original drew it square inside the red
+// procurement group.
+//
 // Titles are the short form on purpose. The full ones are in the prose around
 // every inclusion, and a four-line node label makes the graph wider than the A4
 // content box.
@@ -19,13 +25,13 @@
 [mermaid,align="center",alt="Overview of the OSS tools in connection with Art. 9 EMOTA"]
 ....
 flowchart TD
-    subgraph FUND["Fundamentals"]
+    subgraph FUND["Fundamentals (DTI sector)"]
         EM0025["Em002-5<br/>EMOTA and OSS<br/>Factsheet"]
         EM002["Em002<br/>Strategic<br/>Guidelines"]
         EM0026["Em002-6<br/>FAQ on OSS and<br/>Art. 9 EMOTA"]
     end
 
-    subgraph INTRO["Introduction and guidance"]
+    subgraph INTRO["Introduction and guidance (DTI sector)"]
         EM0021["Em002-1<br/>Practical<br/>Guidelines"]
         EM0023["Em002-3<br/>OSS Licensing<br/>Guidelines"]
     end
@@ -33,18 +39,21 @@ flowchart TD
     subgraph PUB["Publication tools (DTI sector)"]
         EM0022["Em002-2<br/>Instructions for<br/>Publishing OSS"]
         EM0024["Em002-4<br/>OSS Community<br/>Guidelines"]
-        CL21["Em002-2.1<br/>Preliminary<br/>Assessment"]
-        CL22["Em002-2.2<br/>Analysis and<br/>Preparation"]
-        CL23["Em002-2.3<br/>Release and<br/>Publication"]
+        CL21["Em002-2.1<br/>Preliminary<br/>Assessment<br/>Checklist"]
+        CL22["Em002-2.2<br/>Analysis and<br/>Preparation<br/>Checklist"]
+        CL23["Em002-2.3<br/>Release and<br/>Publication<br/>Checklist"]
         CL41["Em002-4.1<br/>OSS Community<br/>Checklist"]
     end
 
     subgraph PROC["Procurement tools (FOBL)"]
-        EM0027["Em002-7<br/>Applying<br/>Art. 9 EMOTA"]
+        EM0027["Em002-7<br/>Applying<br/>Art. 9 EMOTA<br/>(DTI sector)"]
         KBB["Factsheet CCPP<br/>Software and<br/>Art. 9 EMOTA"]
         ORI["Orientation<br/>Open Source and<br/>Procurement"]
         CLEX["Checklist<br/>General Exception<br/>Art. 9 EMOTA"]
     end
+
+    HERMES["www.HERMES.admin.ch"]
+    FCHOSS["Internet:<br/>OSS tools<br/>Federal Chancellery"]
 
     EM002 --> EM0021
     EM0021 --> EM0023
@@ -55,6 +64,7 @@ flowchart TD
     CL22 --> CL23
     EM0024 --> CL41
     ORI --> CLEX
+    HERMES -->|"reference"| FCHOSS
 
     classDef fund fill:#f0f0f0,stroke:#000000,color:#000000
     classDef intro fill:#dae8fc,stroke:#000000,color:#000000
