@@ -223,6 +223,8 @@ Market position is used; exit strategies and multi-vendor concepts implemented; 
 4 -- Systemically sovereign::
 Sovereignty across all relevant dimensions (legal, technological, cultural, strategic); active shaping of markets and standards; geopolitical effect possible
 
+_Figure 3: Degree of digital sovereignty._
+
 These two dimensions produce the following matrix:
 
 [.landscape]
@@ -326,7 +328,7 @@ a|
 * [ ] {empty}
 |===
 
-_Matrix of digital sovereignty: perspectives against degree of sovereignty._
+_Figure 4: Matrix of digital sovereignty: perspectives against degree of sovereignty._
 
 Specific criteria can be described for the individual intersections of the grid to make the classification as objective as possible.
 
@@ -924,6 +926,8 @@ Marktposition wird genutzt; Exit-Strategien und Multivendor-Konzepte implementie
 4 -- Systemisch souverän::
 Souveränität in allen relevanten Dimensionen (rechtlich, technologisch, kulturell, strategisch); aktive Markt- und Standardgestaltung; geopolitische Wirkung möglich
 
+_Abbildung 3: Grad der digitalen Souveränität._
+
 Diese beiden Dimensionen ergeben die folgende Matrix:
 
 [.landscape]
@@ -1027,7 +1031,7 @@ a|
 * [ ] {empty}
 |===
 
-_Matrix digitale Souveränität: Perspektiven gegenüber dem Grad der Souveränität._
+_Abbildung 4: Matrix digitale Souveränität: Perspektiven gegenüber dem Grad der Souveränität._
 
 Zu den einzelnen Schnittfeldern des Rasters können konkrete Kriterien beschrieben werden, um die Einstufung möglichst objektiv zu gestalten.
 
@@ -1625,6 +1629,8 @@ La position sur le marché est exploitée ; stratégies de sortie et concepts mu
 4 -- Souverain sur le plan systémique::
 Souveraineté dans toutes les dimensions pertinentes (juridique, technologique, culturelle, stratégique) ; façonnage actif du marché et des normes ; effet géopolitique possible
 
+_Figure 3 : Degré de souveraineté numérique._
+
 Ces deux dimensions produisent la matrice suivante :
 
 [.landscape]
@@ -1728,7 +1734,7 @@ a|
 * [ ] {empty}
 |===
 
-_Matrice Souveraineté numérique : perspectives et degré de souveraineté._
+_Figure 4 : Matrice Souveraineté numérique : perspectives et degré de souveraineté._
 
 Des critères concrets peuvent être décrits pour les différentes intersections de la grille afin de rendre le classement aussi objectif que possible.
 
@@ -2326,6 +2332,8 @@ La posizione di mercato viene sfruttata; strategie di uscita e concetti multifor
 4 -- Sistemicamente sovrano::
 Sovranità in tutte le dimensioni rilevanti (giuridica, tecnologica, culturale, strategica); definizione attiva del mercato e degli standard; effetto geopolitico possibile
 
+_Figura 3: Grado di sovranità digitale._
+
 Queste due dimensioni producono la matrice seguente:
 
 [.landscape]
@@ -2429,7 +2437,7 @@ a|
 * [ ] {empty}
 |===
 
-_Matrice Sovranità digitale: prospettive e grado di sovranità._
+_Figura 4: Matrice Sovranità digitale: prospettive e grado di sovranità._
 
 Per le singole intersezioni della griglia possono essere descritti criteri concreti per rendere la classificazione il più oggettiva possibile.
 
@@ -3027,6 +3035,8 @@ La posiziun sin il martgà vegn duvrada; strategias d'exit e concepts multifurni
 4 -- Suveran sistemicamain::
 Suveranitad en tut las dimensiuns relevantas (giuridica, tecnologica, culturala, strategica); format activ dal martgà e dals standards; effect geopolitic pussaivel
 
+_Illustraziun 3: Grad da la suveranitad digitala._
+
 Questas duas dimensiuns dattan la suandanta matrix:
 
 [.landscape]
@@ -3130,7 +3140,7 @@ a|
 * [ ] {empty}
 |===
 
-_Matrix suveranitad digitala: perspectivas ed il grad da suveranitad._
+_Illustraziun 4: Matrix suveranitad digitala: perspectivas ed il grad da suveranitad._
 
 Per ils singuls champs da cruschada da la grilla pon vegnir descrits criteris concrets per render la classificaziun uschè objectiva sco pussaivel.
 
