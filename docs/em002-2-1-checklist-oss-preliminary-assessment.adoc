@@ -86,9 +86,11 @@ Is this new software or an existing project (see [Em002-2] Section 3.1).
 * [ ] Legacy (further development)
 * [ ] New software
 * [ ] Legacyfootnote:[Not required by EMOTA, but it is also possible to release existing software.] or further development of legacy software
-* [ ] Existing third-party project ( Complete _Em002-4.1 OSS Community Checklist_)
+* [ ] Existing third-party project (Complete _Em002-4.1 OSS Community Checklist_)
 
-Life cycle
+field::[rows=1]
+
+*Life cycle*
 
 In what stage of the life cycle is the software currently (see [Em002-2] Section 3.1).footnote:[Replacement of existing software should be noted here as 'planned'.]
 
@@ -99,7 +101,9 @@ In what stage of the life cycle is the software currently (see [Em002-2] Section
 * [ ] End of life
 * [ ] Archive
 
-Users
+field::[rows=1]
+
+*Users*
 
 Are there potential or known individuals or organisations using the software? Are there potential customers for the software? Possible and known users can be named in the textbox.
 
@@ -107,6 +111,8 @@ Are there potential or known individuals or organisations using the software? Ar
 * [ ] None conceivable
 * [ ] Potential users
 * [ ] Known users
+
+field::[rows=2]
 
 *In-house development, joint development or third-party project*
 
@@ -119,7 +125,9 @@ The structure of co-development and third-party project can be listed in the tex
 * [ ] Joint development (_Em002-4.1 OSS Community Checklist_ to be completed)
 * [ ] Third-party project (_Em002-4.1 OSS Community Checklist_ to be completed)
 
-Who is publishing the software?
+field::[rows=2]
+
+*Who is publishing the software?*
 
 [%interactive]
 * [ ] Federal authority
@@ -127,7 +135,9 @@ Who is publishing the software?
 * [ ] Supplier
 * [ ] Third party
 
-Depth of release
+field::[rows=1]
+
+*Depth of release*
 
 Outcome from _Em002-4.1 OSS Community Checklist_.
 
@@ -136,20 +146,28 @@ Outcome from _Em002-4.1 OSS Community Checklist_.
 * [ ] Issue tracking: Errors can be reported and will be handled.
 * [ ] Community
 
+field::[rows=1]
+
 [%interactive]
 * [ ] There is no violation of third-party rights (e.g. patent rights, intellectual property, trademark or design protection).
 
 Reviews according to [Em002-2] Section 3.2 have been carried out. The ownership of the software lies with the Confederation, or it is being developed by employees of the Confederation (internal or external). Justification must be given, especially if this is not the case. It must also be explained why the rights do not lie with the Confederation and what checks were made regarding proprietary parts, as well as what was done regarding possible obstacles (e.g. patent protection), or how far investigations went.
+
+field::[rows=4]
 
 [%interactive]
 * [ ] There are no security-relevant reasons preventing publication.
 
 Reviews according to [Em002-2] Section 3.3 have been carried out.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] There is agreement in principle and feasibility exists for publishing the application as open source.
 
 Reference to minutes or decision-making body with date.
+
+field::[rows=1]
 
 == Concluding remarks
 
@@ -211,9 +229,11 @@ Handelt es sich um neue Software oder um ein bestehendes Projekt (siehe [Em002-2
 * [ ] Legacyfootnote:[Vom EMBAG nicht gefordert, es ist aber auch möglich, bestehende Software freizugeben.] oder Weiterentwicklung von Legacy-Software
 * [ ] Bestehendes Drittprojekt (_Em002-4.1 Checkliste OSS-Community_ ausfüllen)
 
-Lebenszyklus
+field::[rows=1]
 
-In welcher Phase des Lebenszyklus befindet sich die Software aktuell (siehe [Em002-2] Kapitel 3.1).footnote:[Die Ablösung bestehender Software ist hier als «geplant» zu vermerken.]
+*Lebenszyklus*
+
+In welcher Phase des Lebenszyklus befindet sich die Software aktuell (siehe [Em002-2] Kapitel 3.1).footnote:[Die Ablösung bestehender Software sollte hier als «geplant» vermerkt werden.]
 
 [%interactive]
 * [ ] Geplant
@@ -222,7 +242,9 @@ In welcher Phase des Lebenszyklus befindet sich die Software aktuell (siehe [Em0
 * [ ] End of Life
 * [ ] Archiv
 
-Nutzende
+field::[rows=1]
+
+*Nutzende*
 
 Gibt es potenzielle oder bekannte Personen oder Organisationen, welche die Software nutzen? Gibt es potenzielle Abnehmer für die Software? Mögliche und bekannte Nutzende können im Textfeld genannt werden.
 
@@ -230,6 +252,8 @@ Gibt es potenzielle oder bekannte Personen oder Organisationen, welche die Softw
 * [ ] Keine denkbar
 * [ ] Potenzielle Nutzende
 * [ ] Bekannte Nutzende
+
+field::[rows=2]
 
 *Eigenentwicklung, gemeinsame Entwicklung oder Drittprojekt*
 
@@ -242,7 +266,9 @@ Die Struktur von Co-Entwicklung und Drittprojekt kann im Textfeld aufgeführt we
 * [ ] Gemeinsame Entwicklung (_Em002-4.1 Checkliste OSS-Community_ auszufüllen)
 * [ ] Drittprojekt (_Em002-4.1 Checkliste OSS-Community_ auszufüllen)
 
-Wer veröffentlicht die Software?
+field::[rows=2]
+
+*Wer veröffentlicht die Software?*
 
 [%interactive]
 * [ ] Bundesbehörde
@@ -250,7 +276,9 @@ Wer veröffentlicht die Software?
 * [ ] Lieferant
 * [ ] Dritte
 
-Tiefe der Freigabe
+field::[rows=1]
+
+*Tiefe der Freigabe*
 
 Ergebnis aus _Em002-4.1 Checkliste OSS-Community_.
 
@@ -259,26 +287,34 @@ Ergebnis aus _Em002-4.1 Checkliste OSS-Community_.
 * [ ] Issue-Tracking: Fehler können gemeldet werden und werden bearbeitet.
 * [ ] Community
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Es liegt keine Verletzung von Rechten Dritter vor (z. B. Patentrechte, geistiges Eigentum, Marken- oder Designschutz).
 
 Die Prüfungen gemäss [Em002-2] Kapitel 3.2 wurden durchgeführt. Die Rechte an der Software liegen beim Bund, oder sie wird von Mitarbeitenden des Bundes (intern oder extern) entwickelt. Eine Begründung ist insbesondere dann erforderlich, wenn dies nicht der Fall ist. Es ist zudem darzulegen, weshalb die Rechte nicht beim Bund liegen, welche Abklärungen zu proprietären Teilen getroffen wurden sowie was bezüglich möglicher Hindernisse (z. B. Patentschutz) unternommen wurde beziehungsweise wie weit die Abklärungen gingen.
+
+field::[rows=4]
 
 [%interactive]
 * [ ] Es bestehen keine sicherheitsrelevanten Gründe, die einer Veröffentlichung entgegenstehen.
 
 Die Prüfungen gemäss [Em002-2] Kapitel 3.3 wurden durchgeführt.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Es besteht grundsätzliches Einverständnis und Machbarkeit, die Anwendung als Open Source zu veröffentlichen.
 
 Verweis auf Protokoll oder Entscheidgremium mit Datum.
 
+field::[rows=1]
+
 == Schlussbemerkungen
 
 Bemerkungen und Verweise auf weitere relevante Dokumente.
 
-Wird ein Contributor Licence Agreement (CLA) verwendet, so ist dies hier zu vermerken (siehe _Em002-3 Leitfaden OSS-Lizenzierung_ Kapitel 8.9).
+Wird ein Contributor Licence Agreement (CLA) verwendet, so sollte dies hier vermerkt werden (siehe _Em002-3 Leitfaden OSS-Lizenzierung_ Kapitel 8.9).
 
 field::[rows=4]
 
@@ -307,7 +343,7 @@ Important : si un logiciel ne doit pas être publié en OSS, cette liste de cont
 === Nom et brève description du logiciel
 
 Indiquez le nom du logiciel. +
-Ce nom doit être identique dans toutes les listes de contrôle OSS suivantes afin d'assurer une attribution correcte.
+Ce nom devrait être identique dans toutes les listes de contrôle OSS suivantes afin d'assurer une attribution correcte.
 
 field::[rows=1]
 
@@ -334,9 +370,11 @@ S'agit-il d'un nouveau logiciel ou d'un projet existant (voir [Em002-2] chapitre
 * [ ] Logiciel existantfootnote:[Non exigé par la LMETA, mais il est également possible de publier un logiciel existant.] ou développement ultérieur d'un logiciel existant
 * [ ] Projet de tiers existant (remplir la _liste de contrôle Em002-4.1 Communauté OSS_)
 
-Cycle de vie
+field::[rows=1]
 
-À quelle étape du cycle de vie le logiciel se trouve-t-il actuellement (voir [Em002-2] chapitre 3.1) ?footnote:[Le remplacement d'un logiciel existant doit être indiqué ici comme « planifié ».]
+*Cycle de vie*
+
+À quelle étape du cycle de vie le logiciel se trouve-t-il actuellement (voir [Em002-2] chapitre 3.1) ?footnote:[Le remplacement d'un logiciel existant devrait être indiqué ici comme « planifié ».]
 
 [%interactive]
 * [ ] Planifié
@@ -345,7 +383,9 @@ Cycle de vie
 * [ ] Fin de vie
 * [ ] Archive
 
-Utilisateurs
+field::[rows=1]
+
+*Utilisateurs*
 
 Existe-t-il des personnes ou des organisations, potentielles ou connues, qui utilisent le logiciel ? Existe-t-il des clients potentiels pour le logiciel ? Les utilisateurs possibles et connus peuvent être nommés dans le champ de texte.
 
@@ -353,6 +393,8 @@ Existe-t-il des personnes ou des organisations, potentielles ou connues, qui uti
 * [ ] Aucun envisageable
 * [ ] Utilisateurs potentiels
 * [ ] Utilisateurs connus
+
+field::[rows=2]
 
 *Développement propre, développement commun ou projet de tiers*
 
@@ -365,7 +407,9 @@ La structure du codéveloppement et du projet de tiers peut être précisée dan
 * [ ] Développement commun (_liste de contrôle Em002-4.1 Communauté OSS_ à remplir)
 * [ ] Projet de tiers (_liste de contrôle Em002-4.1 Communauté OSS_ à remplir)
 
-Qui publie le logiciel ?
+field::[rows=2]
+
+*Qui publie le logiciel ?*
 
 [%interactive]
 * [ ] Autorité fédérale
@@ -373,7 +417,9 @@ Qui publie le logiciel ?
 * [ ] Fournisseur
 * [ ] Tiers
 
-Profondeur de la publication
+field::[rows=1]
+
+*Profondeur de la publication*
 
 Résultat de la _liste de contrôle Em002-4.1 Communauté OSS_.
 
@@ -382,26 +428,34 @@ Résultat de la _liste de contrôle Em002-4.1 Communauté OSS_.
 * [ ] Suivi des problèmes : les erreurs peuvent être signalées et sont traitées.
 * [ ] Communauté
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Il n'y a aucune violation de droits de tiers (p. ex. droits de brevet, propriété intellectuelle, protection des marques ou des designs).
 
 Les examens prévus au chapitre 3.2 de [Em002-2] ont été effectués. Les droits sur le logiciel appartiennent à la Confédération, ou celui-ci est développé par des collaborateurs de la Confédération (internes ou externes). Une justification est nécessaire en particulier si tel n'est pas le cas. Il convient également d'exposer pourquoi les droits n'appartiennent pas à la Confédération, quelles vérifications ont été effectuées concernant les parties propriétaires, ainsi que ce qui a été entrepris au sujet d'obstacles éventuels (p. ex. protection par brevet) ou jusqu'où les investigations sont allées.
+
+field::[rows=4]
 
 [%interactive]
 * [ ] Aucun motif relevant de la sécurité ne s'oppose à la publication.
 
 Les examens prévus au chapitre 3.3 de [Em002-2] ont été effectués.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Il existe un accord de principe et la faisabilité est donnée pour publier l'application en open source.
 
 Renvoi au procès-verbal ou à l'organe de décision, avec la date.
 
+field::[rows=1]
+
 == Remarques finales
 
 Remarques et renvois à d'autres documents pertinents.
 
-Si un Contributor Licence Agreement (CLA) est utilisé, cela doit être indiqué ici (voir _Em002-3 Guide de licences OSS_ chapitre 8.9).
+Si un Contributor Licence Agreement (CLA) est utilisé, cela devrait être indiqué ici (voir _Em002-3 Guide de licences OSS_ chapitre 8.9).
 
 field::[rows=4]
 
@@ -415,7 +469,7 @@ Ce document est publié sous licence CC0. Il peut être librement utilisé, modi
 endif::[]
 
 ifeval::["{lang}" == "it"]
-La presente lista di controllo fa parte del documento _Em002-2 Istruzioni per la pubblicazione di software open source_. Va compilata all'inizio di un progetto o in sede di chiarimento sulla necessità di non pubblicare un software.
+La presente lista di controllo fa parte del documento _Em002-2 Istruzioni per la pubblicazione di software open source_. Va compilata all'inizio di un progetto o in sede di chiarimento se non sia necessario pubblicare un software.
 
 La descrizione della lista di controllo figura in _[Em002-2]_, capitolo 3.
 
@@ -430,7 +484,7 @@ Importante: se un software non deve essere pubblicato come OSS, questa lista di 
 === Nome e breve descrizione del software
 
 Indicate il nome del software. +
-Tale nome deve essere identico in tutte le liste di controllo OSS successive, affinché l'attribuzione sia corretta.
+Tale nome dovrebbe essere identico in tutte le liste di controllo OSS successive, affinché l'attribuzione sia corretta.
 
 field::[rows=1]
 
@@ -457,9 +511,11 @@ Si tratta di un software nuovo o di un progetto esistente (cfr. [Em002-2] capito
 * [ ] Software preesistentefootnote:[Non richiesto dalla LMeCA, ma è comunque possibile pubblicare software esistente.] o ulteriore sviluppo di software preesistente
 * [ ] Progetto di terzi esistente (compilare la _lista di controllo Em002-4.1 Community OSS_)
 
-Ciclo di vita
+field::[rows=1]
 
-In quale fase del ciclo di vita si trova attualmente il software (cfr. [Em002-2] capitolo 3.1)?footnote:[La sostituzione di software esistente va indicata qui come «pianificata».]
+*Ciclo di vita*
+
+In quale fase del ciclo di vita si trova attualmente il software (cfr. [Em002-2] capitolo 3.1)?footnote:[La sostituzione di software esistente dovrebbe essere indicata qui come «pianificata».]
 
 [%interactive]
 * [ ] Pianificato
@@ -468,7 +524,9 @@ In quale fase del ciclo di vita si trova attualmente il software (cfr. [Em002-2]
 * [ ] Fine del ciclo di vita
 * [ ] Archivio
 
-Utenti
+field::[rows=1]
+
+*Utenti*
 
 Vi sono persone o organizzazioni, potenziali o note, che utilizzano il software? Vi sono potenziali acquirenti del software? Gli utenti possibili e noti possono essere indicati nel campo di testo.
 
@@ -476,6 +534,8 @@ Vi sono persone o organizzazioni, potenziali o note, che utilizzano il software?
 * [ ] Nessuno ipotizzabile
 * [ ] Utenti potenziali
 * [ ] Utenti noti
+
+field::[rows=2]
 
 *Sviluppo proprio, sviluppo congiunto o progetto di terzi*
 
@@ -488,7 +548,9 @@ La struttura dello sviluppo congiunto e del progetto di terzi può essere indica
 * [ ] Sviluppo congiunto (compilare la _lista di controllo Em002-4.1 Community OSS_)
 * [ ] Progetto di terzi (compilare la _lista di controllo Em002-4.1 Community OSS_)
 
-Chi pubblica il software?
+field::[rows=2]
+
+*Chi pubblica il software?*
 
 [%interactive]
 * [ ] Autorità federale
@@ -496,7 +558,9 @@ Chi pubblica il software?
 * [ ] Fornitore
 * [ ] Terzi
 
-Profondità della pubblicazione
+field::[rows=1]
+
+*Profondità della pubblicazione*
 
 Risultato della _lista di controllo Em002-4.1 Community OSS_.
 
@@ -505,26 +569,34 @@ Risultato della _lista di controllo Em002-4.1 Community OSS_.
 * [ ] Issue tracking: gli errori possono essere segnalati e vengono trattati.
 * [ ] Community
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Non sussiste alcuna violazione di diritti di terzi (p. es. diritti di brevetto, proprietà intellettuale, protezione dei marchi o dei design).
 
 Gli esami di cui al capitolo 3.2 di [Em002-2] sono stati svolti. I diritti sul software spettano alla Confederazione, oppure il software è sviluppato da collaboratori della Confederazione (interni o esterni). Una motivazione è necessaria in particolare se così non è. Occorre inoltre esporre perché i diritti non spettano alla Confederazione, quali verifiche sono state effettuate riguardo alle parti proprietarie nonché che cosa è stato intrapreso in relazione a possibili ostacoli (p. es. protezione brevettuale) o fin dove sono giunti gli accertamenti.
+
+field::[rows=4]
 
 [%interactive]
 * [ ] Non sussistono motivi rilevanti per la sicurezza che ostino alla pubblicazione.
 
 Gli esami di cui al capitolo 3.3 di [Em002-2] sono stati svolti.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Sussistono l'accordo di principio e la fattibilità per pubblicare l'applicazione come open source.
 
 Rinvio al verbale o all'organo decisionale, con data.
 
+field::[rows=1]
+
 == Osservazioni conclusive
 
 Osservazioni e rinvii ad altri documenti rilevanti.
 
-Se viene utilizzato un Contributor Licence Agreement (CLA), va indicato qui (cfr. _Em002-3 Guida alle licenze OSS_ capitolo 8.9).
+Se viene utilizzato un Contributor Licence Agreement (CLA), dovrebbe essere indicato qui (cfr. _Em002-3 Guida alle licenze OSS_ capitolo 8.9).
 
 field::[rows=4]
 
@@ -580,9 +652,11 @@ Sa tracti d'in software nov u d'in project existent (vesair [Em002-2] chapitel 3
 * [ ] Software existentfootnote:[Betg pretendì da l'EMBAG, ma igl è era pussaivel da relaschar software existent.] u svilup vinavant da software existent
 * [ ] Project da terzas persunas existent (emplenir la _glista da controlla Em002-4.1 Communitad OSS_)
 
-Ciclus da vita
+field::[rows=1]
 
-En tge fasa dal ciclus da vita sa chatta il software actualmain (vesair [Em002-2] chapitel 3.1)?footnote:[La remplazzada da software existent sto vegnir notada qua sco «planisada».]
+*Ciclus da vita*
+
+En tge fasa dal ciclus da vita sa chatta il software actualmain (vesair [Em002-2] chapitel 3.1)?footnote:[La remplazzada da software existent duess vegnir notada qua sco «planisada».]
 
 [%interactive]
 * [ ] Planisà
@@ -591,7 +665,9 @@ En tge fasa dal ciclus da vita sa chatta il software actualmain (vesair [Em002-2
 * [ ] Fin da la vita
 * [ ] Archiv
 
-Utilisaders
+field::[rows=1]
+
+*Utilisaders*
 
 Dattia persunas u organisaziuns, potenzialas u enconuschentas, ch'utiliseschan il software? Dattia potenzials cumpraders per il software? Utilisaders pussaivels ed enconuschents pon vegnir numnads en il champ da text.
 
@@ -599,6 +675,8 @@ Dattia persunas u organisaziuns, potenzialas u enconuschentas, ch'utiliseschan i
 * [ ] Nagins imaginabels
 * [ ] Utilisaders potenzials
 * [ ] Utilisaders enconuschents
+
+field::[rows=2]
 
 *Svilup agen, svilup cuminaivel u project da terzas persunas*
 
@@ -611,7 +689,9 @@ La structura dal co-svilup e dal project da terzas persunas po vegnir inditgada 
 * [ ] Svilup cuminaivel (emplenir la _glista da controlla Em002-4.1 Communitad OSS_)
 * [ ] Project da terzas persunas (emplenir la _glista da controlla Em002-4.1 Communitad OSS_)
 
-Tgi publitgescha il software?
+field::[rows=2]
+
+*Tgi publitgescha il software?*
 
 [%interactive]
 * [ ] Autoritad federala
@@ -619,7 +699,9 @@ Tgi publitgescha il software?
 * [ ] Furnitur
 * [ ] Terzas persunas
 
-Profunditad da la relaschada
+field::[rows=1]
+
+*Profunditad da la relaschada*
 
 Resultat da la _glista da controlla Em002-4.1 Communitad OSS_.
 
@@ -628,26 +710,34 @@ Resultat da la _glista da controlla Em002-4.1 Communitad OSS_.
 * [ ] Issue-tracking: sbagls pon vegnir annunziads e vegnan tractads.
 * [ ] Communitad
 
+field::[rows=1]
+
 [%interactive]
 * [ ] I n'exista nagina violaziun da dretgs da terzas persunas (p.ex. dretgs da patent, proprietad intellectuala, protecziun da marcas u da designs).
 
 Las controllas tenor [Em002-2] chapitel 3.2 èn vegnidas fatgas. Ils dretgs sin il software appartegnan a la Confederaziun, u el vegn sviluppà da collaboraturs da la Confederaziun (intern u extern). Ina motivaziun è necessaria en spezial, sche quai n'è betg il cas. I sto ultra da quai vegnir exponì, pertge ch'ils dretgs n'appartegnan betg a la Confederaziun, tge scleridas ch'èn vegnidas fatgas concernent parts proprietaras sco er tge ch'è vegnì entreprendì concernent impedaments pussaivels (p.ex. protecziun da patent) respectivamain quant lunsch che las scleridas èn ì.
+
+field::[rows=4]
 
 [%interactive]
 * [ ] I n'existan nagins motivs relevants per la segirezza che s'opponan a la publicaziun.
 
 Las controllas tenor [Em002-2] chapitel 3.3 èn vegnidas fatgas.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] I exista in consentiment fundamental e la realisabladad da publitgar l'applicaziun sco open source.
 
 Renviament al protocol u al gremi da decisiun cun data.
 
+field::[rows=1]
+
 == Remartgas finalas
 
 Remartgas e renviaments ad ulteriurs documents relevants.
 
-Sch'in Contributor Licence Agreement (CLA) vegn utilisà, sto quai vegnir notà qua (vesair _Em002-3 Guida da licenzas OSS_ chapitel 8.9).
+Sch'in Contributor Licence Agreement (CLA) vegn utilisà, duess quai vegnir notà qua (vesair _Em002-3 Guida da licenzas OSS_ chapitel 8.9).
 
 field::[rows=4]
 

@@ -1420,7 +1420,7 @@ Oui, le secteur TNI de la Chancellerie fédérale met les listes de contrôle su
 --
 * link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 Liste de contrôle évaluation préalable OSS]
 * link:em002-2-2-checklist-oss-analysis-and-preparation.pdf[Em002-2.2 Liste de contrôle analyse et préparation OSS]
-* link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 Liste de contrôle publication et mise à disposition OSS]
+* link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 Liste de contrôle validation et publication OSS]
 * link:em002-4-1-checklist-oss-community.pdf[Em002-4.1 Liste de contrôle communauté OSS]
 
 Voir également la *liste de contrôle relative à l'exception générale selon l'art. 9 LMETA* [BBL-CL] de l'OFCL.

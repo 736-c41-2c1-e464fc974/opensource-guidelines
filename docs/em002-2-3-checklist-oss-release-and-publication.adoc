@@ -89,6 +89,8 @@ The checklist is to be completed before actual publication.
 
 Selected licence and justification
 
+field::[rows=2]
+
 [%interactive]
 * [ ] ISDS concept has been created.
 
@@ -97,15 +99,21 @@ If applicable, the software will be subject to a bug bounty programme. +
 There may also be OSS checks in the repositories. +
 The relevant configuration is described and the person responsible is named.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Community and support is regulated (via 'Em002-4.1 OSS Community Checklist')
 
 The checklist is attached. The key points are included here.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Level and method of support have been clarified.
 
 Indication of how this has been regulated.
+
+field::[rows=1]
 
 [%interactive]
 * [ ] A *publiccode.yml* was created for the publication.
@@ -119,10 +127,14 @@ If a new repository or organisation is created, this can be reported via opensou
 
 Indication of whether responsibility for release was transferred to a third party (supplier, support, association) during procurement or subsequently.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Green light for open sourcing from the application and budget managers
 
 Names and date
+
+field::[rows=2]
 
 == Concluding remarks
 
@@ -164,7 +176,7 @@ Geben Sie die geplanten Repository-Namen der zu veröffentlichenden Software sow
 
 field::[rows=3]
 
-Geben Sie an, wer (GitHub-Benutzername, Name, Stelle, Funktion) am Repository arbeitet. Befindet sich dieses in einem Repository eines Amtes, so ist anzugeben, wer die Person autorisiert hat. Diese Person ist anschliessend auch für die Lösung verantwortlich, falls die erste Person die Organisation verlässt oder ihre Stelle wechselt. Anzugeben ist zudem, ob Personen als Privatpersonen oder als Teil des Amtes handeln. Nennen Sie das GitHub-Benutzerkonto, dem die Rolle Repository-Administrator zugewiesen werden soll. Es kann mehrere Administratorinnen und Administratoren geben.
+Geben Sie an, wer (GitHub-Benutzername, Name, Stelle, Funktion) am Repository arbeitet. Befindet sich dieses in einem Repository eines Amtes, so ist anzugeben, wer die Person autorisiert hat. Diese Person ist anschliessend auch für die Lösung verantwortlich, falls die erste Person die Organisation verlässt oder ihre Stelle wechselt. Zudem sollte angegeben werden, ob Personen als Privatpersonen oder als Teil des Amtes handeln. Nennen Sie das GitHub-Benutzerkonto, dem die Rolle Repository-Administrator zugewiesen werden soll. Es kann mehrere Administratorinnen und Administratoren geben.
 
 field::[rows=4]
 
@@ -183,6 +195,8 @@ Die Checkliste ist vor der eigentlichen Veröffentlichung auszufüllen.
 
 Gewählte Lizenz und Begründung
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Das ISDS-Konzept wurde erstellt.
 
@@ -191,15 +205,21 @@ Gegebenenfalls untersteht die Software einem Bug-Bounty-Programm. +
 Es kann zudem OSS-Prüfungen in den Repositories geben. +
 Die entsprechende Konfiguration ist beschrieben und die verantwortliche Person ist benannt.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Community und Support sind geregelt (über «Em002-4.1 Checkliste OSS-Community»)
 
 Die Checkliste liegt bei. Die wichtigsten Punkte sind hier aufgeführt.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Umfang und Art des Supports wurden geklärt.
 
 Angabe, wie dies geregelt wurde.
+
+field::[rows=1]
 
 [%interactive]
 * [ ] Für die Veröffentlichung wurde eine *publiccode.yml* erstellt.
@@ -213,10 +233,14 @@ Wird ein neues Repository oder eine neue Organisation erstellt, so kann dies üb
 
 Angabe, ob die Verantwortung für die Freigabe bei der Beschaffung oder nachträglich an Dritte (Lieferant, Support, Verein) übertragen wurde.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Grünes Licht für das Open Sourcing durch die Applikations- und Budgetverantwortlichen
 
 Namen und Datum
+
+field::[rows=2]
 
 == Schlussbemerkungen
 
@@ -277,6 +301,8 @@ La liste de contrôle doit être remplie avant la publication proprement dite.
 
 Licence choisie et justification
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Le concept SIPD a été établi.
 
@@ -285,15 +311,21 @@ Le cas échéant, le logiciel est soumis à un programme de bug bounty. +
 Des contrôles OSS peuvent en outre exister dans les dépôts. +
 La configuration correspondante est décrite et la personne responsable est désignée.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] La communauté et le support sont réglés (via la « liste de contrôle Em002-4.1 Communauté OSS »)
 
 La liste de contrôle est jointe. Les points essentiels figurent ici.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] L'étendue et la forme du support ont été clarifiées.
 
 Indication de la manière dont cela a été réglé.
+
+field::[rows=1]
 
 [%interactive]
 * [ ] Un fichier *publiccode.yml* a été créé pour la publication.
@@ -307,10 +339,14 @@ Si un nouveau dépôt ou une nouvelle organisation est créé, cela peut être a
 
 Indication précisant si la responsabilité de la publication a été transférée à des tiers (fournisseur, support, association) lors de l'acquisition ou ultérieurement.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Feu vert pour l'open sourcing de la part des responsables de l'application et du budget
 
 Noms et date
+
+field::[rows=2]
 
 == Remarques finales
 
@@ -352,7 +388,7 @@ Indicate i nomi di repository previsti per il software da pubblicare nonché la 
 
 field::[rows=3]
 
-Indicate chi (nome utente GitHub, nome, posizione, funzione) lavora al repository. Se questo si trova in un repository di un ufficio, occorre indicare chi ha autorizzato la persona. Tale persona è poi responsabile anche della soluzione qualora la prima lasci l'organizzazione o cambi posizione. Va inoltre precisato se le persone agiscono a titolo privato o in quanto parte dell'ufficio. Indicate l'account utente GitHub al quale deve essere attribuito il ruolo di amministratore del repository. Vi possono essere più amministratori.
+Indicate chi (nome utente GitHub, nome, posizione, funzione) lavora al repository. Se questo si trova in un repository di un ufficio, occorre indicare chi ha autorizzato la persona. Tale persona è poi responsabile anche della soluzione qualora la prima lasci l'organizzazione o cambi posizione. Andrebbe inoltre precisato se le persone agiscono a titolo privato o in quanto parte dell'ufficio. Indicate l'account utente GitHub al quale deve essere attribuito il ruolo di amministratore del repository. Vi possono essere più amministratori.
 
 field::[rows=4]
 
@@ -371,6 +407,8 @@ La lista di controllo va compilata prima della pubblicazione vera e propria.
 
 Licenza scelta e motivazione
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Il concetto SIPD è stato allestito.
 
@@ -379,15 +417,21 @@ Se del caso, il software è sottoposto a un programma di bug bounty. +
 Nei repository possono inoltre essere previsti controlli OSS. +
 La relativa configurazione è descritta e la persona responsabile è designata.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Community e supporto sono disciplinati (mediante la «lista di controllo Em002-4.1 Community OSS»)
 
 La lista di controllo è allegata. I punti essenziali figurano qui.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] L'entità e la modalità del supporto sono state chiarite.
 
 Indicazione di come ciò è stato disciplinato.
+
+field::[rows=1]
 
 [%interactive]
 * [ ] Per la pubblicazione è stato creato un file *publiccode.yml*.
@@ -401,10 +445,14 @@ Se viene creato un nuovo repository o una nuova organizzazione, ciò può essere
 
 Indicazione se la responsabilità della pubblicazione è stata trasferita a terzi (fornitore, supporto, associazione) al momento dell'acquisto o successivamente.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Via libera all'open sourcing da parte dei responsabili dell'applicazione e del budget
 
 Nomi e data
+
+field::[rows=2]
 
 == Osservazioni conclusive
 
@@ -446,7 +494,7 @@ Inditgai ils nums da repositori planisads dal software da publitgar sco er la pl
 
 field::[rows=3]
 
-Inditgai, tgi (num d'utilisader GitHub, num, post, funcziun) che lavura al repositori. Sche quel sa chatta en in repositori d'in uffizi, sto vegnir inditgà, tgi che ha autorisà la persuna. Questa persuna è lura era responsabla per la soluziun, sche l'emprima persuna banduna l'organisaziun u mida ses post. I sto ultra da quai vegnir inditgà, sche las persunas agischeschan sco persunas privatas u sco part da l'uffizi. Numnai il conto d'utilisader GitHub al qual duai vegnir attribuì il rol d'administratur dal repositori. I pon dar plirs administraturs.
+Inditgai, tgi (num d'utilisader GitHub, num, post, funcziun) che lavura al repositori. Sche quel sa chatta en in repositori d'in uffizi, sto vegnir inditgà, tgi che ha autorisà la persuna. Questa persuna è lura era responsabla per la soluziun, sche l'emprima persuna banduna l'organisaziun u mida ses post. I duess ultra da quai vegnir inditgà, sche las persunas agischeschan sco persunas privatas u sco part da l'uffizi. Numnai il conto d'utilisader GitHub al qual duai vegnir attribuì il rol d'administratur dal repositori. I pon dar plirs administraturs.
 
 field::[rows=4]
 
@@ -465,6 +513,8 @@ La glista da controlla sto vegnir emplenida avant la publicaziun propria.
 
 Licenza tschernida e motivaziun
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Il concept ISDS è vegnì elavurà.
 
@@ -473,15 +523,21 @@ Eventualmain è il software suttamess ad in program da bug bounty. +
 I pon ultra da quai dar controllas OSS en ils repositoris. +
 La configuraziun correspundenta è descritta e la persuna responsabla è numnada.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] Communitad e support èn reglads (via la «glista da controlla Em002-4.1 Communitad OSS»)
 
 La glista da controlla è agiuntada. Ils puncts ils pli impurtants èn inditgads qua.
 
+field::[rows=1]
+
 [%interactive]
 * [ ] L'extensiun e la moda dal support èn vegnidas scleridas.
 
 Indicaziun, co che quai è vegnì reglà.
+
+field::[rows=1]
 
 [%interactive]
 * [ ] Per la publicaziun è vegnida creada ina *publiccode.yml*.
@@ -495,10 +551,14 @@ Sch'in nov repositori u ina nova organisaziun vegn creà, po quai vegnir annunzi
 
 Indicaziun, sche la responsabladad per la relaschada è vegnida transferida a terzas persunas (furnitur, support, associaziun) tar l'acquist u pli tard.
 
+field::[rows=2]
+
 [%interactive]
 * [ ] Glisch verda per l'open sourcing da vart dals responsabels da l'applicaziun e dal budget
 
 Nums e data
+
+field::[rows=2]
 
 == Remartgas finalas
 
