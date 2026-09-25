@@ -166,7 +166,7 @@ Under Article 9 EMOTA, such contributions are in fact encouraged. From a procure
 
 It is important that the rights holder makes the contribution. This means that the Federal Administration assumes responsibility for doing so on behalf of its staff and contractors. Specifically, any Contributor Licence Agreement for the project must be signed, or a Developer Certificate of Origin must be included with the pull request.
 
-A *Developer Certificate of Origin*footnote:[https://developercertificate.org/] *(DCO)* for the Federal Administration could read:
+A **Developer Certificate of Origin**footnote:[https://developercertificate.org/] *(DCO)* for the Federal Administration could read:
 
 [quote, Developer Certificate of Origin, Version 1.1]
 ____
@@ -242,6 +242,7 @@ A possible source for parts is also the documentation of the Eclipse Foundation,
 
 The principles of the community, or lack thereof, are determined using link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. The relevant fundamental questions are set out in the morphological box below; each dimension is discussed in the sections that follow.
 
+[.landscape]
 [cols="3,2,2,2,2,2",options="header"]
 |===
 |Dimension |(a) |(b) |(c) |(d) |(e)
@@ -1033,7 +1034,7 @@ Nach Artikel 9 EMBAG sind solche Beiträge sogar erwünscht. Beschaffungsrechtli
 
 Wichtig ist, dass die Rechtsinhaberin den Beitrag leistet. Das heisst, dass die Bundesverwaltung dies stellvertretend für ihre Mitarbeitenden und Auftragnehmer verantwortet. Konkret ist ein allfälliges Contributor Licence Agreement des Projekts zu unterzeichnen oder ist dem Pull Request ein Developer Certificate of Origin beizulegen.
 
-Ein *Developer Certificate of Origin*footnote:[https://developercertificate.org/] *(DCO)* für die Bundesverwaltung könnte lauten:
+Ein **Developer Certificate of Origin**footnote:[https://developercertificate.org/] *(DCO)* für die Bundesverwaltung könnte lauten:
 
 [quote, Developer Certificate of Origin, Version 1.1]
 ____
@@ -1109,6 +1110,7 @@ Eine mögliche Quelle für Teile ist auch die Dokumentation der Eclipse Foundati
 
 Die Grundsätze der Community – oder deren Verzicht – werden anhand von link:em002-4-1-checklist-oss-community.pdf[Em002-4.1] festgelegt. Die massgebenden Grundsatzfragen finden sich im nachstehenden morphologischen Kasten; jede Dimension wird in den folgenden Kapiteln erläutert.
 
+[.landscape]
 [cols="3,2,2,2,2,2",options="header"]
 |===
 |Dimension |(a) |(b) |(c) |(d) |(e)
@@ -1900,7 +1902,7 @@ Selon l'article 9 LMETA, de telles contributions sont même souhaitées. Du poin
 
 Il importe que ce soit le titulaire des droits qui apporte la contribution. Cela signifie que l'administration fédérale en assume la responsabilité pour le compte de ses collaborateurs et mandataires. Concrètement, tout Contributor Licence Agreement du projet doit être signé, ou un Developer Certificate of Origin doit être joint à la pull request.
 
-Un *Developer Certificate of Origin*footnote:[https://developercertificate.org/] *(DCO)* pour l'administration fédérale pourrait se lire ainsi :
+Un **Developer Certificate of Origin**footnote:[https://developercertificate.org/] *(DCO)* pour l'administration fédérale pourrait se lire ainsi :
 
 [quote, Developer Certificate of Origin, Version 1.1]
 ____
@@ -1976,6 +1978,7 @@ Une source possible pour certaines parties est également la documentation de l'
 
 Les principes de la communauté, ou la renonciation à celle-ci, sont déterminés à l'aide de link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Les questions de principe déterminantes figurent dans la boîte morphologique ci-dessous ; chaque dimension est présentée dans les sections qui suivent.
 
+[.landscape]
 [cols="3,2,2,2,2,2",options="header"]
 |===
 |Dimension |(a) |(b) |(c) |(d) |(e)
@@ -2767,7 +2770,7 @@ Secondo l'articolo 9 LMeCA tali contributi sono anzi auspicati. Sotto il profilo
 
 È importante che sia il titolare dei diritti ad apportare il contributo. Ciò significa che l'Amministrazione federale se ne assume la responsabilità per conto dei propri collaboratori e mandatari. Concretamente va firmato l'eventuale Contributor Licence Agreement del progetto, oppure va allegato alla pull request un Developer Certificate of Origin.
 
-Un *Developer Certificate of Origin*footnote:[https://developercertificate.org/] *(DCO)* per l'Amministrazione federale potrebbe recitare:
+Un **Developer Certificate of Origin**footnote:[https://developercertificate.org/] *(DCO)* per l'Amministrazione federale potrebbe recitare:
 
 [quote, Developer Certificate of Origin, Version 1.1]
 ____
@@ -2835,7 +2838,7 @@ Bozza di struttura di un concetto di community:
 .. CLA, DCO e attribuzione di diritti / proprietà intellettuale
 . Esercizio dell'applicazione
 
-In linea di principio ogni autorità federale è responsabile dell'elaborazione dei concetti di community. Il settore TDI può pubblicare modelli ed esempi esistenti e accoglie esempi corrispondenti in vista della pubblicazione. È inoltre opportuno che i responsabili di community si scambino informazioni tra loro.
+In linea di principio ogni autorità federale è responsabile dell'elaborazione dei concetti di community. Il settore TDT può pubblicare modelli ed esempi esistenti e accoglie esempi corrispondenti in vista della pubblicazione. È inoltre opportuno che i responsabili di community si scambino informazioni tra loro.
 
 Una possibile fonte per alcune parti è anche la documentazione della Eclipse Foundation,footnote:[Cfr. https://www.eclipse.org/projects/handbook/#starting] fermo restando che qui va effettuato un adeguato adattamento nello spirito del «fare solo il necessario».
 
@@ -2843,6 +2846,7 @@ Una possibile fonte per alcune parti è anche la documentazione della Eclipse Fo
 
 I principi della community, o la rinuncia a essa, sono stabiliti mediante link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Le questioni di principio determinanti figurano nella scatola morfologica seguente; ogni dimensione è illustrata nelle sezioni successive.
 
+[.landscape]
 [cols="3,2,2,2,2,2",options="header"]
 |===
 |Dimensione |(a) |(b) |(c) |(d) |(e)
@@ -3634,7 +3638,7 @@ Tenor l'artitgel 9 EMBAG èn talas contribuziuns schizunt giavischadas. Dal punt
 
 Impurtant è che il possessur dals dretgs prestia la contribuziun. Quai munta che l'administraziun federala porta la responsabladad per quai per ses collaboraturs ed incumbensads. Concretamain sto in eventual Contributor Licence Agreement dal project vegnir suttascrit u sto in Developer Certificate of Origin vegnir agiuntà a la pull request.
 
-In *Developer Certificate of Origin*footnote:[https://developercertificate.org/] *(DCO)* per l'administraziun federala pudess suandar:
+In **Developer Certificate of Origin**footnote:[https://developercertificate.org/] *(DCO)* per l'administraziun federala pudess suandar:
 
 [quote, Developer Certificate of Origin, Version 1.1]
 ____
@@ -3710,6 +3714,7 @@ Ina funtauna pussaivla per parts è era la documentaziun da la Eclipse Foundatio
 
 Ils princips da la communitad – u la renunzia ad ella – vegnan fixads cun agid da link:em002-4-1-checklist-oss-community.pdf[Em002-4.1]. Las dumondas fundamentalas relevantas sa chattan en la chascha morfologica qua sutvart; mintga dimensiun vegn explitgada en ils chapitels suandants.
 
+[.landscape]
 [cols="3,2,2,2,2,2",options="header"]
 |===
 |Dimensiun |(a) |(b) |(c) |(d) |(e)
