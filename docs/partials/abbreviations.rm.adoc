@@ -74,8 +74,14 @@ Svilup da software open source
 // end::abbr-em002-6[]
 // end::abbr-em002[]
 // tag::abbr-em002[]
+PP::
+Purschider da prestaziuns
+// end::abbr-em002[]
+// tag::abbr-em002[]
 RA::
 Responsabel da l'applicaziun
+RP::
+Retratg da prestaziuns
 SPDX::
 Software Package Data Exchange
 // end::abbr-em002[]

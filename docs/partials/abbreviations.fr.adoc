@@ -2,6 +2,8 @@
 // tag::abbr-em002[]
 ANS::
 Administration numérique suisse (www.digital-public-services-switzerland.ch/strategy)
+BP::
+Bénéficiaire de prestations
 CG::
 Conditions générales
 // end::abbr-em002[]
@@ -37,6 +39,10 @@ Bénéficiaire de prestations
 FP::
 Fournisseur de prestations
 // end::abbr-em002-6[]
+// tag::abbr-em002[]
+FP::
+Fournisseur de prestations
+// end::abbr-em002[]
 // tag::abbr-em002[]
 // tag::abbr-em002-6[]
 FSF::

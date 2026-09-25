@@ -6,6 +6,10 @@ Amministrazione digitale Svizzera (www.digital-public-services-switzerland.ch/st
 // end::abbr-em002-6[]
 // end::abbr-em002[]
 // tag::abbr-em002[]
+BP::
+Beneficiario di prestazioni
+// end::abbr-em002[]
+// tag::abbr-em002[]
 CG::
 Condizioni generali
 // end::abbr-em002[]
@@ -31,6 +35,10 @@ Developer Certificate of Origin
 FP::
 Fornitore di prestazioni
 // end::abbr-em002-6[]
+// tag::abbr-em002[]
+FP::
+Fornitore di prestazioni
+// end::abbr-em002[]
 // tag::abbr-em002[]
 // tag::abbr-em002-6[]
 FSF::
