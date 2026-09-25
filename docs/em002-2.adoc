@@ -265,6 +265,10 @@ flowchart TD
 
 Figure 2 - Exception: Third-party rights (always also take into account ++[++KBB-MB++]++ and link:em002-7.pdf[Em002-7 Strategic Aspects of Procurement and Open Source Software])
 
+A reasonable exception for third-party rights arises not only from the procurement of licences or existing software, but also from software development on existing, licensed software.
+
+A partial release is possible where the software contains proprietary or protected parts, where those parts can be differentiated from further development, or where other intellectual property is involved.
+
 *Tasks:*
 
 * Check whether the organisation owns the relevant protective rights to the software.
@@ -974,6 +978,10 @@ flowchart TD
 ....
 
 Abbildung 2 – Ausnahme: Rechte Dritter (stets auch ++[++KBB-MB++]++ und link:em002-7.pdf[Em002-7 Strategische Aspekte der Beschaffung und Open-Source-Software] berücksichtigen)
+
+Eine begründete Ausnahme wegen Rechten Dritter ergibt sich nicht nur aus der Beschaffung von Lizenzen oder bestehender Software, sondern auch aus der Softwareentwicklung auf bestehender, lizenzierter Software.
+
+Eine teilweise Freigabe ist möglich, wenn die Software proprietäre oder geschützte Teile enthält, wenn sich diese von der Weiterentwicklung abgrenzen lassen oder wenn anderes geistiges Eigentum betroffen ist.
 
 *Aufgaben:*
 
@@ -1685,6 +1693,10 @@ flowchart TD
 
 Figure 2 – Exception : droits de tiers (toujours tenir compte également de ++[++KBB-MB++]++ et de link:em002-7.pdf[Em002-7 Aspects stratégiques des achats et des logiciels open source])
 
+Une exception justifiée au titre des droits de tiers résulte non seulement de l'acquisition de licences ou de logiciels existants, mais aussi du développement logiciel réalisé sur un logiciel existant sous licence.
+
+Une publication partielle est possible lorsque le logiciel contient des parties propriétaires ou protégées, lorsque celles-ci peuvent être distinguées du développement ultérieur ou lorsque d'autres droits de propriété intellectuelle sont en jeu.
+
 *Tâches :*
 
 * Vérifier si l'organisation détient les droits de protection déterminants sur le logiciel.
@@ -2395,6 +2407,10 @@ flowchart TD
 
 Figura 2 – Eccezione: diritti di terzi (considerare sempre anche ++[++KBB-MB++]++ e link:em002-7.pdf[Em002-7 Aspetti strategici degli acquisti e del software open source])
 
+Un'eccezione giustificata per i diritti di terzi risulta non solo dall'acquisto di licenze o di software esistente, ma anche dallo sviluppo di software su software esistente sotto licenza.
+
+Una pubblicazione parziale è possibile se il software contiene parti proprietarie o protette, se queste possono essere distinte dallo sviluppo successivo o se sono coinvolti altri diritti di proprietà intellettuale.
+
 *Compiti:*
 
 * Verificare se l'organizzazione detiene i diritti di protezione determinanti sul software.
@@ -3104,6 +3120,10 @@ flowchart TD
 ....
 
 Illustraziun 2 – Excepziun: Dretgs da terzas persunas (adina era resguardar ++[++KBB-MB++]++ e link:em002-7.pdf[Em002-7 Aspects strategics da l'acquist e dal software open source])
+
+In'excepziun motivada pervia da dretgs da terzas persunas resulta betg mo da l'acquist da licenzas u da software existent, mabain era dal svilup da software sin software existent licenzià.
+
+Ina relaschada parziala è pussaivla, sche il software cuntegna parts proprietaras u protegidas, sche quellas sa laschan differenziar dal svilup vinavant u sche auters dretgs da proprietad intellectuala èn pertutgads.
 
 *Incumbensas:*
 
