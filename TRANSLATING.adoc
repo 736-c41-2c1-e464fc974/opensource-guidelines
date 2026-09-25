@@ -161,6 +161,7 @@ The law-collection designator is translated along with everything else -- `SR` i
 == Rules
 
 * *Preserve every AsciiDoc construct exactly.* `+footnote:[]+`, `image::` macros, `|===` table delimiters and cell counts, `a|` cell prefixes, inline roles such as `+[.underline]#…#+`, `'''` rules, `+` line breaks, and the bare block attribute lines that sit above a block and are the easiest thing in the file to lose: `[%interactive]` above a `* [ ]` list is what turns those items into real form fields in the PDF, and `[.landscape]` above a wide table is what gives it a turned page.
+* *Use unconstrained bold where a footnote abuts it.* `+*Digital Switzerland Strategy*footnote:[…]+` never closes its bold, and the asterisks reach the page as literal text; write `+**Digital Switzerland Strategy**footnote:[…]+` instead. The same goes for italic. Nothing warns you -- the document renders, with asterisks in it.
 * *Translate image alt text.* Image _paths_ are per-language where the picture contains words: `assets/four-cs/four-cs.de.svg` belongs in the German block and nowhere else. There are two such sets, `four-cs.<lang>.svg` and `four-cs-cases.<lang>.svg`. Both are generated -- edit `tools/make-four-cs-svg.sh` and re-run it, never the `.svg` files.
 * *Translate `+link:…[display text]+`, never the target.* Targets are relative `.pdf` paths because the links are followed inside the rendered PDFs, where the documents of one language sit side by side in one directory. They resolve correctly as of open-govpress 0.0.14, which rewrites each annotation back to the authored string after printing; before that the CLI baked in its own loopback origin and every one of the 1,100 targets led nowhere. Nothing was rewritten to work around it, which is why nothing had to be undone.
 * *Switch the language segment of admin.ch and fedlex.admin.ch URLs* to match (`…/2023/682/en#art_9` → `…/2023/682/de#art_9`). Leave a URL alone when only one language of it exists, which is the majority: `intranet.bbl.admin.ch`, `www.bkb.admin.ch`, `intranet.dti.bk.admin.ch` and `beschaffung.admin.ch` are German-only and are cited as such in the English source too. *The Romansh block keeps the German segment* almost throughout -- admin.ch publishes very little in Romansh, and 42 of the 51 admin.ch URLs in that block point at `/de` on purpose.
@@ -169,7 +170,7 @@ The law-collection designator is translated along with everything else -- `SR` i
 
 == Diagrams
 
-Diagrams are Mermaid blocks, opened with `+[mermaid,align="center",alt="…"]+` and delimited by `....`, never `----`. Their labels are text you translate like any other. Four rules, each of which has bitten:
+Diagrams are Mermaid blocks, opened with `+[mermaid,align="center",alt="…"]+` and delimited by `....`, never `----`. Their labels are text you translate like any other. Five rules, each of which has bitten:
 
 * *Never add `theme:`, `themeVariables`, a `---` frontmatter block or an `+%%{init: …}%%+` directive.* open-govpress generates the whole Mermaid palette from the document's own design tokens -- a couple of hundred theme variables from sixty-odd tokens; any inline theme override throws all of it away and the diagram renders off-brand.
 * *Never set `layout: elk`.* The ELK package is not bundled, and the block would fail to load its layout.
@@ -178,8 +179,9 @@ Diagrams are Mermaid blocks, opened with `+[mermaid,align="center",alt="…"]+` 
 // check-asciidoc.sh would report `Ende` as a citation with no entry behind it.
 * *`end` is a reserved word* and silently breaks a flowchart. Quote any node label that is just that word: `+Fin(["Ende"])+`, never a bare `+[Ende]+`.
 * *Every block needs `alt=`*, translated. Without it the diagram reaches the PDF as an unlabelled figure and a screen reader reads its node labels in layout order, which is word salad.
+* *`block-beta` does not take flowchart edge labels.* In a `block-beta` diagram an edge is written `+A-- "label" -->B+`; the flowchart spelling `+A -->|"label"| B+` does not fail, which is the dangerous part -- Mermaid draws an extra block containing the literal text `+|"label"|+` and runs the arrow into it, leaving the intended target unconnected.
 
-A block that fails to parse degrades to a listing of its own source rather than disappearing, so check the rendered PDF: Mermaid keywords in the text layer mean a diagram did not draw.
+A block that fails to parse degrades to a listing of its own source rather than disappearing, so check the rendered PDF: Mermaid keywords in the text layer mean a diagram did not draw. Not every breakage announces itself that way, though -- the `block-beta` case above parses cleanly and draws the wrong picture -- so look at the figure, not just the log.
 
 Colour is used only where it carries meaning that the structure does not -- the licence-compatibility graph in Em002-3, the document map, and the highlighted node in Em002-4's digital-sovereignty diagram. Those three carry a `classDef` with an explicit `fill:`; copy it across untouched. Elsewhere the near-monochrome house palette is correct, not a bug.
 
