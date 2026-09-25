@@ -16,7 +16,9 @@
 # The four C-words are deliberately NOT translated. `Consumption`,
 # `Contribution`, `Collaboration` and `Creation` are terms of art -- the German,
 # French, Italian and Romansh bodies all use them untranslated ("die 4 C", "les
-# 4 C", "ils 4 C"), so translating them here would contradict the prose.
+# 4 C", "ils 4 C"), so translating them here would contradict the prose. The
+# framing words around them are ordinary prose and are translated, including in
+# the accessible name.
 #
 # Usage: tools/make-four-cs-svg.sh          # regenerate every file
 set -euo pipefail
@@ -53,11 +55,11 @@ gear() {
     }'
 }
 
-# emit <lang> <use-gloss> <case-a> <case-b>
+# emit <lang> <use-gloss> <name-lead> <case-a> <case-b>
 # A non-empty <case-a> adds the divider variant used by Em002-5.
 emit() {
-    local lang="$1" use="$2" case_a="${3:-}" case_b="${4:-}"
-    local name="four-cs" title="The four Cs: Consumption, Contribution, Collaboration, Creation"
+    local lang="$1" use="$2" lead="$3" case_a="${4:-}" case_b="${5:-}"
+    local name="four-cs" title="${lead}: Consumption, Contribution, Collaboration, Creation"
     if [[ -n "${case_a}" ]]; then
         name="four-cs-cases"
     fi
@@ -77,7 +79,7 @@ emit() {
         printf '  <text x="192" y="222" text-anchor="middle" font-family="%s" font-size="22" fill="#000000">(%s)</text>\n' "${font}" "${use}"
         printf '  <text x="479" y="215" text-anchor="middle" font-family="%s" font-size="24" font-weight="bold" fill="#000000">Contribution</text>\n' "${font}"
         printf '  <text x="428" y="470" text-anchor="middle" font-family="%s" font-size="21" font-weight="bold" fill="#000000">Creation</text>\n' "${font}"
-        printf '  <text x="316" y="348" text-anchor="middle" font-family="%s" font-size="24" font-weight="bold" fill="#000000">Collaboration</text>\n' "${font}"
+        printf '  <text x="380" y="348" text-anchor="middle" font-family="%s" font-size="24" font-weight="bold" fill="#000000">Collaboration</text>\n' "${font}"
 
         if [[ -n "${case_a}" ]]; then
             printf '  <line x1="372" y1="8" x2="372" y2="592" stroke="#e00000" stroke-width="5"/>\n'
@@ -90,14 +92,14 @@ emit() {
     echo "wrote ${out_dir}/${name}.${lang}.svg"
 }
 
-emit en "Use"
-emit de "Nutzung"
-emit fr "utilisation"
-emit it "uso"
-emit rm "utilisaziun"
+emit en "Use"         "The four Cs"
+emit de "Nutzung"     "Die 4 C"
+emit fr "utilisation" "Les 4 C"
+emit it "uso"         "Le 4 C"
+emit rm "utilisaziun" "Ils 4 C"
 
-emit en "Use"         "case a)"  "case b)"
-emit de "Nutzung"     "Fall a)"  "Fall b)"
-emit fr "utilisation" "cas a)"   "cas b)"
-emit it "uso"         "caso a)"  "caso b)"
-emit rm "utilisaziun" "cas a)"   "cas b)"
+emit en "Use"         "The four Cs" "case a)"  "case b)"
+emit de "Nutzung"     "Die 4 C"     "Fall a)"  "Fall b)"
+emit fr "utilisation" "Les 4 C"     "cas a)"   "cas b)"
+emit it "uso"         "Le 4 C"      "caso a)"  "caso b)"
+emit rm "utilisaziun" "Ils 4 C"     "cas a)"   "cas b)"
