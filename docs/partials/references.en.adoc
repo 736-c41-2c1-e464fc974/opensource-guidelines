@@ -196,11 +196,19 @@ Wheeler, David A. The Free-Libre / Open Source Software (FLOSS) License Slide. 2
 Sample criteria -- Procurement and EMOTA. +https://perimap.admin.ch/goto_perimap_file_47064_download.html+ +
 Sample contractual texts -- Software development +https://perimap.admin.ch/goto_perimap_file_47059_download.html+
 
+// end::ref-em002-7[]
+// The two source documents label this entry differently: Em002 keeps the
+// German platform name, Em002-7 translates it. Both are upstream wording, so
+// each consuming document keeps its own.
 [KBB-Perimap]::
 link:https://perimap.admin.ch/goto_perimap_file_46835_download.html[Lern und Vorlagenplattform KBB] (Registration is required)
 
-// end::ref-em002-7[]
 // end::ref-em002-tools[]
+// tag::ref-em002-7[]
+[KBB-Perimap]::
+link:https://perimap.admin.ch/goto_perimap_file_46835_download.html[CCPP learning and template platform] (Registration is required)
+
+// end::ref-em002-7[]
 // tag::ref-em002-7[]
 [OSBA-VK]::
 Award criteria for sustainable procurement of open source software | OSBA -- Open Source Business Alliance
