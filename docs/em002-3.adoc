@@ -1189,7 +1189,7 @@ Für vollständige Neuentwicklungen sollte ein Lizenztyp gewählt werden, der ei
 
 Die Kompatibilitätsprüfung erfolgt nach link:em002-2.pdf[Em002-2 Anleitung zur Veröffentlichung von OSS], Kapitel 7.4. Die Kompatibilität der Lizenzen zeigt Abbildung 2.
 
-Die folgenden Dimensionen sind zu berücksichtigen:
+Die folgenden Dimensionen sollten berücksichtigt werden:
 
 * Anwendungsfall
 * Gewünschte Prüfung link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 Checkliste OSS-Vorabklärung]
@@ -1222,7 +1222,7 @@ Bei der Mitarbeit an bestehenden Projekten können zudem problemlos die folgende
 
 Soll eine andere Lizenz verwendet werden, so wird empfohlen, dies in der link:em002-2-3-checklist-oss-release-and-publication.pdf[Em002-2.3 Checkliste OSS-Freigabe und -Veröffentlichung] kurz zu begründen.
 
-*Nach Art. 9 Abs. 4 EMBAG sind in jedem Fall international etablierte Lizenzen zu verwenden.*
+*Nach Art. 9 Abs. 4 EMBAG sollen in jedem Fall international etablierte Lizenzen verwendet werden.*
 
 Weitere Werkzeuge zur Prüfung von Lizenzkompatibilitäten sind:
 
@@ -1401,7 +1401,7 @@ Weil interessierte Lizenznehmende so vermeiden können, ihre proprietäre Softwa
 
 Für die Bundesbehörden selbst dürfte die duale Lizenzierung in den meisten Fällen uninteressant sein. Solange die Urheberrechte bei den Bundesbehörden liegen (was etwa nach den allgemeinen Geschäftsbedingungen des Bundes geregelt ist), können die Bundesbehörden allein über eine allfällige duale Lizenzierung entscheiden.
 
-Werden Wartung und (Weiter-)Entwicklung an Dritte ausgelagert, so kann dies anders sein. Liegen die Rechte ausnahmsweise bei diesen und haben sich die Bundesbehörden nur das Recht auf Erteilung einer OSS-Lizenz mit Copyleft vorbehalten, so könnte der Dritte versucht sein, eine duale Lizenzierung vorzunehmen. Soll dies verhindert werden, so ist es vertraglich auszuschliessen.
+Werden Wartung und (Weiter-)Entwicklung an Dritte ausgelagert, so kann dies anders sein. Liegen die Rechte ausnahmsweise bei diesen und haben sich die Bundesbehörden nur das Recht auf Erteilung einer OSS-Lizenz mit Copyleft vorbehalten, so könnte der Dritte versucht sein, eine duale Lizenzierung vorzunehmen. Soll dies verhindert werden, so sollte es vertraglich ausgeschlossen werden.
 
 === Nachträgliche Änderung von Lizenzen
 
@@ -2028,7 +2028,7 @@ Pour les développements entièrement nouveaux, il convient de choisir un type d
 
 L'examen de compatibilité est effectué selon link:em002-2.pdf[Em002-2 Instructions pour la publication d'OSS], chapitre 7.4. La compatibilité des licences est présentée à la figure 2.
 
-Les dimensions suivantes doivent être prises en compte :
+Les dimensions suivantes devraient être prises en compte :
 
 * Cas d'application
 * Examen souhaité link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 Liste de contrôle Évaluation préalable OSS]
@@ -2061,7 +2061,7 @@ Lors de la participation à des projets existants, les licences suivantes peuven
 
 Si une autre licence doit être utilisée, il est recommandé de le justifier brièvement dans la link:em002-2-3-checklist-oss-release-and-publication.pdf[liste de contrôle Em002-2.3 Validation et publication OSS].
 
-*Selon l'art. 9, al. 4, LMETA, des licences établies à l'échelle internationale doivent être utilisées dans tous les cas.*
+*Selon l'art. 9, al. 4, LMETA, des licences établies à l'échelle internationale devraient être utilisées dans tous les cas.*
 
 Autres outils de vérification des compatibilités de licences :
 
@@ -2867,7 +2867,7 @@ Per gli sviluppi interamente nuovi andrebbe scelto un tipo di licenza che consen
 
 La verifica della compatibilità è svolta secondo link:em002-2.pdf[Em002-2 Istruzioni per la pubblicazione di OSS], capitolo 7.4. La compatibilità delle licenze è illustrata nella figura 2.
 
-Vanno considerate le dimensioni seguenti:
+Dovrebbero essere considerate le dimensioni seguenti:
 
 * Caso d'applicazione
 * Verifica auspicata link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 Lista di controllo Valutazione preliminare OSS]
@@ -2900,7 +2900,7 @@ Nella collaborazione a progetti esistenti possono inoltre essere utilizzate senz
 
 Se deve essere utilizzata un'altra licenza, si raccomanda di motivarlo brevemente nella link:em002-2-3-checklist-oss-release-and-publication.pdf[lista di controllo Em002-2.3 Rilascio e pubblicazione OSS].
 
-*Secondo l'art. 9 cpv. 4 LMeCA vanno in ogni caso utilizzate licenze affermate a livello internazionale.*
+*Secondo l'art. 9 cpv. 4 LMeCA dovrebbero essere in ogni caso utilizzate licenze affermate a livello internazionale.*
 
 Ulteriori strumenti per verificare le compatibilità delle licenze sono:
 
@@ -3079,7 +3079,7 @@ Poiché i licenziatari interessati possono così evitare di pubblicare il propri
 
 Per le autorità federali stesse la doppia licenza dovrebbe risultare poco interessante nella maggior parte dei casi. Fintanto che i diritti d'autore spettano alle autorità federali (il che è disciplinato per esempio dalle condizioni generali dell'Amministrazione federale), queste possono decidere da sole in merito a un'eventuale doppia licenza.
 
-Se la manutenzione e lo sviluppo (ulteriore) sono esternalizzati a terzi, la situazione può essere diversa. Se i diritti spettano eccezionalmente a questi ultimi e le autorità federali si sono riservate soltanto il diritto di concedere una licenza OSS con copyleft, il terzo potrebbe essere tentato di procedere a una doppia licenza. Se ciò deve essere impedito, va escluso contrattualmente.
+Se la manutenzione e lo sviluppo (ulteriore) sono esternalizzati a terzi, la situazione può essere diversa. Se i diritti spettano eccezionalmente a questi ultimi e le autorità federali si sono riservate soltanto il diritto di concedere una licenza OSS con copyleft, il terzo potrebbe essere tentato di procedere a una doppia licenza. Se ciò deve essere impedito, dovrebbe essere escluso contrattualmente.
 
 === Modifica successiva delle licenze
 
@@ -3706,7 +3706,7 @@ Per svilups cumplettamain novs duess vegnir tschernì in tip da licenza che puss
 
 L'examinaziun da la cumpatibilitad ha lieu tenor link:em002-2.pdf[Em002-2 Instrucziuns per publitgar OSS], chapitel 7.4. La cumpatibilitad da las licenzas mussa l'illustraziun 2.
 
-Las suandantas dimensiuns ston vegnir resguardadas:
+Las suandantas dimensiuns duessan vegnir resguardadas:
 
 * Cas d'applicaziun
 * Examinaziun giavischada link:em002-2-1-checklist-oss-preliminary-assessment.pdf[Em002-2.1 Glista da controlla Evaluaziun preliminara OSS]
@@ -3739,7 +3739,7 @@ Tar la collavuraziun a projects existents pon ultra da quai vegnir duvradas senz
 
 Sch'ina autra licenza duai vegnir duvrada, vegn recumandà da motivar quai curtamain en la link:em002-2-3-checklist-oss-release-and-publication.pdf[glista da controlla Em002-2.3 Relaschada e publicaziun OSS].
 
-*Tenor l'art. 9 al. 4 EMBAG ston en mintga cas vegnir duvradas licenzas stabilidas internaziunalmain.*
+*Tenor l'art. 9 al. 4 EMBAG duessan en mintga cas vegnir duvradas licenzas stabilidas internaziunalmain.*
 
 Ulteriurs utensilis per examinar las cumpatibilitads da licenzas èn:
 
@@ -3918,7 +3918,7 @@ Perquai che prenditurs da licenza interessads pon uschia evitar da relaschar lur
 
 Per las autoritads federalas sezzas duess la licenziaziun duala esser nuninteressanta en la gronda part dals cas. Uschè ditg che ils dretgs d'autur sa chattan tar las autoritads federalas (quai ch'è reglà per exempel tenor las cundiziuns generalas da contract da la Confederaziun), pon las autoritads federalas decider sulettas davart ina eventuala licenziaziun duala.
 
-Sche la mantenziun ed il svilup (vinavant) vegnan externalisads a terzas persunas, po quai esser auter. Sche ils dretgs sa chattan excepziunalmain tar quellas e sche las autoritads federalas s'han mo resalvà il dretg da conceder ina licenza OSS cun copyleft, pudess la terza persuna esser tentada da far ina licenziaziun duala. Sche quai duai vegnir impedì, sto quai vegnir exclus contractualmain.
+Sche la mantenziun ed il svilup (vinavant) vegnan externalisads a terzas persunas, po quai esser auter. Sche ils dretgs sa chattan excepziunalmain tar quellas e sche las autoritads federalas s'han mo resalvà il dretg da conceder ina licenza OSS cun copyleft, pudess la terza persuna esser tentada da far ina licenziaziun duala. Sche quai duai vegnir impedì, duess quai vegnir exclus contractualmain.
 
 === Midada posteriura da licenzas
 
