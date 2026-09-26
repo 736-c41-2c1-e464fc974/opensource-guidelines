@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	6361387922c268ba4bc3afb815ef5ed129c625ae
+short	63613879
+date	2026-09-19T01:11:38+02:00
+epoch	1789773098
+subject	Correct the stale and invented claims in TRANSLATING
+run	35404726215

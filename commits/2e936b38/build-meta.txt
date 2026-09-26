@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	2e936b383561ebd0925ba5a55220caa3c625eb79
+short	2e936b38
+date	2026-09-26T00:35:05+02:00
+epoch	1790375705
+subject	Say what the two footnotes under Figure 2 said
+run	36197721184
