@@ -398,11 +398,13 @@ Cost distribution: b) Each their own +
 _The text above can be copied into the template and adapted._
 
 Joint / - / Each their own::
-Joint / - / Originator::
 Contents or suggestions, if the basic decisions are: +
 Product management b) Joint development +
 Supplier involvement: a) or b) (not relevant) +
 Cost distribution: c) Originator pays principle or d) Cost sharing
+
+Joint / - / Originator::
+{empty}
 
 The community concept should be a dynamic document that can be adapted in consultation with the community. The concept should reflect the current situation and propose future development options. If more members join the community later, the organisation and processes can be further elaborated, and more complex mechanisms can be introduced. The following sub-sections directly follow the proposed structure of the community concept (see Section 4).
 
@@ -1266,11 +1268,13 @@ Kostenverteilung: b) Jede und jeder für sich +
 _Der obige Text kann in die Vorlage kopiert und angepasst werden._
 
 Gemeinsam / - / Jede und jeder für sich::
-Gemeinsam / - / Verursacher::
 Inhalte oder Vorschläge, wenn die Grundsatzentscheide lauten: +
 Produktmanagement b) Gemeinsame Entwicklung +
 Einbindung der Lieferanten: a) oder b) (nicht relevant) +
 Kostenverteilung: c) Verursacherprinzip oder d) Kostenteilung
+
+Gemeinsam / - / Verursacher::
+{empty}
 
 Das Community-Konzept sollte ein dynamisches Dokument sein, das in Absprache mit der Community angepasst werden kann. Das Konzept sollte die aktuelle Situation abbilden und künftige Entwicklungsoptionen vorschlagen. Treten später weitere Mitglieder der Community bei, so können Organisation und Prozesse weiter ausgearbeitet und komplexere Mechanismen eingeführt werden. Die folgenden Unterkapitel folgen direkt der vorgeschlagenen Struktur des Community-Konzepts (siehe Kapitel 4).
 
@@ -2134,11 +2138,13 @@ Répartition des coûts : b) Chacun pour soi +
 _Le texte ci-dessus peut être copié dans le modèle et adapté._
 
 Commun / - / Chacun pour soi::
-Commun / - / Auteur::
 Contenus ou suggestions, si les décisions de principe sont : +
 Gestion du produit b) Développement commun +
 Intégration des fournisseurs : a) ou b) (non pertinent) +
 Répartition des coûts : c) Principe de causalité ou d) Partage des coûts
+
+Commun / - / Auteur::
+{empty}
 
 Le concept de communauté devrait être un document dynamique, pouvant être adapté en concertation avec la communauté. Le concept devrait refléter la situation actuelle et proposer des options de développement futures. Si d'autres membres rejoignent ultérieurement la communauté, l'organisation et les processus peuvent être précisés et des mécanismes plus complexes introduits. Les sous-chapitres suivants suivent directement la structure proposée du concept de communauté (voir chapitre 4).
 
@@ -3002,11 +3008,13 @@ Ripartizione dei costi: b) Ciascuno per sé +
 _Il testo di cui sopra può essere copiato nel modello e adattato._
 
 Comune / - / Ciascuno per sé::
-Comune / - / Causante::
 Contenuti o suggerimenti, se le decisioni di principio sono: +
 Gestione del prodotto b) Sviluppo comune +
 Coinvolgimento dei fornitori: a) o b) (non rilevante) +
 Ripartizione dei costi: c) Principio di causalità o d) Ripartizione dei costi
+
+Comune / - / Causante::
+{empty}
 
 Il concetto di community dovrebbe essere un documento dinamico, adattabile d'intesa con la community. Il concetto dovrebbe rispecchiare la situazione attuale e proporre opzioni di sviluppo future. Se in seguito aderiscono altri membri alla community, l'organizzazione e i processi possono essere ulteriormente elaborati e possono essere introdotti meccanismi più complessi. I sottocapitoli seguenti seguono direttamente la struttura proposta del concetto di community (cfr. capitolo 4).
 
@@ -3870,11 +3878,13 @@ Repartiziun dals custs: b) Mintgin per sasez +
 _Il text survart po vegnir copià en il model ed adattà._
 
 Cuminaivel / - / Mintgin per sasez::
-Cuminaivel / - / Chaschunader::
 Cuntegns u propostas, sche las decisiuns fundamentalas èn: +
 Management dal product b) Svilup cuminaivel +
 Integraziun dals furniturs: a) u b) (betg relevant) +
 Repartiziun dals custs: c) Princip dal chaschunader u d) Partiziun dals custs
+
+Cuminaivel / - / Chaschunader::
+{empty}
 
 Il concept da communitad duess esser in document dinamic che po vegnir adattà en concertaziun cun la communitad. Il concept duess reflectar la situaziun actuala e proponer opziuns da svilup futuras. Sche pli tard entran ulteriurs commembers en la communitad, pon l'organisaziun ed ils process vegnir elavurads vinavant e pon vegnir introducids mecanissems pli cumplexs. Ils suandants sutchapitels suondan directamain la structura proponida dal concept da communitad (vesair chapitel 4).
 
