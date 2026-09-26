@@ -11,9 +11,12 @@
 //
 // The original's second key was shape, not colour: square corners meant the DTI
 // sector was responsible, rounded corners the FOBL. That is what the "(DTI
-// sector)" and "(FOBL)" halves of the group names carry, and why Em002-7 spells
-// the sector out for itself -- the original drew it square inside the red
-// procurement group.
+// sector)" and "(FOBL)" halves of the group names carry.
+//
+// Em002-7 is therefore grouped with the guidance documents, which is the band
+// the original draws it in, and keeps the red procurement fill the original
+// gives it. Colour is its subject, the group is who answers for it; putting it
+// in the FOBL group said both at once, and got the second one wrong.
 //
 // Titles are the short form on purpose. The full ones are in the prose around
 // every inclusion, and a four-line node label makes the graph wider than the A4
@@ -34,6 +37,7 @@ flowchart TD
     subgraph INTRO["Introduction and guidance (DTI sector)"]
         EM0021["Em002-1<br/>Practical<br/>Guidelines"]
         EM0023["Em002-3<br/>OSS Licensing<br/>Guidelines"]
+        EM0027["Em002-7<br/>Strategic Aspects of<br/>Procurement and OSS"]
     end
 
     subgraph PUB["Publication tools (DTI sector)"]
@@ -46,8 +50,7 @@ flowchart TD
     end
 
     subgraph PROC["Procurement tools (FOBL)"]
-        EM0027["Em002-7<br/>Applying<br/>Art. 9 EMOTA<br/>(DTI sector)"]
-        KBB["Factsheet CCPP<br/>Software and<br/>Art. 9 EMOTA"]
+        KBB["Factsheet CCPP<br/>Procurement of Software<br/>and Art. 9 EMOTA"]
         ORI["Orientation<br/>Open Source and<br/>Procurement"]
         CLEX["Checklist<br/>General Exception<br/>Art. 9 EMOTA"]
     end

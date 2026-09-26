@@ -11,6 +11,7 @@ flowchart TD
     subgraph INTRO["Introduction et orientation (secteur TNI)"]
         EM0021["Em002-1<br/>Guide<br/>pratique"]
         EM0023["Em002-3<br/>Guide de<br/>licences OSS"]
+        EM0027["Em002-7<br/>Aspects stratégiques des<br/>achats et de l'OSS"]
     end
 
     subgraph PUB["Outils de publication (secteur TNI)"]
@@ -23,8 +24,7 @@ flowchart TD
     end
 
     subgraph PROC["Outils d'acquisition (OFCL)"]
-        EM0027["Em002-7<br/>Application de<br/>l'art. 9 LMETA<br/>(secteur TNI)"]
-        KBB["Aide-mémoire CCMP<br/>Logiciels et<br/>art. 9 LMETA"]
+        KBB["Aide-mémoire CCMP<br/>Acquisition de logiciels<br/>et art. 9 LMETA"]
         ORI["Orientation<br/>Open source et<br/>acquisitions"]
         CLEX["Liste de contrôle<br/>Exception générale<br/>art. 9 LMETA"]
     end

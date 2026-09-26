@@ -11,6 +11,7 @@ flowchart TD
     subgraph INTRO["Introduzione e guida (settore TDT)"]
         EM0021["Em002-1<br/>Guida<br/>pratica"]
         EM0023["Em002-3<br/>Guida alle<br/>licenze OSS"]
+        EM0027["Em002-7<br/>Aspetti strategici degli<br/>acquisti e dell'OSS"]
     end
 
     subgraph PUB["Strumenti di pubblicazione (settore TDT)"]
@@ -23,8 +24,7 @@ flowchart TD
     end
 
     subgraph PROC["Strumenti d'acquisto (UFCL)"]
-        EM0027["Em002-7<br/>Applicazione<br/>dell'art. 9 LMeCA<br/>(settore TDT)"]
-        KBB["Promemoria CCAP<br/>Software e<br/>art. 9 LMeCA"]
+        KBB["Promemoria CCAP<br/>Acquisto di software<br/>e art. 9 LMeCA"]
         ORI["Orientamento<br/>Open source e<br/>acquisti"]
         CLEX["Lista di controllo<br/>Eccezione generale<br/>art. 9 LMeCA"]
     end

@@ -11,6 +11,7 @@ flowchart TD
     subgraph INTRO["Einführung und Anleitung (Sektor DTI)"]
         EM0021["Em002-1<br/>Praxis-<br/>leitfaden"]
         EM0023["Em002-3<br/>Leitfaden<br/>OSS-Lizenzierung"]
+        EM0027["Em002-7<br/>Strategische Aspekte der<br/>Beschaffung und OSS"]
     end
 
     subgraph PUB["Hilfsmittel Veröffentlichung (Sektor DTI)"]
@@ -23,8 +24,7 @@ flowchart TD
     end
 
     subgraph PROC["Hilfsmittel Beschaffung (BBL)"]
-        EM0027["Em002-7<br/>Anwendung von<br/>Art. 9 EMBAG<br/>(Sektor DTI)"]
-        KBB["Merkblatt KBB<br/>Software und<br/>Art. 9 EMBAG"]
+        KBB["Merkblatt KBB<br/>Beschaffung von Software<br/>und Art. 9 EMBAG"]
         ORI["Orientierung<br/>Open Source und<br/>Beschaffung"]
         CLEX["Checkliste<br/>Generelle Ausnahme<br/>Art. 9 EMBAG"]
     end

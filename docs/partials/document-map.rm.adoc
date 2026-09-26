@@ -11,6 +11,7 @@ flowchart TD
     subgraph INTRO["Introducziun e guida (sectur TDT)"]
         EM0021["Em002-1<br/>Guida<br/>pratica"]
         EM0023["Em002-3<br/>Guida da<br/>licenzas OSS"]
+        EM0027["Em002-7<br/>Aspects strategics da<br/>l'acquist e da l'OSS"]
     end
 
     subgraph PUB["Meds da publicaziun (sectur TDT)"]
@@ -23,8 +24,7 @@ flowchart TD
     end
 
     subgraph PROC["Meds d'acquist (UFCL)"]
-        EM0027["Em002-7<br/>Applicaziun da<br/>l'art. 9 EMBAG<br/>(sectur TDT)"]
-        KBB["Fegl d'infurmaziun CCA<br/>Software e<br/>l'art. 9 EMBAG"]
+        KBB["Fegl d'infurmaziun CCA<br/>Acquist da software<br/>e l'art. 9 EMBAG"]
         ORI["Orientaziun<br/>Open source ed<br/>acquist"]
         CLEX["Glista da controlla<br/>Excepziun generala<br/>art. 9 EMBAG"]
     end
