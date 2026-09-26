@@ -267,7 +267,7 @@ Figure 2 - Exception: Third-party rights (always also take into account ++[++KBB
 
 A reasonable exception for third-party rights arises not only from the procurement of licences or existing software, but also from software development on existing, licensed software.
 
-A partial release is possible where the software contains proprietary or protected parts, where those parts can be differentiated from further development, or where other intellectual property is involved.
+A partial release is possible in the following constellation: the software contains proprietary or protected parts; those parts can be differentiated from further development; other intellectual property is involved.
 
 *Tasks:*
 
@@ -735,7 +735,7 @@ It is therefore recommended to proceed as follows:
 This project uses open source software:
 
 * Spring Boot, http://projects.spring.io/spring-boot/[projects.spring.io/spring-boot] licensed under http://www.apache.org/licenses/LICENSE-2.0[Apache-2.0]
-* caniuse-db, https://github.com/Fyrd/caniuse[GitHub] licensed under https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
+* caniuse-db, https://github.com/Fyrd/caniuse[github.com/Fyrd/caniuse] licensed under https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 
 === Accompanying documentation for Em002-2.3 OSS Release and Publication Checklist
 
@@ -981,7 +981,7 @@ Abbildung 2 – Ausnahme: Rechte Dritter (stets auch ++[++KBB-MB++]++ und link:e
 
 Eine begründete Ausnahme wegen Rechten Dritter ergibt sich nicht nur aus der Beschaffung von Lizenzen oder bestehender Software, sondern auch aus der Softwareentwicklung auf bestehender, lizenzierter Software.
 
-Eine teilweise Freigabe ist möglich, wenn die Software proprietäre oder geschützte Teile enthält, wenn sich diese von der Weiterentwicklung abgrenzen lassen oder wenn anderes geistiges Eigentum betroffen ist.
+Eine teilweise Freigabe ist in folgender Konstellation möglich: Die Software enthält proprietäre oder geschützte Teile; diese lassen sich von der Weiterentwicklung abgrenzen; es ist anderes geistiges Eigentum betroffen.
 
 *Aufgaben:*
 
@@ -1449,7 +1449,7 @@ Es wird daher empfohlen, wie folgt vorzugehen:
 Dieses Projekt verwendet Open-Source-Software:
 
 * Spring Boot, http://projects.spring.io/spring-boot/[projects.spring.io/spring-boot] lizenziert unter http://www.apache.org/licenses/LICENSE-2.0[Apache-2.0]
-* caniuse-db, https://github.com/Fyrd/caniuse[GitHub] lizenziert unter https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
+* caniuse-db, https://github.com/Fyrd/caniuse[github.com/Fyrd/caniuse] lizenziert unter https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 
 === Begleitdokumentation zur Em002-2.3 Checkliste OSS-Freigabe und -Veröffentlichung
 
@@ -1695,7 +1695,7 @@ Figure 2 – Exception : droits de tiers (toujours tenir compte également de ++
 
 Une exception justifiée au titre des droits de tiers résulte non seulement de l'acquisition de licences ou de logiciels existants, mais aussi du développement logiciel réalisé sur un logiciel existant sous licence.
 
-Une publication partielle est possible lorsque le logiciel contient des parties propriétaires ou protégées, lorsque celles-ci peuvent être distinguées du développement ultérieur ou lorsque d'autres droits de propriété intellectuelle sont en jeu.
+Une publication partielle est possible dans la constellation suivante : le logiciel contient des parties propriétaires ou protégées ; celles-ci peuvent être distinguées du développement ultérieur ; d'autres droits de propriété intellectuelle sont en jeu.
 
 *Tâches :*
 
@@ -2163,7 +2163,7 @@ Il est donc recommandé de procéder comme suit :
 Ce projet utilise des logiciels open source :
 
 * Spring Boot, http://projects.spring.io/spring-boot/[projects.spring.io/spring-boot] sous licence http://www.apache.org/licenses/LICENSE-2.0[Apache-2.0]
-* caniuse-db, https://github.com/Fyrd/caniuse[GitHub] sous licence https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
+* caniuse-db, https://github.com/Fyrd/caniuse[github.com/Fyrd/caniuse] sous licence https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 
 === Documentation d'accompagnement de la liste de contrôle Em002-2.3 Validation et publication OSS
 
@@ -2409,7 +2409,7 @@ Figura 2 – Eccezione: diritti di terzi (considerare sempre anche ++[++KBB-MB++
 
 Un'eccezione giustificata per i diritti di terzi risulta non solo dall'acquisto di licenze o di software esistente, ma anche dallo sviluppo di software su software esistente sotto licenza.
 
-Una pubblicazione parziale è possibile se il software contiene parti proprietarie o protette, se queste possono essere distinte dallo sviluppo successivo o se sono coinvolti altri diritti di proprietà intellettuale.
+Una pubblicazione parziale è possibile nella costellazione seguente: il software contiene parti proprietarie o protette; queste possono essere distinte dallo sviluppo successivo; sono coinvolti altri diritti di proprietà intellettuale.
 
 *Compiti:*
 
@@ -2877,7 +2877,7 @@ Si raccomanda pertanto di procedere come segue:
 Questo progetto utilizza software open source:
 
 * Spring Boot, http://projects.spring.io/spring-boot/[projects.spring.io/spring-boot] sotto licenza http://www.apache.org/licenses/LICENSE-2.0[Apache-2.0]
-* caniuse-db, https://github.com/Fyrd/caniuse[GitHub] sotto licenza https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
+* caniuse-db, https://github.com/Fyrd/caniuse[github.com/Fyrd/caniuse] sotto licenza https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 
 === Documentazione di accompagnamento della lista di controllo Em002-2.3 Rilascio e pubblicazione OSS
 
@@ -3123,7 +3123,7 @@ Illustraziun 2 – Excepziun: Dretgs da terzas persunas (adina era resguardar ++
 
 In'excepziun motivada pervia da dretgs da terzas persunas resulta betg mo da l'acquist da licenzas u da software existent, mabain era dal svilup da software sin software existent licenzià.
 
-Ina relaschada parziala è pussaivla, sche il software cuntegna parts proprietaras u protegidas, sche quellas sa laschan differenziar dal svilup vinavant u sche auters dretgs da proprietad intellectuala èn pertutgads.
+Ina relaschada parziala è pussaivla en la suandanta constellaziun: il software cuntegna parts proprietaras u protegidas; quellas sa laschan differenziar dal svilup vinavant; auters dretgs da proprietad intellectuala èn pertutgads.
 
 *Incumbensas:*
 
@@ -3591,7 +3591,7 @@ I vegn perquai recumandà da proceder uschia:
 Quest project utilisescha software open source:
 
 * Spring Boot, http://projects.spring.io/spring-boot/[projects.spring.io/spring-boot] licenzià sut http://www.apache.org/licenses/LICENSE-2.0[Apache-2.0]
-* caniuse-db, https://github.com/Fyrd/caniuse[GitHub] licenzià sut https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
+* caniuse-db, https://github.com/Fyrd/caniuse[github.com/Fyrd/caniuse] licenzià sut https://creativecommons.org/licenses/by/4.0/[CC-BY-4.0]
 
 === Documentaziun accumpagnanta per la glista da controlla Em002-2.3 Relaschada e publicaziun OSS
 
