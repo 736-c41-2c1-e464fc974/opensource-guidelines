@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	7b320b6f109b2b6b185b451fb9e3073980ef4f4e
+short	7b320b6f
+date	2026-10-20T23:06:45+02:00
+epoch	1792530405
+subject	Pin open-govpress 0.0.19
+run	39498024886

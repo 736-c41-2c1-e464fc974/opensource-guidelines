@@ -1,0 +1,8 @@
+ref	v2.0
+type	tag
+sha	21a368de82e75ecc7d9e88f4a2b594b39a347ea8
+short	21a368de
+date	2026-09-16T04:09:14+02:00
+epoch	1789524554
+subject	Give each ref its own Pages deployment version
+run	35046896398

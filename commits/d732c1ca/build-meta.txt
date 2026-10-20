@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	d732c1ca400890e8659867e85f5f117a7f40192c
+short	d732c1ca
+date	2026-09-19T01:38:15+02:00
+epoch	1789774695
+subject	Keep the black mark on what is not a guideline
+run	35406486656

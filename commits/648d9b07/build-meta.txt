@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	648d9b07efc1cf0b895a9ffaa4d281caddb4ff6c
+short	648d9b07
+date	2026-09-19T01:25:34+02:00
+epoch	1789773934
+subject	Clean up the "See:" footnotes and unbreak the bracketed citations
+run	35405652030

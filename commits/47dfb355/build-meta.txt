@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	47dfb3556cbfad197b0282e19346edb0edc8f7e3
+short	47dfb355
+date	2026-09-26T02:15:08+02:00
+epoch	1790381708
+subject	Let Em002-7 keep its English reference label
+run	36204158784

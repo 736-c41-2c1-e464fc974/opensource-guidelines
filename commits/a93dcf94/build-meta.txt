@@ -1,0 +1,8 @@
+ref	main
+type	branch
+sha	a93dcf944396e46e622c972d33992e87884401d9
+short	a93dcf94
+date	2026-10-20T23:32:33+02:00
+epoch	1792531953
+subject	Point the open-govpress comment at its GitHub home
+run	39501233909
